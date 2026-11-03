@@ -1,0 +1,1080 @@
+{
+  "topic": "principes-et-valeurs",
+  "questions": [
+    {
+      "reference": "CSP-PV-001",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "À quoi correspond la date du 14 juillet ?",
+      "answers": [
+        "À la fête nationale française",
+        "À la fête du Travail",
+        "À la fin de la Première Guerre mondiale",
+        "À la fin de la Seconde Guerre mondiale"
+      ],
+      "explanation": "Le 14 juillet est la fête nationale de la France depuis une loi de 1880. Cette date rappelle la prise de la Bastille, une prison de Paris, le 14 juillet 1789, au début de la Révolution française. Elle rappelle aussi la fête de la Fédération du 14 juillet 1790, qui célébrait l’unité des Français.",
+      "answerSource": {
+        "label": "Élysée, « La fête nationale du 14 juillet »",
+        "url": "https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PV-002",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Quel est l'un des symboles de la République française ?",
+      "answers": [
+        "Marianne",
+        "La couronne du roi",
+        "La fleur de lys",
+        "L’aigle de Napoléon"
+      ],
+      "explanation": "Marianne est une figure de femme qui représente la République française. On voit son buste dans les mairies et son visage sur les timbres. La couronne et la fleur de lys sont des symboles des anciens rois de France, et l’aigle celui de l’empereur Napoléon.",
+      "answerSource": {
+        "label": "Élysée, « Marianne »",
+        "url": "https://www.elysee.fr/la-presidence/marianne"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PV-003",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Le principe d'égalité signifie que :",
+      "answers": [
+        "Tous les citoyens sont égaux devant la loi",
+        "Tout le monde doit gagner le même salaire",
+        "La loi change selon la religion de chacun",
+        "Les hommes ont plus de droits que les femmes"
+      ],
+      "explanation": "La Constitution (article 1er) dit que la République assure l’égalité de tous les citoyens devant la loi, quelle que soit leur origine ou leur religion. La loi est donc la même pour tous. L’égalité ne veut pas dire que tout le monde gagne le même salaire.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 1er",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Notion : l’énoncé porte sur l’égalité (valeur de la devise). Ce sujet ne relève ni de « devise-et-symboles » ni de « laicite » au sens strict ; rattaché à « devise-et-symboles », la notion la plus proche."
+    },
+    {
+      "reference": "CSP-PV-004",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "\"Liberté, égalité, fraternité\", c'est :",
+      "answers": [
+        "La devise de la République française",
+        "Le titre de l’hymne national français",
+        "La devise de l’Union européenne",
+        "Le nom de la fête nationale française"
+      ],
+      "explanation": "« Liberté, Égalité, Fraternité » est la devise de la République française. Elle est écrite dans la Constitution, à l’article 2. La devise de l’Union européenne est différente : « Unie dans la diversité ».",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 2",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Devise de l’Union européenne vérifiée le 31/10/2026 sur europa.eu (page « Les symboles de l’UE »)."
+    },
+    {
+      "reference": "CSP-PV-005",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "A-t-on le droit d'insulter publiquement quelqu'un parce qu'il est différent (handicap, apparence physique, sexe…) ?",
+      "answers": [
+        "Non, c’est interdit et puni par la loi",
+        "Oui, c’est la liberté d’expression",
+        "Oui, si on le fait sur Internet",
+        "Oui, si la personne n’est pas présente"
+      ],
+      "explanation": "Insulter une personne en public est une infraction, même sur Internet ou sur les réseaux sociaux. La peine est plus lourde quand l’insulte vise par exemple l’origine, la religion, le sexe ou le handicap de la personne. La liberté d’expression ne donne pas le droit d’insulter.",
+      "answerSource": {
+        "label": "Loi du 29 juillet 1881 sur la liberté de la presse, article 33",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049312747"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Notion : l’énoncé porte sur le refus des discriminations et les limites de la liberté d’expression. Ce sujet ne relève ni de « devise-et-symboles » ni de « laicite » au sens strict ; rattaché à « devise-et-symboles », la notion la plus proche. L’apparence physique n’est pas une circonstance aggravante de l’article 33, d’où le « par exemple » ; l’injure publique simple reste punie."
+    },
+    {
+      "reference": "CSP-PV-006",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Certains métiers peuvent-ils être réservés aux hommes ?",
+      "answers": [
+        "Non, en principe ils sont ouverts aux femmes comme aux hommes",
+        "Oui, les métiers physiques sont réservés aux hommes",
+        "Oui, si l’employeur préfère embaucher un homme",
+        "Oui, les postes de direction sont réservés aux hommes"
+      ],
+      "explanation": "La loi interdit de refuser un emploi à une personne à cause de son sexe (Code du travail, article L1142-1). Il existe de très rares exceptions, par exemple pour un acteur qui doit jouer un rôle d’homme. Les femmes et les hommes ont accès aux mêmes métiers, y compris aux postes de direction.",
+      "answerSource": {
+        "label": "Code du travail, article L1142-1",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900801"
+      },
+      "difficulty": 1,
+      "confidence": "medium",
+      "reviewNote": "Notion : l’énoncé porte sur l’égalité entre les femmes et les hommes. Ce sujet ne relève ni de « devise-et-symboles » ni de « laicite » au sens strict ; rattaché à « devise-et-symboles », la notion la plus proche. « En principe » : les articles L1142-2 et R1142-1 du Code du travail prévoient de rares exceptions (artistes pour un rôle féminin ou masculin, mannequins, modèles). Vérifier que cette nuance convient au public."
+    },
+    {
+      "reference": "CSP-PV-007",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "De quand date la Constitution de la Ve République ?",
+      "answers": [
+        "1958",
+        "1946",
+        "1789",
+        "1968"
+      ],
+      "explanation": "La Constitution de la Ve République date de 1958. Les Français l’ont approuvée par un vote le 28 septembre 1958, puis elle a été promulguée (signée officiellement) le 4 octobre 1958 : on l’appelle la « Constitution du 4 octobre 1958 ». La Constitution de 1946 était celle de la IVe République.",
+      "answerSource": {
+        "label": "Assemblée nationale, « La Constitution de 1958 et l’instauration de la Ve République »",
+        "url": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/cinquieme-republique/la-constitution-de-1958-et-l-instauration-de-la-ve-republique"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Notion : l’énoncé porte sur l’histoire de la Constitution. Ce sujet ne relève ni de « devise-et-symboles » ni de « laicite » au sens strict ; rattaché à « devise-et-symboles », la notion la plus proche."
+    },
+    {
+      "reference": "CSP-PV-008",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Le régime de la France est :",
+      "answers": [
+        "Une république démocratique",
+        "Une monarchie constitutionnelle",
+        "Une monarchie absolue",
+        "Une dictature militaire"
+      ],
+      "explanation": "La Constitution (article 1er) dit : « La France est une République indivisible, laïque, démocratique et sociale. » Le peuple choisit ses représentants par des élections libres. La France n’a plus de roi ni d’empereur depuis le XIXe siècle.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 1er",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Notion : l’énoncé porte sur le régime politique. Ce sujet ne relève ni de « devise-et-symboles » ni de « laicite » au sens strict ; rattaché à « devise-et-symboles », la notion la plus proche. Un énoncé voisin existe dans le thème « institutions » (« Quel est le régime politique de la France aujourd’hui ? »)."
+    },
+    {
+      "reference": "CSP-PV-009",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Où peut-on voir la devise de la République ?",
+      "answers": [
+        "Sur la façade des mairies et des écoles publiques",
+        "Sur le drapeau bleu, blanc, rouge",
+        "Sur les plaques d’immatriculation des voitures",
+        "Sur les panneaux de signalisation routière"
+      ],
+      "explanation": "La devise « Liberté, Égalité, Fraternité » est écrite sur la façade de nombreux bâtiments publics depuis 1880, en particulier sur les mairies. La loi demande aussi de l’afficher sur la façade des écoles, des collèges et des lycées publics, avec le drapeau français et le drapeau européen. Le drapeau français, lui, n’a aucune inscription.",
+      "answerSource": {
+        "label": "Code de l’éducation, article L111-1-1",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043982730"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Date de 1880 : elysee.fr, page « Liberté Égalité Fraternité » (https://www.elysee.fr/la-presidence/liberte-egalite-fraternite). L’article L111-1-1 vise aussi les établissements privés sous contrat."
+    },
+    {
+      "reference": "CSP-PV-010",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Quels sont des symboles officiels de la République française ?",
+      "answers": [
+        "Le drapeau tricolore, La Marseillaise et la devise",
+        "La tour Eiffel, le Louvre et l’Arc de triomphe",
+        "Le Sénat, l’Assemblée nationale et l’Élysée",
+        "Le 1er mai, le 8 mai et le 11 novembre"
+      ],
+      "explanation": "La Constitution (article 2) cite le drapeau bleu, blanc, rouge, l’hymne national La Marseillaise et la devise « Liberté, Égalité, Fraternité ». Marianne et la fête nationale du 14 juillet sont aussi des symboles de la République. La tour Eiffel est un monument célèbre, mais ce n’est pas un symbole officiel.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 2",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PV-011",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Qu'est-ce que l'égalité ?",
+      "answers": [
+        "Être égaux devant la loi, qui est la même pour tous",
+        "Avoir tous le même salaire et le même logement",
+        "Avoir des droits différents selon sa religion",
+        "Avoir des droits qui dépendent de sa richesse"
+      ],
+      "explanation": "La Déclaration des droits de l’homme et du citoyen de 1789 dit : « Les hommes naissent et demeurent libres et égaux en droits. » La loi doit être la même pour tous, quels que soient l’origine, la religion, le sexe ou la richesse de chacun. L’égalité ne veut pas dire que tout le monde a le même salaire ou le même logement.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, articles 1er et 6",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Notion : l’énoncé porte sur l’égalité (valeur de la devise). Ce sujet ne relève ni de « devise-et-symboles » ni de « laicite » au sens strict ; rattaché à « devise-et-symboles », la notion la plus proche."
+    },
+    {
+      "reference": "CSP-PV-012",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Que signifie la liberté ?",
+      "answers": [
+        "Pouvoir faire tout ce qui ne nuit pas aux autres",
+        "Pouvoir faire tout ce qu’on veut, sans limite",
+        "Pouvoir choisir les lois que l’on respecte",
+        "Pouvoir faire seulement ce que l’État autorise"
+      ],
+      "explanation": "La Déclaration des droits de l’homme et du citoyen de 1789 (article 4) dit : « La liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui. » Autrui veut dire les autres personnes. La liberté a donc des limites, fixées par la loi, pour protéger les droits de chacun.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, article 4",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Notion : l’énoncé porte sur la liberté (valeur de la devise). Ce sujet ne relève ni de « devise-et-symboles » ni de « laicite » au sens strict ; rattaché à « devise-et-symboles », la notion la plus proche."
+    },
+    {
+      "reference": "CSP-PV-013",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Que signifie le mot \"fraternité\" dans la devise française ?",
+      "answers": [
+        "La solidarité et l’entraide entre les personnes",
+        "L’aide réservée aux membres de sa famille",
+        "L’entraide entre personnes de même religion",
+        "L’obéissance de tous au chef de l’État"
+      ],
+      "explanation": "La fraternité, c’est le lien de solidarité entre toutes les personnes, quelles que soient leur origine ou leur religion. On la voit par exemple quand on aide une personne en difficulté ou quand on donne de son temps dans une association. En 2018, le Conseil constitutionnel a reconnu la fraternité comme un principe protégé par la Constitution.",
+      "answerSource": {
+        "label": "Conseil constitutionnel, décision n° 2018-717/718 QPC du 6 juillet 2018",
+        "url": "https://www.conseil-constitutionnel.fr/decision/2018/2018717_718QPC.htm"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PV-014",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Quel animal est un symbole de la France ?",
+      "answers": [
+        "Le coq",
+        "Le lion",
+        "L’ours",
+        "Le taureau"
+      ],
+      "explanation": "Le coq est un symbole de la France, surtout dans le monde et pendant les compétitions sportives. Il n’est pas cité dans la Constitution, contrairement au drapeau, à l’hymne et à la devise. En latin, le même mot, gallus, veut dire « coq » et « Gaulois » (les anciens habitants de la France).",
+      "answerSource": {
+        "label": "Élysée, « Le coq »",
+        "url": "https://www.elysee.fr/la-presidence/le-coq"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PV-015",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Quel est l'un des rôles des associations ?",
+      "answers": [
+        "Rassembler des personnes autour d’un projet commun",
+        "Gagner de l’argent pour le partager entre leurs membres",
+        "Voter les lois à la place du Parlement",
+        "Collecter les impôts à la place de l’État"
+      ],
+      "explanation": "Une association réunit des personnes qui agissent ensemble pour un projet commun : sport, culture, aide aux autres… Son but n’est pas de gagner de l’argent pour le partager entre ses membres (loi du 1er juillet 1901). Les associations ne votent pas les lois et ne collectent pas les impôts.",
+      "answerSource": {
+        "label": "Loi du 1er juillet 1901 relative au contrat d’association, article 1er",
+        "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006294210"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Notion : l’énoncé porte sur la liberté d’association et la fraternité. Ce sujet ne relève ni de « devise-et-symboles » ni de « laicite » au sens strict ; rattaché à « devise-et-symboles », la notion la plus proche."
+    },
+    {
+      "reference": "CSP-PV-016",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Quel est le nom de l'hymne national ?",
+      "answers": [
+        "La Marseillaise",
+        "L’Ode à la joie",
+        "Le Chant des partisans",
+        "L’Internationale"
+      ],
+      "explanation": "L’hymne national français est La Marseillaise (Constitution, article 2). Elle a été écrite en 1792 par Rouget de Lisle. L’Ode à la joie de Beethoven, aussi appelée Hymne à la joie, est l’hymne de l’Union européenne.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 2",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Hymne européen : « L’Ode à la joie » de Beethoven, nom utilisé par europa.eu (vérifié le 31/10/2026)."
+    },
+    {
+      "reference": "CSP-PV-017",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Quel symbole de la République française est tricolore ?",
+      "answers": [
+        "Le drapeau",
+        "La devise",
+        "L’hymne national",
+        "La fête nationale"
+      ],
+      "explanation": "Tricolore veut dire « de trois couleurs ». La Constitution (article 2) dit que le symbole national est « le drapeau tricolore, bleu, blanc, rouge ». La devise, l’hymne et la fête nationale sont aussi des symboles, mais ils n’ont pas de couleurs.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 2",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PV-018",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Quelle est la date de la fête nationale française ?",
+      "answers": [
+        "Le 14 juillet",
+        "Le 1er mai",
+        "Le 8 mai",
+        "Le 11 novembre"
+      ],
+      "explanation": "La fête nationale française a lieu le 14 juillet, depuis une loi du 6 juillet 1880. Le 1er mai est la fête du Travail. Le 8 mai rappelle la victoire de 1945 et le 11 novembre la fin des combats de la Première Guerre mondiale, en 1918.",
+      "answerSource": {
+        "label": "Loi du 6 juillet 1880 qui établit un jour de fête nationale annuelle",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000877117"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PV-019",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Quelle est la devise de la République française ?",
+      "answers": [
+        "Liberté, Égalité, Fraternité",
+        "Liberté, Sécurité, Justice",
+        "Travail, Famille, Patrie",
+        "Égalité, Justice, Solidarité"
+      ],
+      "explanation": "La devise de la République française est « Liberté, Égalité, Fraternité » (Constitution, article 2). On la voit sur la façade des mairies et des écoles. « Travail, Famille, Patrie » était la devise du régime de Vichy pendant la Seconde Guerre mondiale, pas celle de la République.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 2",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PV-020",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Quelle est la langue officielle de la République française ?",
+      "answers": [
+        "Le français",
+        "L’anglais",
+        "Le breton",
+        "L’espagnol"
+      ],
+      "explanation": "La Constitution (article 2) dit : « La langue de la République est le français. » Les langues régionales, comme le breton ou l’occitan, font partie du patrimoine (la richesse culturelle) de la France, mais ce ne sont pas des langues officielles.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 2",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Notion : l’énoncé porte sur la langue de la République (article 2 de la Constitution), qui n’est pas un symbole. Ce sujet ne relève ni de « devise-et-symboles » ni de « laicite » au sens strict ; rattaché à « devise-et-symboles », la notion la plus proche. Langues régionales : article 75-1 de la Constitution."
+    },
+    {
+      "reference": "CSP-PV-021",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Quelle est la place de la langue française dans la République ?",
+      "answers": [
+        "C’est la langue de l’école, du travail et des services publics",
+        "C’est une langue régionale, comme le breton ou le basque",
+        "C’est une langue officielle à égalité avec l’anglais",
+        "C’est la langue officielle seulement en France métropolitaine"
+      ],
+      "explanation": "Le français est la langue de la République (Constitution, article 2). Une loi de 1994 précise que c’est la langue de l’enseignement, du travail, des échanges et des services publics. Les langues régionales font partie du patrimoine de la France, mais elles ne remplacent pas le français.",
+      "answerSource": {
+        "label": "Loi n° 94-665 du 4 août 1994 relative à l’emploi de la langue française, article 1er",
+        "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006421209"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Notion : l’énoncé porte sur la langue de la République, qui n’est pas un symbole. Ce sujet ne relève ni de « devise-et-symboles » ni de « laicite » au sens strict ; rattaché à « devise-et-symboles », la notion la plus proche."
+    },
+    {
+      "reference": "CSP-PV-022",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Quelle liberté permet à chacun d'exprimer ses idées ?",
+      "answers": [
+        "La liberté d’expression",
+        "La liberté de circulation",
+        "La liberté d’entreprendre",
+        "La liberté du mariage"
+      ],
+      "explanation": "La liberté d’expression permet de dire, d’écrire et de publier ses idées et ses opinions (Déclaration des droits de l’homme et du citoyen de 1789, article 11). Elle a des limites fixées par la loi : par exemple, il est interdit d’insulter une personne ou d’appeler à la haine.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, article 11",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Notion : l’énoncé porte sur la liberté d’expression. Ce sujet ne relève ni de « devise-et-symboles » ni de « laicite » au sens strict ; rattaché à « devise-et-symboles », la notion la plus proche."
+    },
+    {
+      "reference": "CSP-PV-023",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Quelle proposition est correcte ? La liberté d'expression :",
+      "answers": [
+        "A des limites fixées par la loi",
+        "Permet de tout dire, sans aucune limite",
+        "Est réservée aux journalistes",
+        "Interdit de critiquer le gouvernement"
+      ],
+      "explanation": "En France, chacun peut donner son opinion, même pour critiquer le gouvernement. Mais cette liberté n’est pas totale : la loi interdit par exemple d’insulter une personne, de dire des choses fausses qui nuisent à sa réputation ou d’appeler à la haine. La Déclaration des droits de l’homme et du citoyen de 1789 (article 11) prévoit ces limites.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, article 11",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Notion : l’énoncé porte sur la liberté d’expression et ses limites. Ce sujet ne relève ni de « devise-et-symboles » ni de « laicite » au sens strict ; rattaché à « devise-et-symboles », la notion la plus proche."
+    },
+    {
+      "reference": "CSP-PV-024",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Quelles sont les couleurs du drapeau français ?",
+      "answers": [
+        "Bleu, blanc, rouge",
+        "Bleu, blanc, vert",
+        "Vert, blanc, rouge",
+        "Bleu, jaune, rouge"
+      ],
+      "explanation": "Le drapeau français est bleu, blanc, rouge : c’est le drapeau tricolore (Constitution, article 2). Il est né pendant la Révolution française. Le blanc était la couleur du roi, le bleu et le rouge celles de la ville de Paris.",
+      "answerSource": {
+        "label": "Élysée, « Le drapeau français »",
+        "url": "https://www.elysee.fr/la-presidence/le-drapeau-francais"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PV-025",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Qu'est-ce que la Marseillaise ?",
+      "answers": [
+        "L’hymne national de la France",
+        "La devise de la République française",
+        "Le nom de la fête nationale française",
+        "Le nom du palais présidentiel"
+      ],
+      "explanation": "La Marseillaise est l’hymne national, c’est-à-dire le chant officiel de la France (Constitution, article 2). Rouget de Lisle l’a écrite à Strasbourg en 1792. On l’appelle « La Marseillaise » parce que des volontaires venus de Marseille la chantaient à Paris.",
+      "answerSource": {
+        "label": "Élysée, « La Marseillaise de Rouget de Lisle »",
+        "url": "https://www.elysee.fr/la-presidence/la-marseillaise-de-rouget-de-lisle"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PV-026",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Qu'est ce qui est traditionnellement organisé sur les Champs Élysées le 14 juillet pour célébrer la fête nationale ?",
+      "answers": [
+        "Un défilé militaire",
+        "Une course cycliste",
+        "Un grand marathon",
+        "Un carnaval costumé"
+      ],
+      "explanation": "Chaque 14 juillet, un grand défilé militaire est organisé sur l’avenue des Champs-Élysées, à Paris, en présence du président de la République. Le même jour, des bals populaires et des feux d’artifice ont lieu dans beaucoup de villes.",
+      "answerSource": {
+        "label": "Élysée, « La fête nationale du 14 juillet »",
+        "url": "https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Le lieu du défilé peut changer certaines années (événement exceptionnel) : « traditionnellement » reste juste. Champs-Élysées comme cadre du défilé depuis 1980 : vérifié le 31/10/2026 sur elysee.fr."
+    },
+    {
+      "reference": "CSP-PV-027",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Qui est Marianne ?",
+      "answers": [
+        "Une figure qui représente la République française",
+        "Une reine de France au temps de la Révolution",
+        "L’auteure de l’hymne national français",
+        "Le nom officiel du drapeau français"
+      ],
+      "explanation": "Marianne n’est pas une personne réelle : c’est une figure de femme qui représente la République. Son nom vient d’un prénom très courant au XVIIIe siècle. On voit son buste dans les mairies et son visage sur les timbres.",
+      "answerSource": {
+        "label": "Élysée, « Marianne »",
+        "url": "https://www.elysee.fr/la-presidence/marianne"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PV-028",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "Une personne peut-elle changer librement de religion ?",
+      "answers": [
+        "Oui, chacun est libre de changer de religion",
+        "Non, c’est interdit par la loi française",
+        "Oui, mais il faut le déclarer à la mairie",
+        "Non, on garde la religion de ses parents"
+      ],
+      "explanation": "Oui. La laïcité garantit la liberté de conscience : chacun a le droit d’avoir une religion, de ne pas en avoir, d’en changer ou de ne plus en avoir. C’est un choix personnel : il n’y a aucune démarche à faire à la mairie.",
+      "answerSource": {
+        "label": "Gouvernement (info.gouv.fr), fiche « Qu’est-ce que la laïcité ? »",
+        "url": "https://info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2019_03_fiche_0_-_quest_ce_que_le_laicite.pdf"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PV-029",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "\"La France est une République indivisible, ..., démocratique et sociale\". Complétez cette phrase extraite de l'article 1er de la Constitution :",
+      "answers": [
+        "Laïque",
+        "Fédérale",
+        "Chrétienne",
+        "Libérale"
+      ],
+      "explanation": "L’article 1er de la Constitution dit : « La France est une République indivisible, laïque, démocratique et sociale. » Laïque veut dire que l’État est séparé des religions et n’a pas de religion officielle. La République respecte toutes les croyances.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 1er",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PV-030",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "En quelle année la loi de séparation des Églises et de l'État a-t-elle été votée ?",
+      "answers": [
+        "1905",
+        "1789",
+        "1848",
+        "1958"
+      ],
+      "explanation": "La loi de séparation des Églises et de l’État date du 9 décembre 1905. Elle garantit la liberté de conscience et le libre exercice des religions. Selon cette loi, la République ne reconnaît, ne paie et ne finance aucun culte, c’est-à-dire aucune religion.",
+      "answerSource": {
+        "label": "Loi du 9 décembre 1905 concernant la séparation des Églises et de l’État",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006070169"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PV-031",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "Que permet le principe de laïcité ?",
+      "answers": [
+        "De croire ou de ne pas croire, librement",
+        "D’imposer une religion à tous les citoyens",
+        "D’interdire toutes les religions en France",
+        "De ne pas respecter la loi pour sa religion"
+      ],
+      "explanation": "La laïcité garantit la liberté de conscience : chacun peut croire ou ne pas croire, et pratiquer sa religion dans le respect de la loi et des autres. L’État est neutre : il n’impose aucune religion et n’en interdit aucune. Personne ne peut utiliser sa religion pour ne pas respecter les règles communes.",
+      "answerSource": {
+        "label": "Gouvernement (info.gouv.fr), fiche « Qu’est-ce que la laïcité ? »",
+        "url": "https://info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2019_03_fiche_0_-_quest_ce_que_le_laicite.pdf"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PV-032",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "Quel droit est garanti par la laïcité ?",
+      "answers": [
+        "La liberté de conscience",
+        "Le droit de grève",
+        "Le droit de vote",
+        "Le droit au logement"
+      ],
+      "explanation": "La loi de 1905 commence par cette phrase : « La République assure la liberté de conscience. » La liberté de conscience, c’est le droit de croire ou de ne pas croire, et de changer de religion. La loi garantit aussi le droit de pratiquer sa religion, avec des limites pour protéger l’ordre et la sécurité de tous.",
+      "answerSource": {
+        "label": "Loi du 9 décembre 1905 concernant la séparation des Églises et de l’État, article 1er",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006070169"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PV-033",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "Pourquoi le principe de laïcité doit-il être respecté à l'école ?",
+      "answers": [
+        "Pour protéger la liberté de conscience des élèves",
+        "Pour interdire aux élèves d’avoir une religion",
+        "Pour enseigner une religion officielle aux élèves",
+        "Pour permettre aux élèves de refuser certains cours"
+      ],
+      "explanation": "La laïcité de l’école protège les élèves de toute pression : chacun peut ainsi faire ses propres choix (Charte de la laïcité à l’École, article 6). Les élèves ont le droit d’avoir une religion, mais à l’école publique ils ne peuvent pas porter de signes religieux bien visibles. Aucun élève ne peut refuser un cours pour une raison religieuse.",
+      "answerSource": {
+        "label": "Ministère de l’Éducation nationale, Charte de la laïcité à l’École, article 6",
+        "url": "https://eduscol.education.gouv.fr/sites/default/files/document/2025chartelaicitea5x2pdf-82044.pdf"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PV-034",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "Qu'est-ce que la laïcité ?",
+      "answers": [
+        "Le principe qui sépare l’État et les religions",
+        "Le principe qui interdit toutes les religions",
+        "Le principe qui donne une religion officielle à l’État",
+        "Le principe qui réserve des droits aux croyants"
+      ],
+      "explanation": "La laïcité sépare l’État et les religions : l’État est neutre et ne reconnaît aucune religion (loi du 9 décembre 1905). Elle garantit à chacun la liberté de croire ou de ne pas croire. Elle n’interdit pas les religions : chacun peut pratiquer la sienne en respectant la loi.",
+      "answerSource": {
+        "label": "Loi du 9 décembre 1905 concernant la séparation des Églises et de l’État, articles 1er et 2",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006070169"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PV-035",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "Un enfant peut-il refuser d'aller à l'école pour une raison religieuse ?",
+      "answers": [
+        "Non, l’instruction est obligatoire pour tous les enfants",
+        "Oui, si sa religion interdit certains cours",
+        "Oui, à partir de 12 ans, s’il le décide lui-même",
+        "Oui, s’il apprend sa religion à la place"
+      ],
+      "explanation": "En France, l’instruction est obligatoire pour tous les enfants de 3 à 16 ans (Code de l’éducation, article L131-1). Un élève ne peut pas refuser d’aller à l’école ou de suivre un cours pour une raison religieuse. L’école peut toutefois autoriser une absence le jour d’une grande fête religieuse.",
+      "answerSource": {
+        "label": "Code de l’éducation, article L131-1",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038901859"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Absence pour une grande fête religieuse et refus d’un cours : circulaire du 18 mai 2004 (https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000252465)."
+    },
+    {
+      "reference": "CSP-PV-036",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "Une personne a-t-elle le droit de ne pas croire en une religion ?",
+      "answers": [
+        "Oui, chacun est libre de croire ou de ne pas croire",
+        "Non, chaque personne doit avoir une religion",
+        "Oui, mais seulement si ses parents ne croient pas",
+        "Oui, mais elle ne doit pas le dire en public"
+      ],
+      "explanation": "Oui. La laïcité garantit la liberté de conscience : chacun est libre de croire ou de ne pas croire. Les croyants et les non-croyants ont les mêmes droits, y compris celui de dire ce qu’ils pensent, dans le respect des autres.",
+      "answerSource": {
+        "label": "Gouvernement (info.gouv.fr), fiche « Qu’est-ce que la laïcité ? »",
+        "url": "https://info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2019_03_fiche_0_-_quest_ce_que_le_laicite.pdf"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PV-037",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Lequel de ces symboles représente officiellement la République française ?",
+      "answers": [
+        "Le drapeau tricolore",
+        "La fleur de lys",
+        "L’aigle impérial",
+        "La tour Eiffel"
+      ],
+      "explanation": "La Constitution (article 2) dit : « L’emblème national est le drapeau tricolore, bleu, blanc, rouge. » C’est le seul emblème national défini par la Constitution. La fleur de lys et l’aigle sont d’anciens symboles des rois de France et de l’empereur Napoléon, et la tour Eiffel est un monument célèbre, pas un symbole officiel.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 2",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Énoncé ajouté le 31/10/2026 à la liste CSP (présent sur la page officielle archivée le 16/10/2026, absent de 2 republications sur 4) : vérifier sa présence sur la page en ligne. Marianne et le coq, symboles de la République non cités par la Constitution, sont volontairement absents des propositions. « Seul emblème national défini par l’article 2 » : elysee.fr, page « Le drapeau français » (https://www.elysee.fr/la-presidence/le-drapeau-francais)."
+    }
+  ],
+  "situations": [
+    {
+      "reference": "CSP-PVS-001",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Votre enfant entre dans un collège public. Il veut porter un signe religieux bien visible au collège. Que dit la loi ?",
+      "answers": [
+        "C’est interdit dans les écoles, collèges et lycées publics",
+        "C’est autorisé si les parents donnent leur accord",
+        "C’est autorisé, sauf pendant les cours de sport",
+        "C’est interdit partout, même dans la rue"
+      ],
+      "explanation": "Depuis une loi de 2004, les élèves des écoles, collèges et lycées publics ne peuvent pas porter de signes religieux bien visibles, comme une grande croix, un voile ou une kippa (Code de l’éducation, article L141-5-1). Les signes religieux discrets restent autorisés. Dans la rue, chacun peut porter un signe religieux, à condition de ne pas cacher son visage.",
+      "answerSource": {
+        "label": "Code de l’éducation, article L141-5-1",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006524456"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PVS-002",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Votre enfant est au collège public. Il ne veut pas aller au cours de natation pour une raison religieuse. Que dit la loi ?",
+      "answers": [
+        "Il doit suivre ce cours, comme les autres élèves",
+        "Il peut ne pas y aller s’il le souhaite",
+        "Il peut ne pas y aller s’il a plus de 13 ans",
+        "Le collège doit organiser un cours spécial pour lui"
+      ],
+      "explanation": "La religion ne donne pas le droit de refuser un cours, par exemple en éducation physique et sportive. Les élèves suivent tous les cours prévus dans leur emploi du temps. Un élève peut être dispensé de sport pour une raison de santé, avec un certificat médical, mais pas pour une raison religieuse.",
+      "answerSource": {
+        "label": "Circulaire du 18 mai 2004 relative à la mise en œuvre de la loi n° 2004-228 du 15 mars 2004 (signes religieux à l’école publique)",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000252465"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Certificat médical pour une inaptitude en éducation physique et sportive : Code de l’éducation, article R312-2."
+    },
+    {
+      "reference": "CSP-PVS-003",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Vous travaillez à l’accueil de la mairie. Vous voulez porter un signe religieux visible pendant votre travail. Que dit la loi ?",
+      "answers": [
+        "C’est interdit : un agent public doit rester neutre",
+        "C’est autorisé si votre chef est d’accord",
+        "C’est autorisé si les usagers ne disent rien",
+        "C’est interdit aussi en dehors de votre travail"
+      ],
+      "explanation": "Pendant son travail, un agent public doit être neutre : il ne doit pas montrer sa religion, par exemple avec un signe religieux (Code général de la fonction publique, article L121-2). Il doit aussi traiter tous les usagers de la même façon. En dehors de son travail, il est libre de pratiquer sa religion.",
+      "answerSource": {
+        "label": "Code général de la fonction publique, article L121-2",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044427911"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PVS-004",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Vous allez à la mairie pour inscrire votre enfant à l’école. Vous portez un signe religieux qui ne cache pas votre visage. Que dit la loi ?",
+      "answers": [
+        "C’est autorisé : la neutralité concerne les agents, pas les usagers",
+        "Vous devez l’enlever dans tous les bâtiments publics",
+        "Vous devez l’enlever avant de parler à un agent",
+        "L’agent peut refuser de vous recevoir pour cette raison"
+      ],
+      "explanation": "La neutralité est une obligation pour l’État, les communes et les services publics, pas pour les usagers. Les usagers peuvent donc montrer leur religion, si cela ne gêne pas la sécurité ni le bon fonctionnement du service. Mais la loi interdit de cacher son visage dans la rue et dans les lieux publics.",
+      "answerSource": {
+        "label": "Gouvernement (info.gouv.fr), fiche « Qu’est-ce que la laïcité ? »",
+        "url": "https://info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2019_03_fiche_0_-_quest_ce_que_le_laicite.pdf"
+      },
+      "difficulty": 3,
+      "confidence": "high",
+      "reviewNote": "Voir aussi la Charte de la laïcité dans les services publics (version 2021) : les usagers « ont le droit d’exprimer leurs convictions religieuses » dans certaines limites et ne peuvent pas récuser un agent public. Visage caché : loi n° 2010-1192 du 11 octobre 2010."
+    },
+    {
+      "reference": "CSP-PVS-005",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Vous allez vous marier. Vous voulez aussi une cérémonie religieuse. Que dit la loi ?",
+      "answers": [
+        "Le mariage à la mairie doit avoir lieu avant la cérémonie religieuse",
+        "La cérémonie religieuse suffit pour être mariés",
+        "La cérémonie religieuse doit avoir lieu avant la mairie",
+        "Les cérémonies religieuses de mariage sont interdites"
+      ],
+      "explanation": "En France, seul le mariage célébré à la mairie a une valeur légale. Il est interdit de célébrer un mariage religieux avant le mariage civil. Après la mairie, les époux peuvent faire une cérémonie religieuse s’ils le souhaitent.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Mariage en France »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F930"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Sanction du ministre du culte : Code pénal, article 433-21. Page service-public consultée le 31/10/2026 (vérifiée par service-public le 28/10/2026)."
+    },
+    {
+      "reference": "CSP-PVS-006",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Au travail, un collègue vous demande tous les jours de changer de religion. Vous ne voulez pas. Que dit la loi ?",
+      "answers": [
+        "Vous êtes libre : chacun choisit d’avoir une religion ou non",
+        "Vous devez accepter, car c’est votre collègue",
+        "Vous devez choisir une religion reconnue par l’État",
+        "Vous devez suivre la religion de votre employeur"
+      ],
+      "explanation": "La liberté de conscience permet à chacun d’avoir une religion, de ne pas en avoir ou d’en changer. Personne ne peut vous obliger à suivre une religion. En France, l’État ne reconnaît aucune religion.",
+      "answerSource": {
+        "label": "Gouvernement (info.gouv.fr), fiche « Qu’est-ce que la laïcité ? »",
+        "url": "https://info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2019_03_fiche_0_-_quest_ce_que_le_laicite.pdf"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PVS-007",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Dans votre entreprise, une femme et un homme font le même travail, avec la même expérience. L’homme est mieux payé. Que dit la loi ?",
+      "answers": [
+        "C’est interdit : leur salaire doit être le même",
+        "C’est autorisé : l’employeur décide seul",
+        "C’est autorisé dans les petites entreprises",
+        "C’est autorisé si la femme a signé son contrat"
+      ],
+      "explanation": "Tout employeur doit payer de la même façon les femmes et les hommes pour un même travail ou un travail de même valeur (Code du travail, article L3221-2). Payer moins une personne à cause de son sexe est une discrimination. L’égalité entre les femmes et les hommes est un principe de la République.",
+      "answerSource": {
+        "label": "Code du travail, article L3221-2",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006902818"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PVS-008",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Votre époux ou votre épouse dit que vous devez avoir son accord pour travailler. Que dit la loi ?",
+      "answers": [
+        "Chaque époux peut travailler sans l’accord de l’autre",
+        "Il faut l’accord écrit de son époux ou de son épouse",
+        "Il faut cet accord seulement s’il y a des enfants",
+        "Il faut cet accord seulement la première année"
+      ],
+      "explanation": "Le Code civil (article 223) dit que chaque époux peut librement exercer une profession, recevoir son salaire et l’utiliser, après avoir participé aux dépenses du ménage. Vous n’avez donc pas besoin de l’autorisation de votre époux ou de votre épouse pour travailler. Les femmes et les hommes mariés ont les mêmes droits.",
+      "answerSource": {
+        "label": "Code civil, article 223",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006422869"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PVS-009",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Vous passez un entretien d’embauche. Le recruteur vous demande si vous êtes enceinte. Que dit la loi ?",
+      "answers": [
+        "Vous n’êtes pas obligée de répondre à cette question",
+        "Vous devez répondre, sinon il ne vous embauchera pas",
+        "Vous devez apporter un certificat médical",
+        "L’employeur a le droit de refuser une femme enceinte"
+      ],
+      "explanation": "L’employeur ne doit pas tenir compte d’une grossesse pour refuser d’embaucher une femme, et il ne doit pas chercher à savoir si elle est enceinte (Code du travail, article L1225-1). Une candidate n’est pas obligée de dire qu’elle est enceinte (article L1225-2). Refuser une femme parce qu’elle est enceinte est une discrimination.",
+      "answerSource": {
+        "label": "Code du travail, article L1225-2 (voir aussi l’article L1225-1)",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900881"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PVS-010",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Au travail, votre collègue fait souvent des blagues humiliantes sur les femmes. Que dit la loi ?",
+      "answers": [
+        "C’est interdit : ce sont des agissements sexistes",
+        "C’est autorisé : c’est la liberté d’expression",
+        "C’est autorisé si c’est seulement pour rire",
+        "C’est interdit seulement devant les clients"
+      ],
+      "explanation": "Au travail, personne ne doit subir d’agissement sexiste (Code du travail, article L1142-2-1). Ce sont des paroles ou des actes liés au sexe d’une personne qui l’humilient ou la rabaissent. Des blagues humiliantes et répétées sur les femmes en font partie.",
+      "answerSource": {
+        "label": "Code du travail, article L1142-2-1",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031072447"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PVS-011",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Pendant la pause, votre collègue critique une décision du gouvernement. Que dit la loi ?",
+      "answers": [
+        "Il a le droit : c’est la liberté d’expression",
+        "C’est interdit de critiquer le gouvernement",
+        "Il doit d’abord demander une autorisation",
+        "C’est autorisé seulement pendant les élections"
+      ],
+      "explanation": "En France, chacun peut donner son opinion et critiquer le gouvernement ou le président de la République : c’est la liberté d’expression (Déclaration des droits de l’homme et du citoyen de 1789, article 11). C’est une base de la démocratie. Cette liberté a des limites : il est interdit d’insulter une personne ou d’appeler à la haine.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, article 11",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PVS-012",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Sur un réseau social, vous voyez un message qui appelle à la violence contre les personnes d’une religion. Que dit la loi ?",
+      "answers": [
+        "C’est interdit et puni, même sur Internet",
+        "C’est autorisé : c’est la liberté d’expression",
+        "C’est interdit seulement dans les journaux",
+        "C’est autorisé si le compte est anonyme"
+      ],
+      "explanation": "Appeler à la haine ou à la violence contre des personnes à cause, par exemple, de leur origine, de leur religion, de leur sexe ou de leur handicap est une infraction (loi du 29 juillet 1881, article 24). La loi s’applique aussi sur Internet et sur les réseaux sociaux. La liberté d’expression ne protège pas les appels à la haine.",
+      "answerSource": {
+        "label": "Loi du 29 juillet 1881 sur la liberté de la presse, article 24",
+        "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043982456"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PVS-013",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Un journal publie un dessin qui critique une religion. Votre ami dit que c’est interdit en France. Que dit la loi ?",
+      "answers": [
+        "C’est autorisé : on peut critiquer une religion",
+        "C’est interdit : la loi punit la critique des religions",
+        "C’est autorisé seulement pour certaines religions",
+        "C’est interdit si des croyants sont choqués"
+      ],
+      "explanation": "En France, on peut critiquer une religion, et même se moquer d’un dieu, sans être puni par la loi. Mais il est interdit d’insulter des personnes ou d’appeler à la haine contre elles à cause de leur religion. La liberté d’expression protège la critique des idées, pas la haine contre les personnes.",
+      "answerSource": {
+        "label": "Gouvernement (info.gouv.fr), fiche n° 17 « La laïcité et la liberté d’expression vis-à-vis des religions »",
+        "url": "https://www.info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2020_02_fiche_n17-_laicite_et_liberte_dexpression_vis-a-vis_des_religions.pdf"
+      },
+      "difficulty": 3,
+      "confidence": "medium",
+      "reviewNote": "Sujet sensible : relire le ton avec attention. Fait vérifié : il n’existe pas de délit de blasphème (fiche n° 17) ; l’ancien délit du droit local d’Alsace-Moselle a été abrogé."
+    },
+    {
+      "reference": "CSP-PVS-014",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Vous cherchez un appartement. Le propriétaire dit qu’il ne loue pas aux personnes de votre origine. Que dit la loi ?",
+      "answers": [
+        "C’est une discrimination interdite par la loi",
+        "C’est autorisé : le propriétaire choisit librement",
+        "C’est autorisé si le propriétaire est un particulier",
+        "C’est interdit seulement pour les logements sociaux"
+      ],
+      "explanation": "Refuser de louer un logement à une personne à cause de son origine est une discrimination (loi du 6 juillet 1989, article 1er). C’est une infraction punie par le Code pénal (articles 225-1 et 225-2). Le propriétaire peut choisir son locataire, mais jamais pour une raison discriminatoire.",
+      "answerSource": {
+        "label": "Loi n° 89-462 du 6 juillet 1989 tendant à améliorer les rapports locatifs, article 1er",
+        "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000028806595"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-PVS-015",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Votre voisin est âgé et vit seul. Pendant une forte canicule, vous ne l’avez pas vu depuis deux jours. Que faites-vous ?",
+      "answers": [
+        "Vous frappez à sa porte pour prendre de ses nouvelles",
+        "Vous ne faites rien : ce n’est pas votre problème",
+        "Vous attendez qu’il vienne vous demander de l’aide",
+        "Vous l’aidez seulement s’il accepte de vous payer"
+      ],
+      "explanation": "La fraternité, c’est aussi la solidarité entre voisins. Pendant une canicule, les personnes âgées et isolées sont plus fragiles : les autorités demandent de prendre régulièrement de leurs nouvelles. En cas d’urgence, appelez le 15 (SAMU) ou le 112.",
+      "answerSource": {
+        "label": "Ministère des Solidarités, « Fortes chaleurs : les bons gestes pour vous protéger et protéger vos proches »",
+        "url": "https://solidarites.gouv.fr/fortes-chaleurs-les-bons-gestes-pour-vous-proteger-et-proteger-vos-proches"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Numéros 15 et 112 vérifiés le 31/10/2026 (service-public.gouv.fr, fiche F33954)."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "agent public",
+      "definition": "Une personne qui travaille pour l’État, pour une mairie ou pour un hôpital public."
+    },
+    {
+      "term": "agissement sexiste",
+      "definition": "Une parole ou un acte lié au sexe d’une personne qui l’humilie ou la rabaisse. C’est interdit au travail."
+    },
+    {
+      "term": "canicule",
+      "definition": "Une période de très forte chaleur, le jour et la nuit, pendant plusieurs jours."
+    },
+    {
+      "term": "Constitution",
+      "definition": "Le texte le plus important de la France. Il dit comment le pays est organisé et quels sont les grands principes de la République."
+    },
+    {
+      "term": "devise",
+      "definition": "Une phrase courte qui dit les valeurs d’un pays. La devise de la France est « Liberté, Égalité, Fraternité »."
+    },
+    {
+      "term": "discrimination",
+      "definition": "Traiter une personne moins bien qu’une autre à cause, par exemple, de son origine, de son sexe, de sa religion ou de son handicap. C’est interdit par la loi."
+    },
+    {
+      "term": "hymne national",
+      "definition": "Le chant officiel d’un pays. L’hymne national de la France est La Marseillaise."
+    },
+    {
+      "term": "infraction",
+      "definition": "Un acte interdit par la loi. La personne qui le commet peut être punie, par exemple par une amende (une somme d’argent à payer) ou par la prison."
+    },
+    {
+      "term": "laïcité",
+      "definition": "Le principe qui sépare l’État et les religions. L’État n’a pas de religion et chacun est libre de croire ou de ne pas croire."
+    },
+    {
+      "term": "liberté de conscience",
+      "definition": "Le droit de croire ou de ne pas croire, de choisir sa religion ou d’en changer."
+    },
+    {
+      "term": "monarchie",
+      "definition": "Un pays dirigé par un roi ou une reine."
+    },
+    {
+      "term": "neutralité",
+      "definition": "Le fait de ne pas montrer ses opinions ou sa religion. Les agents publics doivent être neutres pendant leur travail."
+    },
+    {
+      "term": "solidarité",
+      "definition": "Le fait de s’aider les uns les autres, surtout quand une personne est en difficulté."
+    },
+    {
+      "term": "tricolore",
+      "definition": "Qui a trois couleurs. Le drapeau français est tricolore : bleu, blanc, rouge."
+    },
+    {
+      "term": "usager",
+      "definition": "Une personne qui utilise un service ouvert à tous, comme la mairie, l’école publique ou l’hôpital public."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+/* Jetons de la direction artistique (docs/direction-artistique.md) */
+@theme {
+  --color-encre: #1b2b34;
+  --color-encre-doux: #55626a;
+  --color-papier: #faf7f0;
+  --color-ligne: #e4ded1;
+  --color-trace: #bdb6a6;
+
+  --color-sapin-50: #eef5f1;
+  --color-sapin-100: #d6e8de;
+  --color-sapin-500: #2e7a62;
+  --color-sapin-700: #1f5e4b;
+  --color-sapin-900: #123a2e;
+
+  --color-ocre-100: #f8ebcf;
+  --color-ocre-500: #c98a1b;
+  --color-ocre-700: #8a5c0e;
+
+  --color-prune-100: #f1e4ec;
+  --color-prune-700: #6b3a5b;
+
+  --color-brique-100: #f8e3dd;
+  --color-brique-200: #efc9be;
+  --color-brique-700: #a83f29; /* 5:1 sur brique-100 (texte en gras des corrections) */
+
+  /* Texte courant à 18 px : plus lisible pour un public qui lit le français comme langue étrangère */
+  --text-petit: 0.9375rem;
+  --text-petit--line-height: 1.5;
+  --text-courant: 1.125rem;
+  --text-courant--line-height: 1.6;
+  --text-enonce: 1.3125rem;
+  --text-enonce--line-height: 1.45;
+
+  /* Graphiques du back-office : vert de la charte, plus saturé pour passer le contrôle de chroma (skill dataviz) */
+  --color-graphe: #1a8a64;
+
+  --radius-bouton: 10px;
+  --radius-carte: 14px;
+  --shadow-carte: 0 1px 2px rgb(27 43 52 / 0.06), 0 4px 16px rgb(27 43 52 / 0.04);
+}
+
+/* Polices chargées par next/font (voir app/layout.tsx) */
+@theme inline {
+  --font-titre: var(--font-fraunces), Georgia, serif;
+  --font-texte: var(--font-atkinson), system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-papier);
+    color: var(--color-encre);
+    font-family: var(--font-atkinson), system-ui, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2 {
+    font-family: var(--font-fraunces), Georgia, serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-ocre-500);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background-color: var(--color-ocre-100);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Textes éditoriaux (fiches, FAQ, pages légales) rendus depuis le Markdown */
+@layer components {
+  .texte-editorial {
+    max-width: 46rem;
+  }
+  .texte-editorial > * + * {
+    margin-top: 1rem;
+  }
+  .texte-editorial h2 {
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    line-height: 1.25;
+  }
+  .texte-editorial h3 {
+    margin-top: 1.75rem;
+    font-size: 1.1875rem;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+  .texte-editorial ul,
+  .texte-editorial ol {
+    padding-left: 1.5rem;
+  }
+  .texte-editorial ul {
+    list-style: disc;
+  }
+  .texte-editorial ol {
+    list-style: decimal;
+  }
+  .texte-editorial li + li {
+    margin-top: 0.375rem;
+  }
+  .texte-editorial a {
+    color: var(--color-sapin-700);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+  .texte-editorial blockquote {
+    border-left: 4px solid var(--color-ocre-500);
+    background: var(--color-ocre-100);
+    border-radius: 0 var(--radius-bouton) var(--radius-bouton) 0;
+    padding: 0.75rem 1rem;
+  }
+  .texte-editorial table {
+    display: block;
+    overflow-x: auto;
+    border-collapse: collapse;
+    font-size: var(--text-petit);
+  }
+  .texte-editorial th,
+  .texte-editorial td {
+    border: 1px solid var(--color-ligne);
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+    vertical-align: top;
+  }
+  .texte-editorial th {
+    background: var(--color-papier);
+  }
+  .texte-editorial strong {
+    font-weight: 700;
+  }
+}

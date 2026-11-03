@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: textes-lancement-communication
+expected_outcome: |
+  Un retour qui repère les promesses trompeuses, l'apparence officielle, la pression artificielle, les faux témoignages, les erreurs réglementaires et les problèmes RGPD, et qui propose des versions réécrites honnêtes et claires.
+context:
+  scaffold_script: place-files.sh

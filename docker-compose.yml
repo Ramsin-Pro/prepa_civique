@@ -1,0 +1,124 @@
+name: prepa-civique
+
+# Journaux des conteneurs : 10 fichiers de 20 Mo au plus par service, sinon ils finissent par remplir le disque.
+x-logging: &logging
+  driver: local
+  options:
+    max-size: "20m"
+    max-file: "10"
+
+# Tous les ports sont liés à 127.0.0.1 : seul le reverse proxy HTTPS de la machine les atteint. Les ports publiés par
+# Docker passent avant le pare-feu (ufw) : ouverts sur toutes les interfaces, ils seraient joignables depuis Internet.
+
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    # Aucun programme du conteneur ne gagne de droits en cours de route. Pas de cap_drop : l'image démarre en root
+    # pour préparer son dossier de données, puis passe sous l'utilisateur postgres.
+    security_opt: ["no-new-privileges:true"]
+    logging: *logging
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:?Définissez POSTGRES_USER dans .env}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Définissez POSTGRES_PASSWORD dans .env}
+      POSTGRES_DB: ${POSTGRES_DB:?Définissez POSTGRES_DB dans .env}
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    ports:
+      # Accessible depuis la machine uniquement (outils de base de données, API en local)
+      - "127.0.0.1:${POSTGRES_PORT:-5433}:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    restart: unless-stopped
+    # Utilisateur sans droits particuliers (node), port non réservé : aucune capacité système nécessaire.
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+    logging: *logging
+    environment:
+      NODE_ENV: production
+      API_PORT: 4000
+      DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
+      # Vide : cookies réservés à HTTPS dès que PUBLIC_URL commence par https://
+      COOKIE_SECURE: ${COOKIE_SECURE:-}
+      PUBLIC_URL: ${PUBLIC_URL:-http://localhost:3001}
+      # Chiffre les secrets de double authentification et les empreintes des statistiques.
+      APP_SECRET: ${APP_SECRET:?Définissez APP_SECRET dans .env (au moins 32 caractères aléatoires)}
+      # Brouillons visibles uniquement si .env le demande (développement). Jamais en production.
+      CONTENT_PREVIEW: ${CONTENT_PREVIEW:-false}
+      # Double authentification du back-office : obligatoire sauf si .env la désactive (développement).
+      ADMIN_MFA_REQUIRED: ${ADMIN_MFA_REQUIRED:-true}
+      # Emails : Mailpit dans Docker (boîte de réception sur http://localhost:8026), Brevo en production.
+      SMTP_HOST: ${DOCKER_SMTP_HOST:-mail}
+      SMTP_PORT: ${DOCKER_SMTP_PORT:-1025}
+      SMTP_USER: ${SMTP_USER:-}
+      SMTP_PASSWORD: ${SMTP_PASSWORD:-}
+      MAIL_FROM: ${MAIL_FROM:-Repère <no-reply@repere.test>}
+      # Paiement : sans clé Stripe, la vente est fermée (le paiement simulé n'existe qu'en développement).
+      STRIPE_SECRET_KEY: ${STRIPE_SECRET_KEY:-}
+      STRIPE_WEBHOOK_SECRET: ${STRIPE_WEBHOOK_SECRET:-}
+      # Voix Rémy (Azure Speech). Sans clé, le site utilise la voix du navigateur.
+      AZURE_SPEECH_KEY: ${AZURE_SPEECH_KEY:-}
+      AZURE_SPEECH_REGION: ${AZURE_SPEECH_REGION:-}
+      # Page publique d'avis (Google, Trustpilot…), proposée après un examen réussi. Vide : rien n'est proposé.
+      REVIEW_URL: ${REVIEW_URL:-}
+      FREE_QUESTIONS_PER_TOPIC: ${FREE_QUESTIONS_PER_TOPIC:-10}
+      FREE_EXAMS: ${FREE_EXAMS:-1}
+    depends_on:
+      db:
+        condition: service_healthy
+      mail:
+        condition: service_started
+    ports:
+      - "127.0.0.1:${API_PORT:-4001}:4000"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:4000/api/health > /dev/null || exit 1"]
+      interval: 10s
+      timeout: 3s
+      retries: 6
+      start_period: 20s
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+      args:
+        API_INTERNAL_URL: http://api:4000
+    restart: unless-stopped
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+    logging: *logging
+    environment:
+      API_INTERNAL_URL: http://api:4000
+      # Adresse publique : plan du site, données structurées, liens de partage.
+      PUBLIC_URL: ${PUBLIC_URL:-http://localhost:3001}
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      # Le reverse proxy est la seule entrée : il remplace X-Forwarded-For par l'adresse réelle du visiteur, dont
+      # dépend la limite de débit de l'API. Joignable en direct, Next.js relaierait un X-Forwarded-For inventé.
+      - "127.0.0.1:${WEB_PORT:-3001}:3000"
+
+  # Serveur d'emails de développement : capture tous les emails envoyés, rien ne part sur Internet.
+  mail:
+    # 1.32.0 corrige GHSA-379p-g4f4-hq5h (image piégée dans un email) ; 1.33.0 est la dernière version.
+    image: axllent/mailpit:v1.33.0
+    restart: unless-stopped
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+    logging: *logging
+    ports:
+      # Ports décalés (1025/8025 sont souvent pris par d'autres projets)
+      - "127.0.0.1:${MAILPIT_SMTP_PORT:-1026}:1025"
+      - "127.0.0.1:${MAILPIT_UI_PORT:-8026}:8025"
+
+volumes:
+  db-data:

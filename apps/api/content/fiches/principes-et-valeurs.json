@@ -1,0 +1,133 @@
+{
+  "topic": "principes-et-valeurs",
+  "sheets": [
+    {
+      "slug": "devise-et-symboles-de-la-republique",
+      "notion": "devise-et-symboles",
+      "title": "La devise et les symboles de la République",
+      "summary": "La France est une République démocratique : le pouvoir appartient au peuple. Sa devise, « Liberté, Égalité, Fraternité », résume ses valeurs. Ses symboles sont le drapeau tricolore, La Marseillaise, Marianne, le 14 juillet et le coq.",
+      "keyPoints": [
+        "La Constitution du 4 octobre 1958 dit : « La France est une République indivisible, laïque, démocratique et sociale. » Le peuple exerce le pouvoir par ses élus et par le référendum.",
+        "Liberté : chacun peut penser, s’exprimer, croire, circuler, se réunir ou créer une association. La liberté s’arrête là où elle nuit aux autres : on peut critiquer, mais pas insulter ni appeler à la haine.",
+        "Égalité : la loi est la même pour tous, quels que soient l’origine, la religion ou le sexe, et les femmes ont les mêmes droits que les hommes. La loi punit les discriminations et les actes racistes, antisémites ou anti-LGBT.",
+        "Fraternité : c’est la solidarité entre tous, sans distinction d’origine ou de religion. Par exemple, les impôts financent les services publics, et les cotisations des personnes qui travaillent paient les retraites.",
+        "La Constitution (article 2) nomme le drapeau bleu, blanc, rouge, l’hymne national La Marseillaise et la devise. Marianne, une figure de femme qui représente la République, le 14 juillet et le coq sont aussi des symboles.",
+        "Le 14 juillet est la fête nationale depuis 1880. Il rappelle la prise de la Bastille, en 1789, et la fête de la Fédération, en 1790.",
+        "Le français est la langue de la République (Constitution, article 2). C’est la langue de l’école, du travail et des services publics."
+      ],
+      "examples": [
+        "À la mairie, vous pouvez voir le buste de Marianne et la devise sur la façade. Sur les écoles, la loi impose la devise, le drapeau français et le drapeau européen.",
+        "Le 14 juillet est un jour férié : un défilé militaire a lieu à Paris, en général sur les Champs-Élysées, et beaucoup de villes tirent un feu d’artifice.",
+        "Aider un voisin âgé pendant une canicule ou donner de son temps dans une association, c’est vivre la fraternité."
+      ],
+      "vocabulary": [
+        {
+          "term": "devise",
+          "definition": "Une phrase courte qui dit les valeurs d’un pays. La devise de la France est « Liberté, Égalité, Fraternité »."
+        },
+        {
+          "term": "indivisible",
+          "definition": "Qui ne peut pas être divisé. La France forme un seul pays."
+        },
+        {
+          "term": "référendum",
+          "definition": "Un vote où les citoyens répondent par oui ou par non à une question, par exemple sur un projet de loi."
+        },
+        {
+          "term": "hymne national",
+          "definition": "Le chant officiel d’un pays. En France, c’est La Marseillaise, écrite en 1792 par Rouget de Lisle."
+        },
+        {
+          "term": "discrimination",
+          "definition": "Traiter une personne moins bien qu’une autre à cause, par exemple, de son origine, de son sexe, de sa religion ou de son handicap. C’est interdit par la loi."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Constitution du 4 octobre 1958, articles 1er, 2 et 3",
+          "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+        },
+        {
+          "label": "Déclaration des droits de l’homme et du citoyen de 1789, articles 1er, 4 et 11",
+          "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+        },
+        {
+          "label": "Présidence de la République (elysee.fr), « Les symboles »",
+          "url": "https://www.elysee.fr/la-presidence/les-symboles-de-la-republique-francaise"
+        },
+        {
+          "label": "Code de l’éducation, article L111-1-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043982730"
+        }
+      ],
+      "confidence": "high",
+      "reviewNote": "Vérifié le 31/10/2026 sur elysee.fr : fête nationale (loi du 6 juillet 1880 ; défilé sur les Champs-Élysées depuis 1980, mais le lieu peut changer certaines années, d’où « en général »), Marseillaise (Strasbourg, 1792), devise sur les frontons des édifices publics depuis le 14 juillet 1880, Marianne (bustes dans les mairies, timbres). Fraternité : principe constitutionnel depuis la décision n° 2018-717/718 QPC du 6 juillet 2018. Langue : loi n° 94-665 du 4 août 1994, article 1er. À valider : « les cotisations des personnes qui travaillent paient les retraites » (simplification du système par répartition) et le mot « anti-LGBT », repris de l’annexe I de l’arrêté du 10 octobre 2025. Le coq n’est pas cité par la Constitution. La fiche couvre aussi l’égalité, la liberté d’expression et les associations, rattachées à cette notion dans les questions."
+    },
+    {
+      "slug": "la-laicite",
+      "notion": "laicite",
+      "title": "La laïcité",
+      "summary": "La laïcité sépare l’État et les religions : l’État est neutre et n’a pas de religion officielle. Elle garantit la liberté de conscience : chacun peut croire, ne pas croire ou changer de religion. Personne ne peut utiliser sa religion pour échapper à la loi.",
+      "keyPoints": [
+        "La loi du 9 décembre 1905 sépare les Églises et l’État, après des siècles de conflits entre pouvoir religieux et pouvoir politique. Selon cette loi, la République ne reconnaît, ne paie et ne finance aucun culte.",
+        "La laïcité n’interdit aucune religion : l’État garantit le libre exercice des cultes, dans le respect de l’ordre public.",
+        "On peut critiquer une religion ou s’en moquer : en France, le blasphème n’est pas puni. Mais il est interdit d’insulter des personnes ou d’appeler à la haine contre elles à cause de leur religion.",
+        "Forcer quelqu’un, par des menaces ou des violences, à pratiquer une religion ou à l’abandonner est puni par la loi. L’État protège les lieux de culte et permet de pratiquer sa religion à l’hôpital ou en prison.",
+        "Les agents publics doivent être neutres : au travail, ils ne montrent pas leur religion. Les usagers peuvent montrer la leur, sans prosélytisme et en respectant les règles du service.",
+        "Dans une entreprise privée, un salarié peut en principe montrer sa religion. L’employeur peut la limiter pour des raisons d’hygiène, de sécurité ou de bon fonctionnement de l’entreprise.",
+        "Dans les écoles, collèges et lycées publics, les élèves ne peuvent pas porter de signe religieux bien visible (loi de 2004). Aucun élève ne peut refuser un cours au nom de sa religion."
+      ],
+      "examples": [
+        "À la mairie, l’agent qui vous reçoit ne porte pas de signe religieux, car il doit être neutre. Vous, comme usager, vous pouvez en porter un.",
+        "Dans la rue, vous pouvez porter un signe religieux. Mais la loi interdit de cacher son visage dans l’espace public.",
+        "Seul le mariage célébré à la mairie a une valeur légale. Une cérémonie religieuse peut avoir lieu après, si les époux le souhaitent."
+      ],
+      "vocabulary": [
+        {
+          "term": "laïcité",
+          "definition": "Le principe qui sépare l’État et les religions. L’État n’a pas de religion et chacun est libre de croire ou de ne pas croire."
+        },
+        {
+          "term": "culte",
+          "definition": "La pratique d’une religion, par exemple les prières et les cérémonies. Le mot désigne aussi une religion."
+        },
+        {
+          "term": "neutralité",
+          "definition": "Le fait de ne pas montrer ses opinions ou sa religion. Les agents publics doivent être neutres pendant leur travail."
+        },
+        {
+          "term": "agent public",
+          "definition": "Une personne qui travaille pour l’État, pour une mairie ou pour un hôpital public."
+        },
+        {
+          "term": "usager",
+          "definition": "Une personne qui utilise un service ouvert à tous, comme la mairie, l’école publique ou l’hôpital public."
+        },
+        {
+          "term": "prosélytisme",
+          "definition": "Le fait d’insister pour convaincre d’autres personnes d’adopter sa religion ou ses idées."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Loi du 9 décembre 1905 concernant la séparation des Églises et de l’État, articles 1er, 2 et 31",
+          "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006070169"
+        },
+        {
+          "label": "Premier ministre, Charte de la laïcité dans les services publics (circulaire n° 5209 du 13 avril 2007)",
+          "url": "https://www.fonction-publique.gouv.fr/files/files/Autres%20pages/Textes%20de%20r%C3%A9f%C3%A9rence/2007/C_20070413_PM5209.pdf"
+        },
+        {
+          "label": "Code de l’éducation, article L141-5-1 (loi n° 2004-228 du 15 mars 2004)",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006524456"
+        },
+        {
+          "label": "Observatoire de la laïcité, fiche n° 17 « La laïcité et la liberté d’expression vis-à-vis des religions »",
+          "url": "https://www.info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2020_02_fiche_n17-_laicite_et_liberte_dexpression_vis-a-vis_des_religions.pdf"
+        }
+      ],
+      "confidence": "medium",
+      "reviewNote": "Sujet sensible : relire le ton avec attention, notamment « critiquer une religion ou s’en moquer » (la fiche n° 17 dit : « critiqué une religion ou outragé une divinité »). Formulations simplifiées à valider : (1) « ne reconnaît, ne paie et ne finance aucun culte » reprend l’article 2 de la loi de 1905, mais l’Alsace-Moselle garde le régime concordataire, et la Guyane et Mayotte ont des règles particulières (non cité, pour rester simple) ; (2) entreprise privée : la restriction doit être justifiée et proportionnée, par exemple dans le règlement intérieur (Code du travail, articles L1121-1 et L1321-2-1). Autres références vérifiées le 31/10/2026 : Constitution, article 1er ; loi de 1905, article 31 (pressions punies) ; Charte de la laïcité à l’École, articles 12 à 14 ; loi n° 2010-1192 du 11 octobre 2010 (visage caché dans l’espace public) ; Code pénal, article 433-21 (mariage religieux sans mariage civil préalable)."
+    }
+  ]
+}

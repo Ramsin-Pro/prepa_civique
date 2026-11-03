@@ -1,0 +1,26 @@
+url: http://localhost:3001/fiches
+name: Lire une fiche de révision puis vérifier ce qu'on a retenu
+---
+- launchApp:
+    clearState: true
+- assertVisible: "L’essentiel de chaque notion, en quelques minutes"
+- tapOn: "La laïcité"
+- assertVisible: "Les points clés"
+- assertVisible: "Écouter la fiche"
+- scrollUntilVisible:
+    element: "Avez-vous retenu l’essentiel ?"
+    direction: DOWN
+- scrollUntilVisible:
+    element:
+      id: "proposition-1"
+    direction: DOWN
+- tapOn:
+    id: "proposition-1"
+- scrollUntilVisible:
+    element: "Valider ma réponse"
+    direction: DOWN
+- tapOn: "Valider ma réponse"
+# La correction s'affiche au-dessus du bouton suivant, qui peut se retrouver sous la ligne de flottaison
+- scrollUntilVisible:
+    element: "Question suivante|Voir mon bilan"
+    direction: DOWN

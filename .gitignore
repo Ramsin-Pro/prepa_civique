@@ -1,0 +1,30 @@
+# Dépendances et builds
+node_modules/
+dist/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Client Prisma généré (prisma generate)
+apps/api/src/generated/
+
+# Variables d'environnement : seul .env.example est versionné
+.env
+.env.*
+!.env.example
+
+# Divers
+.DS_Store
+npm-debug.log*
+coverage/
+
+# Résultats de test et paquet du skill (régénérables)
+skill-dev/
+
+# Sauvegardes de la base (données personnelles : jamais dans le dépôt)
+backups/
+
+# Réponses des panels d'acheteurs simulés (founder-consumer) : gardées en local, les rapports sont dans audits/
+founder/panel/
+founder/panel-v*/

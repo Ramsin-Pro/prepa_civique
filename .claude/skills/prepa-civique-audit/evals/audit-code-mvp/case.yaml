@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: audit-code-mvp
+expected_outcome: |
+  Un rapport priorisé qui compare le code au cahier des charges, repère les failles de sécurité (bonnes réponses envoyées au navigateur, score calculé côté client, webhook Stripe non vérifié, clé service_role exposée, RLS absente), les paramètres codés en dur, le modèle de données incomplet et les textes qui imitent un service officiel, en citant les fichiers.
+context:
+  scaffold_script: place-files.sh

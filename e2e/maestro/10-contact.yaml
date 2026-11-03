@@ -1,0 +1,15 @@
+url: http://localhost:3001/contact
+name: Écrire au support
+---
+- launchApp:
+    clearState: true
+- assertVisible: "Une question ? Écrivez-nous"
+- tapOn: "Votre adresse email"
+- inputText: "maestro-contact@exemple.test"
+- tapOn: "Votre message"
+- inputText: "Bonjour, le lien de confirmation de mon compte ne fonctionne pas."
+- scrollUntilVisible:
+    element: "Envoyer mon message"
+    direction: DOWN
+- tapOn: "Envoyer mon message"
+- assertVisible: "Message envoyé. Merci !"

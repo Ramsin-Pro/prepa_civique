@@ -1,0 +1,129 @@
+{
+  "topic": "droits-et-devoirs",
+  "sheets": [
+    {
+      "slug": "droits-fondamentaux",
+      "notion": "droits-fondamentaux",
+      "title": "Les droits fondamentaux",
+      "summary": "Les droits fondamentaux sont les droits essentiels de chaque personne : liberté, égalité, dignité. La Constitution les garantit. La plupart protègent toutes les personnes qui vivent en France, françaises ou étrangères.",
+      "keyPoints": [
+        "La Constitution de la Ve République (1958) protège les droits fondamentaux. Son préambule renvoie à trois textes : la Déclaration des droits de l’homme et du citoyen de 1789, le Préambule de 1946 et la Charte de l’environnement de 2004.",
+        "La Déclaration de 1789, adoptée au début de la Révolution française, dit : « Les hommes naissent et demeurent libres et égaux en droits. » Elle garantit notamment l’égalité devant la loi et la liberté d’opinion et d’expression.",
+        "Les libertés individuelles permettent à chacun de décider de sa vie : aller et venir, penser, croire ou ne pas croire, s’exprimer, se marier ou divorcer. Elles s’exercent dans les limites fixées par la loi.",
+        "Le respect de la dignité humaine interdit par exemple la torture, l’esclavage et la traite des êtres humains. L’intégrité physique et psychologique est protégée : les violences sont interdites, y compris dans le couple et la famille.",
+        "La peine de mort est abolie depuis 1981, et la Constitution l’interdit depuis 2007. Depuis 2024, la Constitution garantit aussi la liberté de la femme de recourir à une interruption volontaire de grossesse (IVG).",
+        "Les droits sociaux et économiques visent des conditions de vie dignes : obtenir un emploi, faire grève, adhérer à un syndicat, être protégé dans sa santé, s’instruire. La Charte de l’environnement ajoute le droit de vivre dans un environnement sain.",
+        "Dans un État de droit, toute personne poursuivie par la justice est présumée innocente et peut être défendue par un avocat. La citoyenneté française donne en plus le droit de voter et d’être candidat aux élections."
+      ],
+      "examples": [
+        "Une femme mariée peut demander le divorce : elle n’a pas besoin de l’accord de son mari pour faire cette demande.",
+        "Une femme qui veut avorter n’a pas besoin de l’accord de son mari. L’IVG est possible jusqu’à la fin de la 14e semaine de grossesse.",
+        "Si vous êtes placé en garde à vue, vous pouvez demander l’aide d’un avocat dès le début."
+      ],
+      "vocabulary": [
+        {
+          "term": "droit fondamental",
+          "definition": "Un droit très important, garanti à chaque personne par la Constitution, par exemple la liberté d’expression."
+        },
+        {
+          "term": "dignité",
+          "definition": "Le respect dû à chaque être humain, simplement parce qu’il est une personne."
+        },
+        {
+          "term": "intégrité physique et psychologique",
+          "definition": "Le droit de ne pas être blessé, ni dans son corps, ni dans son esprit."
+        },
+        {
+          "term": "présumé innocent",
+          "definition": "Considéré comme non coupable tant que la justice n’a pas prouvé qu’on a commis une infraction."
+        },
+        {
+          "term": "citoyenneté",
+          "definition": "Le lien entre une personne et son pays. Il donne des droits, comme voter, et des devoirs."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Constitution du 4 octobre 1958, préambule et articles 34 et 66-1",
+          "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+        },
+        {
+          "label": "Déclaration des droits de l’homme et du citoyen de 1789",
+          "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+        },
+        {
+          "label": "Préambule de la Constitution du 27 octobre 1946",
+          "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/preambule-de-la-constitution-du-27-octobre-1946"
+        },
+        {
+          "label": "Charte de l’environnement de 2004, article 1er",
+          "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/charte-de-l-environnement-de-2004"
+        }
+      ],
+      "confidence": "high",
+      "reviewNote": "Faits datés, vérifiés le 31/10/2026 : IVG jusqu’à la fin de la 14e semaine de grossesse, sans condition d’âge (service-public.gouv.fr, fiche F1551, vérifiée par service-public le 07/10/2025) ; liberté d’IVG dans la Constitution (article 34, loi constitutionnelle du 8 mars 2024). Peine de mort : loi du 9 octobre 1981 et article 66-1 (2007). « Environnement sain » résume l’article 1er de la Charte (« équilibré et respectueux de la santé »). Présomption d’innocence : Déclaration de 1789, article 9. Droits des étrangers : Conseil constitutionnel, décision n° 93-325 DC du 13 août 1993. Garde à vue : service-public, fiche F14837. Le mariage de deux personnes de même sexe (Code civil, article 143, loi du 17 mai 2013) n’est pas cité : à ajouter si la relecture le juge utile."
+    },
+    {
+      "slug": "obligations-et-devoirs",
+      "notion": "obligations-et-devoirs",
+      "title": "Les obligations et les devoirs",
+      "summary": "Toute personne qui vit en France doit respecter la loi, quelle que soit sa nationalité. Les libertés ont des limites, pour protéger les autres et l’ordre public. Ne pas respecter la loi expose à une sanction, comme une amende ou la prison.",
+      "keyPoints": [
+        "Seule la loi peut fixer les limites des libertés (Déclaration de 1789, article 4). Elle les limite pour protéger les droits des autres et l’ordre public : la sécurité, la tranquillité, la salubrité et la dignité humaine.",
+        "La loi est la même pour tous : ni la religion ni la coutume ne permettent d’y échapper. Par exemple, il est interdit d’être marié à plusieurs personnes en même temps.",
+        "Chacun participe aux dépenses publiques, selon ses moyens, en payant des impôts et des cotisations sociales. Les personnes qui habitent en France doivent déclarer leurs revenus chaque année, même s’ils sont faibles.",
+        "Il existe trois sortes d’infractions, de la moins grave à la plus grave : la contravention, le délit et le crime. Par exemple, le tapage nocturne est une contravention, le vol un délit et le meurtre un crime.",
+        "La police, surtout dans les villes, et la gendarmerie, surtout dans les campagnes, assurent la sécurité et font respecter la loi. Elles recherchent les auteurs d’infractions, puis la justice les juge.",
+        "Chacun contribue au bien commun, notamment par son travail, et respecte les autres et l’environnement. Il faut aussi porter secours à une personne en danger, au moins en appelant les secours, sans se mettre en danger.",
+        "Les citoyens français participent aussi aux institutions : ils votent et ils peuvent être tirés au sort pour être jurés dans un procès devant la cour d’assises."
+      ],
+      "examples": [
+        "La nuit, votre voisin met de la musique très forte qui empêche de dormir : c’est du tapage nocturne, une infraction punie d’une amende.",
+        "Vous voyez un accident : vous appelez le 15, le 18 ou le 112, puis vous aidez si c’est sans danger pour vous.",
+        "Vous voulez jeter une vieille machine à laver : vous l’apportez à la déchetterie ou vous utilisez le ramassage des encombrants de votre commune."
+      ],
+      "vocabulary": [
+        {
+          "term": "ordre public",
+          "definition": "Ce qui permet à tous de vivre ensemble en sécurité, au calme et en bonne santé."
+        },
+        {
+          "term": "salubrité",
+          "definition": "L’hygiène et la propreté, qui protègent la santé de tous."
+        },
+        {
+          "term": "infraction",
+          "definition": "Acte interdit par la loi et puni d’une sanction, par exemple une amende ou une peine de prison."
+        },
+        {
+          "term": "cotisations sociales",
+          "definition": "Sommes retenues sur le salaire ou payées par l’employeur. Elles financent la santé, la retraite, le chômage et les aides aux familles."
+        },
+        {
+          "term": "juré",
+          "definition": "Citoyen tiré au sort qui juge des crimes avec des magistrats, à la cour d’assises."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Déclaration des droits de l’homme et du citoyen de 1789, articles 4, 5, 6 et 13",
+          "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+        },
+        {
+          "label": "Ministère de la Justice, « Les infractions pénales »",
+          "url": "https://www.justice.gouv.fr/justice-france/justice-penale/infractions-penales"
+        },
+        {
+          "label": "Service-public.gouv.fr, fiche F358 sur la déclaration annuelle de revenus",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F358"
+        },
+        {
+          "label": "Service-public.gouv.fr, fiche F1540 « Juré d’assises »",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1540"
+        }
+      ],
+      "confidence": "high",
+      "reviewNote": "Vérifié le 31/10/2026 : déclaration des revenus même faibles (fiche F358, vérifiée par service-public le 05/06/2026) ; jurés : nationalité française, plus de 23 ans, inscription sur les listes électorales (fiche F1540, vérifiée le 27/03/2026) ; non-assistance à personne en danger (Code pénal, article 223-6 ; fiche F34551, vérifiée le 05/06/2026) ; tapage nocturne classé parmi les contraventions (justice.gouv.fr). Polygamie : Code civil, article 147, et Code pénal, article 433-20 (bigamie). Gendarmerie : Code de la sécurité intérieure, article L421-1. Les quatre éléments de l’ordre public reprennent l’annexe I de l’arrêté du 10 octobre 2025. Aucun montant d’amende n’est cité (montants pour abandon de déchets modifiés en juin 2026). Numéros d’urgence à revérifier s’ils changent."
+    }
+  ]
+}

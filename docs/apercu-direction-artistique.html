@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aperçu direction artistique</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --encre: #1B2B34; --encre-doux: #55626A; --papier: #FAF7F0; --blanc: #FFFFFF; --ligne: #E4DED1;
+    --sapin-50: #EEF5F1; --sapin-100: #D6E8DE; --sapin-500: #2E7A62; --sapin-700: #1F5E4B; --sapin-900: #123A2E;
+    --ocre-100: #F8EBCF; --ocre-500: #C98A1B; --ocre-700: #8A5C0E;
+    --prune-100: #F1E4EC; --prune-700: #6B3A5B;
+    --brique-100: #F8E3DD; --brique-700: #B4442C;
+    --titre: "Fraunces", Georgia, serif;
+    --texte: "Atkinson Hyperlegible", system-ui, sans-serif;
+    --r-bouton: 10px; --r-carte: 14px;
+    --ombre: 0 1px 2px rgb(27 43 52 / .06), 0 4px 16px rgb(27 43 52 / .04);
+  }
+  * { box-sizing: border-box; }
+  html { font-size: 112.5%; }
+  body { margin: 0; background: var(--papier); color: var(--encre); font-family: var(--texte); line-height: 1.6; }
+  h1, h2, h3 { font-family: var(--titre); font-weight: 600; margin: 0; letter-spacing: -.01em; }
+  h1 { font-size: 1.9rem; line-height: 1.1; }
+  h2 { font-size: 1.45rem; line-height: 1.2; }
+  h3 { font-size: 1.15rem; line-height: 1.3; font-family: var(--texte); font-weight: 700; letter-spacing: 0; }
+  p { margin: 0; }
+  a { color: var(--sapin-700); text-underline-offset: 3px; }
+  :focus-visible { outline: 3px solid var(--ocre-500); outline-offset: 2px; }
+  .conteneur { max-width: 1120px; margin: 0 auto; padding: 0 16px; }
+  section { padding: 56px 0; }
+  .sur-titre { font-size: .8rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--encre-doux); }
+  .doux { color: var(--encre-doux); }
+  .petit { font-size: .84rem; }
+  .provisoire { display: inline-block; font-size: .7rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--ocre-700); background: var(--ocre-100); border-radius: 999px; padding: 2px 8px; vertical-align: middle; }
+
+  /* Bandeau d'aperçu */
+  .apercu { background: var(--encre); color: #fff; font-size: .8rem; padding: 8px 0; }
+  .apercu .conteneur { display: flex; gap: 12px; flex-wrap: wrap; justify-content: space-between; }
+
+  /* En-tête */
+  .entete { background: var(--blanc); border-bottom: 1px solid var(--ligne); }
+  .entete .conteneur { display: flex; align-items: center; justify-content: space-between; height: 72px; gap: 16px; }
+  .marque { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--encre); }
+  .marque-nom { font-family: var(--titre); font-weight: 600; font-size: 1.3rem; line-height: 1; }
+  .marque-sig { display: block; font-size: .68rem; color: var(--encre-doux); line-height: 1.2; margin-top: 3px; }
+  .nav { display: flex; gap: 24px; align-items: center; font-size: .9rem; }
+  .nav a { color: var(--encre); text-decoration: none; }
+  .nav a:hover { color: var(--sapin-700); text-decoration: underline; }
+
+  /* Boutons */
+  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 0 22px; border-radius: var(--r-bouton); font: 700 1rem/1 var(--texte); text-decoration: none; cursor: pointer; border: 2px solid transparent; transition: background .15s, border-color .15s; }
+  .btn-principal { background: var(--sapin-700); color: #fff; }
+  .btn-principal:hover { background: var(--sapin-900); }
+  .btn-secondaire { background: transparent; color: var(--encre); border-color: var(--encre); }
+  .btn-secondaire:hover { background: var(--encre); color: #fff; }
+  .btn-discret { background: transparent; color: var(--sapin-700); padding: 0 8px; }
+
+  /* Héros */
+  .heros { padding: 56px 0 40px; }
+  .heros .conteneur { display: grid; grid-template-columns: 1.05fr .95fr; gap: 40px; align-items: center; }
+  .heros h1 { font-size: 2.9rem; margin: 14px 0 18px; }
+  .heros h1 em { font-style: normal; color: var(--sapin-700); background: linear-gradient(transparent 68%, var(--ocre-100) 68%); }
+  .heros .accroche { font-size: 1.1rem; max-width: 34em; }
+  .actions { display: flex; gap: 12px; flex-wrap: wrap; margin: 28px 0 22px; }
+  .confiance { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; font-size: .9rem; }
+  .confiance li { display: flex; gap: 10px; align-items: flex-start; }
+  .confiance svg { flex: none; margin-top: 3px; }
+  .illu { background: var(--blanc); border: 1px solid var(--ligne); border-radius: 22px; box-shadow: var(--ombre); padding: 8px; }
+  .illu svg { display: block; width: 100%; height: auto; }
+
+  /* Comment ça marche */
+  .etapes { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 32px; }
+  .etapes::before { content: ""; position: absolute; top: 21px; left: 8%; right: 8%; border-top: 3px dotted var(--sapin-500); }
+  .etape { position: relative; text-align: center; padding: 0 8px; }
+  .jalon { width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; margin: 0 auto 14px; background: var(--blanc); border: 3px solid var(--sapin-500); font: 600 1.1rem var(--titre); color: var(--sapin-700); position: relative; }
+  .etape p { font-size: .95rem; }
+
+  /* Cartes parcours */
+  .grille3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 28px; }
+  .carte { background: var(--blanc); border: 1px solid var(--ligne); border-radius: var(--r-carte); box-shadow: var(--ombre); padding: 24px; }
+  .parcours { border-top: 6px solid var(--c); display: flex; flex-direction: column; gap: 10px; }
+  .parcours .pastille { align-self: flex-start; font-size: .75rem; font-weight: 700; color: var(--c); background: var(--cf); border-radius: 999px; padding: 3px 10px; }
+  .parcours .btn { margin-top: auto; align-self: flex-start; }
+  .parcours ul { margin: 0; padding-left: 1.1em; font-size: .92rem; }
+
+  /* Écran QCM */
+  .demo { display: grid; grid-template-columns: 380px 1fr; gap: 40px; align-items: start; margin-top: 28px; }
+  .telephone { background: var(--encre); border-radius: 36px; padding: 12px; box-shadow: 0 20px 50px rgb(27 43 52 / .18); }
+  .ecran { background: var(--papier); border-radius: 26px; overflow: hidden; }
+  .ecran-haut { background: var(--blanc); border-bottom: 1px solid var(--ligne); padding: 14px 16px 12px; }
+  .ecran-ligne { display: flex; justify-content: space-between; align-items: center; font-size: .8rem; }
+  .chrono { font-variant-numeric: tabular-nums; font-weight: 700; display: inline-flex; gap: 6px; align-items: center; }
+  .trace { position: relative; height: 14px; margin-top: 10px; }
+  .trace::before { content: ""; position: absolute; left: 0; right: 0; top: 6px; border-top: 2px dotted #BDB6A6; }
+  .trace .fait { position: absolute; left: 0; top: 5px; height: 4px; border-radius: 4px; background: var(--sapin-500); }
+  .trace i { position: absolute; top: 1px; width: 12px; height: 12px; margin-left: -6px; border-radius: 50%; background: var(--blanc); border: 2px solid #BDB6A6; }
+  .trace i.ok { background: var(--ocre-500); border-color: var(--ocre-500); }
+  .ecran-corps { padding: 18px 16px 20px; display: grid; gap: 14px; }
+  .etiquettes { display: flex; gap: 6px; flex-wrap: wrap; }
+  .etiquette { font-size: .72rem; font-weight: 700; border-radius: 6px; padding: 3px 8px; }
+  .et-officielle { background: var(--sapin-50); color: var(--sapin-700); }
+  .et-situation { background: var(--prune-100); color: var(--prune-700); }
+  .enonce { font-size: 1.2rem; line-height: 1.45; font-weight: 700; }
+  .props { display: grid; gap: 10px; }
+  .prop { display: flex; gap: 12px; align-items: center; min-height: 56px; padding: 10px 14px; background: var(--blanc); border: 2px solid var(--ligne); border-radius: 12px; font-size: 1rem; text-align: left; width: 100%; font-family: inherit; color: inherit; }
+  .prop b { flex: none; width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; border: 2px solid var(--ligne); font-size: .85rem; }
+  .prop.choisie { border-color: var(--sapin-700); background: var(--sapin-50); }
+  .prop.choisie b { background: var(--sapin-700); border-color: var(--sapin-700); color: #fff; }
+  .source { font-size: .74rem; color: var(--encre-doux); display: flex; gap: 6px; align-items: center; }
+  .ecran-bas { padding: 0 16px 18px; }
+  .ecran-bas .btn { width: 100%; }
+
+  .etats { display: grid; gap: 20px; }
+  .correction { border-radius: var(--r-carte); padding: 20px 22px; border: 1px solid; display: grid; gap: 8px; }
+  .correction .titre { display: flex; gap: 10px; align-items: center; font-weight: 700; font-size: 1.05rem; }
+  .correction.bonne { background: var(--sapin-50); border-color: var(--sapin-100); }
+  .correction.bonne .titre { color: var(--sapin-700); }
+  .correction.erreur { background: var(--brique-100); border-color: #EFC9BE; }
+  .correction.erreur .titre { color: var(--brique-700); }
+  .correction .liens { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
+
+  /* Résultat */
+  .resultat { display: grid; grid-template-columns: auto 1fr; gap: 28px; align-items: center; }
+  .score { width: 150px; height: 150px; border-radius: 50%; display: grid; place-items: center; text-align: center; background: conic-gradient(var(--sapin-500) 0 85%, var(--sapin-100) 85% 100%); }
+  .score div { width: 118px; height: 118px; border-radius: 50%; background: var(--blanc); display: grid; place-content: center; }
+  .score strong { font: 600 2.2rem/1 var(--titre); font-variant-numeric: tabular-nums; }
+  .themes { display: grid; gap: 10px; margin-top: 14px; }
+  .theme { display: grid; grid-template-columns: 1fr 60px; gap: 4px 12px; font-size: .85rem; }
+  .barre { grid-column: 1 / -1; height: 8px; border-radius: 8px; background: var(--ligne); overflow: hidden; }
+  .barre span { display: block; height: 100%; background: var(--sapin-500); border-radius: 8px; }
+  .barre span.faible { background: var(--ocre-500); }
+  .rappel { margin-top: 16px; padding: 12px 14px; border-left: 4px solid var(--ocre-500); background: var(--ocre-100); font-size: .88rem; border-radius: 0 8px 8px 0; }
+
+  /* Offres */
+  .offres { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 28px; max-width: 860px; }
+  .offre { display: flex; flex-direction: column; gap: 14px; }
+  .offre.mise-en-avant { border: 2px solid var(--sapin-700); }
+  .prix { font: 600 2.4rem/1 var(--titre); }
+  .prix small { font: 400 .9rem var(--texte); color: var(--encre-doux); }
+  .offre ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; font-size: .92rem; }
+  .offre li { display: flex; gap: 10px; }
+  .offre .btn { margin-top: auto; }
+
+  /* Pied */
+  .pied { background: var(--sapin-900); color: #E8EFEB; padding: 40px 0; margin-top: 40px; }
+  .pied .independance { display: flex; gap: 14px; align-items: flex-start; background: rgb(255 255 255 / .06); border: 1px solid rgb(255 255 255 / .14); border-radius: var(--r-carte); padding: 18px 20px; }
+  .pied a { color: #fff; }
+  .pied .liens { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 22px; font-size: .85rem; }
+
+  /* Système */
+  .systeme { background: var(--blanc); border-top: 1px solid var(--ligne); }
+  .nuancier { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; margin-top: 24px; }
+  .nuance { border: 1px solid var(--ligne); border-radius: 12px; overflow: hidden; font-size: .78rem; }
+  .nuance div { height: 64px; }
+  .nuance p { padding: 8px 10px; line-height: 1.35; }
+  .specimen { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 28px; }
+  .specimen .carte p + p { margin-top: 8px; }
+
+  @media (max-width: 900px) {
+    .heros .conteneur, .demo, .specimen { grid-template-columns: 1fr; }
+    .grille3, .offres { grid-template-columns: 1fr; }
+    .telephone { max-width: 380px; margin: 0 auto; }
+  }
+  @media (max-width: 640px) {
+    h1, .heros h1 { font-size: 1.9rem; }
+    h2 { font-size: 1.45rem; }
+    .nav a:not(.btn) { display: none; }
+    .nav .btn { white-space: nowrap; font-size: .85rem; }
+    .marque-sig { display: none; }
+    .etapes { grid-template-columns: 1fr; gap: 18px; }
+    .etapes::before { top: 20px; bottom: 20px; left: 21px; right: auto; border-top: 0; border-left: 3px dotted var(--sapin-500); }
+    .etape { display: grid; grid-template-columns: 44px 1fr; gap: 0 14px; text-align: left; padding: 0; }
+    .etape .jalon { margin: 0; grid-row: span 2; }
+    .resultat { grid-template-columns: 1fr; justify-items: center; }
+    section { padding: 40px 0; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+
+<div class="apercu"><div class="conteneur">
+  <span><strong>Aperçu de la direction artistique</strong> · v0.1 · 31/10/2026</span>
+  <span>Les éléments marqués <span class="provisoire">provisoire</span> sont à trancher</span>
+</div></div>
+
+<!-- En-tête du site -->
+<header class="entete"><div class="conteneur">
+  <a class="marque" href="#" aria-label="Repère, accueil">
+    <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true">
+      <rect width="40" height="40" rx="10" fill="#1F5E4B"/>
+      <path d="M6 27 C 14 27, 16 20, 22 20 S 30 13, 34 12" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="0.1 5.2"/>
+      <circle cx="22" cy="20" r="6" fill="#C98A1B" stroke="#fff" stroke-width="2.5"/>
+    </svg>
+    <span><span class="marque-nom">Repère</span><span class="marque-sig">Préparation à l'examen civique</span></span>
+  </a>
+  <nav class="nav" aria-label="Navigation principale">
+    <a href="#">L'examen civique</a>
+    <a href="#">Les parcours</a>
+    <a href="#">Tarifs</a>
+    <a href="#" class="btn btn-secondaire" style="min-height:42px;padding:0 16px">Se connecter</a>
+  </nav>
+</div></header>
+
+<!-- Héros -->
+<section class="heros"><div class="conteneur">
+  <div>
+    <span class="sur-titre">Examen civique · CSP · Carte de résident · Naturalisation</span>
+    <h1>Préparez l'examen civique, <em>étape par étape.</em></h1>
+    <p class="accroche">Des questions au format de l'examen, des corrections expliquées simplement, et vos progrès sur votre téléphone.</p>
+    <div class="actions">
+      <a href="#" class="btn btn-principal">Commencer gratuitement
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a href="#comment" class="btn btn-secondaire">Comment ça marche</a>
+    </div>
+    <ul class="confiance">
+      <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7A62" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>Sans inscription pour commencer</li>
+      <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7A62" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>Chaque question indique sa source et sa date de vérification</li>
+      <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7A62" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>Plateforme indépendante, sans lien avec l'administration</li>
+    </ul>
+  </div>
+  <div class="illu" role="img" aria-label="Un tracé relie trois étapes : carte de séjour pluriannuelle, carte de résident, naturalisation">
+    <svg viewBox="0 0 460 380">
+      <defs>
+        <pattern id="grille" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#E4DED1"/></pattern>
+      </defs>
+      <rect width="460" height="380" rx="16" fill="#FAF7F0"/>
+      <rect width="460" height="380" rx="16" fill="url(#grille)"/>
+      <path d="M40 320 C 140 320, 130 210, 225 205 S 330 95, 420 70" fill="none" stroke="#D6E8DE" stroke-width="14" stroke-linecap="round"/>
+      <path d="M40 320 C 140 320, 130 210, 225 205 S 330 95, 420 70" fill="none" stroke="#2E7A62" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 9"/>
+      <g font-family="Atkinson Hyperlegible, sans-serif">
+        <circle cx="62" cy="319" r="15" fill="#1F5E4B" stroke="#fff" stroke-width="4"/>
+        <text x="40" y="268" font-size="14" font-weight="700" fill="#1B2B34">Carte de séjour</text>
+        <text x="40" y="285" font-size="14" font-weight="700" fill="#1B2B34">pluriannuelle</text>
+        <circle cx="225" cy="205" r="15" fill="#C98A1B" stroke="#fff" stroke-width="4"/>
+        <text x="248" y="236" font-size="13" font-weight="700" fill="#1B2B34">Carte de résident</text>
+        <circle cx="404" cy="74" r="15" fill="#6B3A5B" stroke="#fff" stroke-width="4"/>
+        <text x="300" y="118" font-size="13" font-weight="700" fill="#1B2B34">Naturalisation</text>
+      </g>
+      <g transform="translate(36 40)">
+        <rect width="200" height="96" rx="12" fill="#fff" stroke="#E4DED1"/>
+        <text x="16" y="28" font-family="Atkinson Hyperlegible, sans-serif" font-size="12" fill="#55626A">Question 12 sur 40</text>
+        <text x="16" y="54" font-family="Fraunces, serif" font-size="20" font-weight="600" fill="#1B2B34">Bonne réponse</text>
+        <circle cx="176" cy="48" r="11" fill="#2E7A62"/>
+        <path d="M170 48l4 4 8-8" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect x="16" y="70" width="168" height="6" rx="3" fill="#E4DED1"/>
+        <rect x="16" y="70" width="50" height="6" rx="3" fill="#2E7A62"/>
+      </g>
+    </svg>
+  </div>
+</div></section>
+
+<!-- Comment ça marche -->
+<section id="comment" style="background:var(--blanc);border-top:1px solid var(--ligne);border-bottom:1px solid var(--ligne)"><div class="conteneur">
+  <span class="sur-titre">Comment ça marche</span>
+  <h2 style="margin-top:8px">Trois étapes, à votre rythme</h2>
+  <div class="etapes">
+    <div class="etape"><div class="jalon">1</div><div><h3>Choisissez votre parcours</h3><p class="doux">Carte de séjour, carte de résident ou naturalisation.</p></div></div>
+    <div class="etape"><div class="jalon">2</div><div><h3>Entraînez-vous par thème</h3><p class="doux">Chaque réponse est expliquée avec des mots simples.</p></div></div>
+    <div class="etape"><div class="jalon" style="border-color:var(--ocre-500);color:var(--ocre-700)">3</div><div><h3>Passez un examen blanc</h3><p class="doux">40 questions en 45 minutes, comme le jour de l'examen.</p></div></div>
+  </div>
+</div></section>
+
+<!-- Parcours -->
+<section><div class="conteneur">
+  <span class="sur-titre">Les parcours</span>
+  <h2 style="margin-top:8px">Une couleur par parcours, partout sur le site</h2>
+  <div class="grille3">
+    <article class="carte parcours" style="--c:var(--sapin-700);--cf:var(--sapin-50)">
+      <span class="pastille">Disponible</span>
+      <h3>Carte de séjour pluriannuelle</h3>
+      <p class="doux petit">Pour une première demande de carte de séjour de plusieurs années (CSP).</p>
+      <ul><li>Questions de la liste officielle</li><li>Mises en situation</li></ul>
+      <a href="#" class="btn btn-principal">Préparer ce parcours</a>
+    </article>
+    <article class="carte parcours" style="--c:var(--ocre-700);--cf:var(--ocre-100)">
+      <span class="pastille">Bientôt</span>
+      <h3>Carte de résident</h3>
+      <p class="doux petit">Pour une première demande de carte de résident de 10 ans (CR).</p>
+      <ul><li>Questions de la liste officielle</li><li>Mises en situation</li></ul>
+      <a href="#" class="btn btn-secondaire">Être prévenu</a>
+    </article>
+    <article class="carte parcours" style="--c:var(--prune-700);--cf:var(--prune-100)">
+      <span class="pastille">Bientôt</span>
+      <h3>Naturalisation</h3>
+      <p class="doux petit">Pour une demande de nationalité française.</p>
+      <ul><li>Programme de l'examen</li><li>Mises en situation</li></ul>
+      <a href="#" class="btn btn-secondaire">Être prévenu</a>
+    </article>
+  </div>
+</div></section>
+
+<!-- QCM -->
+<section style="background:var(--blanc);border-top:1px solid var(--ligne);border-bottom:1px solid var(--ligne)"><div class="conteneur">
+  <span class="sur-titre">L'entraînement</span>
+  <h2 style="margin-top:8px">Une question à la fois, sans distraction</h2>
+  <div class="demo">
+    <div class="telephone"><div class="ecran">
+      <div class="ecran-haut">
+        <div class="ecran-ligne">
+          <span class="doux">Question <strong style="color:var(--encre)">12</strong> sur 40</span>
+          <span class="chrono"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6"/></svg>31:42</span>
+        </div>
+        <div class="trace" aria-hidden="true">
+          <span class="fait" style="width:30%"></span>
+          <i class="ok" style="left:0"></i><i class="ok" style="left:25%"></i><i style="left:50%"></i><i style="left:75%"></i><i style="left:100%"></i>
+        </div>
+      </div>
+      <div class="ecran-corps">
+        <div class="etiquettes"><span class="etiquette et-officielle">Question officielle</span><span class="etiquette" style="background:var(--papier);color:var(--encre-doux)">Principes et valeurs</span></div>
+        <p class="enonce">Quelle est la devise de la République française ?</p>
+        <div class="props" role="radiogroup" aria-label="Propositions">
+          <button class="prop"><b>A</b>Liberté, Sécurité, Justice</button>
+          <button class="prop choisie" aria-checked="true" role="radio"><b>B</b>Liberté, Égalité, Fraternité</button>
+          <button class="prop"><b>C</b>Unité, Travail, Progrès</button>
+          <button class="prop"><b>D</b>Paix, Travail, Patrie</button>
+        </div>
+        <p class="source"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg>Source : liste officielle · vérifiée le 31/10/2026</p>
+      </div>
+      <div class="ecran-bas"><a href="#" class="btn btn-principal">Valider ma réponse</a></div>
+    </div></div>
+
+    <div class="etats">
+      <div class="correction bonne">
+        <p class="titre"><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#2E7A62"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Bonne réponse</p>
+        <p>La devise de la République est <strong>Liberté, Égalité, Fraternité</strong>. Elle est écrite dans la Constitution, à l'article 2. On la voit sur les mairies et les écoles.</p>
+        <div class="liens"><a href="#" class="btn btn-principal">Question suivante</a><a href="#" class="btn btn-discret">Ajouter aux favoris</a></div>
+      </div>
+      <div class="correction erreur">
+        <p class="titre"><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#B4442C"/><path d="M12 7v6M12 16.5v.5" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></svg>Ce n'est pas la bonne réponse</p>
+        <p>La bonne réponse est <strong>1958</strong>. La Constitution de la Ve République a été adoptée par référendum le 28 septembre 1958. 1946, c'est la IVe République.</p>
+        <p class="source"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/></svg>Source : Conseil constitutionnel · vérifiée le 31/10/2026</p>
+        <div class="liens"><a href="#" class="btn btn-secondaire">Revoir la fiche « Institutions »</a><a href="#" class="btn btn-discret">Question suivante</a></div>
+      </div>
+      <div class="carte" style="display:grid;gap:8px">
+        <div class="etiquettes"><span class="etiquette et-situation">Mise en situation · rédigée par Repère</span></div>
+        <p style="font-weight:700">Les mises en situation ont leur propre étiquette, pour ne jamais les confondre avec les questions officielles.</p>
+        <p class="doux petit">Les mises en situation de l'examen ne sont pas publiques : les nôtres sont des exemples rédigés par notre équipe.</p>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<!-- Résultat -->
+<section><div class="conteneur">
+  <span class="sur-titre">Résultat d'un examen blanc</span>
+  <div class="carte" style="margin-top:16px;max-width:860px">
+    <div class="resultat">
+      <div class="score" role="img" aria-label="34 bonnes réponses sur 40"><div><strong>34</strong><span class="doux petit">sur 40</span></div></div>
+      <div>
+        <h2>Seuil atteint</h2>
+        <p class="doux">Le seuil est de 32 bonnes réponses sur 40. Continuez à réviser le thème « Histoire et géographie ».</p>
+        <div class="themes">
+          <div class="theme"><span>Principes et valeurs</span><span class="doux">10/11</span><div class="barre"><span style="width:91%"></span></div></div>
+          <div class="theme"><span>Institutions</span><span class="doux">6/6</span><div class="barre"><span style="width:100%"></span></div></div>
+          <div class="theme"><span>Histoire et géographie</span><span class="doux">3/6</span><div class="barre"><span class="faible" style="width:50%"></span></div></div>
+        </div>
+      </div>
+    </div>
+    <p class="rappel">C'est un entraînement. Seul l'examen officiel donne l'attestation de réussite.</p>
+  </div>
+</div></section>
+
+<!-- Offres -->
+<section style="background:var(--blanc);border-top:1px solid var(--ligne)"><div class="conteneur">
+  <span class="sur-titre">Tarifs</span>
+  <h2 style="margin-top:8px">Un prix clair, payé une seule fois</h2>
+  <div class="offres">
+    <article class="carte offre">
+      <h3>Gratuit <span class="provisoire">provisoire</span></h3>
+      <p class="prix">0 €</p>
+      <ul>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7A62" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>1 examen blanc complet</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7A62" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>10 questions par thème, avec correction</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7A62" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>Sans inscription</li>
+      </ul>
+      <a href="#" class="btn btn-secondaire">Commencer</a>
+    </article>
+    <article class="carte offre mise-en-avant">
+      <h3>Pass 3 mois <span class="provisoire">provisoire</span></h3>
+      <p class="prix">19 € <small>TTC · paiement unique</small></p>
+      <ul>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7A62" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>Examens blancs illimités</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7A62" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>Toutes les mises en situation</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7A62" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg>Révision de vos erreurs et suivi par thème</li>
+      </ul>
+      <p class="petit doux"><strong style="color:var(--encre)">Pas de renouvellement automatique.</strong> L'accès s'arrête seul au bout de 3 mois.</p>
+      <a href="#" class="btn btn-principal">Choisir le pass 3 mois</a>
+    </article>
+  </div>
+</div></section>
+
+<!-- Pied de page -->
+<footer class="pied"><div class="conteneur">
+  <div class="independance">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F8EBCF" stroke-width="2" aria-hidden="true" style="flex:none"><circle cx="12" cy="12" r="10"/><path d="M12 11v6M12 7.5v.5" stroke-linecap="round" stroke-width="2.4"/></svg>
+    <p><strong>Repère est une plateforme indépendante.</strong> Elle n'a aucun lien avec l'administration française. Pour savoir si vous devez passer l'examen, consultez <a href="#">service-public.gouv.fr</a>.</p>
+  </div>
+  <div class="liens"><a href="#">Mentions légales</a><a href="#">CGU</a><a href="#">CGV</a><a href="#">Confidentialité</a><a href="#">Cookies</a><a href="#">Contact</a></div>
+</div></footer>
+
+<!-- Système -->
+<section class="systeme"><div class="conteneur">
+  <span class="sur-titre">Système de design</span>
+  <h2 style="margin-top:8px">Couleurs</h2>
+  <div class="nuancier">
+    <div class="nuance"><div style="background:#1B2B34"></div><p><strong>Encre</strong><br>#1B2B34 · texte</p></div>
+    <div class="nuance"><div style="background:#55626A"></div><p><strong>Encre douce</strong><br>#55626A · secondaire</p></div>
+    <div class="nuance"><div style="background:#FAF7F0"></div><p><strong>Papier</strong><br>#FAF7F0 · fond</p></div>
+    <div class="nuance"><div style="background:#E4DED1"></div><p><strong>Ligne</strong><br>#E4DED1 · bordures</p></div>
+    <div class="nuance"><div style="background:#1F5E4B"></div><p><strong>Sapin 700</strong><br>#1F5E4B · principal, CSP</p></div>
+    <div class="nuance"><div style="background:#2E7A62"></div><p><strong>Sapin 500</strong><br>#2E7A62 · tracé, réussite</p></div>
+    <div class="nuance"><div style="background:#EEF5F1"></div><p><strong>Sapin 50</strong><br>#EEF5F1 · fonds</p></div>
+    <div class="nuance"><div style="background:#C98A1B"></div><p><strong>Ocre 500</strong><br>#C98A1B · accent, CR</p></div>
+    <div class="nuance"><div style="background:#F8EBCF"></div><p><strong>Ocre 100</strong><br>#F8EBCF · surlignage</p></div>
+    <div class="nuance"><div style="background:#6B3A5B"></div><p><strong>Prune 700</strong><br>#6B3A5B · naturalisation</p></div>
+    <div class="nuance"><div style="background:#B4442C"></div><p><strong>Brique 700</strong><br>#B4442C · erreur</p></div>
+    <div class="nuance"><div style="background:#F8E3DD"></div><p><strong>Brique 100</strong><br>#F8E3DD · fond erreur</p></div>
+  </div>
+
+  <div class="specimen">
+    <div class="carte">
+      <p class="sur-titre">Titres · Fraunces 600</p>
+      <p style="font:600 2.4rem/1.1 var(--titre);margin-top:10px">Étape par étape</p>
+      <p style="font:600 1.45rem/1.2 var(--titre)">Une serif chaleureuse et sérieuse</p>
+    </div>
+    <div class="carte">
+      <p class="sur-titre">Texte · Atkinson Hyperlegible 18 px</p>
+      <p style="margin-top:10px">Conçue pour distinguer les lettres qui se ressemblent : Il1 · O0 · rn m.</p>
+      <p class="doux">Phrases courtes. Mots simples. Un message par phrase.</p>
+      <div class="actions" style="margin:16px 0 0"><a href="#" class="btn btn-principal">Principal</a><a href="#" class="btn btn-secondaire">Secondaire</a></div>
+    </div>
+  </div>
+</div></section>
+
+</body>
+</html>

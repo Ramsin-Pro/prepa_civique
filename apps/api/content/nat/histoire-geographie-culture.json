@@ -1,0 +1,1039 @@
+{
+  "topic": "histoire-geographie-culture",
+  "questions": [
+    {
+      "reference": "NAT-HG-001",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Parmi ces textes, lequel a été adopté sous Napoléon Ier ?",
+      "answers": [
+        "Le Code civil",
+        "Le Code du travail",
+        "Le Code de la route",
+        "Le Code de l’éducation"
+      ],
+      "explanation": "Le Code civil réunit les grandes règles de la vie privée : la famille, le mariage, la propriété, les contrats. Il est promulgué (rendu officiel) le 21 mars 1804 par Napoléon Bonaparte, alors Premier consul, c’est-à-dire chef de l’État ; deux mois plus tard, il devient l’empereur Napoléon Ier. On l’appelle aussi « Code Napoléon ». Le Code du travail, le Code de la route et le Code de l’éducation sont beaucoup plus récents.",
+      "answerSource": {
+        "label": "Sénat, « Bicentenaire du Code civil : l’élaboration » (loi du 30 ventôse an XII, 21 mars 1804)",
+        "url": "https://www.senat.fr/connaitre-le-senat/lhistoire-du-senat/dossiers-dhistoire/bicentenaire-du-code-civil/bicentenaire-du-code-civil-lelaboration.html"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Le Code civil est promulgué le 21 mars 1804 par Bonaparte, Premier consul ; l’Empire n’est proclamé que le 18 mai 1804. « Sous Napoléon Ier » est donc pris au sens large, comme dans le référentiel de l’examen (arrêté du 10 octobre 2025, annexe I : « l’empire de Napoléon et la création du Code civil »). Si un distracteur est changé, ne pas proposer le Code pénal (1810), le Code de commerce (1807) ou le Code de procédure civile (1806), adoptés sous l’Empire."
+    },
+    {
+      "reference": "NAT-HG-002",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Qui a été président de la Ve République ?",
+      "answers": [
+        "Jacques Chirac",
+        "Jean Jaurès",
+        "Léon Blum",
+        "Georges Clemenceau"
+      ],
+      "explanation": "Jacques Chirac a été président de la République de 1995 à 2007, sous la Ve République. La Ve République commence en 1958 : son premier président est Charles de Gaulle. Jean Jaurès, Léon Blum et Georges Clemenceau sont des hommes politiques importants d’avant 1958, mais ils n’ont jamais été présidents de la République.",
+      "answerSource": {
+        "label": "Élysée, « Jacques Chirac » (président de la République de 1995 à 2007)",
+        "url": "https://www.elysee.fr/jacques-chirac"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-HG-003",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quel est l'objectif des lois scolaires de la IIIe République ?",
+      "answers": [
+        "Rendre l’école primaire gratuite, obligatoire et laïque",
+        "Rendre les cours de religion obligatoires dans toutes les écoles",
+        "Réserver l’école primaire aux enfants des familles riches",
+        "Confier toutes les écoles publiques à l’Église catholique"
+      ],
+      "explanation": "Sous la IIIe République, les lois de Jules Ferry rendent l’école primaire publique gratuite en 1881, puis obligatoire et laïque en 1882. L’instruction devient obligatoire pour tous les enfants de 6 à 13 ans, filles et garçons. Le but est d’instruire tout le peuple et d’installer durablement la République.",
+      "answerSource": {
+        "label": "Sénat, « Jules Ferry : politique scolaire »",
+        "url": "https://www.senat.fr/connaitre-le-senat/lhistoire-du-senat/dossiers-dhistoire/jules-ferry-le-president-du-senat-au-mandat-le-plus-court/jules-ferry-politique-scolaire.html"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-HG-004",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Que signifie la date du 14 juillet pour les Français ?",
+      "answers": [
+        "La fête nationale, qui rappelle la prise de la Bastille",
+        "La fête du Travail, qui rappelle les luttes des ouvriers",
+        "La victoire de 1945, qui rappelle la fin de la guerre",
+        "L’armistice de 1918, qui rappelle la fin des combats"
+      ],
+      "explanation": "Le 14 juillet est la fête nationale de la France depuis une loi de 1880. Cette date rappelle la prise de la Bastille par le peuple de Paris, le 14 juillet 1789, au début de la Révolution. Elle rappelle aussi la fête de la Fédération, le 14 juillet 1790, qui célébrait l’unité de tous les Français. C’est un jour férié.",
+      "answerSource": {
+        "label": "Élysée, « La fête nationale du 14 juillet »",
+        "url": "https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-HG-005",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Lequel de ces pays est un pays fondateur de l'Union Européenne ?",
+      "answers": [
+        "L’Italie",
+        "La Suède",
+        "La Pologne",
+        "L’Autriche"
+      ],
+      "explanation": "Six pays ont fondé la construction européenne : l’Allemagne, la Belgique, la France, l’Italie, le Luxembourg et les Pays-Bas. Ils créent ensemble la CECA (Communauté européenne du charbon et de l’acier) en 1951, puis la Communauté économique européenne (CEE) en 1957, à l’origine de l’Union européenne. La Suède, l’Autriche et la Pologne sont entrées plus tard dans l’Union européenne.",
+      "answerSource": {
+        "label": "Union européenne, « Histoire de l’Union européenne – 1945-1959 » (les six pays fondateurs)",
+        "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1945-59_fr"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "« Pays fondateur » est compris comme l’un des six pays fondateurs de la construction européenne (CECA en 1951, CEE en 1957). L’Union européenne elle-même naît en 1992 avec douze pays (dont l’Espagne, le Danemark ou le Royaume-Uni) : les distracteurs choisis sont tous entrés après 1992 (Suède et Autriche en 1995, Pologne en 2004) pour éviter toute ambiguïté."
+    },
+    {
+      "reference": "NAT-HG-006",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Simone Veil est une figure importante de l'histoire française. Elle a notamment :",
+      "answers": [
+        "fait adopter la loi de 1975 qui autorise l’avortement (IVG)",
+        "fait adopter la loi de 1981 qui abolit la peine de mort",
+        "fait adopter la loi de 1905 qui sépare les Églises et l’État",
+        "fait adopter la loi de 1882 qui rend l’école obligatoire"
+      ],
+      "explanation": "Simone Veil (1927-2017) est déportée en 1944, à 16 ans, au camp nazi d’Auschwitz-Birkenau, et elle survit à la Shoah. Ministre de la Santé, elle présente et fait adopter la loi du 17 janvier 1975 sur l’interruption volontaire de grossesse (IVG), c’est-à-dire l’avortement. En 1979, elle devient la première présidente du Parlement européen élu par les citoyens. Elle repose au Panthéon depuis 2018.",
+      "answerSource": {
+        "label": "Assemblée nationale, « Simone Veil (1927-2017), un parcours d’engagement » et « La légalisation de l’avortement » (cinquantenaire de la loi Veil)",
+        "url": "https://www2.assemblee-nationale.fr/17/evenements/2024/cinquantenaire-de-la-loi-veil-relative-a-l-ivg/simone-veil-1927-2017-un-parcours-d-engagement"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-HG-007",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Dans quelle région est située une partie des plages du débarquement ayant permis d'engager la libération de la France ?",
+      "answers": [
+        "En Normandie",
+        "En Bretagne",
+        "En Nouvelle-Aquitaine",
+        "Dans les Hauts-de-France"
+      ],
+      "explanation": "Le 6 juin 1944, les armées alliées débarquent sur cinq plages de Normandie, comme Omaha Beach et Utah Beach. Des soldats américains, britanniques et canadiens y participent, avec des commandos français. Ce débarquement ouvre la voie à la libération de la France. Le 15 août 1944, un autre débarquement a lieu en Provence, au bord de la Méditerranée.",
+      "answerSource": {
+        "label": "Ministère des Armées, Chemins de mémoire, « Le débarquement de Normandie et l’opération Overlord »",
+        "url": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/seconde-guerre-mondiale/operations-militaires/1944-1945-5"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Le débarquement de Provence du 15 août 1944 (Chemins de mémoire, « 15 août 1944. Le débarquement de Provence ») a aussi eu lieu sur des plages françaises : Provence-Alpes-Côte d’Azur a donc été écartée des propositions."
+    },
+    {
+      "reference": "NAT-HG-008",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Dans quelle ville les rois de France étaient-ils couronnés ?",
+      "answers": [
+        "À Reims",
+        "À Versailles",
+        "À Fontainebleau",
+        "À Lyon"
+      ],
+      "explanation": "La plupart des rois de France sont sacrés, c’est-à-dire couronnés au cours d’une cérémonie religieuse, dans la cathédrale de Reims : 33 rois sur 37 à partir de 1027. Le dernier sacre a lieu à Reims en 1825, pour le roi Charles X. Versailles et Fontainebleau sont des châteaux où les rois ont vécu.",
+      "answerSource": {
+        "label": "Ministère de la Culture, Histoire des arts, « Le Palais du Tau dans son environnement » (Centre des monuments nationaux)",
+        "url": "https://histoiredesarts.culture.gouv.fr/Toutes-les-ressources/Centre-des-monuments-nationaux-CMN/Le-Palais-du-Tau-dans-son-environnement"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Quelques rois ont été sacrés ailleurs (par exemple Louis VI à Orléans et Henri IV à Chartres) ; Paris et Saint-Denis ont aussi accueilli des sacres : ces villes ont été écartées des propositions. Dernier sacre à Reims (Charles X, 29 mai 1825) : BnF Essentiels, « Sacre de Charles X dans la cathédrale de Reims le 29 Mai 1825 »."
+    },
+    {
+      "reference": "NAT-HG-009",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quel roi de France a été guillotiné pendant la Révolution française ?",
+      "answers": [
+        "Louis XVI",
+        "Louis XIV",
+        "Louis XV",
+        "Henri IV"
+      ],
+      "explanation": "Louis XVI est roi de France quand la Révolution commence, en 1789. En 1792, la monarchie tombe et la République est proclamée ; le roi est ensuite jugé par les révolutionnaires. Louis XVI est guillotiné à Paris le 21 janvier 1793. Louis XIV et Louis XV ont régné avant la Révolution, et Henri IV a été assassiné en 1610.",
+      "answerSource": {
+        "label": "Château de Versailles, « Louis XVI »",
+        "url": "https://www.chateauversailles.fr/decouvrir/histoire/grands-personnages/louis-xvi"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-HG-010",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quel pays a été une colonie française ?",
+      "answers": [
+        "Le Sénégal",
+        "Le Ghana",
+        "Le Nigeria",
+        "Le Kenya"
+      ],
+      "explanation": "Le Sénégal a été une colonie française : au XIXe siècle, on parle de « la colonie du Sénégal ». En 1902, Dakar devient la capitale de l’Afrique-Occidentale française (AOF), un ensemble de colonies françaises d’Afrique de l’Ouest. Le Sénégal devient indépendant en 1960, comme beaucoup d’anciennes colonies françaises d’Afrique. Le Ghana, le Nigeria et le Kenya ont été des colonies britanniques.",
+      "answerSource": {
+        "label": "FranceArchives (ministère de la Culture), « Fondation de Dakar – 25 mai 1857 » (Recueil des commémorations nationales 2007)",
+        "url": "https://francearchives.gouv.fr/pages_histoire/38706"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Indépendance : 20 juin 1960 dans le cadre de la Fédération du Mali, puis 20 août 1960 seul (Archives diplomatiques, notice « Afrique / Sénégal », https://archivesdiplomatiques.diplomatie.gouv.fr/ark:/14366/5jfsg3w6z48h) : l’explication dit seulement « en 1960 ». Même pays que la question CR-HG-007 (« Quel pays a été colonisé par la France ? »). La page FranceArchives ne s’affiche qu’avec JavaScript (consultée dans un navigateur le 31/10/2026)."
+    },
+    {
+      "reference": "NAT-HG-011",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "En quelle année l'Union européenne a-t-elle été fondée?",
+      "answers": [
+        "1992",
+        "1957",
+        "1945",
+        "2002"
+      ],
+      "explanation": "L’Union européenne (UE) naît avec le traité de Maastricht, signé le 7 février 1992 par douze pays, dont la France. Ce traité entre en vigueur le 1er novembre 1993. L’UE prolonge la Communauté économique européenne (CEE), créée en 1957 par six pays.",
+      "answerSource": {
+        "label": "Arrêté du 10 octobre 2025 relatif au programme de l’examen civique, annexe I (référentiel) : « naissance de l’Union européenne (1992) »",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052381620"
+      },
+      "difficulty": 3,
+      "confidence": "medium",
+      "reviewNote": "Le référentiel de l’examen date la naissance de l’UE de 1992, année de la signature du traité de Maastricht. Le site de l’Union européenne (« Histoire de l’Union européenne – 1990-1999 », https://european-union.europa.eu/principles-countries-history/history-eu/1990-99_fr) écrit que l’UE est « officiellement créée » à l’entrée en vigueur du traité, le 1er novembre 1993 : 1993 a donc été écarté des propositions. Réponse cohérente avec l’énoncé commun CR/NAT sur la signature du traité de Maastricht."
+    },
+    {
+      "reference": "NAT-HG-012",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quand a eu lieu la Seconde guerre mondiale ?",
+      "answers": [
+        "De 1939 à 1945",
+        "De 1914 à 1918",
+        "De 1870 à 1871",
+        "De 1954 à 1962"
+      ],
+      "explanation": "La Seconde Guerre mondiale commence en septembre 1939 en Europe. L’Allemagne nazie capitule (elle accepte sa défaite) le 8 mai 1945 : ce jour est férié en France. La guerre se termine le 2 septembre 1945, quand le Japon capitule à son tour.",
+      "answerSource": {
+        "label": "Ministère des Armées, Chemins de mémoire, « La Seconde Guerre mondiale »",
+        "url": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/seconde-guerre-mondiale"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Propositions, explication et source reprises de la question CSP-HG-008 (énoncé CSP « Quand a eu lieu la Seconde Guerre mondiale ? », avec une majuscule à « Guerre »)."
+    },
+    {
+      "reference": "NAT-HG-013",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quand a eu lieu la Première guerre mondiale ?",
+      "answers": [
+        "De 1914 à 1918",
+        "De 1939 à 1945",
+        "De 1870 à 1871",
+        "De 1954 à 1962"
+      ],
+      "explanation": "La Première Guerre mondiale commence en août 1914. Les combats s’arrêtent avec l’armistice du 11 novembre 1918 : ce jour est férié en France. On appelle aussi cette guerre la « Grande Guerre ».",
+      "answerSource": {
+        "label": "Ministère des Armées, Chemins de mémoire, « La Première Guerre mondiale »",
+        "url": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/premiere-guerre-mondiale"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Propositions, explication et source reprises de la question CSP-HG-009 (énoncé CSP « Quand a eu lieu la Première Guerre mondiale ? », avec une majuscule à « Guerre »)."
+    },
+    {
+      "reference": "NAT-HG-014",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Sous quel président a été abolie la peine de mort en France ?",
+      "answers": [
+        "François Mitterrand",
+        "Charles de Gaulle",
+        "Georges Pompidou",
+        "Valéry Giscard d’Estaing"
+      ],
+      "explanation": "La peine de mort est abolie par la loi du 9 octobre 1981, signée par le président de la République François Mitterrand. Le ministre de la Justice, Robert Badinter, avait demandé aux députés de voter cette abolition. Depuis, aucun tribunal français ne peut condamner une personne à mort.",
+      "answerSource": {
+        "label": "Loi n° 81-908 du 9 octobre 1981 portant abolition de la peine de mort (Légifrance) ; Assemblée nationale, séances des 17 et 18 septembre 1981",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000319513/"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Jacques Chirac a été écarté des propositions : l’interdiction de la peine de mort a été inscrite dans la Constitution sous son mandat (article 66-1, 2007). Mêmes propositions que la question CR-HG-010."
+    },
+    {
+      "reference": "NAT-HG-015",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Que célèbre-t-on le 8 mai ?",
+      "answers": [
+        "La victoire des Alliés en Europe, en 1945",
+        "La fin de la Première Guerre mondiale, en 1918",
+        "La libération de Paris, en 1944",
+        "La prise de la Bastille, en 1789"
+      ],
+      "explanation": "Le 8 mai 1945, l’Allemagne nazie capitule : elle accepte sa défaite. C’est la victoire des Alliés et la fin de la Seconde Guerre mondiale en Europe. Le 8 mai est un jour férié en France, appelé « Victoire 1945 » ; des cérémonies ont lieu devant les monuments aux morts.",
+      "answerSource": {
+        "label": "Ministère des Armées, Chemins de mémoire, « La Seconde Guerre mondiale » ; Service-public.gouv.fr, « Jours fériés et ponts dans le secteur privé » (fiche F2405)",
+        "url": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/seconde-guerre-mondiale"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-HG-016",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Depuis quand l'esclavage a-t-il été aboli en France ?",
+      "answers": [
+        "Depuis 1848",
+        "Depuis 1789",
+        "Depuis 1905",
+        "Depuis 1958"
+      ],
+      "explanation": "L’esclavage est aboli une première fois le 4 février 1794, pendant la Révolution, mais il est rétabli en 1802, sous Napoléon Bonaparte. Il est aboli définitivement par le décret du 27 avril 1848. Depuis la loi Taubira de 2001, la France reconnaît la traite négrière et l’esclavage comme des crimes contre l’humanité.",
+      "answerSource": {
+        "label": "Assemblée nationale, « Abolition de l’esclavage (1794 et 1848) »",
+        "url": "https://www2.assemblee-nationale.fr/14/evenements/2016/abolition-de-l-esclavage-1794-et-1848"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "1794 (première abolition, révoquée en 1802) a été écarté des propositions pour éviter un piège ; voir aussi CSP-HG-013."
+    },
+    {
+      "reference": "NAT-HG-017",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Qui a aboli l'esclavage en France ?",
+      "answers": [
+        "Victor Schœlcher",
+        "Robert Badinter",
+        "Jules Ferry",
+        "Napoléon Bonaparte"
+      ],
+      "explanation": "Victor Schœlcher (1804-1893) est un homme politique engagé contre l’esclavage. En 1848, il dirige le groupe de travail qui prépare le décret (une décision du gouvernement) du 27 avril 1848 : l’esclavage est aboli définitivement dans les colonies françaises. Il repose au Panthéon depuis 1949. Napoléon Bonaparte, au contraire, avait rétabli l’esclavage en 1802, et Robert Badinter a fait abolir la peine de mort en 1981.",
+      "answerSource": {
+        "label": "Sénat, « Victor Schoelcher (1804-1893) - Biographie »",
+        "url": "https://www.senat.fr/connaitre-le-senat/evenements-et-manifestations-culturelles/victor-schoelcher-1804-1893-une-vie-un-siecle-lesclavage-dhier-a-aujourdhui/victor-schoelcher-1804-1893-biographie.html"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Le décret du 27 avril 1848 est pris par le Gouvernement provisoire ; Schœlcher, sous-secrétaire d’État à la Marine, préside la commission qui le prépare (Sénat). La première abolition, en 1794, est votée par la Convention : aucune proposition ne s’y rapporte."
+    },
+    {
+      "reference": "NAT-HG-018",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quelle organisation a été créée en 1945 après la Seconde Guerre mondiale ?",
+      "answers": [
+        "L’Organisation des Nations unies (ONU)",
+        "L’Union européenne (UE)",
+        "L’Organisation du traité de l’Atlantique Nord (OTAN)",
+        "La Société des Nations (SDN)"
+      ],
+      "explanation": "L’Organisation des Nations unies (ONU) est créée en 1945, à la fin de la Seconde Guerre mondiale : sa Charte est signée le 26 juin 1945 à San Francisco. Son but principal est de maintenir la paix et la sécurité dans le monde. La France est l’un des cinq membres permanents de son Conseil de sécurité. La Société des Nations avait été créée après la Première Guerre mondiale.",
+      "answerSource": {
+        "label": "Nations unies, « L’histoire des Nations Unies »",
+        "url": "https://www.un.org/fr/about-us/history-of-the-un"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-HG-019",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "En quelle année l'euro est-il devenu la monnaie officielle de la France ?",
+      "answers": [
+        "2002",
+        "1958",
+        "1992",
+        "2012"
+      ],
+      "explanation": "Le 1er janvier 2002, les pièces et les billets en euros arrivent en France et remplacent le franc. L’euro existait déjà depuis le 1er janvier 1999, mais seulement pour les comptes et les paiements électroniques. C’est donc en 2002 que l’euro devient la monnaie de tous les jours des Français.",
+      "answerSource": {
+        "label": "Banque centrale européenne, « Notre monnaie » (euro créé le 1er janvier 1999, billets et pièces le 1er janvier 2002) ; arrêté du 10 octobre 2025, annexe I : « naissance [...] de l’euro (2002) »",
+        "url": "https://www.ecb.europa.eu/euro/intro/html/index.fr.html"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Le référentiel de l’examen (arrêté du 10 octobre 2025, annexe I) date la naissance de l’euro de 2002. Mais selon la BCE, l’euro est devenu la monnaie de la zone euro dès le 1er janvier 1999, sous une forme « invisible » (comptes, paiements électroniques) : avec le mot « officielle » de l’énoncé, 1999 pourrait se défendre, il a donc été écarté des propositions. Confirmer que 2002 est bien la réponse attendue (même choix que CR-HG-016)."
+    },
+    {
+      "reference": "NAT-HG-020",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Lors de la seconde guerre mondiale, à quelle date la ville de Paris a-t-elle été libérée ?",
+      "answers": [
+        "Le 25 août 1944",
+        "Le 6 juin 1944",
+        "Le 8 mai 1945",
+        "Le 18 juin 1940"
+      ],
+      "explanation": "Paris est libéré le 25 août 1944, après plusieurs jours de combats entre les résistants et l’armée allemande. Ce jour-là, les soldats et les chars de la 2e division blindée du général Leclerc entrent dans Paris, et le général allemand qui commande la ville signe la capitulation : ses soldats arrêtent de se battre. Le général de Gaulle arrive à Paris le même jour. Le 6 juin 1944 est le jour du débarquement en Normandie.",
+      "answerSource": {
+        "label": "Ministère des Armées, Chemins de mémoire, « Août 1944. La libération de Paris »",
+        "url": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/seconde-guerre-mondiale/operations-militaires/1944-23"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Le début du soulèvement est daté différemment selon les sources (ordre d’insurrection lancé le 18 août selon Chemins de mémoire, combats à partir du 19 août ailleurs) : l’explication ne donne pas cette date."
+    },
+    {
+      "reference": "NAT-HG-021",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quel était le principal port français impliqué dans la traite négrière au XVIIIe siècle ?",
+      "answers": [
+        "Nantes",
+        "Marseille",
+        "Brest",
+        "Toulon"
+      ],
+      "explanation": "Au XVIIIe siècle, Nantes est le premier port français de la traite négrière : le commerce d’Africains réduits en esclavage et transportés de force vers les colonies d’Amérique. Entre 1707 et 1793, plus de 42 % des expéditions françaises de traite partent de Nantes. D’autres ports, comme Bordeaux et La Rochelle, y participent aussi. Aujourd’hui, le Mémorial de l’abolition de l’esclavage, à Nantes, rappelle cette histoire.",
+      "answerSource": {
+        "label": "Château des ducs de Bretagne – Musée d’histoire de Nantes, « La traite atlantique et l’esclavage colonial à Nantes »",
+        "url": "https://www.chateaunantes.fr/thematiques/la-traite-atlantique-et-l-esclavage-colonial/"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Source : musée municipal (musée de France) ; pas de page nationale équivalente trouvée. Bordeaux, La Rochelle et Le Havre, autres ports de traite, ont été écartés des propositions ; Marseille, Brest et Toulon n’ont eu qu’un rôle très faible ou nul dans la traite."
+    },
+    {
+      "reference": "NAT-HG-022",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quel célèbre philosophe des Lumières a dénoncé l'esclavage ?",
+      "answers": [
+        "Montesquieu",
+        "Descartes",
+        "Pascal",
+        "Sartre"
+      ],
+      "explanation": "Les Lumières sont un mouvement d’idées du XVIIIe siècle qui défend la raison, la liberté et l’égalité. En 1748, dans De l’esprit des lois, Montesquieu se moque avec ironie des arguments des défenseurs de l’esclavage. Voltaire, autre philosophe des Lumières, a aussi dénoncé l’esclavage. Descartes et Pascal ont vécu au XVIIe siècle, et Sartre au XXe siècle.",
+      "answerSource": {
+        "label": "BnF Essentiels, « De l’esclavage des nègres » (Montesquieu, De l’esprit des lois, 1748, livre XV, chapitre 5)",
+        "url": "https://essentiels.bnf.fr/fr/extrait/66d4fd49-2f7a-46e0-9711-6a62704480ea-esclavage-negres"
+      },
+      "difficulty": 3,
+      "confidence": "high",
+      "reviewNote": "Plusieurs philosophes des Lumières ont critiqué l’esclavage (Montesquieu, Voltaire, Condorcet…) : les distracteurs sont donc des philosophes d’autres siècles. Si un distracteur est changé, ne proposer ni Voltaire, ni Rousseau, ni Diderot, ni Condorcet."
+    },
+    {
+      "reference": "NAT-HG-023",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Quelle œuvre a été écrite par Victor Hugo ?",
+      "answers": [
+        "Les Misérables",
+        "Le Rouge et le Noir",
+        "Madame Bovary",
+        "Germinal"
+      ],
+      "explanation": "Victor Hugo (1802-1885) a écrit Les Misérables, un grand roman publié en 1862. Il raconte l’histoire de Jean Valjean, un ancien prisonnier, et montre la misère du peuple. Le Rouge et le Noir est un roman de Stendhal, Madame Bovary de Gustave Flaubert et Germinal d’Émile Zola.",
+      "answerSource": {
+        "label": "Académie française, « Victor Hugo »",
+        "url": "https://www.academie-francaise.fr/les-immortels/victor-hugo"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-HG-024",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Quel plat est une spécialité de la cuisine française ?",
+      "answers": [
+        "Le bœuf bourguignon",
+        "Le canard laqué",
+        "Le chili con carne",
+        "Le poulet tandoori"
+      ],
+      "explanation": "Le bœuf bourguignon est un plat traditionnel de Bourgogne : de la viande de bœuf cuite longtemps dans du vin rouge. C’est l’une des spécialités les plus connues de la cuisine française. Le canard laqué est un plat chinois, le chili con carne un plat né au Texas, aux États-Unis, et le poulet tandoori un plat indien.",
+      "answerSource": {
+        "label": "France.fr (Atout France), « Le bœuf bourguignon revisité par le chef Thomas Dossi »",
+        "url": "https://www.france.fr/fr/article/recette-boeuf-bourguignon/"
+      },
+      "difficulty": 1,
+      "confidence": "medium",
+      "reviewNote": "Source : site touristique officiel de la France (Atout France), qui présente le bœuf bourguignon comme « l’une des spécialités culinaires les plus emblématiques de France » ; une source institutionnelle (ministère de la Culture ou de l’Agriculture) serait préférable. Les trois autres plats sont étrangers sans ambiguïté."
+    },
+    {
+      "reference": "NAT-HG-025",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Qui était Marie Curie ?",
+      "answers": [
+        "Une scientifique qui a reçu deux prix Nobel",
+        "Une philosophe qui a écrit Le Deuxième Sexe",
+        "Une ministre qui a fait voter la loi sur l’IVG",
+        "Une chanteuse qui a chanté La Vie en rose"
+      ],
+      "explanation": "Marie Curie (1867-1934) est une scientifique née à Varsovie, en Pologne, qui a fait ses recherches en France. Avec son mari Pierre Curie, elle découvre en 1898 deux éléments radioactifs, le polonium et le radium. Elle reçoit le prix Nobel de physique en 1903, puis le prix Nobel de chimie en 1911. En 1995, elle devient la première femme à entrer au Panthéon pour ses propres mérites.",
+      "answerSource": {
+        "label": "Ministère de la Culture (DRAC Île-de-France), « Exposition “Marie Curie, une femme au Panthéon” »",
+        "url": "https://www.culture.gouv.fr/regions/drac-ile-de-france/actualites/actualite-a-la-une/Exposition-Marie-Curie-une-femme-au-Pantheon"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Notion choisie : periodes-et-personnages-historiques (scientifique) ; patrimoine-francais serait aussi possible. Les distracteurs décrivent Simone de Beauvoir, Simone Veil et Édith Piaf, d’autres Françaises célèbres."
+    },
+    {
+      "reference": "NAT-HG-026",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Qui a peint \"La liberté guidant le peuple\" ?",
+      "answers": [
+        "Eugène Delacroix",
+        "Jacques-Louis David",
+        "Claude Monet",
+        "Paul Cézanne"
+      ],
+      "explanation": "La Liberté guidant le peuple est un tableau d’Eugène Delacroix (1798-1863), peint en 1830. Il montre les combats de juillet 1830 à Paris : une femme qui représente la Liberté guide le peuple avec le drapeau tricolore. Le tableau est exposé au musée du Louvre.",
+      "answerSource": {
+        "label": "Musée du Louvre, collections, « Le 28 juillet 1830. La Liberté guidant le peuple »",
+        "url": "https://collections.louvre.fr/ark:/53355/cl010065872"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-HG-027",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Dans quel grand musée parisien est exposée la Joconde ?",
+      "answers": [
+        "Au musée du Louvre",
+        "Au musée d’Orsay",
+        "Au Centre Pompidou",
+        "Au musée de l’Orangerie"
+      ],
+      "explanation": "La Joconde est un tableau du peintre italien Léonard de Vinci, commencé vers 1503. Le roi de France François Ier l’a très probablement acheté en 1518. Elle est exposée au musée du Louvre, à Paris, dans une grande salle qui lui est réservée.",
+      "answerSource": {
+        "label": "Musée du Louvre, collections, « Portrait de Lisa Gherardini, épouse de Francesco del Giocondo, dit La Joconde ou Monna Lisa »",
+        "url": "https://collections.louvre.fr/ark:/53355/cl010062370"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-HG-028",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Quel château célèbre se trouve près de Paris et symbolise le pouvoir royal de Louis XIV ?",
+      "answers": [
+        "Le château de Versailles",
+        "Le château de Chambord",
+        "Le château de Chenonceau",
+        "Le château du Haut-Kœnigsbourg"
+      ],
+      "explanation": "Le château de Versailles se trouve près de Paris. Louis XIV le fait agrandir et s’y installe avec la Cour le 6 mai 1682 ; de là, il dirige tout le royaume. La galerie des Glaces, construite à partir de 1678, est un grand symbole de la puissance du roi. Chambord et Chenonceau sont dans la vallée de la Loire, et le Haut-Kœnigsbourg en Alsace.",
+      "answerSource": {
+        "label": "Château de Versailles, « Louis XIV »",
+        "url": "https://www.chateauversailles.fr/decouvrir/histoire/grands-personnages/louis-xiv"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-HG-029",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Où peut-on voir des peintures préhistoriques en France ?",
+      "answers": [
+        "À Lascaux, en Dordogne",
+        "À Carcassonne, dans l’Aude",
+        "À Chambord, dans le Loir-et-Cher",
+        "À Versailles, dans les Yvelines"
+      ],
+      "explanation": "La grotte de Lascaux, en Dordogne, est couverte de peintures d’animaux faites il y a plus de 20 000 ans. Elle a été découverte en 1940 par quatre adolescents. Pour protéger les peintures, la grotte originale est fermée au public depuis 1963 : on visite des copies très fidèles, comme Lascaux IV, à Montignac. Carcassonne, Chambord et Versailles sont célèbres pour des monuments beaucoup plus récents.",
+      "answerSource": {
+        "label": "Ministère de la Culture, « La grotte de Lascaux » (site Archéologie)",
+        "url": "https://archeologie.culture.gouv.fr/lascaux/fr"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "La grotte originale est fermée au public depuis 1963 (site officiel de Lascaux IV, https://lascaux.fr/fr/histoire-de-lascaux/) : on y voit aujourd’hui des répliques. « À Lascaux » reste la réponse attendue ; aucune grotte ornée encore visitable (Font-de-Gaume, Niaux, Pech Merle, grotte des Merveilles à Rocamadour…) n’est proposée. Âge : « il y a 21 000 ans » selon le ministère de la Culture, d’où « plus de 20 000 ans »."
+    },
+    {
+      "reference": "NAT-HG-030",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Quel peintre célèbre a peint les Nymphéas ?",
+      "answers": [
+        "Claude Monet",
+        "Eugène Delacroix",
+        "Paul Cézanne",
+        "Henri Matisse"
+      ],
+      "explanation": "Claude Monet (1840-1926) est un peintre impressionniste français. À Giverny, en Normandie, il peint pendant de longues années les nymphéas (des fleurs qui poussent sur l’eau) du bassin de son jardin. Huit grands tableaux des Nymphéas sont installés au musée de l’Orangerie, à Paris, en 1927.",
+      "answerSource": {
+        "label": "Musée de l’Orangerie, « Les Nymphéas de Claude Monet »",
+        "url": "https://www.musee-orangerie.fr/fr/collection/les-nympheas-de-claude-monet"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-HG-031",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Pendant quelles journées peut-on visiter gratuitement des lieux culturels en France ?",
+      "answers": [
+        "Pendant les Journées européennes du patrimoine",
+        "Pendant les soldes d’hiver et d’été",
+        "Pendant les vacances scolaires de Noël",
+        "Pendant la semaine de la rentrée scolaire"
+      ],
+      "explanation": "Chaque année, en septembre, les Journées européennes du patrimoine permettent de découvrir des milliers de lieux : monuments, musées, ministères… Les visites sont gratuites ou à prix réduit, et des lieux habituellement fermés au public ouvrent leurs portes. Ces journées ont été créées en France en 1984 par le ministère de la Culture.",
+      "answerSource": {
+        "label": "Ministère de la Culture, site des Journées européennes du patrimoine : « Espace organisateurs » (visites « gratuites ou proposées à des tarifs préférentiels ») et « Les Journées Européennes du Patrimoine : des rendez-vous exceptionnels avec le patrimoine »",
+        "url": "https://journeesdupatrimoine.culture.gouv.fr/espace-organisateurs"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Toutes les visites ne sont pas gratuites : les conditions de participation demandent des visites « gratuites ou proposées à des tarifs préférentiels ». D’autres occasions de gratuité existent (certains jours dans certains musées, Nuit européenne des musées) : aucune n’est proposée. Prochaine édition annoncée les 18 et 19 septembre 2027 (FAQ du site officiel, vue le 31/10/2026). Question proche de CR-HG-038."
+    },
+    {
+      "reference": "NAT-HG-032",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Que symbolise le 1er mai ?",
+      "answers": [
+        "La fête du Travail",
+        "La fête nationale",
+        "La fête des Mères",
+        "La fête de la Musique"
+      ],
+      "explanation": "Le 1er mai est la fête du Travail, appelée aussi Journée internationale des travailleurs. En 1889, des partis ouvriers réunis à Paris choisissent cette date pour une journée de lutte en faveur de la journée de travail de huit heures. Aujourd’hui, c’est un jour férié, et on offre souvent un brin de muguet, une petite fleur blanche.",
+      "answerSource": {
+        "label": "Sénat, rapport n° 776 (2024-2025) sur la proposition de loi visant à permettre aux salariés de certains établissements et services de travailler le 1er mai (historique du 1er mai) ; Service-public.gouv.fr, fiche F2405",
+        "url": "https://www.senat.fr/rap/l24-776/l24-776_mono.html"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Service-public.gouv.fr (fiche F2405, vérifiée le 01/01/2026) nomme ce jour « Journée internationale des travailleurs » dans le calendrier 2026 et « Fête du Travail » en 2027. Une proposition de loi (Sénat, 2025) vise à permettre à certains salariés de travailler le 1er mai : l’explication ne parle donc pas du caractère « chômé » de ce jour. La fête des Mères a lieu fin mai ou début juin."
+    },
+    {
+      "reference": "NAT-HG-033",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Qui était Monsieur Rouget de Lisle ?",
+      "answers": [
+        "Un officier qui a écrit et composé La Marseillaise",
+        "Un peintre qui a peint La Liberté guidant le peuple",
+        "Un ministre qui a rendu l’école gratuite et obligatoire",
+        "Un général qui a lancé l’appel du 18 juin 1940"
+      ],
+      "explanation": "Claude Joseph Rouget de Lisle (1760-1836) est un officier de l’armée française. En avril 1792, à Strasbourg, il écrit et compose un chant pour les soldats : le « Chant de guerre pour l’armée du Rhin ». Des soldats volontaires venus de Marseille le chantent à Paris en 1792 : il prend alors le nom de « La Marseillaise ». C’est l’hymne national de la France, inscrit dans la Constitution de 1958.",
+      "answerSource": {
+        "label": "Élysée, « La Marseillaise de Rouget de Lisle »",
+        "url": "https://www.elysee.fr/la-presidence/la-marseillaise-de-rouget-de-lisle"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Les distracteurs décrivent Eugène Delacroix, Jules Ferry et Charles de Gaulle."
+    },
+    {
+      "reference": "NAT-HG-034",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "À quelle occasion a été construite la Tour Eiffel ?",
+      "answers": [
+        "Pour l’Exposition universelle de 1889",
+        "Pour les Jeux olympiques de 1924",
+        "Pour la fin de la guerre de 1914-1918",
+        "Pour le sacre de Napoléon Ier en 1804"
+      ],
+      "explanation": "La tour Eiffel a été construite par Gustave Eiffel pour l’Exposition universelle de 1889, à Paris. Cette grande exposition internationale célébrait aussi les 100 ans de la Révolution française. La tour n’a pas été détruite après l’exposition et elle est devenue le symbole de Paris. Elle mesure aujourd’hui 330 mètres.",
+      "answerSource": {
+        "label": "Ville de Paris, « Une nouvelle antenne pour la tour Eiffel… qui a grandi de 6 mètres en 2022 ! »",
+        "url": "https://www.paris.fr/pages/la-tour-eiffel-fete-ses-130-ans-6554"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Hauteur de 330 mètres depuis la nouvelle antenne de 2022 (paris.fr), comme dans CSP-HG-046 ; elle peut changer. « Le centenaire de la Révolution » n’est pas proposé comme distracteur, car l’Exposition de 1889 le célébrait aussi."
+    },
+    {
+      "reference": "NAT-HG-035",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Qui était un célèbre compositeur français ?",
+      "answers": [
+        "Claude Debussy",
+        "Wolfgang Amadeus Mozart",
+        "Ludwig van Beethoven",
+        "Giuseppe Verdi"
+      ],
+      "explanation": "Claude Debussy (1862-1918) est un compositeur et pianiste français. Il a écrit l’opéra Pelléas et Mélisande et le Prélude à l’après-midi d’un faune. D’autres compositeurs français sont célèbres, comme Maurice Ravel ou Georges Bizet. Mozart est autrichien, Beethoven allemand et Verdi italien.",
+      "answerSource": {
+        "label": "BnF Essentiels, « Claude Debussy »",
+        "url": "https://essentiels.bnf.fr/fr/mot-cle/01375db2-0b7d-4bf0-96ed-1ec5acf93519-claude-debussy"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "La question CR-HG-047 (« Qui était un célèbre musicien français ? ») a pour réponse Maurice Ravel : réponse différente ici pour varier."
+    },
+    {
+      "reference": "NAT-HG-036",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Quel monument historique se trouve sur une île en Normandie ?",
+      "answers": [
+        "Le Mont-Saint-Michel",
+        "Le château d’If",
+        "La cathédrale de Rouen",
+        "Le château de Chambord"
+      ],
+      "explanation": "Le Mont-Saint-Michel est une petite île rocheuse dans une baie de Normandie ; la mer l’entoure lors des grandes marées. À son sommet se trouve une abbaye du Moyen Âge, où des moines s’installent en 966. Le Mont-Saint-Michel et sa baie sont inscrits au patrimoine mondial de l’UNESCO depuis 1979. Le château d’If est sur une île près de Marseille, et la cathédrale de Rouen n’est pas sur une île.",
+      "answerSource": {
+        "label": "Centre des monuments nationaux, Abbaye du Mont-Saint-Michel, « Histoire du monument »",
+        "url": "https://www.abbaye-mont-saint-michel.fr/decouvrir/histoire-du-monument"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-HG-037",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle île fait partie des Antilles françaises ?",
+      "answers": [
+        "La Martinique",
+        "La Réunion",
+        "Tahiti",
+        "La Jamaïque"
+      ],
+      "explanation": "La Martinique est une île française des Petites Antilles, entre la mer des Caraïbes et l’océan Atlantique. Avec la Guadeloupe, Saint-Martin et Saint-Barthélemy, elle fait partie des Antilles françaises. La Réunion est dans l’océan Indien, Tahiti dans l’océan Pacifique, et la Jamaïque est un pays indépendant.",
+      "answerSource": {
+        "label": "Ministère des Outre-mer, « Martinique »",
+        "url": "https://www.outre-mer.gouv.fr/territoires/martinique"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Page du ministère des Outre-mer consultée dans un navigateur le 31/10/2026 (elle refuse les outils automatiques). Le statut institutionnel de la Martinique est en discussion depuis décembre 2025 : l’explication ne le mentionne pas."
+    },
+    {
+      "reference": "NAT-HG-038",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle île est française ?",
+      "answers": [
+        "La Corse",
+        "La Sardaigne",
+        "La Sicile",
+        "La Crète"
+      ],
+      "explanation": "La Corse est une île française de la mer Méditerranée. C’est une région de la France métropolitaine, avec deux départements : la Corse-du-Sud et la Haute-Corse. La Sardaigne et la Sicile sont des îles italiennes, et la Crète est une île grecque.",
+      "answerSource": {
+        "label": "Insee, « L’essentiel sur… la Corse » (octobre 2026)",
+        "url": "https://www.insee.fr/fr/statistiques/4481069"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-HG-039",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle est la plus haute montagne de France ?",
+      "answers": [
+        "Le mont Blanc",
+        "Le mont Ventoux",
+        "Le puy de Dôme",
+        "Le Canigou"
+      ],
+      "explanation": "Le mont Blanc est la plus haute montagne de France et des Alpes. Il se trouve en Haute-Savoie, à la frontière avec l’Italie. Sa hauteur change un peu selon la neige et la glace au sommet : en 2026, l’IGN l’a mesurée à environ 4 807 mètres. Le mont Ventoux, le puy de Dôme et le Canigou sont beaucoup moins hauts.",
+      "answerSource": {
+        "label": "IGN, « Altitude et pesanteur du mont Blanc : récit d’une mission au sommet » (14 octobre 2026)",
+        "url": "https://www.ign.fr/mag/altitude-et-pesanteur-du-mont-blanc-recit-dune-mission-au-sommet"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Altitude officielle de 4 807,47 m annoncée par l’IGN le 14/10/2026 (4 805,59 m en 2023) : elle change à chaque mesure, vérifier avant publication."
+    },
+    {
+      "reference": "NAT-HG-040",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle île française est située dans l'océan indien ?",
+      "answers": [
+        "La Réunion",
+        "La Martinique",
+        "La Corse",
+        "Tahiti"
+      ],
+      "explanation": "La Réunion est une île française du sud de l’océan Indien, entre Madagascar et l’île Maurice. C’est un département et une région d’outre-mer, comme Mayotte, qui se trouve aussi dans l’océan Indien. La Martinique est dans la mer des Caraïbes, la Corse dans la mer Méditerranée et Tahiti dans l’océan Pacifique.",
+      "answerSource": {
+        "label": "Ministère des Outre-mer, « La Réunion »",
+        "url": "https://www.outre-mer.gouv.fr/territoires/la-reunion"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Mayotte, l’autre île française habitée de l’océan Indien, n’est pas proposée. Mêmes propositions que CR-HG-027 (« Quelle île française se trouve dans l’océan Indien ? »). Page du ministère consultée dans un navigateur le 31/10/2026."
+    },
+    {
+      "reference": "NAT-HG-041",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quel département français a une frontière avec le Brésil ?",
+      "answers": [
+        "La Guyane",
+        "La Martinique",
+        "La Guadeloupe",
+        "La Réunion"
+      ],
+      "explanation": "La Guyane est un territoire français situé au nord-est de l’Amérique du Sud, entre le Suriname et le Brésil. C’est le seul département et région d’outre-mer qui a une frontière terrestre avec d’autres pays. La Martinique et la Guadeloupe sont des îles des Antilles, et La Réunion est une île de l’océan Indien.",
+      "answerSource": {
+        "label": "Ministère des Outre-mer, « Guyane »",
+        "url": "https://www.outre-mer.gouv.fr/territoires/guyane"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "La Guyane est une collectivité unique depuis 2015, qui exerce les compétences d’un département et d’une région ; une évolution de son statut est en discussion (ministère des Outre-mer) : revérifier le mot « département » avant publication. Page consultée dans un navigateur le 31/10/2026."
+    },
+    {
+      "reference": "NAT-HG-042",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "De quelle ville française décolle la fusée Ariane ?",
+      "answers": [
+        "De Kourou, en Guyane",
+        "De Toulouse, en Occitanie",
+        "De Bordeaux, en Nouvelle-Aquitaine",
+        "De Brest, en Bretagne"
+      ],
+      "explanation": "Les fusées Ariane décollent du Centre spatial guyanais, à Kourou, en Guyane. Cette base est presque sur l’équateur : la rotation de la Terre donne de la vitesse aux fusées, ce qui économise du carburant. Toutes les fusées européennes y décollent depuis Ariane 1, en 1979. Toulouse est une grande ville de l’industrie spatiale, mais les fusées n’y décollent pas.",
+      "answerSource": {
+        "label": "CNES, « Le Centre Spatial Guyanais, une porte vers l’espace »",
+        "url": "https://cnes.fr/dossiers/centre-spatial-guyanais-une-porte-vers-lespace"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Le Centre spatial guyanais s’étend sur les communes de Kourou et de Sinnamary (CNES) : Sinnamary et Cayenne ne sont pas proposés."
+    },
+    {
+      "reference": "NAT-HG-043",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Qu'est-ce que la France d'outre-mer ?",
+      "answers": [
+        "Les territoires français situés hors d’Europe, comme La Réunion",
+        "Les anciennes colonies françaises devenues des pays indépendants",
+        "Les pays étrangers où beaucoup de personnes parlent français",
+        "Les régions de la France métropolitaine situées au bord de la mer"
+      ],
+      "explanation": "La France d’outre-mer regroupe les territoires français situés hors d’Europe, dans les océans ou sur d’autres continents. Il y a cinq départements et régions d’outre-mer (la Guadeloupe, la Martinique, la Guyane, La Réunion et Mayotte) et d’autres collectivités, comme la Polynésie française, Saint-Pierre-et-Miquelon ou la Nouvelle-Calédonie. Les anciennes colonies devenues indépendantes, comme le Sénégal, ne font plus partie de la France.",
+      "answerSource": {
+        "label": "Insee, définition « Départements, régions et collectivités d’outre-mer »",
+        "url": "https://www.insee.fr/fr/metadonnees/definition/c2316"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Propositions, explication et source reprises de la question CR-HG-025 (énoncé CR « Qu'est ce que la France d'outre-mer ? », sans trait d’union)."
+    },
+    {
+      "reference": "NAT-HG-044",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quel est le principal port maritime de France ?",
+      "answers": [
+        "Marseille",
+        "Bordeaux",
+        "Brest",
+        "Nice"
+      ],
+      "explanation": "Parmi ces villes, Marseille a de loin le plus grand port : 74 millions de tonnes de marchandises en 2025. C’est le premier port français pour le pétrole et le gaz, et pour les croisières. L’autre très grand port français est HAROPA (Le Havre, Rouen et Paris), premier pour les conteneurs, de grandes boîtes en métal qui servent à transporter les marchandises. Les ports de Bordeaux, Brest et Nice sont beaucoup plus petits.",
+      "answerSource": {
+        "label": "Ministère chargé de la Mer, « Acteurs, réseau et activités portuaires en France » (mis à jour le 30/04/2026) ; Port de Marseille Fos, chiffres clés 2025",
+        "url": "https://www.mer.gouv.fr/acteurs-reseau-et-activites-portuaires-en-france"
+      },
+      "difficulty": 2,
+      "confidence": "low",
+      "reviewNote": "Réponse discutable selon le critère. En 2025, HAROPA PORT (Le Havre, Rouen, Paris) annonce 84,7 millions de tonnes de trafic maritime (chiffre lu dans la presse, site d’HAROPA non ouvert), contre 74 millions pour Marseille-Fos (site du port) ; HAROPA est le premier port pour les conteneurs, Marseille pour les hydrocarbures et les croisières (mer.gouv.fr), et aucune source officielle ouverte ne désigne « le » premier port. Le Havre, Rouen et Dunkerque ont donc été écartés des propositions. Si l’équipe retient Le Havre comme réponse attendue, remplacer « Marseille » et adapter l’explication."
+    },
+    {
+      "reference": "NAT-HG-045",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle île française se trouve au sud-est du continent africain ?",
+      "answers": [
+        "La Réunion",
+        "Madagascar",
+        "L’île Maurice",
+        "La Martinique"
+      ],
+      "explanation": "La Réunion est une île française du sud de l’océan Indien, à l’est de Madagascar, au sud-est du continent africain. C’est un département et une région d’outre-mer. Madagascar et l’île Maurice sont des pays indépendants, et la Martinique est une île française de la mer des Caraïbes.",
+      "answerSource": {
+        "label": "Ministère des Outre-mer, « La Réunion »",
+        "url": "https://www.outre-mer.gouv.fr/territoires/la-reunion"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Mayotte, autre île française au sud-est de l’Afrique (dans le canal du Mozambique), n’est pas proposée."
+    },
+    {
+      "reference": "NAT-HG-046",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quel est le chef-lieu de la région Auvergne-Rhône-Alpes ?",
+      "answers": [
+        "Lyon",
+        "Clermont-Ferrand",
+        "Grenoble",
+        "Saint-Étienne"
+      ],
+      "explanation": "Depuis 2016, la région Auvergne-Rhône-Alpes réunit les anciennes régions Auvergne et Rhône-Alpes. Son chef-lieu, la ville où se trouve la préfecture de région, est Lyon. Clermont-Ferrand était le chef-lieu de l’ancienne région Auvergne ; Grenoble et Saint-Étienne sont d’autres grandes villes de la région.",
+      "answerSource": {
+        "label": "Décret n° 2016-1266 du 28 septembre 2016 portant fixation du nom et du chef-lieu de la région Auvergne-Rhône-Alpes, article 2",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033161457"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-HG-047",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quel est le chef-lieu de la région Bretagne ?",
+      "answers": [
+        "Rennes",
+        "Brest",
+        "Nantes",
+        "Quimper"
+      ],
+      "explanation": "Le chef-lieu de la région Bretagne est Rennes, la ville où se trouve la préfecture de région. Brest et Quimper sont d’autres villes de Bretagne. Nantes, ancienne capitale des ducs de Bretagne, est aujourd’hui le chef-lieu d’une autre région, les Pays de la Loire.",
+      "answerSource": {
+        "label": "Insee, Code officiel géographique au 1er janvier 2026, commune de Rennes (« Bretagne (53) dont le chef-lieu est la commune Rennes »)",
+        "url": "https://www.insee.fr/fr/metadonnees/geographie/commune/35238-rennes"
+      },
+      "difficulty": 3,
+      "confidence": "high",
+      "reviewNote": "Nantes, chef-lieu des Pays de la Loire (Insee, Code officiel géographique au 1er janvier 2026), est un piège fréquent."
+    },
+    {
+      "reference": "NAT-HG-048",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quel est le chef-lieu de la région Provence-Alpes-Côte d'Azur ?",
+      "answers": [
+        "Marseille",
+        "Nice",
+        "Toulon",
+        "Avignon"
+      ],
+      "explanation": "Le chef-lieu de la région Provence-Alpes-Côte d’Azur est Marseille, la ville où se trouve la préfecture de région. C’est la plus grande ville de la région et la deuxième ville de France. Nice, Toulon et Avignon sont d’autres grandes villes de la région.",
+      "answerSource": {
+        "label": "Insee, Code officiel géographique au 1er janvier 2026, commune de Marseille (« Provence-Alpes-Côte d’Azur (93) dont le chef-lieu est la commune Marseille »)",
+        "url": "https://www.insee.fr/fr/metadonnees/geographie/commune/13055-marseille"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Aix-en-Provence, ancienne capitale de la Provence, n’est pas proposée."
+    },
+    {
+      "reference": "NAT-HG-049",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quel est le 101ème département français depuis 2011 ?",
+      "answers": [
+        "Mayotte",
+        "La Réunion",
+        "La Guadeloupe",
+        "La Polynésie française"
+      ],
+      "explanation": "Mayotte est une île française de l’océan Indien, entre Madagascar et l’Afrique. En 2009, ses électeurs votent à plus de 95 % pour qu’elle devienne un département. Elle devient le 101e département français le 31 mars 2011. La Réunion et la Guadeloupe sont des départements depuis 1946, et la Polynésie française n’est pas un département.",
+      "answerSource": {
+        "label": "Sénat, rapport d’information n° 675 (2011-2012), « Mayotte : un nouveau département confronté à de lourds défis »",
+        "url": "https://www.senat.fr/rap/r11-675/r11-6750.html"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-HG-050",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle région française est réputée pour ses stations de ski ?",
+      "answers": [
+        "Auvergne-Rhône-Alpes",
+        "Bretagne",
+        "Normandie",
+        "Centre-Val de Loire"
+      ],
+      "explanation": "La région Auvergne-Rhône-Alpes comprend une grande partie des Alpes françaises, avec la Savoie, la Haute-Savoie et l’Isère. Elle regroupe près de la moitié des domaines skiables de France (48 %), avec des stations très connues comme Chamonix ou Courchevel. La Bretagne, la Normandie et le Centre-Val de Loire n’ont pas de hautes montagnes.",
+      "answerSource": {
+        "label": "Insee Flash Auvergne-Rhône-Alpes n° 168, « Auvergne-Rhône-Alpes, première région française pour les sports olympiques d’hiver » (6 février 2026)",
+        "url": "https://www.insee.fr/fr/statistiques/8730536"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Chiffre de 48 % des domaines skiables : Insee, février 2026. D’autres régions ont aussi des stations de ski (Provence-Alpes-Côte d’Azur, Occitanie, Nouvelle-Aquitaine, Grand Est, Bourgogne-Franche-Comté) : elles ont été écartées des propositions."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "abbaye",
+      "definition": "Ensemble de bâtiments, avec une église, où vivent des moines ou des religieuses."
+    },
+    {
+      "term": "Antilles",
+      "definition": "Ensemble d’îles de la mer des Caraïbes, entre l’Amérique du Nord et l’Amérique du Sud. Certaines sont françaises, d’autres sont des pays indépendants."
+    },
+    {
+      "term": "chef-lieu",
+      "definition": "Ville principale d’une région ou d’un département, où se trouvent les principaux services de l’État."
+    },
+    {
+      "term": "Code civil",
+      "definition": "Texte de loi qui réunit les grandes règles de la vie privée : la famille, le mariage, la propriété, les contrats."
+    },
+    {
+      "term": "Exposition universelle",
+      "definition": "Grande exposition internationale où de nombreux pays présentent leurs inventions, leurs techniques et leur culture."
+    },
+    {
+      "term": "guillotine",
+      "definition": "Machine qui coupait la tête des condamnés à mort. Elle a été utilisée en France de la Révolution jusqu’à l’abolition de la peine de mort, en 1981."
+    },
+    {
+      "term": "Lumières",
+      "definition": "Mouvement d’idées du XVIIIe siècle en Europe. Ses auteurs défendent la raison, la liberté et l’égalité, et critiquent l’injustice."
+    },
+    {
+      "term": "préhistorique",
+      "definition": "Qui date de la préhistoire, la très longue période de l’histoire humaine avant l’invention de l’écriture."
+    },
+    {
+      "term": "radioactif",
+      "definition": "Se dit d’une matière qui envoie naturellement une énergie invisible et dangereuse, appelée rayonnement. Le radium et l’uranium sont radioactifs."
+    },
+    {
+      "term": "sacre",
+      "definition": "Cérémonie religieuse au cours de laquelle un nouveau roi est couronné. Elle montre que son pouvoir vient de Dieu."
+    },
+    {
+      "term": "traite négrière",
+      "definition": "Commerce d’êtres humains : des Africains étaient achetés, puis transportés de force sur des bateaux vers les colonies d’Amérique, où ils étaient réduits en esclavage."
+    },
+    {
+      "term": "UNESCO",
+      "definition": "Organisation des Nations unies pour l’éducation, la science et la culture. Elle tient la liste du patrimoine mondial : des lieux exceptionnels que les pays s’engagent à protéger."
+    }
+  ]
+}

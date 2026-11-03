@@ -1,0 +1,5 @@
+url: http://localhost:3001/lexique
+name: Lexique des mots difficiles
+---
+- launchApp
+- assertVisible: "Les mots à connaître"

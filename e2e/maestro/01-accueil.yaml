@@ -1,0 +1,14 @@
+url: http://localhost:3001
+name: Accueil et accès à l'entraînement
+---
+- launchApp
+- assertVisible: "Préparez l’examen civique.*"
+- assertVisible: "Tester mes connaissances"
+- assertVisible: "Choisir mon parcours"
+- assertVisible: "Sans inscription pour commencer"
+- tapOn: "S’entraîner"
+- assertVisible: "Entraînez-vous à votre rythme"
+- assertVisible: "Mes révisions"
+- assertVisible: "Série mélangée"
+- openLink: http://localhost:3001/parcours
+- assertVisible: "Quelle démarche préparez-vous ?"

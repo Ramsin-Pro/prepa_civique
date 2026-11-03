@@ -1,0 +1,848 @@
+{
+  "liste": "Questions de connaissance de l’examen civique, mention carte de résident (CR)",
+  "source": {
+    "editeur": "Ministère de l’Intérieur",
+    "url": "https://formation-civique.interieur.gouv.fr/examen-civique/liste-officielle-des-questions-de-connaissance-cr/",
+    "licence": "Licence Ouverte Etalab 2.0 (mention générale du pied de page du site officiel, relevée sur la copie archivée du 16/10/2026)",
+    "releve": "Énoncés relevés le 31/10/2026 sur la copie de la page officielle archivée par Internet Archive le 16/10/2026 (https://web.archive.org/web/20261016044252/https://formation-civique.interieur.gouv.fr/examen-civique/liste-officielle-des-questions-de-connaissance-cr/), le site officiel répondant ce jour-là par une erreur 503 aux accès automatiques. Cette copie est identique, énoncé par énoncé et thème par thème, à celles des 20/12/2025, 24/01/2026 et 11/04/2026. Chacun des 209 énoncés figure à l'identique, à l'apostrophe et aux espaces près, dans les quatre republications de data.gouv.fr déjà utilisées pour la CSP (examencivique.fr, LeTestCivique.fr, Recite, PrépaCivique.fr) ; contrôle complémentaire concordant avec Entrainementcivique.fr et reussir-mon-examen-civique.fr. Aucun énoncé écarté. Thèmes repris de la page officielle. Mise en forme : apostrophe droite, espaces insécables et espaces de fin d'énoncé normalisés. Vérification sur la page en ligne à prévoir.",
+    "nombre_enonces": 209
+  },
+  "enonces": [
+    {
+      "statement": "Parmi les propositions suivantes, laquelle constitue une participation citoyenne ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Que garantit la liberté d'expression ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "À quoi sert un titre de séjour ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "La liberté de circulation permet à toute personne de :",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Sur quel site internet peut-on retrouver le symbole de la République française ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Complétez ces paroles de la Marseillaise : \"Aux armes […] ! Formez vos bataillons\"",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Complétez les paroles de la Marseillaise : \"Allons enfants de la patrie […]\"",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "En application de la liberté individuelle, quelle proposition est correcte ? Une personne peut :",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Concernant la pratique de la religion, quelle proposition est correcte ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "En tant que parent, peut-on refuser que son enfant participe aux cours de sport à l'école car ils sont mixtes ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Quelle est la devise de la France ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "La répudiation de sa femme est :",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Les impôts permettent de financer les dépenses publiques. Quelle proposition est correcte ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Peut-on brûler publiquement un drapeau français ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Que fait l'État pour lutter contre les discriminations ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Que représente Marianne ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Qu'est-ce que la liberté d'association ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Qu'est-ce que la liberté ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Qu'est-ce que la Marseillaise ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Sur quel document peut-on voir Marianne ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Un employeur refuse d'embaucher des femmes dans son entreprise. Que dit la loi ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Une des valeurs de la devise républicaine est l'égalité. Qu'est-ce que cela signifie ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Quelle est la place de la langue française dans la République ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Quels sont des symboles officiels de la République française ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "A-t-on le droit d'insulter publiquement quelqu'un parce qu'il est différent (handicap, apparence physique, sexe…) ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Le régime de la France est :",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Pourquoi le principe de laïcité doit-il être respecté à l'école ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "En quelle année la loi de séparation des Églises et de l'Etat a-t-elle été votée ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Une personne a-t-elle le droit de ne pas croire en une religion ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Quel droit est garanti par la laïcité ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "À l'école publique, qui peut porter des signes religieux très visibles ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Selon le principe de laïcité, que signifie la neutralité de l'État ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Que peut faire un usager du service public dans une mairie ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Qui doit respecter le principe de neutralité religieuse dans une préfecture ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "La laïcité impose-t-elle aux agents publics d'être neutres vis-à-vis des usagers ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Que garantit le principe de laïcité ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "A-t-on le droit de changer de religion ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Que représente la laïcité ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Qu'est ce qui est interdit par la Charte de la laïcité à l'école ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Que dit l'article 1er de la Constitution française ?",
+      "topic": "principes-et-valeurs"
+    },
+    {
+      "statement": "Qu'est-ce que l'État de droit ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Le président de la République a commis un crime. Quelle proposition est correcte ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "La loi est l'expression de :",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Quelle est la durée du mandat du conseil municipal et du maire ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Que garantit l'État de droit ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Une personne peut-elle voter à la place d'une autre ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Est-ce que le vote est obligatoire ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "À la fin de son mandat, le président de la République peut-il décider de rester au pouvoir ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Qui dirige l'action du Gouvernement ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Qui nomme le Premier ministre ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Quelle est l'organisation administrative de la France ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Qu'est-ce que le pouvoir législatif ? Le pouvoir :",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Pourquoi séparer les trois pouvoirs dans une démocratie ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Qui sanctionne l'auteur d'un vol ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Quel est le rôle du gouvernement ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Combien de députés composent l'Assemblée nationale ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Qui peut voter aux élections en France ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Pour combien de temps sont élus les sénateurs ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Est-ce que le président de la République a tous les pouvoirs ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Qui est le préfet ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Quelle condition est nécessaire pour voter aux élections ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Qui dirige la commune ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Quel est le régime politique de la France aujourd'hui ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Qu'est-ce que l'Hôtel de Matignon ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Le Parlement est composé :",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Quel est le rôle du président de la République ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Quel est le rôle du Premier ministre ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Qui est le chef du Gouvernement ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Combien y a-t-il de régions en France ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Quel est le rôle du Défenseur des droits ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Depuis quand l'euro est-elle la monnaie unique ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Quel est le rôle principal du département ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Quel est le rôle principal des communes ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Combien de communes environ existe-t-il en France ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Quel traité concerne la construction de l'Union européenne ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Quel État a quitté l'Union européenne en 2020 ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Quelle est la devise de l'Union européenne ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Quel est l'hymne de l'Union européenne ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "De quoi est composé le drapeau européen ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "De quelle couleur est le drapeau européen ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "En quelle année le traité de Maastricht, qui marque la fondation de l'Union européenne, a-t-il été signé ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Où est le siège du Parlement européen ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Où est le siège de la Commission européenne ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Quel État n'est pas membre de l'Union européenne ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Quand célèbre-t-on la journée de l'Europe ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "À quelle fréquence les élections européennes sont-elles organisées ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Quelle condition est nécessaire pour voter aux élections européennes ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "Quel pays est un pays fondateur de l'Union européenne ?",
+      "topic": "institutions"
+    },
+    {
+      "statement": "À quelle liberté la PMA fait-elle référence ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Au nom de quoi l'État justifie-t-il la restriction des droits ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Concernant le droit de se marier, quelle proposition est correcte ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Est-il toujours possible de divorcer ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "La peine de mort est :",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Laquelle de ces citations est inscrite dans la Déclaration des Droits de l'homme et du Citoyen de 1789 ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Le recours à l'avortement est-il autorisé ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Que contient la Constitution ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Que garantit la liberté de la presse ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Que prévoit la Charte de l'environnement ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Que signifie la dignité humaine ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Que signifie le droit de manifester ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Que signifie PMA ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Quel texte est le plus difficile à modifier ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Quelle liberté permet à une personne de croire en la religion de son choix ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Qu'est-ce que le droit de grève ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Qu'est-ce que la Constitution ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Qui peut demander à avorter ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Une femme majeure de nationalité française a-t-elle le droit de voter aux élections ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Concernant l'utilisation des réseaux sociaux, quelle proposition est correcte ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Jeter un mégot par terre est :",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "L'État peut-il limiter les droits et libertés ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Parmi ces actions, laquelle permet d'adopter une attitude respectueuse de l'environnement ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Quelle proposition constitue une obligation ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Pour quel motif peut-on limiter la liberté d'expression ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Pourquoi doit-on trier ses déchets ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Que doit faire une victime de violences ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Que doit-on faire face aux ordres des policiers ou gendarmes ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Quel est le rôle de la police ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Quel est un exemple d'assistance à personne en danger ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Quel exemple illustre une limitation de liberté pour protéger l'intérêt général ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Quelle est l'attitude à avoir lorsque qu'on est témoin de violences ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Quelle est l'infraction la plus grave ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Quelle obligation concerne toutes les personnes résidant en France quelle que soit leur nationalité ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Quelle proposition représente un exemple de crime ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Quelle proposition représente un exemple de délit ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Qui veille au maintien de l'ordre public ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "S'agissant des déchets, quelle proposition est correcte ?",
+      "topic": "droits-et-devoirs"
+    },
+    {
+      "statement": "Quel était le surnom de Louis XIV ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quel roi de France a été exécuté pendant la Révolution française ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "En quelle année Napoléon Ier est-il devenu empereur ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Lequel de ces personnages a un lien avec la République française ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "De quand date l'appel à la résistance du général de Gaulle ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Pourquoi la Shoah est-elle étudiée à l'école ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quel pays a été colonisé par la France ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Depuis quand les Français élisent-ils le président de la République au suffrage universel direct ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quelle est la première étape de la construction européenne en 1951 ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Durant le mandat de quel président la peine de mort a-t-elle été abolie ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quel régime politique a été mis en place pendant la Révolution française en 1792 ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Qui était une figure de la Résistance française pendant la Seconde Guerre mondiale ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "En 1944, qu'est-ce qui a changé pour les femmes ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quelle organisation internationale a été créée en 1945 après la Seconde Guerre mondiale ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quelle peine a été supprimée en 1981 ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "En quelle année l'euro est-elle devenue la monnaie utilisée en France ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "En quelle année a commencé la Première Guerre mondiale ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Où a eu lieu le débarquement en 1944 ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quel continent a été le plus concerné par la décolonisation française après la Seconde Guerre mondiale ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Que fête-t-on le 8 mai ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quelle mer ou océan borde la France métropolitaine ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quel pays a une frontière terrestre avec la France métropolitaine ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quelle ville française est un port maritime ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quelle mer se situe entre la France et l'Angleterre ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Qu'est ce que la France d'outre-mer ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quelle chaîne de montagnes est située entre la France et l'Espagne ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quelle île française se trouve dans l'océan Indien ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quelle est la population approximative de la France en 2025 ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quel fleuve traverse Paris ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Lequel de ces pays partage des frontières terrestres avec la France ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quel pays a une frontière avec la France métropolitaine au nord-est ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Où se trouvent les principales activités économiques en France ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Parmi ces pays, lequel attire le plus de visiteurs chaque année ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Où habite la majorité des Français ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quelle région est la plus peuplée ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quelle ville française fait partie des 10 plus grandes métropoles du pays ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Lequel de ces départements de France est le plus touristique ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quand peut-on visiter gratuitement des lieux culturels en France ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Combien de personnes parlent français dans le monde ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Qui était Marguerite Yourcenar ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quel peintre est français ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quel musée est situé à Paris ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Qui était Auguste Rodin ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quel est le classement de la langue française parmi les langues les plus parlées dans le monde ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quelle cathédrale célèbre a été en partie détruite par un incendie en 2019 ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Qui était une écrivaine française célèbre ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Qui était un célèbre musicien français ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Qui était Auguste Renoir ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quelle fête est française ?",
+      "topic": "histoire-geographie-culture"
+    },
+    {
+      "statement": "Quel mariage est reconnu par l'État ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Auprès de quelle institution les parents peuvent-ils inscrire leur enfant à l'école publique ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "En cas de divorce, qui exerce l'autorité parentale ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Quelle aide permet aux personnes qui ont des difficultés financières d'avoir un avocat ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Où faut-il déclarer la naissance d'un enfant ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Quelle est l'une des conditions pour passer l'examen du permis de conduire ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Un bail locatif est valide s'il est :",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Où peut-on déposer un lave-vaisselle cassé ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Quel numéro d'urgence permet d'appeler la police ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Concernant l'accès aux soins, quelle proposition est correcte ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "À qui est accessible la contraception ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Qu'est-ce que le principe de confidentialité dans le domaine de la santé ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "L'inscription à l'Assurance maladie est :",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Qui peut demander un congé parental d'éducation ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Quelles sont les affaires traitées par le conseil de prud'hommes ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Travailler sans être déclaré est :",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Lorsqu'un employeur veut qu'un salarié travaille plus longtemps que la durée prévue dans le contrat de travail :",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Quelle est la mission de France Travail ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Dans une entreprise, le droit syndical permet :",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Dans une entreprise, le droit de grève autorise :",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Quelles sont les conditions pour toucher les allocations chômage ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Qu'est-ce que l'école maternelle ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Les parents d'élève ont le droit de :",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Qui peut manger à la cantine scolaire ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "À quel âge commence l'instruction obligatoire des enfants ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Quel est l'âge de la majorité ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "À l'école, il est interdit aux parents de :",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Quel motif d'absence est accepté par l'école ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Des parents ne respectent pas l'obligation d'instruction pour leurs enfants. Quelle sanction maximale risquent-ils ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "Quand ont lieu les vacances scolaires de Noël ?",
+      "topic": "vivre-en-france"
+    },
+    {
+      "statement": "À l'école, un enfant en situation de handicap :",
+      "topic": "vivre-en-france"
+    }
+  ]
+}

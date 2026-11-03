@@ -1,0 +1,683 @@
+{
+  "topic": "vivre-en-france",
+  "questions": [
+    {
+      "reference": "CR-VS-001",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "installation-et-sejour",
+      "statement": "Quel mariage est reconnu par l'État ?",
+      "answers": [
+        "Le mariage civil, célébré à la mairie",
+        "Le mariage religieux seul, sans passage à la mairie",
+        "Le mariage décidé par les familles, sans l'accord des époux",
+        "Le mariage signé chez un notaire, sans cérémonie"
+      ],
+      "explanation": "En France, seul le mariage civil est reconnu par la loi. Il est célébré à la mairie par le maire ou un adjoint, en présence des deux époux, qui doivent donner librement leur accord. Une cérémonie religieuse est possible, mais seulement après le mariage civil : seule, elle n'a pas de valeur pour la loi.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Mariage en France » ; Code pénal, article 433-21",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F930"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F930 vérifiée par service-public le 28/10/2026 ; article 433-21 du Code pénal (célébration religieuse sans mariage civil préalable) vérifié sur Légifrance le 31/10/2026. Un mariage célébré à l'étranger selon la loi du pays peut être reconnu en France, sous conditions : d'où la précision « sans passage à la mairie » dans la mauvaise réponse sur le mariage religieux. Mauvaise réponse « mariage célébré en famille, selon les traditions » remplacée : en Nouvelle-Calédonie, le mariage coutumier des personnes de statut civil coutumier a une valeur juridique (Constitution, article 75)."
+    },
+    {
+      "reference": "CR-VS-002",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Auprès de quelle institution les parents peuvent-ils inscrire leur enfant à l'école publique ?",
+      "answers": [
+        "À la mairie de leur commune",
+        "À la préfecture de leur département",
+        "À la caisse d'allocations familiales",
+        "Au commissariat de police du quartier"
+      ],
+      "explanation": "Pour l'école maternelle ou élémentaire publique, les parents inscrivent d'abord leur enfant à la mairie. La mairie leur donne un certificat d'inscription qui indique l'école. Ensuite, ils vont à l'école pour finir l'inscription, avec la preuve que l'enfant a reçu les vaccins obligatoires.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Inscription à l'école maternelle »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1864"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F1864 vérifiée par service-public le 06/11/2025 (« L'inscription se fait tout d'abord à la mairie et ensuite à l'école »). Pour le collège et le lycée, l'inscription se fait auprès de l'établissement : l'énoncé vise l'école."
+    },
+    {
+      "reference": "CR-VS-003",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "En cas de divorce, qui exerce l'autorité parentale ?",
+      "answers": [
+        "En principe, les deux parents, comme avant",
+        "Seulement la mère, dans tous les cas",
+        "Seulement le père, dans tous les cas",
+        "Seulement le parent chez qui vit l'enfant"
+      ],
+      "explanation": "Après un divorce ou une séparation, les deux parents gardent en principe l'autorité parentale : ils ont les mêmes droits et les mêmes devoirs envers l'enfant. Ils doivent prendre ensemble les décisions importantes, par exemple pour l'école ou la santé, même si l'enfant vit surtout chez l'un d'eux. Le juge aux affaires familiales peut la confier à un seul parent, mais seulement si l'intérêt de l'enfant l'exige.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Autorité parentale en cas de séparation des parents » ; Code civil, article 373-2",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3133"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fiche F3133 vérifiée par service-public le 20/06/2025 : la séparation est « sans incidence » sur l'exercice de l'autorité parentale ; le juge peut le confier à un seul parent, par exemple si l'autre se désintéresse de l'enfant."
+    },
+    {
+      "reference": "CR-VS-004",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "installation-et-sejour",
+      "statement": "Quelle aide permet aux personnes qui ont des difficultés financières d'avoir un avocat ?",
+      "answers": [
+        "L'aide juridictionnelle",
+        "L'aide personnalisée au logement",
+        "La prime d'activité",
+        "L'allocation de rentrée scolaire"
+      ],
+      "explanation": "L'aide juridictionnelle permet à l'État de payer tout ou une partie des frais d'avocat et de justice des personnes qui ont peu de ressources. Elle dépend des revenus et du patrimoine de la personne. Une personne étrangère qui vit habituellement en France peut aussi y avoir droit.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Aide juridictionnelle lors d'une procédure en France »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18074"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F18074 vérifiée par service-public le 12/06/2026 (un titre de séjour valide n'est pas exigé ; la condition de résidence ne s'applique pas dans certains cas, par exemple pour les mineurs). Plafonds de ressources non cités, car ils changent chaque année. Notion « installation-et-sejour » retenue (démarches du quotidien)."
+    },
+    {
+      "reference": "CR-VS-005",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "installation-et-sejour",
+      "statement": "Où faut-il déclarer la naissance d'un enfant ?",
+      "answers": [
+        "À la mairie du lieu de naissance",
+        "À la préfecture du département",
+        "À la caisse d'allocations familiales",
+        "Au commissariat de police"
+      ],
+      "explanation": "La naissance d'un enfant doit être déclarée à la mairie du lieu de naissance, dans les 5 jours qui suivent l'accouchement. Souvent, la maternité ou l'hôpital fait cette démarche pour les parents. Cette déclaration permet d'établir l'acte de naissance de l'enfant.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Déclaration de naissance » ; Code civil, article 55",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F961"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F961 vérifiée par service-public le 18/06/2026 : délai de 5 jours (8 jours dans certaines communes de Guyane). La maternité pouvant déclarer la naissance à la mairie, elle n'est pas proposée comme mauvaise réponse."
+    },
+    {
+      "reference": "CR-VS-006",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "installation-et-sejour",
+      "statement": "Quelle est l'une des conditions pour passer l'examen du permis de conduire ?",
+      "answers": [
+        "Avoir l'âge minimum fixé par la loi",
+        "Avoir la nationalité française",
+        "Avoir un emploi en France",
+        "Avoir un diplôme obtenu en France"
+      ],
+      "explanation": "Pour passer le permis de conduire, il faut avoir l'âge minimum fixé par la loi : par exemple, on peut s'inscrire à l'examen dès 16 ans et obtenir le permis B (voiture) à 17 ans. Il faut aussi réussir l'examen du code de la route. Une personne étrangère doit vivre en France depuis au moins 6 mois et, en général, avoir un titre de séjour valide. La nationalité française, un emploi ou un diplôme ne sont pas demandés.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Permis B : voiture ou camionnette »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2828"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Énoncé ouvert : plusieurs conditions existent (âge, code de la route, ASSR ou ASR avant 21 ans, 6 mois de résidence et titre de séjour pour une personne étrangère). Bonne réponse volontairement générale, car l'âge dépend de la catégorie et de l'étape : inscription dès 16 ans (15 ans en apprentissage anticipé), permis B à partir de 17 ans (fiche F2828 vérifiée le 26/05/2025). Si la réponse attendue est « 17 ans », l'explication la donne."
+    },
+    {
+      "reference": "CR-VS-007",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "installation-et-sejour",
+      "statement": "Un bail locatif est valide s'il est :",
+      "answers": [
+        "écrit et signé par le propriétaire et le locataire",
+        "signé seulement par le locataire, sans le propriétaire",
+        "approuvé par le maire de la commune du logement",
+        "enregistré au commissariat de police du quartier"
+      ],
+      "explanation": "Le bail est le contrat de location. Pour un logement, il doit être écrit, signé par le propriétaire et par le locataire, et fait en un exemplaire pour chacun. Il suit un modèle fixé par la loi et indique par exemple le montant du loyer. Il n'a pas besoin d'être validé par la mairie ou par la police.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Rédaction du bail d'habitation (contrat de location) - Logement vide »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35109/0_0?idFicheParent=F920"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Fiche vérifiée par service-public le 01/10/2026 (bail écrit, en autant d'exemplaires que de parties, conforme au modèle réglementaire). Nuance : selon l'ANIL (anil.org), une location verbale « reste valable » malgré l'obligation d'écrit, et chaque partie peut exiger un bail écrit. La bonne réponse décrit la règle normale : formulation à valider."
+    },
+    {
+      "reference": "CR-VS-008",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "installation-et-sejour",
+      "statement": "Où peut-on déposer un lave-vaisselle cassé ?",
+      "answers": [
+        "À la déchetterie la plus proche",
+        "Dans la poubelle des ordures ménagères",
+        "Dans le conteneur à verre du quartier",
+        "Sur le trottoir, à n'importe quel moment"
+      ],
+      "explanation": "Un gros appareil cassé, comme un lave-vaisselle, ne va pas dans la poubelle normale. On peut l'apporter à la déchetterie, où il sera trié et recyclé. Quand on achète un nouvel appareil, le vendeur doit aussi reprendre gratuitement l'ancien. Le laisser sur le trottoir en dehors de la collecte organisée par la mairie est interdit et puni d'une amende.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Encombrants (déchets volumineux) »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31954"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F31954 vérifiée par service-public le 10/04/2025 ; reprise gratuite par le vendeur : fiche DEEE « Gros équipement » vérifiée le 24/10/2025. La reprise par le vendeur et la collecte des encombrants (à date fixe ou sur rendez-vous, selon les communes) ne sont pas proposées comme mauvaises réponses. Montant des amendes volontairement non cité."
+    },
+    {
+      "reference": "CR-VS-009",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "acces-aux-soins",
+      "statement": "Quel numéro d'urgence permet d'appeler la police ?",
+      "answers": [
+        "Le 17",
+        "Le 15",
+        "Le 18",
+        "Le 119"
+      ],
+      "explanation": "Le 17 permet d'appeler la police ou la gendarmerie en cas d'urgence : agression, vol en cours ou accident de la route, par exemple. Le 15 sert à appeler le SAMU, le 18 les pompiers, et le 119 à signaler un enfant en danger. Le 112, numéro d'urgence européen, permet aussi de joindre les secours.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Quels sont les numéros en cas d'urgence (Samu, pompiers...) et les numéros d'écoute ? »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Numéros vérifiés le 31/10/2026 (fiche F33954 vérifiée le 25/08/2026). Le 112 et le 114, qui permettent aussi de joindre la police, ne sont pas proposés. Notion « acces-aux-soins » retenue comme pour la CSP : l'annexe I de l'arrêté du 10 octobre 2025 range les numéros d'urgence dans « L'accès aux soins »."
+    },
+    {
+      "reference": "CR-VS-010",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "acces-aux-soins",
+      "statement": "À qui est accessible la contraception ?",
+      "answers": [
+        "À toute personne qui le souhaite, même mineure",
+        "Seulement aux femmes mariées",
+        "Seulement aux personnes majeures",
+        "Seulement avec l'accord des parents ou du conjoint"
+      ],
+      "explanation": "En France, la contraception s'adresse aux femmes et aux hommes, mariés ou non. Une jeune fille mineure peut l'obtenir sans l'accord de ses parents, et le secret est respecté. Avant 26 ans, de nombreux moyens de contraception sont remboursés à 100 %.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Contraception »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F707"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fiche F707 vérifiée par service-public le 28/09/2026. Conditions de remboursement susceptibles de changer : à revérifier."
+    },
+    {
+      "reference": "CR-VS-011",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "acces-aux-soins",
+      "statement": "Qu'est-ce que le principe de confidentialité dans le domaine de la santé ?",
+      "answers": [
+        "Les soignants gardent secrètes les informations sur votre santé",
+        "Le médecin doit informer votre employeur de votre santé",
+        "Le médecin peut tout dire à votre famille, sans votre accord",
+        "Vous n'avez pas le droit de lire votre dossier médical"
+      ],
+      "explanation": "La confidentialité, c'est le secret médical : les médecins, infirmiers, pharmaciens et autres soignants gardent pour eux toutes les informations sur votre santé. Ils ne peuvent pas les donner à votre employeur ni à d'autres personnes, sauf exceptions prévues par la loi. Les soignants qui vous suivent peuvent échanger les informations utiles à vos soins, et vous pouvez demander à lire votre dossier médical.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Secret médical : de quoi s'agit-il ? »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34302"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F34302 vérifiée par service-public le 26/11/2025 ; accès du patient à son dossier : fiche F12210 vérifiée le 30/10/2026. En cas de diagnostic grave, les proches peuvent recevoir certaines informations pour soutenir le patient, sauf s'il s'y oppose : d'où « tout dire, sans votre accord » dans la mauvaise réponse."
+    },
+    {
+      "reference": "CR-VS-012",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "acces-aux-soins",
+      "statement": "L'inscription à l'Assurance maladie est :",
+      "answers": [
+        "obligatoire, pour que chacun soit protégé",
+        "réservée aux personnes de nationalité française",
+        "réservée aux personnes qui ont un emploi",
+        "possible seulement après 5 ans en France"
+      ],
+      "explanation": "En France, la loi dit que la prise en charge des frais de santé par la Sécurité sociale est « universelle, obligatoire et solidaire » (Code de la sécurité sociale, article L111-2-1). Un salarié est inscrit grâce à son travail ; une personne qui ne travaille pas peut l'être si elle vit en France de façon stable et régulière. Il n'est pas nécessaire d'être français ni d'avoir un emploi.",
+      "answerSource": {
+        "label": "Sécurité sociale (securite-sociale.fr), « Pourquoi l'affiliation à la Sécurité sociale est-elle obligatoire ? » ; Code de la sécurité sociale, article L111-2-1",
+        "url": "https://www.securite-sociale.fr/dossiers/pourquoi-laffiliation-a-la-securite-sociale-estelle-obligatoire"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Énoncé ambigu : la réponse attendue pourrait être « obligatoire » ou « gratuite » (l'inscription ne coûte rien). Nous avons retenu « obligatoire » (article L111-2-1 vérifié sur Légifrance le 31/10/2026 ; dossier securite-sociale.fr du 01/04/2019) : « gratuite » et « payante » ne sont donc pas proposées. Durée de résidence demandée à une personne sans activité (en général plus de 3 mois) à vérifier sur ameli.fr."
+    },
+    {
+      "reference": "CR-VS-013",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Qui peut demander un congé parental d'éducation ?",
+      "answers": [
+        "La mère ou le père salarié, avec au moins 1 an d'ancienneté",
+        "Seulement la mère, à la fin de son congé de maternité",
+        "Seulement le père, à la fin de son congé de paternité",
+        "Seulement les parents qui ont la nationalité française"
+      ],
+      "explanation": "Le congé parental d'éducation permet à un parent salarié d'arrêter de travailler, ou de travailler moins, pour s'occuper de son enfant après une naissance ou une adoption. Il est ouvert à la mère comme au père, si ce parent a au moins 1 an d'ancienneté dans l'entreprise. L'employeur ne peut pas le refuser si les conditions sont remplies. Le salaire n'est pas payé pendant ce congé, mais la CAF peut verser une aide, sous conditions.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Congé parental d'éducation à temps plein pour un salarié du secteur privé » ; Code du travail, article L1225-47",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2280"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fiche F2280 vérifiée par service-public le 01/06/2026 ; article L1225-47 (« tout salarié » justifiant d'un an d'ancienneté) vérifié sur Légifrance le 31/10/2026. À revérifier si les congés liés à la naissance sont réformés."
+    },
+    {
+      "reference": "CR-VS-014",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Quelles sont les affaires traitées par le conseil de prud'hommes ?",
+      "answers": [
+        "Les conflits entre un salarié et son employeur",
+        "Les conflits entre un locataire et son propriétaire",
+        "Les conflits entre une personne et l'administration",
+        "Les crimes les plus graves, comme le meurtre"
+      ],
+      "explanation": "Le conseil de prud'hommes est le tribunal des conflits entre un salarié et son employeur, pendant le contrat de travail ou à sa fin : salaire non payé ou licenciement contesté, par exemple. Il juge les conflits individuels du secteur privé, y compris pour les apprentis. Les conflits de logement ou avec l'administration, et les crimes, sont jugés par d'autres tribunaux.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Saisir le conseil de prud'hommes (CPH) »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2360"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fiche F2360 vérifiée par service-public le 03/03/2026. Les litiges liés à un contrat de droit public relèvent du tribunal administratif."
+    },
+    {
+      "reference": "CR-VS-015",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Travailler sans être déclaré est :",
+      "answers": [
+        "interdit et puni par la loi",
+        "autorisé si l'employeur et le salarié sont d'accord",
+        "autorisé si le salaire est payé en espèces",
+        "autorisé pendant la période d'essai"
+      ],
+      "explanation": "Travailler sans être déclaré, c'est du « travail dissimulé », qu'on appelle aussi « travail au noir » : c'est interdit par le Code du travail (article L8221-1). L'employeur qui ne déclare pas un salarié risque jusqu'à 3 ans de prison et 45 000 € d'amende. Une personne qui travaille à son compte sans déclarer son activité est aussi en infraction. L'accord du salarié, un paiement en espèces ou une période d'essai n'y changent rien.",
+      "answerSource": {
+        "label": "Code du travail, articles L8221-1 à L8224-1 (travail dissimulé)",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006160848/"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Articles vérifiés sur Légifrance le 31/10/2026 ; peine de l'article L8224-1 à revérifier si elle change. Énoncé proche de CSP-VS-006 (« Le travail non déclaré est : ») : propositions et explication rédigées différemment."
+    },
+    {
+      "reference": "CR-VS-016",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Lorsqu'un employeur veut qu'un salarié travaille plus longtemps que la durée prévue dans le contrat de travail :",
+      "answers": [
+        "ces heures doivent être mieux payées ou compensées par du repos",
+        "ces heures n'ont pas besoin d'être payées au salarié",
+        "ces heures sont payées par l'État et non par l'employeur",
+        "il doit d'abord obtenir l'accord écrit de France Travail"
+      ],
+      "explanation": "Pour un salarié à temps plein, les heures faites à la demande de l'employeur au-delà de la durée légale sont des heures supplémentaires. Elles sont payées plus cher : en général 25 % de plus de la 36e à la 43e heure de la semaine, puis 50 % de plus, sauf si un accord fixe un autre taux. Elles peuvent aussi être remplacées par un temps de repos. L'employeur ne peut pas faire travailler un salarié gratuitement.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Heures supplémentaires d'un salarié du secteur privé »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2391"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Fiche F2391 vérifiée par service-public le 08/06/2026 (majorations de 25 % puis 50 %, ou taux d'au moins 10 % fixé par accord ; repos compensateur de remplacement possible). Les salariés à temps partiel (heures complémentaires), les cadres dirigeants et les salariés au forfait en jours suivent d'autres règles, non détaillées. Formulation de la bonne réponse à valider."
+    },
+    {
+      "reference": "CR-VS-017",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Quelle est la mission de France Travail ?",
+      "answers": [
+        "Aider à trouver un emploi et verser les allocations chômage",
+        "Délivrer les titres de séjour aux travailleurs étrangers",
+        "Contrôler que les employeurs respectent le Code du travail",
+        "Rembourser les frais de santé des salariés"
+      ],
+      "explanation": "France Travail, l'ancien Pôle emploi, est un organisme public. Il accompagne les personnes qui cherchent un emploi ou une formation, et il verse les allocations chômage. Il aide aussi les entreprises qui veulent recruter. Les titres de séjour sont délivrés par la préfecture, et les frais de santé sont remboursés par l'Assurance maladie.",
+      "answerSource": {
+        "label": "Code du travail, article L5312-1 (missions de France Travail)",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053606086"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Article L5312-1 vérifié sur Légifrance le 31/10/2026 (version en vigueur depuis le 01/01/2025). France Travail contrôle la recherche d'emploi des demandeurs d'emploi, pas les employeurs : le contrôle des employeurs revient à l'inspection du travail."
+    },
+    {
+      "reference": "CR-VS-018",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Dans une entreprise, le droit syndical permet :",
+      "answers": [
+        "aux salariés d'adhérer librement au syndicat de leur choix",
+        "à l'employeur de choisir le syndicat de ses salariés",
+        "à l'employeur de refuser d'embaucher des syndiqués",
+        "aux salariés de ne plus respecter le règlement intérieur"
+      ],
+      "explanation": "Le droit syndical permet à chaque salarié d'adhérer librement au syndicat de son choix (Code du travail, article L2141-1). Un syndicat défend les droits et les intérêts des salariés. L'employeur n'a pas le droit de tenir compte de l'appartenance à un syndicat pour embaucher, payer ou licencier un salarié. Ce droit est garanti par le Préambule de la Constitution de 1946.",
+      "answerSource": {
+        "label": "Code du travail, articles L2141-1 à L2141-7 ; Préambule de la Constitution du 27 octobre 1946, alinéa 6",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006177917/"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Articles L2141-1, L2141-5 et L2141-7 vérifiés sur Légifrance le 31/10/2026 ; alinéa 6 du Préambule de 1946 vérifié sur conseil-constitutionnel.fr."
+    },
+    {
+      "reference": "CR-VS-019",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Dans une entreprise, le droit de grève autorise :",
+      "answers": [
+        "les salariés à arrêter ensemble le travail pour défendre leurs demandes",
+        "les salariés à être payés normalement pendant toute la durée de la grève",
+        "les salariés à abîmer le matériel et les locaux de l'entreprise",
+        "l'employeur à licencier tous les salariés qui ont fait grève"
+      ],
+      "explanation": "La grève est un arrêt collectif du travail pour défendre des revendications professionnelles, par exemple sur les salaires ou les conditions de travail. C'est un droit garanti par la Constitution. Un salarié ne peut pas être sanctionné ni licencié pour avoir fait grève, sauf faute lourde, comme abîmer le matériel. Pendant la grève, l'employeur ne paie pas le temps non travaillé.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Droit de grève d'un salarié du secteur privé » ; Préambule de la Constitution du 27 octobre 1946, alinéa 7",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F117"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fiche F117 vérifiée par service-public le 10/08/2026. Règles du secteur privé : la grève dans les services publics suit des règles particulières, non détaillées."
+    },
+    {
+      "reference": "CR-VS-020",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Quelles sont les conditions pour toucher les allocations chômage ?",
+      "answers": [
+        "Avoir perdu son emploi sans le vouloir et avoir assez travaillé",
+        "Avoir démissionné sans raison et ne plus vouloir travailler",
+        "Avoir la nationalité française et plus de 25 ans",
+        "Avoir travaillé au moins 10 ans dans la même entreprise"
+      ],
+      "explanation": "Pour toucher l'allocation chômage, il faut en général avoir perdu son emploi sans l'avoir choisi : licenciement, fin de CDD ou rupture conventionnelle, par exemple. Il faut aussi avoir assez travaillé avant (souvent au moins 6 mois sur les 2 dernières années), s'inscrire à France Travail, chercher activement un emploi et résider en France. Une démission donne droit au chômage seulement dans certains cas, dits « légitimes ».",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Allocation chômage d'aide au retour à l'emploi (ARE) d'un salarié du secteur privé dont la fin de contrat de travail intervient à compter du 1er avril 2025 »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F38881"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Fiche F38881 vérifiée par service-public le 23/07/2026 : 6 mois de travail (130 jours ou 910 heures) sur les 24 derniers mois, ou 36 mois à partir de 55 ans ; 5 mois pour certains primo-entrants depuis le 01/04/2026. Règles qui changent souvent : chiffres limités dans l'explication, à revérifier."
+    },
+    {
+      "reference": "CR-VS-021",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Qu'est-ce que l'école maternelle ?",
+      "answers": [
+        "L'école des enfants de 3 à 6 ans, avant le CP",
+        "Une crèche qui garde les bébés de quelques mois",
+        "L'école des enfants de 6 à 11 ans, du CP au CM2",
+        "Une école payante, que les familles choisissent ou non"
+      ],
+      "explanation": "L'école maternelle accueille les enfants de 3 à 6 ans, avant l'entrée au CP, à l'école élémentaire. Depuis 2019, l'instruction est obligatoire dès 3 ans : les parents doivent inscrire leur enfant à l'école maternelle, sauf s'ils ont l'autorisation de l'instruire en famille. L'école maternelle publique est gratuite.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Inscription à l'école maternelle » ; Code de l'éducation, article L131-1",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1864"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F1864 vérifiée par service-public le 06/11/2025 (inscription obligatoire dès 3 ans, gratuité dans le public, accueil possible dès 2 ans sous conditions) ; article L131-1 en vigueur depuis le 02/09/2019."
+    },
+    {
+      "reference": "CR-VS-022",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+      "answers": [
+        "Le brevet",
+        "Le baccalauréat",
+        "La licence",
+        "Le master"
+      ],
+      "explanation": "À la fin du collège, en classe de 3e, les élèves passent le diplôme national du brevet (DNB), qu'on appelle souvent « le brevet ». Le baccalauréat se passe à la fin du lycée. La licence et le master sont des diplômes de l'enseignement supérieur, par exemple de l'université.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Collège : diplôme national du brevet ou certificat de formation générale »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10005"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F10005 vérifiée par service-public le 28/09/2026. Les élèves de 3e Segpa ou Erea passent le certificat de formation générale (CFG) : non proposé. Les règles du brevet évoluent (nouvelle notation à partir de la session 2026, rôle du brevet pour l'entrée au lycée annoncé pour 2027) : à revérifier."
+    },
+    {
+      "reference": "CR-VS-023",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Les parents d'élève ont le droit de :",
+      "answers": [
+        "être informés régulièrement des résultats de leur enfant",
+        "choisir eux-mêmes les enseignants de leur enfant",
+        "assister aux cours de leur enfant quand ils le souhaitent",
+        "modifier les notes données par les enseignants"
+      ],
+      "explanation": "Les parents d'élèves doivent être informés régulièrement des résultats de leur enfant et du respect de ses obligations scolaires, par exemple avec le bulletin scolaire. Des rencontres avec les enseignants sont organisées au moins deux fois par an. Tous les parents peuvent aussi voter pour élire les représentants des parents d'élèves, quelle que soit leur nationalité. En revanche, ils ne choisissent pas les enseignants et ne changent pas les notes.",
+      "answerSource": {
+        "label": "Code de l'éducation, articles D111-1 à D111-5 (les parents d'élèves)",
+        "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006182457"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Énoncé ouvert : les parents ont plusieurs droits. Bonne réponse : article D111-3 ; rencontres : article D111-2 ; vote quelle que soit la nationalité : fiche service-public F1389 (vérifiée le 04/07/2024). Ces autres droits ne sont pas proposés comme mauvaises réponses. Articles vérifiés sur Légifrance le 31/10/2026."
+    },
+    {
+      "reference": "CR-VS-024",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Qui peut manger à la cantine scolaire ?",
+      "answers": [
+        "Tous les élèves de l'école, si elle a une cantine",
+        "Seulement les enfants dont les deux parents travaillent",
+        "Seulement les enfants de nationalité française",
+        "Seulement les enfants qui habitent loin de l'école"
+      ],
+      "explanation": "À l'école primaire, quand la commune propose une cantine, l'inscription est un droit pour tous les enfants scolarisés (Code de l'éducation, article L131-13). La commune ne peut pas la réserver, par exemple, aux enfants dont les parents travaillent. Le prix du repas peut dépendre des revenus de la famille.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Cantine scolaire à l'école primaire (maternelle et élémentaire) » ; Code de l'éducation, article L131-13",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F24570"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fiche F24570 vérifiée par service-public le 20/05/2025. La commune n'est pas obligée d'organiser une cantine, d'où « si elle a une cantine ». Le droit prévu par la loi vise l'école primaire."
+    },
+    {
+      "reference": "CR-VS-025",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "À quel âge commence l'instruction obligatoire des enfants ?",
+      "answers": [
+        "3 ans",
+        "2 ans",
+        "5 ans",
+        "6 ans"
+      ],
+      "explanation": "En France, l'instruction est obligatoire pour chaque enfant dès 3 ans et jusqu'à 16 ans (Code de l'éducation, article L131-1). Avant la rentrée 2019, elle commençait à 6 ans. Un enfant de 2 ans peut parfois aller à l'école maternelle, mais ce n'est pas obligatoire.",
+      "answerSource": {
+        "label": "Code de l'éducation, article L131-1",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038901859"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Article L131-1 vérifié sur Légifrance le 31/10/2026 (version en vigueur depuis le 02/09/2019). « 6 ans » est l'ancienne règle : mauvaise réponse historique."
+    },
+    {
+      "reference": "CR-VS-026",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Quel est l'âge de la majorité ?",
+      "answers": [
+        "18 ans",
+        "16 ans",
+        "20 ans",
+        "21 ans"
+      ],
+      "explanation": "En France, on devient majeur à 18 ans (Code civil, article 414). À cet âge, on peut exercer seul ses droits, par exemple signer un contrat, et l'autorité parentale prend fin. Avant 1974, la majorité était fixée à 21 ans.",
+      "answerSource": {
+        "label": "Code civil, article 414",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006427400"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Article 414 vérifié sur Légifrance le 31/10/2026 ; majorité à 18 ans depuis la loi n° 74-631 du 5 juillet 1974."
+    },
+    {
+      "reference": "CR-VS-027",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "À l'école, il est interdit aux parents de :",
+      "answers": [
+        "insulter ou menacer un enseignant",
+        "demander un rendez-vous à un enseignant",
+        "voter pour élire les représentants des parents",
+        "consulter les résultats de leur enfant"
+      ],
+      "explanation": "Insulter ou menacer un enseignant est interdit : c'est un outrage, puni plus sévèrement quand il a lieu dans l'école ou à ses abords (Code pénal, article 433-5). En cas de désaccord, les parents peuvent demander un rendez-vous à l'enseignant ou au directeur. Ils ont aussi le droit d'être informés des résultats de leur enfant et de voter aux élections des représentants des parents.",
+      "answerSource": {
+        "label": "Code pénal, article 433-5 (outrage)",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034114921"
+      },
+      "difficulty": 1,
+      "confidence": "medium",
+      "reviewNote": "Énoncé ouvert : d'autres interdits existent, par exemple fumer ou vapoter dans l'école et près de ses entrées (Code de la santé publique, article R3512-2), refuser qu'un enfant suive un cours pour des raisons religieuses (circulaire du 18 mai 2004) ou entrer dans l'école pour troubler son fonctionnement (Code pénal, article 431-22). Aucun n'est proposé. Article 433-5 vérifié le 31/10/2026 (version en vigueur depuis le 20/08/2026)."
+    },
+    {
+      "reference": "CR-VS-028",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Quel motif d'absence est accepté par l'école ?",
+      "answers": [
+        "La maladie de l'enfant",
+        "Garder ses petits frères et sœurs",
+        "Aider ses parents dans leur travail",
+        "Rester à la maison pour réviser"
+      ],
+      "explanation": "La loi donne la liste des motifs d'absence acceptés : maladie de l'enfant, maladie contagieuse d'un proche, réunion importante de famille (mariage, enterrement), problème de transport imprévu, ou déplacement de l'enfant avec ses parents. Les parents doivent toujours prévenir l'école et donner le motif de l'absence. Garder ses frères et sœurs, aider ses parents ou réviser à la maison ne sont pas des motifs acceptés.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Assiduité scolaire et absentéisme » ; Code de l'éducation, article L131-8",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1899"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F1899 vérifiée par service-public le 06/11/2025. Les autres motifs peuvent être examinés au cas par cas par l'Éducation nationale ; les absences pour les grandes fêtes religieuses peuvent être autorisées (circulaire du 18 mai 2004) : ni voyage ni fête religieuse n'est proposé comme mauvaise réponse."
+    },
+    {
+      "reference": "CR-VS-029",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Des parents ne respectent pas l'obligation d'instruction pour leurs enfants. Quelle sanction maximale risquent-ils ?",
+      "answers": [
+        "6 mois de prison et 7 500 € d'amende",
+        "1 mois de prison et 1 000 € d'amende",
+        "5 ans de prison et 75 000 € d'amende",
+        "10 ans de prison et 150 000 € d'amende"
+      ],
+      "explanation": "L'instruction est obligatoire de 3 à 16 ans. Si des parents n'inscrivent pas leur enfant à l'école sans raison valable, l'Éducation nationale leur demande officiellement de le faire : c'est une mise en demeure. S'ils refusent encore, ils risquent jusqu'à 6 mois de prison et 7 500 € d'amende (Code pénal, article 227-17-1).",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Instruction obligatoire » ; Code pénal, article 227-17-1",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1898"
+      },
+      "difficulty": 3,
+      "confidence": "low",
+      "reviewNote": "Énoncé ambigu sur la « sanction maximale ». Nous avons retenu l'infraction propre à l'obligation d'instruction : ne pas inscrire l'enfant malgré la mise en demeure, 6 mois de prison et 7 500 € d'amende (Code pénal, article 227-17-1, vérifié sur Légifrance le 31/10/2026 ; fiche F1898 vérifiée le 06/11/2025, qui cite aussi une amende de 1 500 €). Mais si le manquement compromet l'éducation de l'enfant, l'article 227-17 prévoit 2 ans de prison et 30 000 € d'amende (3 ans et 45 000 € dans certains cas), peine citée par la fiche F1899 sur l'absentéisme : ces peines ne sont pas proposées. Réponse attendue à confirmer par un juriste."
+    },
+    {
+      "reference": "CR-VS-030",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Quand ont lieu les vacances scolaires de Noël ?",
+      "answers": [
+        "Fin décembre et début janvier",
+        "En juillet et en août",
+        "Fin février et début mars",
+        "Fin octobre et début novembre"
+      ],
+      "explanation": "Les vacances de Noël ont lieu à la fin de décembre et au début de janvier, pendant environ deux semaines. En France métropolitaine, les dates sont les mêmes pour toutes les zones : en 2026-2027, du samedi 19 décembre 2026 au lundi 4 janvier 2027. Les grandes vacances, elles, ont lieu en juillet et en août.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Quel est le calendrier des vacances scolaires 2026-2027 et 2027-2028 ? »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31952"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Dates 2026-2027 vérifiées le 31/10/2026 (fiche F31952 vérifiée le 02/09/2026 ; arrêté du 22 octobre 2025 fixant le calendrier scolaire 2026-2027). Dates à mettre à jour chaque année ; elles sont différentes dans certains territoires d'outre-mer, comme Mayotte."
+    },
+    {
+      "reference": "CR-VS-031",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "À l'école, un enfant en situation de handicap :",
+      "answers": [
+        "a le droit d'être scolarisé, avec des aides si besoin",
+        "ne peut pas être inscrit dans une école publique",
+        "doit attendre l'âge de 6 ans pour aller à l'école",
+        "est dispensé de l'obligation d'instruction"
+      ],
+      "explanation": "En France, un enfant en situation de handicap a le droit d'aller à l'école, comme les autres enfants. Il est inscrit dans l'école la plus proche de chez lui, son école de référence (Code de l'éducation, article L112-1). Selon ses besoins, il peut avoir un accompagnant (AESH) ou aller dans une classe adaptée (ULIS). Les parents s'adressent à la maison départementale des personnes handicapées (MDPH), qui étudie ces besoins.",
+      "answerSource": {
+        "label": "Code de l'éducation, article L112-1",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038902196"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Article L112-1 vérifié sur Légifrance le 31/10/2026 ; aides (AESH, ULIS) et rôle de la MDPH et de la CDAPH : fiche service-public F35025 (vérifiée le 19/11/2024). Certains enfants sont scolarisés dans une unité d'enseignement d'un établissement médico-social : la bonne réponse parle du droit à être scolarisé, pas d'un lieu unique."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "mariage civil",
+      "definition": "Mariage célébré à la mairie par le maire ou un adjoint. En France, c'est le seul mariage reconnu par la loi."
+    },
+    {
+      "term": "bail",
+      "definition": "Contrat de location d'un logement, écrit et signé par le propriétaire et le locataire. Il indique par exemple le montant du loyer."
+    },
+    {
+      "term": "contraception",
+      "definition": "Moyens pour éviter une grossesse, par exemple la pilule, le stérilet ou le préservatif."
+    },
+    {
+      "term": "secret médical",
+      "definition": "Obligation pour les soignants de ne rien dire à d'autres personnes sur la santé de leurs patients, sauf exceptions prévues par la loi."
+    },
+    {
+      "term": "congé parental d'éducation",
+      "definition": "Congé qui permet à un parent salarié d'arrêter de travailler, ou de travailler moins, pour s'occuper de son jeune enfant."
+    },
+    {
+      "term": "conseil de prud'hommes",
+      "definition": "Tribunal qui règle les conflits entre un salarié et son employeur au sujet du travail."
+    },
+    {
+      "term": "heures supplémentaires",
+      "definition": "Heures de travail faites à la demande de l'employeur au-delà de 35 heures par semaine. Elles sont mieux payées ou remplacées par du repos."
+    },
+    {
+      "term": "syndicat",
+      "definition": "Groupe qui défend les droits et les intérêts des salariés. Chaque salarié peut adhérer au syndicat de son choix."
+    },
+    {
+      "term": "allocation chômage",
+      "definition": "Argent versé, sous conditions, à une personne qui a perdu son emploi, pendant qu'elle cherche un nouveau travail."
+    },
+    {
+      "term": "école maternelle",
+      "definition": "École des enfants de 3 à 6 ans, avant le CP. Depuis 2019, l'instruction est obligatoire dès 3 ans."
+    },
+    {
+      "term": "brevet",
+      "definition": "Diplôme national du brevet (DNB) : diplôme que passent les élèves à la fin du collège, en classe de 3e."
+    },
+    {
+      "term": "mise en demeure",
+      "definition": "Demande officielle et écrite de faire quelque chose avant une date fixée. Si la personne ne le fait pas, elle risque une sanction."
+    },
+    {
+      "term": "AESH",
+      "definition": "Accompagnant d'élèves en situation de handicap : personne qui aide un élève handicapé à l'école."
+    },
+    {
+      "term": "MDPH",
+      "definition": "Maison départementale des personnes handicapées : service public qui étudie les besoins d'une personne handicapée, enfant ou adulte, et décide des aides qu'elle peut recevoir."
+    }
+  ]
+}

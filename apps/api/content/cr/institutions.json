@@ -1,0 +1,699 @@
+{
+  "topic": "institutions",
+  "questions": [
+    {
+      "reference": "CR-IN-001",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "democratie-et-droit-de-vote",
+      "statement": "Qu'est-ce que l'État de droit ?",
+      "answers": [
+        "Un État où tous, même les dirigeants, doivent respecter la loi",
+        "Un État où le chef de l'État peut décider seul des lois",
+        "Un État où seuls les citoyens doivent respecter la loi",
+        "Un État où les juges dirigent le pays à la place des élus"
+      ],
+      "explanation": "Dans un État de droit, tout le monde doit respecter la loi : les habitants, mais aussi les dirigeants et l'administration. Les pouvoirs sont séparés, et des juges indépendants vérifient que la loi est respectée. Ainsi, personne ne peut agir de façon arbitraire, c'est-à-dire sans respecter de règles.",
+      "answerSource": {
+        "label": "Commission européenne, « Qu'est-ce que l'état de droit ? »",
+        "url": "https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/upholding-rule-law/rule-law/what-rule-law_fr"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Définition vérifiée le 31/10/2026 sur la page de la Commission européenne (autorités publiques soumises à la loi, interdiction de l'arbitraire, juges indépendants, égalité devant la loi). La fiche vie-publique.fr sur l'État de droit ne s'ouvrait pas en accès automatique : ajouter une source française si possible."
+    },
+    {
+      "reference": "CR-IN-002",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "democratie-et-droit-de-vote",
+      "statement": "Le président de la République a commis un crime. Quelle proposition est correcte ?",
+      "answers": [
+        "Il pourra être jugé après la fin de son mandat",
+        "Il ne pourra jamais être jugé pour ce crime",
+        "Il est jugé tout de suite par les ministres",
+        "Il est jugé par le Conseil constitutionnel"
+      ],
+      "explanation": "Pendant son mandat, le président de la République ne peut pas être poursuivi par la justice française (Constitution, article 67). Cette protection est provisoire : les délais de la justice sont suspendus, et il peut être poursuivi et jugé un mois après la fin de son mandat. En cas de faute très grave contre ses devoirs, le Parlement, réuni en Haute Cour, peut aussi le destituer, c'est-à-dire mettre fin à son mandat (article 68).",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, articles 67 et 68",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 3,
+      "confidence": "medium",
+      "reviewNote": "Simplification à valider : le président n'est jamais responsable des actes accomplis en sa qualité de président (article 67, alinéa 1er), sauf devant la Cour pénale internationale (article 53-2) et par la destitution (article 68). La bonne réponse vise un crime sans lien avec ses fonctions, pour lequel les poursuites peuvent reprendre ou commencer un mois après la fin du mandat. Articles vérifiés le 31/10/2026."
+    },
+    {
+      "reference": "CR-IN-003",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "democratie-et-droit-de-vote",
+      "statement": "La loi est l'expression de :",
+      "answers": [
+        "la volonté générale",
+        "la volonté du chef de l'État",
+        "la volonté du Gouvernement",
+        "la volonté des juges"
+      ],
+      "explanation": "Selon la Déclaration des droits de l'homme et du citoyen de 1789, « la loi est l'expression de la volonté générale » (article 6). Cela veut dire que la loi vient du peuple : tous les citoyens peuvent participer à sa création, eux-mêmes ou par leurs représentants élus. Elle ne vient pas de la volonté d'une seule personne, du Gouvernement ou des juges.",
+      "answerSource": {
+        "label": "Déclaration des droits de l'homme et du citoyen de 1789, article 6",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-IN-004",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Quelle est la durée du mandat du conseil municipal et du maire ?",
+      "answers": [
+        "6 ans",
+        "5 ans",
+        "4 ans",
+        "7 ans"
+      ],
+      "explanation": "Les conseillers municipaux sont élus pour 6 ans par les électeurs de la commune (Code électoral, article L227). Ensuite, le conseil municipal élit le maire, pour la même durée (Code général des collectivités territoriales, article L2122-10). Les prochaines élections municipales auront lieu en 2032.",
+      "answerSource": {
+        "label": "Code électoral, article L227 ; Code général des collectivités territoriales, article L2122-10",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006353530"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Articles L227 et L2122-10 vérifiés sur Légifrance le 31/10/2026. Fait daté : prochaines élections municipales en 2032 (fiche service-public F1952, vérifiée le 08/04/2026)."
+    },
+    {
+      "reference": "CR-IN-005",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "democratie-et-droit-de-vote",
+      "statement": "Que garantit l'État de droit ?",
+      "answers": [
+        "Que les droits de chacun sont protégés, même face à l'État",
+        "Que le Gouvernement peut agir sans contrôle des juges",
+        "Que le président de la République est au-dessus des lois",
+        "Que seules les personnes françaises ont des droits"
+      ],
+      "explanation": "L'État de droit protège les droits et les libertés de chacun, même face à l'État : les autorités publiques doivent respecter la loi, et des juges indépendants peuvent contrôler leurs décisions. La loi est la même pour tous, et personne n'est au-dessus d'elle. Les droits fondamentaux protègent aussi les personnes étrangères.",
+      "answerSource": {
+        "label": "Commission européenne, « Qu'est-ce que l'état de droit ? »",
+        "url": "https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/upholding-rule-law/rule-law/what-rule-law_fr"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Énoncé ouvert : la bonne réponse résume les principes cités par la Commission européenne (interdiction de l'arbitraire, contrôle par des juges indépendants, égalité devant la loi), vérifiés le 31/10/2026. Formulation à valider ; ajouter une source française si possible (vie-publique.fr ne s'ouvrait pas en accès automatique)."
+    },
+    {
+      "reference": "CR-IN-006",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "democratie-et-droit-de-vote",
+      "statement": "Une personne peut-elle voter à la place d'une autre ?",
+      "answers": [
+        "Oui, si cette personne lui a donné une procuration",
+        "Non, c'est interdit dans tous les cas",
+        "Oui, si c'est un membre de sa famille",
+        "Oui, si elle a la carte d'électeur de cette personne"
+      ],
+      "explanation": "Oui, mais seulement avec une procuration. Un électeur absent le jour du vote peut choisir un autre électeur pour voter à sa place : il fait pour cela une démarche officielle, en ligne ou au commissariat de police ou à la gendarmerie. Sans procuration, personne ne peut voter pour un autre, même pas un membre de sa famille.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Vote par procuration »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1604"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F1604 vérifiée par service-public le 02/02/2026 : le mandataire peut être inscrit dans une autre commune et ne peut détenir qu'une seule procuration établie en France. Démarche simplifiée dans l'explication (demande en ligne puis validation au commissariat ou à la gendarmerie, ou validation en ligne avec France Identité)."
+    },
+    {
+      "reference": "CR-IN-007",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "democratie-et-droit-de-vote",
+      "statement": "Est-ce que le vote est obligatoire ?",
+      "answers": [
+        "Non, c'est un droit, mais pas une obligation",
+        "Oui, sinon on doit payer une amende",
+        "Oui, mais seulement pour l'élection présidentielle",
+        "Oui, pour toutes les personnes qui travaillent"
+      ],
+      "explanation": "Non. En France, voter est un droit et un devoir civique, mais ce n'est pas une obligation : un électeur qui ne vote pas ne paie pas d'amende. En revanche, l'inscription sur les listes électorales est obligatoire (Code électoral, article L9). Seuls les « grands électeurs », qui élisent les sénateurs, doivent obligatoirement voter.",
+      "answerSource": {
+        "label": "Assemblée nationale, question écrite n° 31242, réponse du ministère de l'Intérieur publiée au Journal officiel le 29 décembre 2020",
+        "url": "https://questions.assemblee-nationale.fr/q15/15-31242QE.htm"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Réponse ministérielle vérifiée le 31/10/2026 : vote non obligatoire, sauf pour l'élection des sénateurs (Code électoral, article L318, amende de 100 €) ; inscription sur les listes obligatoire (article L9). Ces exceptions ne figurent pas dans les propositions."
+    },
+    {
+      "reference": "CR-IN-008",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "democratie-et-droit-de-vote",
+      "statement": "À la fin de son mandat, le président de la République peut-il décider de rester au pouvoir ?",
+      "answers": [
+        "Non, une nouvelle élection doit avoir lieu",
+        "Oui, s'il pense que c'est utile pour le pays",
+        "Oui, si le Premier ministre est d'accord",
+        "Oui, s'il a été élu avec beaucoup de voix"
+      ],
+      "explanation": "Non. Le président de la République est élu pour 5 ans (Constitution, article 6). Avant la fin de son mandat, une élection est organisée pour choisir le prochain président (article 7). Il peut se présenter une deuxième fois, mais personne ne peut faire plus de deux mandats de suite.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, articles 6 et 7",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-IN-009",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Qui dirige l'action du Gouvernement ?",
+      "answers": [
+        "Le Premier ministre",
+        "Le président du Sénat",
+        "Le président de l'Assemblée nationale",
+        "Le président du Conseil constitutionnel"
+      ],
+      "explanation": "La Constitution dit que le Premier ministre « dirige l'action du Gouvernement » (article 21). Il est nommé par le président de la République et coordonne le travail des ministres. Les présidents du Sénat et de l'Assemblée nationale dirigent les débats de leur assemblée, et le Conseil constitutionnel vérifie que les lois respectent la Constitution.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 21",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Le président de la République n'est volontairement pas proposé : il préside le Conseil des ministres et peut sembler diriger le Gouvernement en pratique."
+    },
+    {
+      "reference": "CR-IN-010",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Quelle est l'organisation administrative de la France ?",
+      "answers": [
+        "Un État décentralisé : communes, départements et régions",
+        "Un État fédéral, formé d'États qui ont leur Constitution",
+        "Des provinces dirigées par des gouverneurs nommés",
+        "Des cantons indépendants qui votent leurs propres lois"
+      ],
+      "explanation": "La France est une République indivisible, dont l'organisation est décentralisée (Constitution, article 1er). Son territoire est divisé en communes, départements et régions : ces collectivités territoriales ont des élus qui gèrent les affaires locales (article 72). Mais la France n'est pas un État fédéral : les régions ne votent pas de lois.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, articles 1er et 72",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Énoncé large : nous avons retenu la décentralisation et les trois niveaux de collectivités. Les collectivités à statut particulier et d'outre-mer (par exemple la Corse ou la Nouvelle-Calédonie) ne sont pas détaillées, ni la présence de l'État dans chaque département (préfet)."
+    },
+    {
+      "reference": "CR-IN-011",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "democratie-et-droit-de-vote",
+      "statement": "Qu'est-ce que le pouvoir législatif ? Le pouvoir :",
+      "answers": [
+        "de discuter et de voter les lois",
+        "de faire appliquer les lois et de diriger le pays",
+        "de juger les personnes qui ne respectent pas la loi",
+        "de commander l'armée et la police"
+      ],
+      "explanation": "Le pouvoir législatif est le pouvoir de discuter et de voter les lois. En France, il appartient au Parlement, c'est-à-dire à l'Assemblée nationale et au Sénat (Constitution, article 24). Faire appliquer les lois est le rôle du pouvoir exécutif, et juger celui de l'autorité judiciaire.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 24",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-IN-012",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "democratie-et-droit-de-vote",
+      "statement": "Pourquoi séparer les trois pouvoirs dans une démocratie ?",
+      "answers": [
+        "Pour éviter qu'une seule personne ait tous les pouvoirs",
+        "Pour que le président puisse décider seul plus vite",
+        "Pour que chaque région puisse faire ses propres lois",
+        "Pour donner aux juges le pouvoir de voter les lois"
+      ],
+      "explanation": "On sépare les pouvoirs pour qu'une seule personne ou un seul groupe n'ait pas tous les pouvoirs et ne puisse pas en abuser. Le Parlement vote les lois, le Gouvernement les fait appliquer, et les juges règlent les conflits. La Déclaration des droits de l'homme et du citoyen de 1789 dit qu'une société sans séparation des pouvoirs « n'a point de Constitution » (article 16).",
+      "answerSource": {
+        "label": "Déclaration des droits de l'homme et du citoyen de 1789, article 16",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-IN-013",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Quel est le rôle du gouvernement ?",
+      "answers": [
+        "Conduire la politique du pays et faire appliquer les lois",
+        "Voter les lois et le budget de l'État",
+        "Juger les personnes qui ne respectent pas les lois du pays",
+        "Vérifier que les lois respectent la Constitution"
+      ],
+      "explanation": "Le Gouvernement, c'est le Premier ministre et les ministres. Selon la Constitution, il « détermine et conduit la politique de la Nation » et dispose de l'administration (article 20). Il peut proposer des lois, mais c'est le Parlement qui les vote. Juger est le rôle de la justice, et le Conseil constitutionnel contrôle les lois.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 20",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-IN-014",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Qu'est-ce que l'Hôtel de Matignon ?",
+      "answers": [
+        "La résidence officielle du Premier ministre",
+        "La résidence officielle du président de la République",
+        "Le bâtiment où se réunissent les sénateurs",
+        "Le bâtiment où se réunissent les députés"
+      ],
+      "explanation": "L'hôtel de Matignon, à Paris, est la résidence officielle du Premier ministre : il y vit et y travaille avec ses équipes. Le président de la République, lui, réside au palais de l'Élysée. Les députés se réunissent au palais Bourbon, et les sénateurs au palais du Luxembourg.",
+      "answerSource": {
+        "label": "Mobilier national (ministère de la Culture), « Hôtel de Matignon »",
+        "url": "https://www.mobiliernational.culture.gouv.fr/fr/hotel-de-matignon"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Source vérifiée le 31/10/2026 (« Résidence officielle du Premier ministre »). Les pages info.gouv.fr sur Matignon refusaient l'accès automatique (erreur 403) : une page du Gouvernement peut remplacer cette source. Palais Bourbon et palais du Luxembourg cités sans source dédiée."
+    },
+    {
+      "reference": "CR-IN-015",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Quel est le rôle du président de la République ?",
+      "answers": [
+        "Veiller au respect de la Constitution et à la continuité de l'État",
+        "Voter les lois au Parlement, avec les députés et les sénateurs",
+        "Juger les personnes accusées des crimes les plus graves",
+        "Nommer lui-même les maires de toutes les communes"
+      ],
+      "explanation": "Le président de la République veille au respect de la Constitution. Il assure le bon fonctionnement des pouvoirs publics et la continuité de l'État, et il garantit l'indépendance du pays et le respect des traités (Constitution, article 5). Il ne vote pas les lois et ne juge pas : ce sont les rôles du Parlement et de la justice. Les maires, eux, sont élus par les conseils municipaux.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 5",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Bonne réponse résumée à partir de l'article 5. Les autres pouvoirs du président (nommer le Premier ministre, présider le Conseil des ministres, être le chef des armées…) ne sont pas proposés comme mauvaises réponses."
+    },
+    {
+      "reference": "CR-IN-016",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Quel est le rôle du Premier ministre ?",
+      "answers": [
+        "Diriger l'action du Gouvernement et faire appliquer les lois",
+        "Voter les lois à la place du Parlement",
+        "Juger les ministres qui ne respectent pas la loi",
+        "Présider les séances de l'Assemblée nationale et du Sénat"
+      ],
+      "explanation": "Le Premier ministre dirige l'action du Gouvernement et assure l'exécution des lois (Constitution, article 21). Il est nommé par le président de la République et lui propose les noms des autres ministres (article 8). Il ne vote pas les lois : c'est le rôle du Parlement. Les séances de l'Assemblée nationale et du Sénat sont dirigées par leurs présidents.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, articles 8 et 21",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-IN-017",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Qui est le chef du Gouvernement ?",
+      "answers": [
+        "Le Premier ministre",
+        "Le président de la République",
+        "Le président du Sénat",
+        "Le ministre de l'Intérieur"
+      ],
+      "explanation": "Le Premier ministre est le chef du Gouvernement : il dirige l'action des ministres (Constitution, article 21). Le président de la République, lui, est le chef de l'État : il nomme le Premier ministre et, sur sa proposition, les autres ministres (article 8). Le président du Sénat et le ministre de l'Intérieur ne dirigent pas le Gouvernement.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, articles 8 et 21",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "L'expression « chef du Gouvernement » n'est pas écrite dans la Constitution, qui dit que le Premier ministre « dirige l'action du Gouvernement » (article 21) ; elle est d'usage courant. Le président de la République est proposé comme mauvaise réponse pour distinguer chef de l'État et chef du Gouvernement (à l'inverse de CR-IN-009)."
+    },
+    {
+      "reference": "CR-IN-018",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Combien y a-t-il de régions en France ?",
+      "answers": [
+        "18 régions",
+        "22 régions",
+        "27 régions",
+        "101 régions"
+      ],
+      "explanation": "La France compte 18 régions : 13 en France métropolitaine et 5 en outre-mer (Guadeloupe, Martinique, Guyane, La Réunion et Mayotte). Avant 2016, il y avait 22 régions en métropole, mais certaines ont été regroupées. Il ne faut pas confondre les régions avec les 101 départements.",
+      "answerSource": {
+        "label": "Insee, définition « France (champ statistique) »",
+        "url": "https://www.insee.fr/fr/metadonnees/definition/c1696"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fait daté : 18 régions, dont 13 en métropole (Insee, page mise à jour le 05/12/2023), vérifié le 31/10/2026 ; regroupement des régions métropolitaines au 1er janvier 2016 (loi n° 2015-29 du 16 janvier 2015, Légifrance). « 13 régions » n'est volontairement pas proposé, car ce nombre ne concerne que la métropole."
+    },
+    {
+      "reference": "CR-IN-019",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Quel est le rôle du Défenseur des droits ?",
+      "answers": [
+        "Aider gratuitement les personnes à défendre leurs droits",
+        "Juger les personnes qui ne respectent pas la loi",
+        "Voter les lois qui protègent les droits de l'homme",
+        "Vérifier que les lois respectent la Constitution"
+      ],
+      "explanation": "Le Défenseur des droits est une autorité indépendante, inscrite dans la Constitution (article 71-1). Il aide gratuitement les personnes dont les droits ne sont pas respectés, par exemple par un service public, et il lutte contre les discriminations. Il défend aussi les droits des enfants. Il ne juge pas et ne vote pas les lois.",
+      "answerSource": {
+        "label": "Défenseur des droits, « Découvrir le Défenseur des droits » ; Constitution du 4 octobre 1958, article 71-1",
+        "url": "https://www.defenseurdesdroits.fr/decouvrir-le-defenseur-des-droits-197"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Missions vérifiées le 31/10/2026 (usagers des services publics, droits de l'enfant, discriminations, déontologie des forces de sécurité, lanceurs d'alerte) ; gratuité : service-public.gouv.fr (saisine en ligne ou par courrier gratuit). Fait daté non cité dans la question : François-Noël Buffet est Défenseur des droits depuis le 23/07/2026."
+    },
+    {
+      "reference": "CR-IN-020",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "institutions-europeennes",
+      "statement": "Depuis quand l'euro est-elle la monnaie unique ?",
+      "answers": [
+        "Depuis 2002, avec les pièces et les billets",
+        "Depuis 1957, avec le traité de Rome",
+        "Depuis 1992, avec le traité de Maastricht",
+        "Depuis 2020, après le départ du Royaume-Uni"
+      ],
+      "explanation": "Depuis le 1er janvier 2002, on paie avec des pièces et des billets en euros, en France et dans 11 autres pays de l'Union européenne. L'euro existait déjà depuis 1999, mais seulement pour les comptes et les paiements électroniques. Aujourd'hui, 21 pays de l'Union utilisent l'euro : c'est la zone euro.",
+      "answerSource": {
+        "label": "Union européenne (europa.eu), « Histoire et finalité de l'euro »",
+        "url": "https://european-union.europa.eu/institutions-law-budget/euro/history-and-purpose_fr"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Énoncé ambigu : l'euro est lancé le 1er janvier 1999 (seulement pour les comptes et les paiements électroniques), puis les pièces et billets circulent dès le 1er janvier 2002 dans 12 pays. Nous avons retenu 2002 ; « 1999 » n'est donc pas proposé. Fait daté : 21 pays dans la zone euro (europa.eu, vérifié le 31/10/2026). L'énoncé officiel écrit « l'euro est-elle » : recopié tel quel."
+    },
+    {
+      "reference": "CR-IN-021",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Quel est le rôle principal du département ?",
+      "answers": [
+        "Aider les personnes en difficulté (action sociale)",
+        "Gérer les écoles maternelles et les écoles élémentaires",
+        "Construire, entretenir et équiper les lycées",
+        "Assurer la défense du pays et diriger l'armée"
+      ],
+      "explanation": "Le département s'occupe surtout de l'action sociale, c'est-à-dire de l'aide aux personnes en difficulté : personnes âgées, personnes handicapées, enfants à protéger, revenu de solidarité active (RSA). Il s'occupe aussi des collèges et des routes départementales. Les écoles primaires dépendent de la commune, les lycées de la région, et la défense du pays de l'État.",
+      "answerSource": {
+        "label": "Collectivites-locales.gouv.fr (DGCL), « Action sociale et santé » ; tableau « Répartition des compétences » (juillet 2025)",
+        "url": "https://www.collectivites-locales.gouv.fr/competences/action-sociale-et-sante"
+      },
+      "difficulty": 3,
+      "confidence": "medium",
+      "reviewNote": "Énoncé « rôle principal » : le département est la collectivité « de droit commun » pour l'aide sociale (page DGCL vérifiée le 31/10/2026). Collèges, RSA, aide sociale à l'enfance, aides aux personnes âgées et handicapées : tableau DGCL de répartition des compétences actualisé en juillet 2025. Les collèges et les routes ne sont pas proposés comme mauvaises réponses."
+    },
+    {
+      "reference": "CR-IN-022",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Quel est le rôle principal des communes ?",
+      "answers": [
+        "Gérer les services proches des habitants, comme les écoles",
+        "Voter les lois qui s'appliquent dans tout le pays",
+        "Délivrer les titres de séjour aux personnes étrangères",
+        "Diriger l'armée et la police nationale"
+      ],
+      "explanation": "La commune s'occupe des services les plus proches des habitants. Par exemple, seule ou avec les communes voisines, elle gère les écoles maternelles et élémentaires, l'eau ou la collecte des déchets. À la mairie, on déclare aussi les naissances et on se marie. Les lois sont votées par le Parlement, et les titres de séjour sont délivrés par la préfecture.",
+      "answerSource": {
+        "label": "Collectivites-locales.gouv.fr (DGCL), tableau « Répartition des compétences » (actualisation de juillet 2025)",
+        "url": "https://www.collectivites-locales.gouv.fr/files/files/3.%20Animer%20les%20territoires/Tableau%20r%C3%A9paratition%20des%20comp%C3%A9tences_actualisation%20au%20220825.pdf"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Énoncé « rôle principal » : réponse formulée autour des services de proximité. Tableau DGCL (PDF actualisé en juillet 2025) consulté le 31/10/2026 : écoles, eau, déchets, urbanisme, voirie, souvent avec l'intercommunalité. Naissance et mariage à la mairie : fiches service-public F961 et F930."
+    },
+    {
+      "reference": "CR-IN-023",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Combien de communes environ existe-t-il en France ?",
+      "answers": [
+        "Environ 35 000",
+        "Environ 3 500",
+        "Environ 12 000",
+        "Environ 100 000"
+      ],
+      "explanation": "Au 1er janvier 2026, la France compte 34 875 communes, en métropole et dans les départements d'outre-mer : c'est environ 35 000. Chaque commune a un maire et un conseil municipal. Ce nombre change un peu avec le temps, car des communes voisines peuvent se regrouper en une « commune nouvelle ».",
+      "answerSource": {
+        "label": "Collectivites-locales.gouv.fr (DGCL), BIS n° 206 « Les structures territoriales au 1er janvier »",
+        "url": "https://www.collectivites-locales.gouv.fr/actualites/bis-206-les-structures-territoriales-au-1er-janvier"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fait daté : 34 875 communes au 1er janvier 2026 (page DGCL modifiée le 06/02/2026), vérifié le 31/10/2026. Nombre stable en 2026, car aucune commune nouvelle ne peut être créée l'année qui précède les élections municipales : à mettre à jour au 1er janvier 2027."
+    },
+    {
+      "reference": "CR-IN-024",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "institutions-europeennes",
+      "statement": "Quel traité concerne la construction de l'Union européenne ?",
+      "answers": [
+        "Le traité de Maastricht",
+        "Le traité de Versailles",
+        "Le traité de Westphalie",
+        "Le traité d'Utrecht"
+      ],
+      "explanation": "Le traité de Maastricht, signé en 1992 aux Pays-Bas, a créé l'Union européenne. Il a aussi prévu la création d'une monnaie unique, devenue l'euro. Les traités de Versailles, de Westphalie et d'Utrecht sont des traités de paix beaucoup plus anciens, sans lien avec l'Union européenne.",
+      "answerSource": {
+        "label": "Parlement européen, fiches thématiques sur l'UE, « Les traités de Maastricht et d'Amsterdam »",
+        "url": "https://www.europarl.europa.eu/factsheets/fr/sheet/3/les-traites-de-maastricht-et-d-amsterdam"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "D'autres traités ont aussi construit l'Union (traité de Paris en 1951, traités de Rome en 1957, traités plus récents) : aucun n'est proposé comme mauvaise réponse. Fiche du Parlement européen mise à jour en mai 2026, consultée le 31/10/2026."
+    },
+    {
+      "reference": "CR-IN-025",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "institutions-europeennes",
+      "statement": "Quel État a quitté l'Union européenne en 2020 ?",
+      "answers": [
+        "Le Royaume-Uni",
+        "Les Pays-Bas",
+        "Le Danemark",
+        "La Norvège"
+      ],
+      "explanation": "Le Royaume-Uni a quitté l'Union européenne le 31 janvier 2020, 47 ans après y être entré : c'est le « Brexit ». Depuis, l'Union compte 27 États membres. Les Pays-Bas et le Danemark sont toujours membres, et la Norvège n'a jamais fait partie de l'Union.",
+      "answerSource": {
+        "label": "Union européenne (europa.eu), « Histoire de l'UE – 2020-aujourd'hui »",
+        "url": "https://european-union.europa.eu/principles-countries-history/history-eu/2020-today_fr"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Date vérifiée le 31/10/2026 sur europa.eu ; Pays-Bas et Danemark vérifiés sur la page « Pays de l'UE »."
+    },
+    {
+      "reference": "CR-IN-026",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "institutions-europeennes",
+      "statement": "Quelle est la devise de l'Union européenne ?",
+      "answers": [
+        "Unie dans la diversité",
+        "Liberté, Égalité, Fraternité",
+        "L'union fait la force",
+        "Paix, justice et progrès"
+      ],
+      "explanation": "La devise de l'Union européenne est « Unie dans la diversité ». Elle est utilisée depuis 2000 et veut dire que les Européens travaillent ensemble pour la paix et la prospérité, en gardant leurs cultures et leurs langues. Ici, une « devise » est une courte phrase, pas une monnaie. « Liberté, Égalité, Fraternité » est la devise de la France.",
+      "answerSource": {
+        "label": "Union européenne (europa.eu), « Devise de l'UE »",
+        "url": "https://european-union.europa.eu/principles-countries-history/symbols/eu-motto_fr"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Le mot « devise » peut aussi désigner une monnaie : « l'euro » n'est donc pas proposé, et l'explication lève l'ambiguïté."
+    },
+    {
+      "reference": "CR-IN-027",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "institutions-europeennes",
+      "statement": "Quel est l'hymne de l'Union européenne ?",
+      "answers": [
+        "L'Ode à la joie, de Beethoven",
+        "La Marseillaise, de Rouget de Lisle",
+        "Le Boléro, de Ravel",
+        "Les Quatre Saisons, de Vivaldi"
+      ],
+      "explanation": "L'hymne de l'Union européenne est l'« Ode à la joie », une musique de la Neuvième symphonie de Beethoven. Il n'a pas de paroles et il ne remplace pas les hymnes nationaux. La Marseillaise reste l'hymne national de la France.",
+      "answerSource": {
+        "label": "Union européenne (europa.eu), « Hymne européen »",
+        "url": "https://european-union.europa.eu/principles-countries-history/symbols/european-anthem_fr"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-IN-028",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "institutions-europeennes",
+      "statement": "De quoi est composé le drapeau européen ?",
+      "answers": [
+        "De 12 étoiles dorées en cercle, sur un fond bleu",
+        "De 27 étoiles dorées en cercle, sur un fond bleu",
+        "De trois bandes verticales bleue, blanche et rouge",
+        "D'une croix blanche sur un fond rouge"
+      ],
+      "explanation": "Le drapeau européen est formé de 12 étoiles dorées, placées en cercle sur un fond bleu. Le cercle est un symbole d'unité. Le nombre d'étoiles ne dépend pas du nombre de pays : il y a toujours 12 étoiles, alors que l'Union compte 27 États membres.",
+      "answerSource": {
+        "label": "Union européenne (europa.eu), « Le drapeau européen »",
+        "url": "https://european-union.europa.eu/principles-countries-history/symbols/european-flag_fr"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-IN-029",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "institutions-europeennes",
+      "statement": "De quelle couleur est le drapeau européen ?",
+      "answers": [
+        "Bleu, avec des étoiles dorées",
+        "Rouge, avec des étoiles dorées",
+        "Vert, avec des étoiles blanches",
+        "Blanc, avec des étoiles bleues"
+      ],
+      "explanation": "Le drapeau européen est bleu, avec 12 étoiles dorées, de couleur jaune or, placées en cercle. Ces étoiles représentent l'unité, la solidarité et l'harmonie entre les peuples d'Europe. Le drapeau bleu, blanc et rouge est celui de la France.",
+      "answerSource": {
+        "label": "Union européenne (europa.eu), « Le drapeau européen »",
+        "url": "https://european-union.europa.eu/principles-countries-history/symbols/european-flag_fr"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "europa.eu parle d'étoiles « dorées » : terme repris dans la réponse, précisé par « jaune or » dans l'explication."
+    },
+    {
+      "reference": "CR-IN-030",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "institutions-europeennes",
+      "statement": "En quelle année le traité de Maastricht, qui marque la fondation de l'Union européenne, a-t-il été signé ?",
+      "answers": [
+        "1992",
+        "1957",
+        "1945",
+        "2002"
+      ],
+      "explanation": "Le traité de Maastricht a été signé le 7 février 1992, aux Pays-Bas, et il est entré en vigueur le 1er novembre 1993. Il a créé l'Union européenne et prévu la monnaie unique. Attention : 1957 est l'année des traités de Rome, et 2002 celle des premières pièces et des premiers billets en euros.",
+      "answerSource": {
+        "label": "Parlement européen, fiches thématiques sur l'UE, « Les traités de Maastricht et d'Amsterdam »",
+        "url": "https://www.europarl.europa.eu/factsheets/fr/sheet/3/les-traites-de-maastricht-et-d-amsterdam"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "« 1993 » (entrée en vigueur) n'est volontairement pas proposé, pour éviter la confusion entre signature et entrée en vigueur."
+    },
+    {
+      "reference": "CR-IN-031",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "institutions-europeennes",
+      "statement": "Où est le siège du Parlement européen ?",
+      "answers": [
+        "À Strasbourg",
+        "À Francfort",
+        "À Amsterdam",
+        "À Lisbonne"
+      ],
+      "explanation": "Le siège officiel du Parlement européen est à Strasbourg, en France : les députés européens s'y réunissent chaque mois, 12 fois par an. Le Parlement travaille aussi à Bruxelles, où se réunissent ses commissions, et à Luxembourg, où se trouve son secrétariat. Il compte 720 députés, élus tous les 5 ans.",
+      "answerSource": {
+        "label": "Parlement européen, fiches thématiques sur l'UE, « Le Parlement européen : organisation et fonctionnement »",
+        "url": "https://www.europarl.europa.eu/factsheets/fr/sheet/20/le-parlement-europeen-organisation-et-fonctionnement"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Bruxelles et Luxembourg, autres lieux de travail du Parlement, ne sont pas proposés. Fiche du Parlement européen mise à jour en novembre 2025 ; 720 députés (europa.eu), vérifié le 31/10/2026."
+    },
+    {
+      "reference": "CR-IN-032",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "institutions-europeennes",
+      "statement": "Où est le siège de la Commission européenne ?",
+      "answers": [
+        "À Bruxelles",
+        "À Strasbourg",
+        "À Francfort",
+        "À Genève"
+      ],
+      "explanation": "La Commission européenne a son siège à Bruxelles, en Belgique. Elle propose les lois européennes, veille à leur application et gère le budget de l'Union. Strasbourg accueille le Parlement européen, et Francfort la Banque centrale européenne.",
+      "answerSource": {
+        "label": "Union européenne (europa.eu), « Commission européenne »",
+        "url": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies/european-commission_fr"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Siège à Bruxelles vérifié sur europa.eu le 31/10/2026. Certains services de la Commission sont installés à Luxembourg (protocole sur les sièges des institutions, non ouvert en accès automatique) : Luxembourg n'est donc pas proposé."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "chef de l'État",
+      "definition": "Personne qui est à la tête du pays et le représente. En France, c'est le président de la République."
+    },
+    {
+      "term": "Gouvernement",
+      "definition": "Le Premier ministre et les ministres. Ils conduisent la politique du pays et font appliquer les lois."
+    },
+    {
+      "term": "Premier ministre",
+      "definition": "Chef du Gouvernement, nommé par le président de la République. Il dirige l'action des ministres et réside à l'hôtel de Matignon, à Paris."
+    },
+    {
+      "term": "volonté générale",
+      "definition": "Ce que veut l'ensemble des citoyens. Selon la Déclaration de 1789, la loi est l'expression de la volonté générale."
+    },
+    {
+      "term": "procuration",
+      "definition": "Démarche qui permet à un électeur absent le jour du vote de choisir un autre électeur pour voter à sa place."
+    },
+    {
+      "term": "Haute Cour",
+      "definition": "Nom donné au Parlement quand les députés et les sénateurs se réunissent ensemble pour décider de mettre fin au mandat du président de la République, en cas de faute très grave."
+    },
+    {
+      "term": "décentralisation",
+      "definition": "Organisation où l'État confie une partie des décisions à des élus locaux, dans les communes, les départements et les régions."
+    },
+    {
+      "term": "commune",
+      "definition": "Plus petite partie du territoire, avec un maire et un conseil municipal élus. La France compte environ 35 000 communes."
+    },
+    {
+      "term": "département",
+      "definition": "Partie du territoire plus grande qu'une commune. La France compte 101 départements ; chacun a un conseil départemental élu et un préfet, qui représente l'État."
+    },
+    {
+      "term": "région",
+      "definition": "Grande partie du territoire, qui regroupe en général plusieurs départements. La France compte 18 régions, chacune avec un conseil régional élu."
+    },
+    {
+      "term": "action sociale",
+      "definition": "Aides pour les personnes en difficulté : personnes âgées, personnes handicapées, enfants à protéger, personnes qui ont peu de ressources."
+    },
+    {
+      "term": "traité",
+      "definition": "Accord écrit, signé par plusieurs pays, qui fixe des règles communes."
+    },
+    {
+      "term": "Parlement européen",
+      "definition": "Assemblée de l'Union européenne, élue tous les 5 ans par les citoyens européens. Elle vote les lois européennes avec le Conseil de l'Union européenne. Son siège est à Strasbourg."
+    },
+    {
+      "term": "Commission européenne",
+      "definition": "Institution de l'Union européenne installée à Bruxelles. Elle propose les lois européennes et vérifie qu'elles sont bien appliquées."
+    },
+    {
+      "term": "zone euro",
+      "definition": "Ensemble des pays de l'Union européenne qui utilisent l'euro comme monnaie. En 2026, ils sont 21, dont la France."
+    }
+  ]
+}

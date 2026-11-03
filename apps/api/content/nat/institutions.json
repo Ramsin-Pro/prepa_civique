@@ -1,0 +1,787 @@
+{
+  "topic": "institutions",
+  "questions": [
+    {
+      "reference": "NAT-IN-001",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Comment est désigné le Premier ministre ?",
+      "answers": [
+        "Il est nommé par le président de la République",
+        "Il est élu directement par les citoyens",
+        "Il est élu par les députés et les sénateurs",
+        "Il est désigné par le Conseil constitutionnel"
+      ],
+      "explanation": "Le Premier ministre est nommé par le président de la République (Constitution, article 8) : il n'est pas élu. En pratique, le président choisit une personne qui peut avoir le soutien d'une majorité de députés, car l'Assemblée nationale peut renverser le Gouvernement. Sur proposition du Premier ministre, le président nomme ensuite les autres ministres.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 8",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-IN-002",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "democratie-et-droit-de-vote",
+      "statement": "Qui peut se présenter aux élections présidentielles ?",
+      "answers": [
+        "Un électeur français qui obtient 500 parrainages d'élus",
+        "Toute personne qui vit en France depuis 10 ans",
+        "Seulement un député ou un sénateur en fonction",
+        "Seulement une personne née en France de parents français"
+      ],
+      "explanation": "Tout Français qui a le droit de voter peut être candidat, sauf s'il est inéligible, par exemple à cause de certaines condamnations : il faut donc avoir au moins 18 ans. Il faut aussi réunir au moins 500 parrainages, c'est-à-dire des signatures d'élus (maires, députés, sénateurs…) venant d'au moins 30 départements ou collectivités d'outre-mer. Il n'est pas nécessaire d'être né en France ni d'être déjà député ou sénateur.",
+      "answerSource": {
+        "label": "Conseil constitutionnel, « Qui peut être candidat à l'élection présidentielle ? » (site de l'élection de 2022) ; loi n° 62-1292 du 6 novembre 1962, article 3",
+        "url": "https://presidentielle2022.conseil-constitutionnel.fr/les-candidats/etre-candidat/etre-candidat-e-a-lelection-presidentielle.html"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Page du Conseil constitutionnel faite pour l'élection de 2022 (« Tous les électeurs français, qui n'entrent dans aucun des cas d'inéligibilité ») ; règles vérifiées le 31/10/2026 dans l'article 3 de la loi n° 62-1292 (Légifrance, version en vigueur depuis le 01/01/2026) : au moins 500 présentations d'élus d'au moins 30 départements ou collectivités d'outre-mer, pas plus d'un dixième d'un même département. L'âge de 18 ans vient des conditions pour être électeur (Code électoral, articles L2 et LO127)."
+    },
+    {
+      "reference": "NAT-IN-003",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "democratie-et-droit-de-vote",
+      "statement": "À qui appartient la souveraineté nationale ?",
+      "answers": [
+        "Au peuple",
+        "Au président de la République",
+        "Au Parlement",
+        "Au Gouvernement"
+      ],
+      "explanation": "La Constitution dit que « la souveraineté nationale appartient au peuple » (article 3). Le peuple exerce ce pouvoir de deux façons : il élit ses représentants, comme le président de la République ou les députés, et il vote lors des référendums. Aucune personne et aucun groupe ne peut prendre ce pouvoir pour lui seul.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 3",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-IN-004",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "democratie-et-droit-de-vote",
+      "statement": "L'inscription sur les listes électorales est :",
+      "answers": [
+        "obligatoire selon la loi, et nécessaire pour voter",
+        "réservée aux personnes qui paient des impôts",
+        "payante, et à renouveler chaque année",
+        "possible seulement à partir de 21 ans"
+      ],
+      "explanation": "Le Code électoral dit que « l'inscription sur les listes électorales est obligatoire » (article L9), mais la loi ne prévoit pas de sanction. Sans inscription, on ne peut pas voter. Les jeunes qui ont fait leur recensement citoyen et les personnes qui deviennent françaises sont inscrits automatiquement ; les autres font la démarche en ligne, à la mairie ou par courrier.",
+      "answerSource": {
+        "label": "Code électoral, article L9 (section « Conditions d'inscription sur une liste électorale »)",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070239/LEGISCTA000006164051/"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Article L9 vérifié sur Légifrance le 31/10/2026 ; absence de sanction : Sénat, étude de législation comparée n° 121 « Le vote obligatoire » (2003). Inscription automatique des jeunes recensés et des personnes qui acquièrent la nationalité française : Code électoral, article L11, et fiche service-public F1367 (vérifiée le 03/03/2026). « Facultative » n'est pas proposé parmi les mauvaises réponses, car l'absence de sanction pourrait le rendre défendable."
+    },
+    {
+      "reference": "NAT-IN-005",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "democratie-et-droit-de-vote",
+      "statement": "Quelle condition est nécessaire pour voter aux élections présidentielles ?",
+      "answers": [
+        "Avoir la nationalité française",
+        "Avoir un travail en France",
+        "Être propriétaire de son logement",
+        "Habiter en France depuis au moins 5 ans"
+      ],
+      "explanation": "Pour voter à l'élection présidentielle, il faut avoir la nationalité française, avoir au moins 18 ans et être inscrit sur les listes électorales (Constitution, article 3 ; Code électoral, article L2). Les citoyens des autres pays de l'Union européenne qui habitent en France votent seulement aux élections municipales et européennes. Les Français qui vivent à l'étranger peuvent aussi voter : habiter en France n'est donc pas nécessaire.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 3 ; Code électoral, article L2",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Trois conditions sont nécessaires (nationalité, 18 ans, inscription) : la nationalité a été retenue, car c'est elle qui distingue l'élection présidentielle des élections municipales et européennes, ouvertes aux citoyens européens (service-public.gouv.fr, fiche F1937). L'âge et l'inscription ne figurent donc pas parmi les mauvaises réponses."
+    },
+    {
+      "reference": "NAT-IN-006",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "democratie-et-droit-de-vote",
+      "statement": "Quelle condition faut-il remplir pour être candidat aux élections municipales ?",
+      "answers": [
+        "Avoir au moins 18 ans",
+        "Avoir au moins 25 ans",
+        "Être né dans la commune",
+        "Être membre d'un parti politique"
+      ],
+      "explanation": "Pour être élu conseiller municipal, il faut avoir au moins 18 ans (Code électoral, article L228). Il faut aussi avoir un lien avec la commune : y être électeur, ou y payer certains impôts locaux. Les citoyens des autres pays de l'Union européenne peuvent aussi être candidats, mais ils ne peuvent pas devenir maire ou adjoint.",
+      "answerSource": {
+        "label": "Code électoral, articles L228 et LO228-1 ; Constitution du 4 octobre 1958, article 88-3",
+        "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006164064/"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Articles L228 et LO228-1 vérifiés sur Légifrance le 31/10/2026. « Avoir la nationalité française » n'est pas proposé : les citoyens européens peuvent être conseillers municipaux (article LO228-1). Les cas d'inéligibilité prévus par la loi ne sont pas détaillés."
+    },
+    {
+      "reference": "NAT-IN-007",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Parmi ces autorités, laquelle est élue ?",
+      "answers": [
+        "Le maire",
+        "Le préfet",
+        "Le recteur d'académie",
+        "Le Premier ministre"
+      ],
+      "explanation": "Le maire est élu par le conseil municipal, qui est lui-même élu par les électeurs de la commune (Code général des collectivités territoriales, article L2122-4). Le préfet et le recteur d'académie, responsable de l'Éducation nationale dans une académie, sont nommés en Conseil des ministres (Constitution, article 13). Le Premier ministre est nommé par le président de la République (article 8).",
+      "answerSource": {
+        "label": "Code général des collectivités territoriales, article L2122-4 ; Constitution du 4 octobre 1958, articles 8 et 13",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027573982"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Le président de la République, élu au suffrage universel direct, est aussi une autorité élue : il n'est donc pas proposé parmi les mauvaises réponses."
+    },
+    {
+      "reference": "NAT-IN-008",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Quelles sont les fonctions du maire ?",
+      "answers": [
+        "Diriger la commune et célébrer les mariages",
+        "Voter les lois et contrôler le Gouvernement",
+        "Juger les personnes qui commettent un délit",
+        "Délivrer les titres de séjour aux étrangers"
+      ],
+      "explanation": "Le maire dirige la commune : il applique les décisions du conseil municipal et dirige les services de la mairie. Il agit aussi au nom de l'État : il célèbre les mariages, enregistre les naissances et organise les élections dans la commune. Voter les lois est le rôle du Parlement, et juger celui des juges ; les titres de séjour sont délivrés par le préfet.",
+      "answerSource": {
+        "label": "Collectivites-locales.gouv.fr, « Le maire, agent de l'État » ; Code général des collectivités territoriales, article L2122-18",
+        "url": "https://www.collectivites-locales.gouv.fr/institutions/le-maire-agent-de-letat"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Page consultée le 31/10/2026 (sans date de mise à jour). Le maire est aussi officier de police judiciaire, sous le contrôle du procureur : il ne juge pas pour autant. Délivrance des titres de séjour par le préfet : non vérifiée dans une source ouverte."
+    },
+    {
+      "reference": "NAT-IN-009",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "democratie-et-droit-de-vote",
+      "statement": "Une personne, n'ayant pas d'accès à internet, veut s'inscrire sur les listes électorales pour pouvoir voter aux prochaines élections politiques. Où peut-elle s'inscrire ?",
+      "answers": [
+        "À la mairie, sur place ou par courrier",
+        "À la préfecture de son département",
+        "Au commissariat de police de son quartier",
+        "Au service des impôts de sa ville"
+      ],
+      "explanation": "Sans internet, on s'inscrit à la mairie de sa commune : sur place, par courrier, ou en envoyant une autre personne avec un pouvoir écrit et signé. Il faut le formulaire cerfa n° 12669, une pièce d'identité et un justificatif de domicile de moins de 3 mois. Pour voter à une élection, la mairie doit recevoir la demande au plus tard le 6e vendredi avant le premier tour.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Listes électorales : en cas de première inscription »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1367"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F1367 vérifiée par service-public le 03/03/2026. Date limite du 6e vendredi avant le scrutin, quel que soit le mode d'inscription depuis le 01/07/2026 (fiche F1937) : à revérifier si les délais changent. Le numéro du formulaire cerfa peut changer."
+    },
+    {
+      "reference": "NAT-IN-010",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "democratie-et-droit-de-vote",
+      "statement": "À quel âge peut-on devenir électeur ?",
+      "answers": [
+        "À 18 ans",
+        "À 16 ans",
+        "À 21 ans",
+        "À 25 ans"
+      ],
+      "explanation": "En France, on devient électeur à 18 ans, l'âge de la majorité (Code électoral, article L2). Avant la loi du 5 juillet 1974, il fallait avoir 21 ans. Il faut aussi avoir la nationalité française et être inscrit sur les listes électorales : les jeunes qui ont fait leur recensement citoyen sont inscrits automatiquement à 18 ans.",
+      "answerSource": {
+        "label": "Code électoral, article L2",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006353016"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Article L2 vérifié sur Légifrance le 31/10/2026 (modifié par la loi n° 74-631 du 5 juillet 1974). Les citoyens européens qui habitent en France votent aussi à partir de 18 ans, mais seulement aux élections municipales et européennes (fiche service-public F1937)."
+    },
+    {
+      "reference": "NAT-IN-011",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "democratie-et-droit-de-vote",
+      "statement": "En France, est-ce obligatoire de voter ?",
+      "answers": [
+        "Non, voter est un droit, mais pas une obligation",
+        "Oui, sinon on perd son droit de vote",
+        "Oui, mais seulement pour l'élection présidentielle",
+        "Oui, pour toutes les personnes majeures"
+      ],
+      "explanation": "Non. En France, voter est un droit et un devoir civique, mais ce n'est pas une obligation : un électeur qui ne vote pas n'est pas puni et garde son droit de vote. Seule l'inscription sur les listes électorales est obligatoire selon la loi. Dans quelques pays d'Europe, en revanche, le vote est obligatoire.",
+      "answerSource": {
+        "label": "Sénat, étude de législation comparée n° 121, « Le vote obligatoire »",
+        "url": "https://www.senat.fr/lc/lc121/lc121_mono.html"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Source du Sénat datée de mai 2003 (page mise à jour le 03/04/2023) : principe inchangé, à remplacer si possible par la fiche officielle de formation-civique.interieur.gouv.fr sur les conditions pour voter (indisponible, erreur 503, le 31/10/2026). Exception : les « grands électeurs » qui élisent les sénateurs doivent voter, sous peine d'amende (Code électoral, article L318) ; c'est pourquoi aucune proposition ne parle d'amende."
+    },
+    {
+      "reference": "NAT-IN-012",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Comment sont désignés les députés ?",
+      "answers": [
+        "Ils sont élus directement par les électeurs",
+        "Ils sont nommés par le président de la République",
+        "Ils sont élus par les sénateurs et les maires",
+        "Ils sont nommés par le Premier ministre"
+      ],
+      "explanation": "Les 577 députés sont élus par les électeurs, au suffrage universel direct, lors des élections législatives. Chaque député est élu dans une circonscription, une partie du territoire, mais il représente toute la Nation. Il est élu pour 5 ans, sauf si l'Assemblée nationale est dissoute avant la fin du mandat.",
+      "answerSource": {
+        "label": "Assemblée nationale, fiche de synthèse n° 3 « L'élection des députés »",
+        "url": "https://www.assemblee-nationale.fr/dyn/synthese/deputes-groupes-parlementaires/l-election-des-deputes"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche de l'Assemblée nationale consultée le 31/10/2026 (577 députés, scrutin uninominal majoritaire à deux tours)."
+    },
+    {
+      "reference": "NAT-IN-013",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Quelles sont les durées du mandat du conseil municipal et du maire ?",
+      "answers": [
+        "6 ans pour le conseil municipal comme pour le maire",
+        "5 ans pour le conseil municipal comme pour le maire",
+        "6 ans pour le conseil municipal, 3 ans pour le maire",
+        "5 ans pour le conseil municipal, 6 ans pour le maire"
+      ],
+      "explanation": "Les conseillers municipaux sont élus pour 6 ans par les électeurs de la commune (Code électoral, article L227). Ensuite, le conseil municipal élit le maire, pour la même durée : 6 ans (Code général des collectivités territoriales, article L2122-10). Les prochaines élections municipales auront lieu en 2032.",
+      "answerSource": {
+        "label": "Code électoral, article L227 ; Code général des collectivités territoriales, article L2122-10",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006353530"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Articles L227 et L2122-10 vérifiés sur Légifrance le 31/10/2026. Fait daté : prochaines élections municipales en 2032 (fiche service-public F1952, vérifiée le 08/04/2026). Explication proche de CR-IN-004 (énoncé CR au singulier : « Quelle est la durée… »)."
+    },
+    {
+      "reference": "NAT-IN-014",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Quelle est la durée du mandat du Président de la République française ?",
+      "answers": [
+        "5 ans",
+        "4 ans",
+        "6 ans",
+        "7 ans"
+      ],
+      "explanation": "Le président de la République est élu pour 5 ans : c'est le quinquennat (Constitution, article 6). Avant 2002, il était élu pour 7 ans : c'était le septennat. Il ne peut pas faire plus de deux mandats de suite.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 6",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Reprise de CSP-IN-017 (énoncé CSP « Pour combien de temps est élu le président de la République française ? »)."
+    },
+    {
+      "reference": "NAT-IN-015",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Quelle est la durée du mandat des députés ?",
+      "answers": [
+        "5 ans",
+        "4 ans",
+        "6 ans",
+        "7 ans"
+      ],
+      "explanation": "Les députés sont élus pour 5 ans, au suffrage universel direct. Leur mandat peut être plus court si le président de la République dissout l'Assemblée nationale, c'est-à-dire s'il décide de nouvelles élections avant la fin des 5 ans (Constitution, article 12). Les sénateurs, eux, sont élus pour 6 ans.",
+      "answerSource": {
+        "label": "Assemblée nationale, fiche de synthèse n° 3 « L'élection des députés »",
+        "url": "https://www.assemblee-nationale.fr/dyn/synthese/deputes-groupes-parlementaires/l-election-des-deputes"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Reprise de CSP-IN-018 (énoncé CSP « Pour combien de temps sont élus les députés ? »)."
+    },
+    {
+      "reference": "NAT-IN-016",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Quelle est la durée du mandat des sénateurs ?",
+      "answers": [
+        "6 ans",
+        "5 ans",
+        "3 ans",
+        "4 ans"
+      ],
+      "explanation": "Les sénateurs sont élus pour 6 ans (Code électoral, article LO275). Attention : tous les 3 ans, on élit la moitié des sénateurs ; 3 ans n'est donc pas la durée de leur mandat. Les députés et le président de la République, eux, sont élus pour 5 ans.",
+      "answerSource": {
+        "label": "Code électoral, article LO275",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006353647"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Reprise de CSP-IN-019 (énoncé CSP « Pour combien de temps sont élus les sénateurs ? ») ; article LO275 vérifié sur Légifrance le 31/10/2026."
+    },
+    {
+      "reference": "NAT-IN-017",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Qui dirige l'action du gouvernement ?",
+      "answers": [
+        "Le Premier ministre",
+        "Le président du Sénat",
+        "Le président de l'Assemblée nationale",
+        "Le président du Conseil constitutionnel"
+      ],
+      "explanation": "La Constitution dit que le Premier ministre « dirige l'action du Gouvernement » (article 21). Il est nommé par le président de la République et coordonne le travail des ministres. Les présidents du Sénat et de l'Assemblée nationale dirigent les débats de leur assemblée, et le Conseil constitutionnel vérifie que les lois respectent la Constitution.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 21",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Reprise de CR-IN-009 (énoncé CR avec « Gouvernement » en majuscule). Le président de la République n'est volontairement pas proposé : il préside le Conseil des ministres et peut sembler diriger le Gouvernement en pratique."
+    },
+    {
+      "reference": "NAT-IN-018",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "democratie-et-droit-de-vote",
+      "statement": "En France, est-ce possible d'adhérer à un parti politique ?",
+      "answers": [
+        "Oui, c'est une liberté garantie par la Constitution",
+        "Non, les partis politiques sont interdits en France",
+        "Oui, mais seulement avec l'accord du maire",
+        "Oui, mais seulement si on est déjà un élu"
+      ],
+      "explanation": "Oui. Les partis politiques se créent et agissent librement, mais ils doivent respecter la démocratie (Constitution, article 4). Adhérer à un parti est un choix libre : ce n'est ni obligatoire, ni nécessaire pour voter ou pour être candidat. L'existence de plusieurs partis, avec des idées différentes, est une condition de la démocratie.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 4",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-IN-019",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Qui gère les collèges publics ?",
+      "answers": [
+        "Le département (le conseil départemental)",
+        "La commune (le conseil municipal)",
+        "La région (le conseil régional)",
+        "Les associations de parents d'élèves"
+      ],
+      "explanation": "Le département a la charge des collèges publics : il construit les bâtiments, les entretient, les équipe et organise par exemple la cantine (Code de l'éducation, article L213-2). L'État, lui, s'occupe des enseignants et des programmes. Les communes ont la charge des écoles maternelles et élémentaires, et les régions celle des lycées.",
+      "answerSource": {
+        "label": "Code de l'éducation, article L213-2",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045293747"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Article L213-2 vérifié sur Légifrance le 31/10/2026 ; régions et lycées : article L214-6. « L'État » n'est volontairement pas proposé, car il gère les enseignants et les programmes des collèges (Code de l'éducation, articles L211-1 et L211-8, non ouverts)."
+    },
+    {
+      "reference": "NAT-IN-020",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Qui gère les écoles primaires et maternelles publiques ?",
+      "answers": [
+        "La commune (le conseil municipal)",
+        "Le département (le conseil départemental)",
+        "La région (le conseil régional)",
+        "Les associations de parents d'élèves"
+      ],
+      "explanation": "La commune a la charge des écoles publiques maternelles et élémentaires : elle est propriétaire des bâtiments, les construit, les équipe et paie leur fonctionnement (Code de l'éducation, article L212-4). C'est aussi à la mairie que les parents inscrivent leur enfant. Les enseignants, eux, sont payés par l'État.",
+      "answerSource": {
+        "label": "Code de l'éducation, article L212-4",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045293752"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Article L212-4 vérifié sur Légifrance le 31/10/2026. Certaines communes confient une partie de cette compétence à leur intercommunalité (non détaillé). « L'État » n'est volontairement pas proposé, car il paie les enseignants (Code de l'éducation, article L211-8, non ouvert)."
+    },
+    {
+      "reference": "NAT-IN-021",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Comment sont désignés les maires ?",
+      "answers": [
+        "Ils sont élus par le conseil municipal",
+        "Ils sont élus directement par les électeurs",
+        "Ils sont nommés par le préfet du département",
+        "Ils sont nommés par le président de la République"
+      ],
+      "explanation": "Les électeurs de la commune élisent les conseillers municipaux. Ensuite, le conseil municipal élit le maire parmi ses membres, au vote secret (Code général des collectivités territoriales, article L2122-4). Le maire n'est donc pas élu directement par les électeurs ; il est élu pour 6 ans, comme le conseil municipal.",
+      "answerSource": {
+        "label": "Code général des collectivités territoriales, article L2122-4",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027573982"
+      },
+      "difficulty": 3,
+      "confidence": "high",
+      "reviewNote": "« Élus directement par les électeurs » est une erreur fréquente, gardée volontairement comme mauvaise réponse : le maire est élu par le conseil municipal (articles L2122-4 et L2122-7, vérifiés sur Légifrance le 31/10/2026)."
+    },
+    {
+      "reference": "NAT-IN-022",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Quelle collectivité territoriale est responsable des transports régionaux ?",
+      "answers": [
+        "La région",
+        "Le département",
+        "La commune",
+        "L'État"
+      ],
+      "explanation": "La région organise les transports d'intérêt régional : les trains régionaux (TER), les cars qui relient les villes et les transports scolaires. Avant les lois de 2014 et 2015, les cars et les transports scolaires dépendaient surtout des départements. Les bus et les tramways des villes sont en général organisés par les communes ou leurs groupements.",
+      "answerSource": {
+        "label": "Ministère de la Transition écologique (ecologie.gouv.fr), « L'organisation de la mobilité en France » ; Code des transports, article L2121-3",
+        "url": "https://www.ecologie.gouv.fr/politiques-publiques/lorganisation-mobilite-france"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Page mise à jour le 10/06/2024 (lois MAPTAM et NOTRe, puis loi d'orientation des mobilités). « L'État » n'est pas une collectivité territoriale : mauvaise réponse à confirmer. L'Île-de-France a une organisation particulière (Île-de-France Mobilités), non détaillée."
+    },
+    {
+      "reference": "NAT-IN-023",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Quelle est l'une des voies possibles pour modifier la Constitution ?",
+      "answers": [
+        "Un référendum, après un vote des deux assemblées",
+        "Une décision du président de la République seul",
+        "Un décret signé par le Premier ministre",
+        "Une décision du Conseil constitutionnel"
+      ],
+      "explanation": "Pour modifier la Constitution, le texte doit d'abord être voté dans les mêmes termes par l'Assemblée nationale et par le Sénat (article 89). Ensuite, il est approuvé par les électeurs, par référendum. Pour un projet du Gouvernement, le président de la République peut aussi le soumettre au Congrès, c'est-à-dire aux députés et aux sénateurs réunis, qui doivent l'adopter à la majorité des trois cinquièmes.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 89",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 3,
+      "confidence": "high",
+      "reviewNote": "L'autre voie, le vote du Congrès à la majorité des trois cinquièmes, n'est pas proposée parmi les mauvaises réponses. L'usage de l'article 11 pour réviser la Constitution (référendum de 1962) est discuté : non mentionné."
+    },
+    {
+      "reference": "NAT-IN-024",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Qui assure l'intérim du président de la République en cas de décès ?",
+      "answers": [
+        "Le président du Sénat",
+        "Le Premier ministre",
+        "Le président de l'Assemblée nationale",
+        "Le président du Conseil constitutionnel"
+      ],
+      "explanation": "Si le président de la République meurt ou démissionne, c'est le président du Sénat qui exerce ses fonctions de façon provisoire (Constitution, article 7). Une nouvelle élection présidentielle a lieu dans un délai de 20 à 35 jours. Pendant cet intérim, certains pouvoirs ne peuvent pas être utilisés : par exemple, il est impossible de dissoudre l'Assemblée nationale.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 7",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Si le président du Sénat est lui aussi empêché, c'est le Gouvernement qui exerce ces fonctions (article 7) : le Premier ministre reste une mauvaise réponse pour le cas général."
+    },
+    {
+      "reference": "NAT-IN-025",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Quel est le rôle du Conseil constitutionnel ?",
+      "answers": [
+        "Vérifier que les lois respectent la Constitution",
+        "Voter les lois et le budget de l'État",
+        "Juger les crimes les plus graves",
+        "Nommer les ministres du Gouvernement"
+      ],
+      "explanation": "Le Conseil constitutionnel vérifie que les lois respectent la Constitution, notamment les droits et les libertés qu'elle garantit (articles 61 et 61-1). Une loi qu'il juge contraire à la Constitution ne peut pas être appliquée. Il veille aussi au bon déroulement de l'élection présidentielle et en proclame les résultats (article 58).",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, articles 58, 61, 61-1 et 62",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "« Ne peut pas être appliquée » simplifie l'article 62 : une loi censurée avant sa promulgation ne peut pas être promulguée ; une disposition censurée après une question prioritaire de constitutionnalité (QPC) est abrogée."
+    },
+    {
+      "reference": "NAT-IN-026",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "democratie-et-droit-de-vote",
+      "statement": "Quelle condition est obligatoire pour se présenter à l'élection présidentielle ?",
+      "answers": [
+        "Obtenir au moins 500 parrainages d'élus",
+        "Être membre d'un parti politique",
+        "Être âgé d'au moins 35 ans",
+        "Être né en France de parents français"
+      ],
+      "explanation": "Pour être candidat, il faut être présenté par au moins 500 élus, par exemple des maires, des députés ou des sénateurs : on parle de « parrainages » (loi du 6 novembre 1962, article 3). Ces élus doivent venir d'au moins 30 départements ou collectivités d'outre-mer différents. Il faut aussi être électeur français, donc avoir au moins 18 ans, mais il n'est pas obligatoire d'appartenir à un parti.",
+      "answerSource": {
+        "label": "Loi n° 62-1292 du 6 novembre 1962 relative à l'élection du Président de la République au suffrage universel, article 3",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000684037"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Article 3 vérifié sur Légifrance le 31/10/2026 (version en vigueur depuis le 01/01/2026). La nationalité française et l'âge de 18 ans sont aussi obligatoires : ils ne figurent donc pas parmi les mauvaises réponses. Le candidat doit aussi déposer une déclaration de situation patrimoniale (non cité)."
+    },
+    {
+      "reference": "NAT-IN-027",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Comment est organisé le découpage administratif de la France ?",
+      "answers": [
+        "En communes, départements et régions",
+        "En provinces, comtés et États fédérés",
+        "En régions autonomes et en provinces",
+        "En districts, comtés et provinces"
+      ],
+      "explanation": "La France est découpée en communes, en départements et en régions : ce sont les principales collectivités territoriales (Constitution, article 72). Il y a 101 départements et 18 régions, en métropole et en outre-mer. Chaque collectivité a ses propres élus, et l'État est représenté sur le territoire par les préfets.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 72",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "L'article 72 cite aussi les collectivités à statut particulier et les collectivités d'outre-mer ; les intercommunalités ne sont pas des collectivités territoriales. 101 départements et 18 régions : voir CSP-IN-032 (Insee, vérifié le 31/10/2026)."
+    },
+    {
+      "reference": "NAT-IN-028",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "organisation-de-la-republique",
+      "statement": "Quel est le rôle du Président de la République ?",
+      "answers": [
+        "Veiller au respect de la Constitution et à la continuité de l'État",
+        "Voter les lois au Parlement, avec les députés et les sénateurs",
+        "Juger les personnes accusées des crimes les plus graves",
+        "Nommer lui-même les maires de toutes les communes"
+      ],
+      "explanation": "Le président de la République veille au respect de la Constitution. Il assure le bon fonctionnement des pouvoirs publics et la continuité de l'État, et il garantit l'indépendance du pays et le respect des traités (Constitution, article 5). Il ne vote pas les lois et ne juge pas : ce sont les rôles du Parlement et de la justice. Les maires, eux, sont élus par les conseils municipaux.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 5",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Reprise de CR-IN-015 (énoncé CR avec « président » en minuscule). Bonne réponse résumée à partir de l'article 5 ; les autres pouvoirs du président (nommer le Premier ministre, présider le Conseil des ministres, être le chef des armées…) ne sont pas proposés comme mauvaises réponses."
+    },
+    {
+      "reference": "NAT-IN-029",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "institutions-europeennes",
+      "statement": "En quelle année la citoyenneté européenne a-t-elle été créée ?",
+      "answers": [
+        "1992",
+        "1957",
+        "1979",
+        "2002"
+      ],
+      "explanation": "La citoyenneté européenne a été créée par le traité sur l'Union européenne, signé à Maastricht le 7 février 1992. Elle s'applique depuis l'entrée en vigueur de ce traité, le 1er novembre 1993. Toute personne qui a la nationalité d'un pays de l'Union est citoyen européen : cette citoyenneté s'ajoute à la nationalité, elle ne la remplace pas.",
+      "answerSource": {
+        "label": "Parlement européen, fiches thématiques sur l'UE, « La citoyenneté de l'Union »",
+        "url": "https://www.europarl.europa.eu/factsheets/fr/sheet/145/la-citoyennete-de-l-union"
+      },
+      "difficulty": 3,
+      "confidence": "medium",
+      "reviewNote": "Date discutable : traité signé en 1992, entré en vigueur le 1er novembre 1993 (fiche thématique du Parlement européen « Les traités de Maastricht et d'Amsterdam ») ; la Commission a fêté en 2023 les 30 ans de la citoyenneté. Nous avons retenu 1992, l'année du traité qui la crée, et exclu 1993 des mauvaises réponses : si la réponse attendue à l'examen est 1993, revoir la question. Mauvaises réponses : 1957 (traité de Rome), 1979 (premières élections européennes au suffrage direct), 2002 (pièces et billets en euros)."
+    },
+    {
+      "reference": "NAT-IN-030",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "institutions-europeennes",
+      "statement": "Quel est le dernier État à avoir intégré l'Union Européenne en 2013 ?",
+      "answers": [
+        "La Croatie",
+        "La Bulgarie",
+        "La Roumanie",
+        "La Slovénie"
+      ],
+      "explanation": "La Croatie est entrée dans l'Union européenne en 2013. C'est le dernier pays à avoir rejoint l'Union : aucun autre pays n'est entré depuis. La Bulgarie et la Roumanie sont entrées en 2007, et la Slovénie en 2004.",
+      "answerSource": {
+        "label": "Union européenne (europa.eu), liste des pays de l'UE",
+        "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_fr"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fait daté : la Croatie reste le dernier pays entré au 31/10/2026 (liste des 27 pays et années d'adhésion vérifiée sur europa.eu). À revérifier si un pays candidat adhère."
+    },
+    {
+      "reference": "NAT-IN-031",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "institutions-europeennes",
+      "statement": "Qui a composé l'hymne de l'Union européenne ?",
+      "answers": [
+        "Ludwig van Beethoven",
+        "Wolfgang Amadeus Mozart",
+        "Claude-Joseph Rouget de Lisle",
+        "Jean-Sébastien Bach"
+      ],
+      "explanation": "L'hymne européen reprend la musique de l'« Ode à la joie », tirée de la Neuvième Symphonie de Ludwig van Beethoven, composée en 1823. Les paroles du poème, écrites par Friedrich von Schiller, ne sont pas chantées : l'hymne européen n'a pas de paroles. Attention : Rouget de Lisle est l'auteur de La Marseillaise, l'hymne national de la France.",
+      "answerSource": {
+        "label": "Union européenne (europa.eu), « Hymne européen »",
+        "url": "https://european-union.europa.eu/principles-countries-history/symbols/european-anthem_fr"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "L'arrangement officiel est attribué au chef d'orchestre Herbert von Karajan (non mentionné sur la page europa.eu consultée) : il n'est pas proposé parmi les mauvaises réponses."
+    },
+    {
+      "reference": "NAT-IN-032",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "institutions-europeennes",
+      "statement": "Quand est célébrée la journée de l'Europe ?",
+      "answers": [
+        "Le 9 mai",
+        "Le 1er mai",
+        "Le 14 juillet",
+        "Le 11 novembre"
+      ],
+      "explanation": "La journée de l'Europe a lieu chaque année le 9 mai. Elle rappelle le discours de Robert Schuman, ministre français des Affaires étrangères, le 9 mai 1950, qui a lancé la construction européenne. Le 14 juillet, lui, est la fête nationale française.",
+      "answerSource": {
+        "label": "Union européenne (europa.eu), « Journée de l'Europe, 9 mai »",
+        "url": "https://european-union.europa.eu/principles-countries-history/symbols/europe-day_fr"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Reprise de CSP-IN-046 (énoncé CSP « Quand célèbre-t-on la journée de l'Europe ? »). Le Conseil de l'Europe, organisation différente de l'Union européenne, fête sa propre journée de l'Europe le 5 mai : cette date n'est donc pas proposée."
+    },
+    {
+      "reference": "NAT-IN-033",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "institutions-europeennes",
+      "statement": "Où est le siège de la Banque centrale européenne ?",
+      "answers": [
+        "À Francfort, en Allemagne",
+        "À Bruxelles, en Belgique",
+        "À Strasbourg, en France",
+        "À Luxembourg, au Luxembourg"
+      ],
+      "explanation": "La Banque centrale européenne (BCE) a son siège à Francfort-sur-le-Main, en Allemagne. Créée en 1998, elle gère l'euro et veille à la stabilité des prix. La Commission européenne a son siège à Bruxelles, et le Parlement européen se réunit surtout à Strasbourg.",
+      "answerSource": {
+        "label": "Union européenne (europa.eu), « Banque centrale européenne (BCE) »",
+        "url": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies/european-central-bank-ecb_fr"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-IN-034",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "institutions-europeennes",
+      "statement": "Qui siège au Parlement européen ?",
+      "answers": [
+        "Les députés européens, élus par les citoyens de l'Union",
+        "Les chefs d'État et de gouvernement des pays de l'Union",
+        "Les ministres des États membres de l'Union",
+        "Les commissaires européens, un par État membre"
+      ],
+      "explanation": "Le Parlement européen réunit 720 députés européens, élus au suffrage universel direct tous les 5 ans par les citoyens de l'Union. Les dernières élections ont eu lieu du 6 au 9 juin 2024. Les chefs d'État et de gouvernement se réunissent au Conseil européen, les ministres au Conseil de l'Union européenne, et les commissaires forment la Commission européenne.",
+      "answerSource": {
+        "label": "Union européenne (europa.eu), « Parlement européen »",
+        "url": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies/european-parliament_fr"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fait daté : 720 députés pour la législature 2024-2029, élections du 6 au 9 juin 2024 (europa.eu, vérifié le 31/10/2026)."
+    },
+    {
+      "reference": "NAT-IN-035",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "institutions-europeennes",
+      "statement": "Les citoyens de l'Union européenne peuvent-ils voter aux élections locales dans un autre État de l'Union ?",
+      "answers": [
+        "Oui, aux élections municipales du pays où ils habitent",
+        "Non, ils votent seulement dans leur pays d'origine",
+        "Oui, mais seulement après 10 ans de résidence",
+        "Oui, mais seulement s'ils ont un contrat de travail"
+      ],
+      "explanation": "Oui. Un citoyen européen qui habite dans un autre pays de l'Union peut y voter et y être candidat aux élections municipales, dans les mêmes conditions que les citoyens de ce pays (traité sur le fonctionnement de l'Union européenne, article 22). Il peut aussi y voter aux élections européennes. En France, il doit s'inscrire sur une liste électorale complémentaire à la mairie, et il ne peut pas devenir maire.",
+      "answerSource": {
+        "label": "Parlement européen, fiches thématiques sur l'UE, « La citoyenneté de l'Union » ; traité sur le fonctionnement de l'Union européenne, article 22",
+        "url": "https://www.europarl.europa.eu/factsheets/fr/sheet/145/la-citoyennete-de-l-union"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "« Élections locales » : le droit européen vise seulement les élections municipales ; en France, les citoyens européens ne votent pas aux élections départementales et régionales, et ne peuvent être ni maire ni adjoint (Constitution, article 88-3). Liste complémentaire : fiche service-public F1937."
+    },
+    {
+      "reference": "NAT-IN-036",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "institutions-europeennes",
+      "statement": "Quel État a quitté l'Union Européenne en 2020 ?",
+      "answers": [
+        "Le Royaume-Uni",
+        "Les Pays-Bas",
+        "Le Danemark",
+        "La Norvège"
+      ],
+      "explanation": "Le Royaume-Uni est officiellement sorti de l'Union européenne le 31 janvier 2020 : c'est le « Brexit ». Cette sortie a suivi un référendum organisé en juin 2016. Les Pays-Bas et le Danemark sont toujours membres de l'Union, et la Norvège n'en a jamais fait partie.",
+      "answerSource": {
+        "label": "Parlement européen, fiches thématiques sur l'UE, « Le Royaume-Uni »",
+        "url": "https://www.europarl.europa.eu/factsheets/fr/sheet/216/le-royaume-uni"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Mauvaises réponses reprises de CR-IN-025 (même énoncé avec « Union européenne » en minuscule) ; Pays-Bas et Danemark toujours membres au 31/10/2026 (liste des pays de l'UE sur europa.eu)."
+    },
+    {
+      "reference": "NAT-IN-037",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "institutions-europeennes",
+      "statement": "Quel est l'hymne de l'Union Européenne ?",
+      "answers": [
+        "L'Ode à la joie, de Beethoven",
+        "La Marseillaise, de Rouget de Lisle",
+        "Le Boléro, de Ravel",
+        "Les Quatre Saisons, de Vivaldi"
+      ],
+      "explanation": "L'hymne de l'Union européenne est l'« Ode à la joie », une musique de la Neuvième symphonie de Beethoven. Il n'a pas de paroles et il ne remplace pas les hymnes nationaux. La Marseillaise reste l'hymne national de la France.",
+      "answerSource": {
+        "label": "Union européenne (europa.eu), « Hymne européen »",
+        "url": "https://european-union.europa.eu/principles-countries-history/symbols/european-anthem_fr"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Reprise de CR-IN-027 (énoncé CR avec « Union européenne » en minuscule)."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "souveraineté nationale",
+      "definition": "Pouvoir de décider pour le pays. En France, il appartient au peuple, qui l'exerce en élisant ses représentants et en votant aux référendums."
+    },
+    {
+      "term": "parrainage",
+      "definition": "Signature d'un élu, par exemple un maire ou un député, qui présente une personne à l'élection présidentielle. Un candidat doit en réunir au moins 500."
+    },
+    {
+      "term": "inéligible",
+      "definition": "Se dit d'une personne qui n'a pas le droit d'être candidate à une élection, par exemple à cause d'une condamnation."
+    },
+    {
+      "term": "circonscription",
+      "definition": "Partie du territoire où les électeurs choisissent leur élu. Par exemple, chaque député est élu dans une circonscription."
+    },
+    {
+      "term": "recteur d'académie",
+      "definition": "Responsable de l'Éducation nationale dans une académie, c'est-à-dire une zone scolaire. Il est nommé, il n'est pas élu."
+    },
+    {
+      "term": "conseil départemental",
+      "definition": "Assemblée des élus d'un département. Elle s'occupe notamment des collèges publics."
+    },
+    {
+      "term": "intérim",
+      "definition": "Remplacement d'une personne dans ses fonctions pendant une courte période, en attendant qu'une autre personne soit choisie."
+    },
+    {
+      "term": "Conseil constitutionnel",
+      "definition": "Institution qui vérifie que les lois respectent la Constitution. Elle surveille aussi le bon déroulement de l'élection présidentielle."
+    },
+    {
+      "term": "Congrès",
+      "definition": "Réunion de tous les députés et de tous les sénateurs. Il peut adopter une modification de la Constitution, s'il réunit au moins 3 voix sur 5."
+    },
+    {
+      "term": "citoyenneté européenne",
+      "definition": "Statut de toute personne qui a la nationalité d'un pays de l'Union européenne. Elle s'ajoute à la nationalité et donne des droits, par exemple voter aux élections municipales du pays de l'Union où l'on habite."
+    },
+    {
+      "term": "Banque centrale européenne",
+      "definition": "Institution de l'Union européenne qui gère l'euro. Son siège est à Francfort, en Allemagne."
+    }
+  ]
+}

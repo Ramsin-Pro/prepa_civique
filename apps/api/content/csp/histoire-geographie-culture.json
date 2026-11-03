@@ -1,0 +1,971 @@
+{
+  "topic": "histoire-geographie-culture",
+  "questions": [
+    {
+      "reference": "CSP-HG-001",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "En quelle année a débuté la Révolution française ?",
+      "answers": [
+        "1789",
+        "1715",
+        "1804",
+        "1815"
+      ],
+      "explanation": "La Révolution française commence en 1789. En mai, le roi Louis XVI réunit à Versailles les états généraux, une assemblée de représentants du pays. Le 14 juillet 1789, le peuple de Paris prend la Bastille, une forteresse qui sert de prison. En août 1789, la Déclaration des droits de l’homme et du citoyen est adoptée.",
+      "answerSource": {
+        "label": "Élysée, « La fête nationale du 14 juillet »",
+        "url": "https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-002",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Qui était Napoléon Ier ?",
+      "answers": [
+        "Un empereur des Français",
+        "Un roi de France du Moyen Âge",
+        "Un président de la Ve République",
+        "Un général de la Première Guerre mondiale"
+      ],
+      "explanation": "Napoléon Bonaparte est un général qui prend le pouvoir en France en 1799. En 1804, il devient « Empereur des Français » sous le nom de Napoléon Ier. Il crée les préfets, qui représentent l’État dans chaque département. Il fait aussi adopter le Code civil, qui fixe les grandes règles de la vie privée (famille, propriété, contrats).",
+      "answerSource": {
+        "label": "Sénatus-consulte du 28 floréal an XII (18 mai 1804), articles 1 et 2 : Conseil constitutionnel, « Constitution de l’An XII - Empire »",
+        "url": "https://www.conseil-constitutionnel.fr/les-constitutions-dans-l-histoire/constitution-de-l-an-xii-empire-28-floreal-an-xii"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-003",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Lequel de ces personnages historiques est français ?",
+      "answers": [
+        "Charles de Gaulle",
+        "Winston Churchill",
+        "Abraham Lincoln",
+        "Nelson Mandela"
+      ],
+      "explanation": "Charles de Gaulle (1890-1970) est un général et un homme politique français. Le 18 juin 1940, à Londres, il appelle à continuer le combat contre l’Allemagne nazie, puis il dirige la France libre. Winston Churchill est britannique, Abraham Lincoln américain et Nelson Mandela sud-africain.",
+      "answerSource": {
+        "label": "Élysée, « Charles de Gaulle »",
+        "url": "https://www.elysee.fr/charles-de-gaulle"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-004",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Dans quelle République est-on aujourd'hui ?",
+      "answers": [
+        "La Ve République",
+        "La IIIe République",
+        "La IVe République",
+        "La IIe République"
+      ],
+      "explanation": "Depuis 1958, la France vit sous la Ve République (la « Cinquième République »). Elle repose sur la Constitution du 4 octobre 1958, qui s’applique toujours aujourd’hui. Avant elle, la IVe République a duré de 1946 à 1958.",
+      "answerSource": {
+        "label": "Conseil constitutionnel, « La Constitution de la Ve République : comment est-elle née ? »",
+        "url": "https://www.conseil-constitutionnel.fr/la-constitution/la-constitution-de-la-ve-republique-comment-est-elle-nee"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-005",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Qu'est-ce que la Shoah ?",
+      "answers": [
+        "Le génocide des Juifs d’Europe pendant la Seconde Guerre mondiale",
+        "Le débarquement des Alliés en Normandie pendant la Seconde Guerre mondiale",
+        "La libération de Paris par les Alliés pendant la Seconde Guerre mondiale",
+        "La signature de l’armistice à la fin de la Première Guerre mondiale"
+      ],
+      "explanation": "La Shoah est le génocide des Juifs d’Europe : l’Allemagne nazie et ses collaborateurs ont tué près de 6 millions de Juifs pendant la Seconde Guerre mondiale. En hébreu, le mot « Shoah » veut dire « catastrophe ». En France, environ 76 000 Juifs, dont plus de 11 000 enfants, ont été déportés (envoyés de force dans les camps) avec l’aide du gouvernement français de Vichy.",
+      "answerSource": {
+        "label": "Mémorial de la Shoah, « La Shoah » et « Les Juifs de France dans la Shoah »",
+        "url": "https://www.memorialdelashoah.org/archives-et-documentation/quest-ce-que-la-shoah.html"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-006",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quel pays ou région du monde a été colonisé par la France ?",
+      "answers": [
+        "L’Algérie",
+        "Le Kenya",
+        "L’Éthiopie",
+        "Le Japon"
+      ],
+      "explanation": "L’Algérie a été colonisée par la France à partir de 1830, pendant 132 ans. Elle est devenue indépendante le 5 juillet 1962, après une guerre de huit ans (1954-1962). La France a aussi colonisé d’autres territoires, par exemple en Afrique de l’Ouest, à Madagascar et en Indochine.",
+      "answerSource": {
+        "label": "Musée national de l’histoire de l’immigration (Palais de la Porte Dorée), « 1962 »",
+        "url": "https://www.histoire-immigration.fr/exposition-permanente/1962"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-007",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Qui a rendu l'école gratuite, laïque et obligatoire ?",
+      "answers": [
+        "Jules Ferry",
+        "Jean Jaurès",
+        "Napoléon Ier",
+        "Georges Clemenceau"
+      ],
+      "explanation": "Jules Ferry est ministre de l’Instruction publique au début des années 1880. Les lois Jules Ferry rendent l’école primaire publique gratuite en 1881, puis obligatoire et laïque en 1882. Aujourd’hui encore, l’école publique est gratuite et laïque.",
+      "answerSource": {
+        "label": "Sénat, « Jules Ferry : politique scolaire »",
+        "url": "https://www.senat.fr/connaitre-le-senat/lhistoire-du-senat/dossiers-dhistoire/jules-ferry-le-president-du-senat-au-mandat-le-plus-court/jules-ferry-politique-scolaire.html"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-008",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quand a eu lieu la Seconde Guerre mondiale ?",
+      "answers": [
+        "De 1939 à 1945",
+        "De 1914 à 1918",
+        "De 1870 à 1871",
+        "De 1954 à 1962"
+      ],
+      "explanation": "La Seconde Guerre mondiale commence en septembre 1939 en Europe. L’Allemagne nazie capitule (elle accepte sa défaite) le 8 mai 1945 : ce jour est férié en France. La guerre se termine le 2 septembre 1945, quand le Japon capitule à son tour.",
+      "answerSource": {
+        "label": "Ministère des Armées, Chemins de mémoire, « La Seconde Guerre mondiale »",
+        "url": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/seconde-guerre-mondiale"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-009",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quand a eu lieu la Première Guerre mondiale ?",
+      "answers": [
+        "De 1914 à 1918",
+        "De 1939 à 1945",
+        "De 1870 à 1871",
+        "De 1954 à 1962"
+      ],
+      "explanation": "La Première Guerre mondiale commence en août 1914. Les combats s’arrêtent avec l’armistice du 11 novembre 1918 : ce jour est férié en France. On appelle aussi cette guerre la « Grande Guerre ».",
+      "answerSource": {
+        "label": "Ministère des Armées, Chemins de mémoire, « La Première Guerre mondiale »",
+        "url": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/premiere-guerre-mondiale"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-010",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "En quelle année a été créée la Communauté Économique Européenne (CEE) ?",
+      "answers": [
+        "1957",
+        "1951",
+        "1992",
+        "2002"
+      ],
+      "explanation": "La CEE est créée par le traité de Rome, un accord signé le 25 mars 1957 par six pays, dont la France, l’Allemagne de l’Ouest et l’Italie. Le traité s’applique à partir du 1er janvier 1958. La CEE est à l’origine de l’Union européenne actuelle. Il ne faut pas la confondre avec la CECA (pour le charbon et l’acier), dont le traité est signé en 1951.",
+      "answerSource": {
+        "label": "Parlement européen, « Traité de Rome »",
+        "url": "https://www.europarl.europa.eu/about-parliament/fr/in-the-past/the-parliament-and-the-treaties/treaty-of-rome"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Le traité instituant la CEE est signé le 25 mars 1957 mais n’entre en vigueur que le 1er janvier 1958 : le site de l’Union européenne écrit que la CEE « voit le jour le 1er janvier 1958 ». 1957 (signature du traité de Rome) est la réponse habituelle ; 1958 a été volontairement écarté des propositions. Confirmer que c’est bien la réponse attendue."
+    },
+    {
+      "reference": "CSP-HG-011",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Le 11 novembre est un jour férié. À quoi correspond cette date ?",
+      "answers": [
+        "À l’armistice de la Première Guerre mondiale, en 1918",
+        "À la fin de la Seconde Guerre mondiale en Europe, en 1945",
+        "À la prise de la Bastille, en 1789",
+        "À la libération de Paris, en 1944"
+      ],
+      "explanation": "Le 11 novembre 1918, l’armistice arrête les combats de la Première Guerre mondiale. Depuis 1922, ce jour est férié : on rend hommage aux soldats morts pendant cette guerre. Depuis une loi de 2012, on rend aussi hommage ce jour-là à tous les « morts pour la France ».",
+      "answerSource": {
+        "label": "Loi n° 2012-273 du 28 février 2012 fixant au 11 novembre la commémoration de tous les morts pour la France, article 1er",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000025413468/"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-012",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Qui a été le premier Président élu sous la Ve République ?",
+      "answers": [
+        "Charles de Gaulle",
+        "Georges Pompidou",
+        "Valéry Giscard d’Estaing",
+        "François Mitterrand"
+      ],
+      "explanation": "Charles de Gaulle est élu président de la République le 21 décembre 1958, moins de trois mois après l’adoption de la Constitution de la Ve République. À cette époque, il n’est pas élu par tous les électeurs, mais par environ 80 000 élus. Depuis 1965, le président de la République est élu directement par tous les électeurs.",
+      "answerSource": {
+        "label": "Conseil constitutionnel, décision n° 59-2 PDR du 8 janvier 1959 (proclamation des résultats de l’élection du 21 décembre 1958)",
+        "url": "https://www.conseil-constitutionnel.fr/decision/1959/592pdr.htm"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-013",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "En quelle année l'esclavage a-t-il été aboli définitivement en France ?",
+      "answers": [
+        "1848",
+        "1794",
+        "1789",
+        "1905"
+      ],
+      "explanation": "L’esclavage est aboli une première fois en 1794, puis rétabli en 1802 sous Napoléon Bonaparte. Il est aboli définitivement par un décret (une décision du gouvernement) du 27 avril 1848, grâce notamment à Victor Schœlcher. Depuis une loi de 2001, la France reconnaît la traite (le commerce des esclaves) et l’esclavage comme des crimes contre l’humanité.",
+      "answerSource": {
+        "label": "Assemblée nationale, « Abolition de l’esclavage (1794 et 1848) »",
+        "url": "https://www2.assemblee-nationale.fr/14/evenements/2016/abolition-de-l-esclavage-1794-et-1848"
+      },
+      "difficulty": 3,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-014",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Depuis quelle année l'école publique est-elle gratuite ?",
+      "answers": [
+        "1881",
+        "1789",
+        "1905",
+        "1958"
+      ],
+      "explanation": "La loi du 16 juin 1881, voulue par Jules Ferry, rend l’école primaire publique gratuite. En 1882, une autre loi la rend obligatoire et laïque. Aujourd’hui encore, l’enseignement est gratuit dans les écoles publiques.",
+      "answerSource": {
+        "label": "Loi du 16 juin 1881 établissant la gratuité absolue de l’enseignement primaire dans les écoles publiques",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000877118/"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "La loi de 1881 concerne l’école primaire publique ; la gratuité de l’enseignement secondaire public est venue plus tard. Aucune proposition ne correspond à cette autre période."
+    },
+    {
+      "reference": "CSP-HG-015",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Combien y a-t-il eu de républiques en France ?",
+      "answers": [
+        "5",
+        "3",
+        "4",
+        "6"
+      ],
+      "explanation": "La France a connu cinq républiques. La Ire République commence en 1792, la IIe en 1848, la IIIe en 1870 et la IVe en 1946. Depuis 1958, la France vit sous la Ve République.",
+      "answerSource": {
+        "label": "Conseil constitutionnel, « Les Constitutions de la France »",
+        "url": "https://www.conseil-constitutionnel.fr/rubrique-principale/les-constitutions-dans-l-histoire"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-016",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Qui était le roi de France au moment de la Révolution française ?",
+      "answers": [
+        "Louis XVI",
+        "Louis XIV",
+        "Louis XV",
+        "Henri IV"
+      ],
+      "explanation": "Louis XVI devient roi de France en 1774. En 1789, il réunit à Versailles les états généraux, une assemblée de représentants du pays : c’est le début de la Révolution. En 1792, la monarchie (le pouvoir du roi) est abolie et la République est proclamée. Louis XVI est exécuté le 21 janvier 1793.",
+      "answerSource": {
+        "label": "Château de Versailles, « Louis XVI »",
+        "url": "https://www.chateauversailles.fr/decouvrir/histoire/grands-personnages/louis-xvi"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-017",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Qui a fondé la Ve République ?",
+      "answers": [
+        "Charles de Gaulle",
+        "Jules Ferry",
+        "Léon Blum",
+        "François Mitterrand"
+      ],
+      "explanation": "En 1958, le général de Gaulle revient au pouvoir et fait préparer une nouvelle Constitution. Les Français l’approuvent par référendum le 28 septembre 1958, et elle devient officielle le 4 octobre 1958 : c’est le début de la Ve République. De Gaulle en devient ensuite le premier président.",
+      "answerSource": {
+        "label": "Élysée, « Charles de Gaulle »",
+        "url": "https://www.elysee.fr/charles-de-gaulle"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-018",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Que célèbre-t-on le 14 juillet ?",
+      "answers": [
+        "La fête nationale",
+        "La fête du Travail",
+        "La victoire de 1945",
+        "L’armistice de 1918"
+      ],
+      "explanation": "Le 14 juillet est la fête nationale de la France depuis une loi de 1880. Cette date rappelle la prise de la Bastille, le 14 juillet 1789, et la fête de la Fédération, le 14 juillet 1790, qui célébrait l’unité des Français. Ce jour-là, il y a un grand défilé militaire à Paris et des feux d’artifice dans de nombreuses villes.",
+      "answerSource": {
+        "label": "Élysée, « La fête nationale du 14 juillet »",
+        "url": "https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-019",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quelle guerre a eu lieu entre 1914 et 1918 ?",
+      "answers": [
+        "La Première Guerre mondiale",
+        "La Seconde Guerre mondiale",
+        "La guerre d’Algérie",
+        "La guerre d’Indochine"
+      ],
+      "explanation": "La guerre de 1914-1918 est la Première Guerre mondiale, qu’on appelle aussi la « Grande Guerre ». Elle oppose notamment la France, le Royaume-Uni et la Russie à l’Allemagne et à l’Autriche-Hongrie. La Seconde Guerre mondiale a lieu plus tard, de 1939 à 1945.",
+      "answerSource": {
+        "label": "Ministère des Armées, Chemins de mémoire, « La Première Guerre mondiale »",
+        "url": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/premiere-guerre-mondiale"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-020",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Pourquoi l'année 1958 est importante pour la France ?",
+      "answers": [
+        "C’est le début de la Ve République",
+        "C’est la fin de la Seconde Guerre mondiale",
+        "C’est le début de la Révolution française",
+        "C’est l’abolition de l’esclavage"
+      ],
+      "explanation": "En 1958, les Français approuvent par référendum une nouvelle Constitution, qui devient officielle le 4 octobre 1958. Elle crée la Ve République, l’organisation politique actuelle de la France. La Seconde Guerre mondiale se termine en 1945, la Révolution commence en 1789 et l’esclavage est aboli en 1848.",
+      "answerSource": {
+        "label": "Conseil constitutionnel, « La Constitution de la Ve République : comment est-elle née ? »",
+        "url": "https://www.conseil-constitutionnel.fr/la-constitution/la-constitution-de-la-ve-republique-comment-est-elle-nee"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-021",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quel fleuve coule en France ?",
+      "answers": [
+        "La Loire",
+        "Le Danube",
+        "Le Tage",
+        "La Tamise"
+      ],
+      "explanation": "La Loire coule entièrement en France : c’est le plus long fleuve du pays, avec plus de 1 000 km. Elle se jette dans l’océan Atlantique, près de Saint-Nazaire. Le Danube, le Tage et la Tamise coulent dans d’autres pays d’Europe.",
+      "answerSource": {
+        "label": "Agence de l’eau Loire-Bretagne, Plan Loire grandeur nature : « La Loire, le plus long fleuve de France »",
+        "url": null
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "La longueur de la Loire varie selon les sources officielles (de 1 006 à 1 020 km) : l’explication dit donc « plus de 1 000 km ». Les pages de l’agence de l’eau Loire-Bretagne et du Plan Loire n’ont pas pu être ouvertes automatiquement le 31/10/2026 : ajouter l’adresse après vérification."
+    },
+    {
+      "reference": "CSP-HG-022",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle ville est française ?",
+      "answers": [
+        "Lyon",
+        "Barcelone",
+        "Munich",
+        "Milan"
+      ],
+      "explanation": "Lyon est une grande ville de France, traversée par le Rhône et la Saône. C’est la ville principale de la région Auvergne-Rhône-Alpes. Barcelone est en Espagne, Munich en Allemagne et Milan en Italie.",
+      "answerSource": {
+        "label": "Décret n° 2016-1266 du 28 septembre 2016 portant fixation du nom et du chef-lieu de la région Auvergne-Rhône-Alpes, article 2",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033161457"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-023",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quel océan borde la côte ouest française ?",
+      "answers": [
+        "L’océan Atlantique",
+        "L’océan Pacifique",
+        "L’océan Indien",
+        "L’océan Arctique"
+      ],
+      "explanation": "La côte ouest de la France métropolitaine est bordée par l’océan Atlantique, par exemple à La Rochelle ou à Biarritz. Au sud, la France est bordée par la mer Méditerranée, et au nord par la Manche et la mer du Nord. Certains territoires d’outre-mer sont dans l’océan Indien (La Réunion) ou dans l’océan Pacifique (Polynésie française).",
+      "answerSource": {
+        "label": "Ministère de la Transition écologique, « Les quatre façades maritimes de l’hexagone se projettent pour le développement durable des espaces maritimes et littoraux à 2050 » (5 décembre 2025)",
+        "url": "https://www.ecologie.gouv.fr/presse/quatre-facades-maritimes-lhexagone-se-projettent-developpement-durable-espaces-maritimes"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "La fiche officielle « Les frontières de la France » du site formation-civique.interieur.gouv.fr indique aussi les mers et l’océan de chaque côté du pays, mais elle n’a pas pu être ouverte automatiquement le 31/10/2026 : à consulter à la main."
+    },
+    {
+      "reference": "CSP-HG-024",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Qu'est-ce que Paris ?",
+      "answers": [
+        "La capitale de la France",
+        "La capitale de la Belgique",
+        "Un port au bord de la Méditerranée",
+        "Une région de l’est de la France"
+      ],
+      "explanation": "Paris est la capitale de la France. Le président de la République, le Gouvernement et le Parlement s’y trouvent. C’est aussi la ville la plus peuplée du pays ; elle est traversée par la Seine.",
+      "answerSource": {
+        "label": "Union européenne, fiche pays « France » (capitale : Paris)",
+        "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/france_fr"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-025",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle est la capitale de la France ?",
+      "answers": [
+        "Paris",
+        "Lyon",
+        "Marseille",
+        "Toulouse"
+      ],
+      "explanation": "La capitale de la France est Paris. C’est là que se trouvent les grandes institutions de la République, comme le palais de l’Élysée, où travaille le président de la République. Lyon, Marseille et Toulouse sont de grandes villes françaises, mais pas la capitale.",
+      "answerSource": {
+        "label": "Union européenne, fiche pays « France » (capitale : Paris)",
+        "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/france_fr"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-026",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Sur quel continent se situe la France métropolitaine ?",
+      "answers": [
+        "En Europe",
+        "En Afrique",
+        "En Amérique",
+        "En Asie"
+      ],
+      "explanation": "La France métropolitaine se trouve en Europe, à l’ouest du continent. Elle comprend la partie continentale et des îles proches, comme la Corse. La France a aussi des territoires d’outre-mer sur d’autres continents ou dans les océans, par exemple la Guyane en Amérique du Sud.",
+      "answerSource": {
+        "label": "Insee, définition « France métropolitaine (champ statistique) »",
+        "url": "https://www.insee.fr/fr/metadonnees/definition/c2315"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-027",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle île est un département d'outre-mer français ?",
+      "answers": [
+        "La Réunion",
+        "La Corse",
+        "Tahiti",
+        "Madagascar"
+      ],
+      "explanation": "La Réunion est une île de l’océan Indien. C’est un département et une région d’outre-mer, comme la Guadeloupe, la Martinique, la Guyane et Mayotte. Tahiti fait partie de la Polynésie française, un territoire d’outre-mer qui n’est pas un département. La Corse fait partie de la France métropolitaine, et Madagascar est un pays indépendant.",
+      "answerSource": {
+        "label": "Insee, définition « Départements, régions et collectivités d’outre-mer »",
+        "url": "https://www.insee.fr/fr/metadonnees/definition/c2316"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Liste des départements et régions d’outre-mer vérifiée le 31/10/2026 sur le site de l’Insee."
+    },
+    {
+      "reference": "CSP-HG-028",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Combien y a-t-il de régions en France métropolitaine ?",
+      "answers": [
+        "13",
+        "18",
+        "22",
+        "27"
+      ],
+      "explanation": "Depuis le 1er janvier 2016, la France métropolitaine compte 13 régions, Corse comprise. Avant cette date, il y en avait 22. Avec les 5 régions d’outre-mer, la France compte 18 régions au total.",
+      "answerSource": {
+        "label": "Insee, définition « France (champ statistique) » ; loi n° 2015-29 du 16 janvier 2015 relative à la délimitation des régions",
+        "url": "https://www.insee.fr/fr/metadonnees/definition/c1696"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Nombre de régions vérifié le 31/10/2026 sur le site de l’Insee ; il ne peut changer que par une loi."
+    },
+    {
+      "reference": "CSP-HG-029",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle ville est un grand port maritime ?",
+      "answers": [
+        "Marseille",
+        "Lyon",
+        "Toulouse",
+        "Clermont-Ferrand"
+      ],
+      "explanation": "Marseille est une grande ville au bord de la mer Méditerranée. Son port fait partie des grands ports maritimes de France, comme ceux de Dunkerque, du Havre ou de Nantes-Saint-Nazaire. Lyon, Toulouse et Clermont-Ferrand sont loin de la mer.",
+      "answerSource": {
+        "label": "Ministère chargé de la Mer, « Acteurs, réseau et activités portuaires en France » (liste des grands ports maritimes)",
+        "url": "https://www.mer.gouv.fr/acteurs-reseau-et-activites-portuaires-en-france"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-030",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle est la mer au sud de la France métropolitaine ?",
+      "answers": [
+        "La mer Méditerranée",
+        "La mer du Nord",
+        "La mer Baltique",
+        "La mer Noire"
+      ],
+      "explanation": "Au sud, la France métropolitaine est bordée par la mer Méditerranée, par exemple à Marseille, à Toulon ou à Nice. Au nord, elle est bordée par la Manche et la mer du Nord, et à l’ouest par l’océan Atlantique. La mer Baltique et la mer Noire sont loin de la France.",
+      "answerSource": {
+        "label": "Ministère de la Transition écologique, « Les quatre façades maritimes de l’hexagone se projettent pour le développement durable des espaces maritimes et littoraux à 2050 » (5 décembre 2025)",
+        "url": "https://www.ecologie.gouv.fr/presse/quatre-facades-maritimes-lhexagone-se-projettent-developpement-durable-espaces-maritimes"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "La fiche officielle « Les frontières de la France » du site formation-civique.interieur.gouv.fr indique aussi les mers et l’océan de chaque côté du pays, mais elle n’a pas pu être ouverte automatiquement le 31/10/2026 : à consulter à la main."
+    },
+    {
+      "reference": "CSP-HG-031",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle ville est située au bord de la mer Méditerranée ?",
+      "answers": [
+        "Nice",
+        "Brest",
+        "Lille",
+        "Strasbourg"
+      ],
+      "explanation": "Nice est une ville du sud-est de la France, au bord de la mer Méditerranée. Brest est au bord de l’océan Atlantique. Lille et Strasbourg ne sont pas au bord de la mer.",
+      "answerSource": {
+        "label": "IGN, cartes.gouv.fr (carte de la France)",
+        "url": "https://cartes.gouv.fr/explorer-les-cartes/"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-032",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Où se situe la Corse ?",
+      "answers": [
+        "Dans la mer Méditerranée",
+        "Dans l’océan Atlantique",
+        "Dans la mer des Caraïbes",
+        "Dans l’océan Indien"
+      ],
+      "explanation": "La Corse est une île française de la mer Méditerranée, au sud-est de la France continentale. Elle fait partie de la France métropolitaine. Ses deux plus grandes villes sont Ajaccio et Bastia.",
+      "answerSource": {
+        "label": "Insee, « L’essentiel sur… la Corse »",
+        "url": "https://www.insee.fr/fr/statistiques/4481069"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-033",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle chaîne de montagnes est située entre la France et l'Italie ?",
+      "answers": [
+        "Les Alpes",
+        "Les Pyrénées",
+        "Le Jura",
+        "Les Vosges"
+      ],
+      "explanation": "Les Alpes sont une grande chaîne de montagnes partagée entre plusieurs pays, dont la France et l’Italie. Le mont Blanc, le plus haut sommet des Alpes, se trouve près de la frontière entre ces deux pays. Les Pyrénées sont entre la France et l’Espagne, et le Jura entre la France et la Suisse.",
+      "answerSource": {
+        "label": "Convention alpine, « Parties contractantes » (les États des Alpes, dont la France et l’Italie)",
+        "url": "https://www.alpconv.org/fr/page-daccueil/organisation/parties-contractantes/"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-034",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Qui était Molière ?",
+      "answers": [
+        "Un auteur de théâtre et comédien du XVIIe siècle",
+        "Un peintre impressionniste du XIXe siècle",
+        "Un roi de France du XVIe siècle",
+        "Un savant célèbre du XVIIIe siècle"
+      ],
+      "explanation": "Molière (1622-1673) est un homme de théâtre français : il écrit des pièces, il joue comme comédien et il dirige une troupe. Ses comédies, comme L’Avare, Tartuffe ou Le Malade imaginaire, sont encore jouées aujourd’hui. On appelle souvent le français « la langue de Molière ».",
+      "answerSource": {
+        "label": "BnF Essentiels, « Molière »",
+        "url": "https://essentiels.bnf.fr/fr/personnalite/5802832f-e4b7-4992-9647-6361d9a0e5ee-moliere"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-035",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Qui était Charles Baudelaire ?",
+      "answers": [
+        "Un poète du XIXe siècle",
+        "Un peintre du XVIIe siècle",
+        "Un roi de France du XIVe siècle",
+        "Un scientifique du XXe siècle"
+      ],
+      "explanation": "Charles Baudelaire (1821-1867) est un grand poète français. Son livre de poèmes le plus connu s’appelle Les Fleurs du mal ; il est publié en 1857. Il est aussi critique d’art et traducteur des textes de l’écrivain américain Edgar Allan Poe.",
+      "answerSource": {
+        "label": "BnF Essentiels, « Charles Baudelaire, moderne et mélancolique »",
+        "url": "https://essentiels.bnf.fr/fr/article/a838e30c-69c1-4936-bdf1-251122e79534-charles-baudelaire-moderne-et-melancolique"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-036",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Qui était George Sand ?",
+      "answers": [
+        "Une écrivaine du XIXe siècle",
+        "Une reine de France du XVIe siècle",
+        "Une scientifique du XXe siècle",
+        "Une chanteuse du XXe siècle"
+      ],
+      "explanation": "George Sand (1804-1876) est une écrivaine française. Son vrai nom est Aurore Dupin : elle signe ses livres avec un prénom d’homme. Elle a écrit environ 90 romans, comme La Mare au diable, son œuvre la plus célèbre.",
+      "answerSource": {
+        "label": "BnF Essentiels, « George Sand »",
+        "url": "https://essentiels.bnf.fr/fr/personnalite/415698dd-986f-4181-a4bf-3fbd5b2b784e-george-sand"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-037",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Qui était Simone de Beauvoir ?",
+      "answers": [
+        "Une écrivaine et philosophe du XXe siècle",
+        "Une ministre de la Santé du XXe siècle",
+        "Une chanteuse du XXe siècle",
+        "Une reine de France du XVIIe siècle"
+      ],
+      "explanation": "Simone de Beauvoir (1908-1986) est une écrivaine et philosophe française. Son livre Le Deuxième Sexe, publié en 1949, est un texte majeur du féminisme : il défend la liberté et l’indépendance des femmes. Il ne faut pas la confondre avec Simone Veil, qui a été ministre de la Santé.",
+      "answerSource": {
+        "label": "BnF Essentiels (Passerelles), « Le Deuxième Sexe de Simone de Beauvoir »",
+        "url": "https://passerelles.essentiels.bnf.fr/fr/chronologie/article/52242fd4-ad46-4b11-a216-0d5ec7ef665d-deuxieme-sexe-simone-beauvoir"
+      },
+      "difficulty": 3,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-038",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Qui était Albert Camus ?",
+      "answers": [
+        "Un écrivain du XXe siècle",
+        "Un peintre du XIXe siècle",
+        "Un président de la République du XXe siècle",
+        "Un roi de France du XVIIe siècle"
+      ],
+      "explanation": "Albert Camus (1913-1960) est un écrivain français, né en Algérie. Il a écrit des romans célèbres comme L’Étranger (1942) et La Peste. Il reçoit le prix Nobel de littérature en 1957.",
+      "answerSource": {
+        "label": "BnF, « Albert Camus (1913-1960) - Bibliographie »",
+        "url": "https://www.bnf.fr/fr/albert-camus-1913-1960-bibliographie"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-039",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Qui était Paul Cézanne ?",
+      "answers": [
+        "Un peintre du XIXe siècle",
+        "Un poète du XVIIe siècle",
+        "Un roi de France du XVe siècle",
+        "Un compositeur du XVIIIe siècle"
+      ],
+      "explanation": "Paul Cézanne (1839-1906) est un peintre français, né à Aix-en-Provence. Il a peint de nombreux paysages de Provence, en particulier la montagne Sainte-Victoire. Son travail a beaucoup influencé la peinture moderne.",
+      "answerSource": {
+        "label": "Ministère de la Culture (DRAC Provence-Alpes-Côte d’Azur), « Atelier Cézanne - Aix-en-Provence (13) »",
+        "url": "https://www.culture.gouv.fr/regions/drac-provence-alpes-cote-d-azur/politique-et-actions-culturelles/le-label-maison-des-illustres-en-provence-alpes-cote-d-azur/atelier-cezanne-aix-en-provence-13"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-040",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Qui était Marc Chagall ?",
+      "answers": [
+        "Un peintre du XXe siècle",
+        "Un écrivain du XIXe siècle",
+        "Un chanteur du XXe siècle",
+        "Un architecte du XVIIIe siècle"
+      ],
+      "explanation": "Marc Chagall (1887-1985) est un peintre né à Vitebsk, dans l’Empire russe (aujourd’hui en Biélorussie). Il s’installe en France et devient français en 1937. Il a peint le plafond de l’Opéra de Paris (palais Garnier), inauguré en 1964. Un musée national lui est consacré à Nice.",
+      "answerSource": {
+        "label": "Centre Pompidou, fiche « Marc Chagall » ; musée national Marc Chagall (Nice), chronologie",
+        "url": "https://www.centrepompidou.fr/fr/ressources/personne/c7pG96e"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Naturalisation en 1937, plafond de l’Opéra (1964) et musée de Nice : chronologie du musée national Marc Chagall, consultée en anglais (https://musees-nationaux-alpesmaritimes.fr/chagall/en/actualite/chronologie-de-marc-chagall)."
+    },
+    {
+      "reference": "CSP-HG-041",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Qui était Joséphine Baker ?",
+      "answers": [
+        "Une chanteuse, danseuse et résistante du XXe siècle",
+        "Une femme scientifique du XIXe siècle",
+        "Une reine de France du XVIIIe siècle",
+        "Une peintre impressionniste du XIXe siècle"
+      ],
+      "explanation": "Joséphine Baker (1906-1975) est une artiste de spectacle, chanteuse et danseuse, née aux États-Unis et devenue française en 1937. Pendant la Seconde Guerre mondiale, elle s’engage dans la Résistance. Le 30 novembre 2021, elle entre au Panthéon, où la France honore de grandes personnalités.",
+      "answerSource": {
+        "label": "Ministère des Armées, Chemins de mémoire, « Joséphine Baker (1906-1975) »",
+        "url": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/personnalites/personnalites-lettre-lettre/josephine-baker"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Notion choisie : patrimoine-francais (artiste, comme les énoncés voisins de la liste). La notion periodes-et-personnages-historiques serait aussi possible (résistante, Panthéon)."
+    },
+    {
+      "reference": "CSP-HG-042",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Qui était une chanteuse française célèbre ?",
+      "answers": [
+        "Édith Piaf",
+        "Oum Kalthoum",
+        "Whitney Houston",
+        "Amália Rodrigues"
+      ],
+      "explanation": "Édith Piaf (1915-1963) est une très grande chanteuse française, née à Paris. Ses chansons les plus connues sont La Vie en rose, L’Hymne à l’amour et Non, je ne regrette rien. Oum Kalthoum est une chanteuse égyptienne, Whitney Houston américaine et Amália Rodrigues portugaise.",
+      "answerSource": {
+        "label": "INA, « Edith Piaf, une amoureuse à la voix d’or »",
+        "url": "https://www.ina.fr/ina-eclaire-actu/edith-piaf-chanson-chanteuse-amour-france-hymne"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-043",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Qu'est-ce que le Louvre ?",
+      "answers": [
+        "Un grand musée à Paris",
+        "Une grande cathédrale à Paris",
+        "Un grand stade à Paris",
+        "Une grande gare à Paris"
+      ],
+      "explanation": "Le Louvre est un grand musée national, à Paris. C’est un ancien palais des rois de France, devenu musée en 1793. On peut y voir des œuvres très célèbres, comme La Joconde de Léonard de Vinci.",
+      "answerSource": {
+        "label": "Musée du Louvre, espace presse, « Le musée du Louvre en bref »",
+        "url": "https://presse.louvre.fr/le-musee-du-louvre-1063000201419/?lang=fr"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-044",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Qui était Jean de la Fontaine ?",
+      "answers": [
+        "Un poète du XVIIe siècle, connu pour ses fables",
+        "Un peintre du XIXe siècle, connu pour ses paysages",
+        "Un savant du XVIIIe siècle, connu pour ses découvertes",
+        "Un roi de France du XVIe siècle, connu pour ses châteaux"
+      ],
+      "explanation": "Jean de La Fontaine (1621-1695) est un poète français. Il est célèbre pour ses Fables : de courtes histoires en vers, souvent avec des animaux, qui donnent une leçon appelée « morale ». Parmi les plus connues, il y a Le Corbeau et le Renard et La Cigale et la Fourmi.",
+      "answerSource": {
+        "label": "Académie française, « Jean de La Fontaine »",
+        "url": "https://www.academie-francaise.fr/les-immortels/jean-de-la-fontaine"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-045",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Quel écrivain est français ?",
+      "answers": [
+        "Victor Hugo",
+        "William Shakespeare",
+        "Miguel de Cervantès",
+        "Léon Tolstoï"
+      ],
+      "explanation": "Victor Hugo (1802-1885) est un très grand écrivain français. Il a écrit des romans célèbres comme Notre-Dame de Paris et Les Misérables, mais aussi des poèmes et des pièces de théâtre. Shakespeare est anglais, Cervantès espagnol et Tolstoï russe.",
+      "answerSource": {
+        "label": "Académie française, « Victor Hugo »",
+        "url": "https://www.academie-francaise.fr/les-immortels/victor-hugo"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-HG-046",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Dans quelle ville se trouve la tour Eiffel ?",
+      "answers": [
+        "À Paris",
+        "À Lyon",
+        "À Marseille",
+        "À Toulouse"
+      ],
+      "explanation": "La tour Eiffel se trouve à Paris, sur le Champ-de-Mars, au bord de la Seine. Elle a été construite par Gustave Eiffel pour l’Exposition universelle de 1889. Elle mesure aujourd’hui 330 mètres.",
+      "answerSource": {
+        "label": "Ville de Paris, « Une nouvelle antenne pour la tour Eiffel… qui a grandi de 6 mètres en 2022 ! »",
+        "url": "https://www.paris.fr/pages/la-tour-eiffel-fete-ses-130-ans-6554"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Hauteur de 330 mètres depuis l’installation d’une nouvelle antenne en mars 2022, vérifiée le 31/10/2026 sur paris.fr ; elle peut changer."
+    },
+    {
+      "reference": "CSP-HG-047",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Quand célèbre-t-on Noël ?",
+      "answers": [
+        "Le 25 décembre",
+        "Le 1er janvier",
+        "Le 1er novembre",
+        "Le 15 août"
+      ],
+      "explanation": "Noël est fêté le 25 décembre. C’est une fête chrétienne qui célèbre la naissance de Jésus ; pour beaucoup de personnes, c’est aussi une fête de famille. Le 25 décembre est un jour férié en France.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Jours fériés et ponts dans le secteur privé » ; Code du travail, article L3133-1",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2405"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    }
+  ],
+  "situations": [],
+  "glossary": [
+    {
+      "term": "abolir",
+      "definition": "Supprimer officiellement une règle ou une pratique, par une loi ou une décision de l’État. Par exemple, l’esclavage a été aboli en France en 1848."
+    },
+    {
+      "term": "armistice",
+      "definition": "Accord entre des pays en guerre pour arrêter les combats."
+    },
+    {
+      "term": "colonisation",
+      "definition": "Situation où un pays prend le contrôle d’un territoire étranger et de sa population, et le dirige. Ce territoire s’appelle alors une colonie."
+    },
+    {
+      "term": "Constitution",
+      "definition": "Le texte le plus important d’un pays. Il fixe l’organisation du pouvoir et les droits des citoyens. En France, c’est la Constitution du 4 octobre 1958."
+    },
+    {
+      "term": "département d’outre-mer",
+      "definition": "Territoire français situé loin de l’Europe, où s’appliquent presque les mêmes lois qu’en France métropolitaine. Il y en a cinq : la Guadeloupe, la Martinique, la Guyane, La Réunion et Mayotte."
+    },
+    {
+      "term": "esclavage",
+      "definition": "Situation d’une personne qui appartient à une autre personne, comme un objet. Elle est obligée de travailler, sans salaire et sans liberté."
+    },
+    {
+      "term": "fleuve",
+      "definition": "Grande rivière qui se jette dans la mer ou dans l’océan. Exemples en France : la Loire, la Seine, la Garonne et le Rhône."
+    },
+    {
+      "term": "France métropolitaine",
+      "definition": "La partie de la France qui se trouve en Europe, avec des îles proches comme la Corse. On l’appelle aussi « l’Hexagone »."
+    },
+    {
+      "term": "génocide",
+      "definition": "Crime très grave : la volonté de faire disparaître un peuple ou un groupe humain, en tuant ses membres parce qu’ils appartiennent à ce groupe."
+    },
+    {
+      "term": "jour férié",
+      "definition": "Jour de fête officiel, comme le 14 juillet ou le 25 décembre. Ce jour-là, beaucoup de personnes ne travaillent pas."
+    },
+    {
+      "term": "laïque",
+      "definition": "Qui ne dépend d’aucune religion. À l’école publique laïque, on n’enseigne pas de religion et on respecte les croyances de chacun."
+    },
+    {
+      "term": "Panthéon",
+      "definition": "Grand monument de Paris où la France rend hommage à de grandes personnalités de son histoire."
+    },
+    {
+      "term": "référendum",
+      "definition": "Vote où les électeurs répondent directement par « oui » ou par « non » à une question, par exemple sur un projet de Constitution."
+    },
+    {
+      "term": "Résistance",
+      "definition": "Pendant la Seconde Guerre mondiale, combat des femmes et des hommes qui luttaient contre l’Allemagne nazie, dont l’armée contrôlait la France."
+    },
+    {
+      "term": "siècle",
+      "definition": "Période de cent ans. On écrit souvent les siècles en chiffres romains : le XVIIe siècle va de 1601 à 1700, le XIXe siècle de 1801 à 1900 et le XXe siècle de 1901 à 2000."
+    }
+  ]
+}

@@ -1,0 +1,778 @@
+// Modèle de données de Prépa Civique.
+// Références : cahier des charges §5 (règles métier), §7 (contenus), §8 (données), §9 (sécurité, RGPD),
+// écrans E05 à E17 et back-office A01 à A09.
+
+generator client {
+  provider            = "prisma-client"
+  output              = "../src/generated/prisma"
+  moduleFormat        = "esm"
+  importFileExtension = "js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ─── Contenus ────────────────────────────────────────────────────────────────
+
+/// Type d'une question (§7). Une question rédigée par l'équipe n'est jamais présentée comme officielle.
+enum QuestionType {
+  OFFICIAL_KNOWLEDGE // énoncé repris de la liste officielle publiée pour le parcours
+  ORIGINAL_KNOWLEDGE // question de connaissance rédigée par l'équipe
+  ORIGINAL_SITUATION // mise en situation rédigée par l'équipe (les officielles ne sont pas publiques)
+}
+
+/// Workflow éditorial (A03), commun aux questions, fiches et pages : brouillon, à relire, validée, publiée, archivée.
+enum QuestionStatus {
+  DRAFT
+  IN_REVIEW
+  APPROVED
+  PUBLISHED
+  ARCHIVED
+}
+
+/// Famille d'une question dans la composition de l'examen.
+enum QuestionKind {
+  KNOWLEDGE
+  SITUATION
+}
+
+enum ReportReason {
+  WRONG_ANSWER
+  UNCLEAR_STATEMENT
+  WRONG_SOURCE
+  OTHER
+}
+
+enum ReportStatus {
+  OPEN
+  RESOLVED
+  REJECTED
+}
+
+/// Parcours de préparation : carte de séjour pluriannuelle, carte de résident, naturalisation.
+model Path {
+  id            Int            @id @default(autoincrement())
+  code          String         @unique
+  slug          String         @unique
+  title         String
+  description   String
+  active        Boolean        @default(false)
+  position      Int            @default(0)
+  /// Sources officielles affichées sur la page du parcours (E03) : [{ label, url }]
+  sources       Json           @default("[]")
+  /// Date de la dernière vérification des règles du parcours sur les sources officielles (E03).
+  verifiedAt    DateTime?      @map("verified_at") @db.Date
+  questions     QuestionPath[]
+  examTemplates ExamTemplate[]
+  users         User[]
+
+  @@map("paths")
+}
+
+/// Thématique pédagogique, commune aux parcours.
+model Topic {
+  id         Int                 @id @default(autoincrement())
+  slug       String              @unique
+  title      String
+  position   Int                 @default(0)
+  questions  Question[]
+  examQuotas ExamTemplateQuota[]
+  sheets     RevisionSheet[]
+
+  @@map("topics")
+}
+
+/// Source citée par une question (§7) : texte officiel, page de référence, liste publiée.
+model Source {
+  id                 Int        @id @default(autoincrement())
+  key                String     @unique
+  label              String
+  url                String?
+  licence            String?
+  consultedAt        DateTime?  @map("consulted_at") @db.Date
+  statementQuestions Question[] @relation("StatementSource")
+  answerQuestions    Question[] @relation("AnswerSource")
+
+  @@map("sources")
+}
+
+model Question {
+  id                Int                    @id @default(autoincrement())
+  /// Identifiant stable et lisible, utilisé par l'équipe éditoriale (par ex. CSP-PV-001).
+  reference         String                 @unique
+  type              QuestionType
+  status            QuestionStatus         @default(DRAFT)
+  statement         String
+  explanation       String
+  difficulty        Int                    @default(1)
+  topicId           Int                    @map("topic_id")
+  topic             Topic                  @relation(fields: [topicId], references: [id])
+  /// Notion de l'arrêté (par ex. devise-et-symboles), utilisée pour composer l'examen blanc.
+  notion            String?
+  /// D'où vient l'énoncé : la liste officielle pour une question officielle, sinon vide.
+  statementSourceId Int?                   @map("statement_source_id")
+  statementSource   Source?                @relation("StatementSource", fields: [statementSourceId], references: [id])
+  /// Ce qui justifie la bonne réponse et l'explication. La liste officielle ne donne pas les réponses.
+  answerSourceId    Int?                   @map("answer_source_id")
+  answerSource      Source?                @relation("AnswerSource", fields: [answerSourceId], references: [id])
+  version           Int                    @default(1)
+  /// Date de la relecture humaine (validation éditoriale, E09).
+  verifiedAt        DateTime?              @map("verified_at") @db.Date
+  author            String?
+  /// Niveau de confiance du brouillon (high, medium, low) : oriente la relecture (charte éditoriale §5).
+  draftConfidence   String?                @map("draft_confidence")
+  /// Ce que la relecture doit vérifier en priorité.
+  reviewNote        String?                @map("review_note")
+  lastEditedById    String?                @map("last_edited_by") @db.Uuid
+  lastEditedBy      User?                  @relation("QuestionEditor", fields: [lastEditedById], references: [id], onDelete: SetNull)
+  reviewedById      String?                @map("reviewed_by") @db.Uuid
+  reviewedBy        User?                  @relation("QuestionReviewer", fields: [reviewedById], references: [id], onDelete: SetNull)
+  publishedAt       DateTime?              @map("published_at")
+  createdAt         DateTime               @default(now()) @map("created_at")
+  updatedAt         DateTime               @updatedAt @map("updated_at")
+  answers           Answer[]
+  paths             QuestionPath[]
+  examItems         ExamAttemptQuestion[]
+  reports           QuestionReport[]
+  learnerStates     VisitorQuestionState[]
+  favorites         VisitorFavorite[]
+  versions          QuestionVersion[]
+
+  @@index([status, type])
+  @@index([topicId])
+  @@map("questions")
+}
+
+model Answer {
+  id         Int                   @id @default(autoincrement())
+  questionId Int                   @map("question_id")
+  question   Question              @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  text       String
+  isCorrect  Boolean               @default(false) @map("is_correct")
+  position   Int
+  chosenIn   ExamAttemptQuestion[]
+
+  @@unique([questionId, position])
+  @@map("answers")
+}
+
+model QuestionPath {
+  questionId Int      @map("question_id")
+  pathId     Int      @map("path_id")
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  path       Path     @relation(fields: [pathId], references: [id], onDelete: Cascade)
+
+  @@id([questionId, pathId])
+  @@index([pathId])
+  @@map("question_paths")
+}
+
+/// Historique des versions d'une question (§5) : chaque modification garde l'état précédent.
+model QuestionVersion {
+  id         Int      @id @default(autoincrement())
+  questionId Int      @map("question_id")
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  version    Int
+  snapshot   Json
+  editorId   String?  @map("editor_id") @db.Uuid
+  editor     User?    @relation(fields: [editorId], references: [id], onDelete: SetNull)
+  createdAt  DateTime @default(now()) @map("created_at")
+
+  @@unique([questionId, version])
+  @@map("question_versions")
+}
+
+/// Fiche de révision (E12), une par notion de l'arrêté, avec le même workflow éditorial que les questions.
+model RevisionSheet {
+  id              Int             @id @default(autoincrement())
+  slug            String          @unique
+  topicId         Int             @map("topic_id")
+  topic           Topic           @relation(fields: [topicId], references: [id])
+  notion          String?
+  position        Int             @default(0)
+  title           String
+  summary         String
+  keyPoints       String[]        @map("key_points")
+  examples        String[]
+  /// [{ term, definition }]
+  vocabulary      Json
+  /// [{ label, url }]
+  sources         Json
+  status          QuestionStatus  @default(DRAFT)
+  draftConfidence String?         @map("draft_confidence")
+  reviewNote      String?         @map("review_note")
+  /// Responsable de la validation du contenu (E12).
+  reviewedByName  String?         @map("reviewed_by_name")
+  reviewedAt      DateTime?       @map("reviewed_at") @db.Date
+  publishedAt     DateTime?       @map("published_at")
+  createdAt       DateTime        @default(now()) @map("created_at")
+  updatedAt       DateTime        @updatedAt @map("updated_at")
+  favorites       SheetFavorite[]
+
+  @@map("revision_sheets")
+}
+
+/// Fiches mises de côté par un apprenant (E12).
+model SheetFavorite {
+  learnerKey String        @map("learner_key")
+  sheetId    Int           @map("sheet_id")
+  sheet      RevisionSheet @relation(fields: [sheetId], references: [id], onDelete: Cascade)
+  createdAt  DateTime      @default(now()) @map("created_at")
+
+  @@id([learnerKey, sheetId])
+  @@map("sheet_favorites")
+}
+
+/// Pages éditoriales (FAQ, pages légales…), en Markdown, gérées depuis le back-office (A05).
+model ContentPage {
+  id          Int            @id @default(autoincrement())
+  slug        String         @unique
+  title       String
+  body        String
+  status      QuestionStatus @default(DRAFT)
+  reviewedAt  DateTime?      @map("reviewed_at")
+  publishedAt DateTime?      @map("published_at")
+  createdAt   DateTime       @default(now()) @map("created_at")
+  updatedAt   DateTime       @updatedAt @map("updated_at")
+
+  @@map("content_pages")
+}
+
+/// Glossaire des mots difficiles, affichés à côté des questions qui les utilisent (charte éditoriale §6).
+model GlossaryTerm {
+  id         Int    @id @default(autoincrement())
+  term       String @unique
+  definition String
+
+  @@map("glossary_terms")
+}
+
+/// Signalement d'une erreur par un utilisateur (E08, A01).
+model QuestionReport {
+  id         Int          @id @default(autoincrement())
+  questionId Int          @map("question_id")
+  question   Question     @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  reason     ReportReason
+  message    String?
+  status     ReportStatus @default(OPEN)
+  createdAt  DateTime     @default(now()) @map("created_at")
+
+  @@index([status])
+  @@map("question_reports")
+}
+
+// ─── Examens blancs ──────────────────────────────────────────────────────────
+
+/// Modèle d'examen blanc versionné (§5, A04) : nombre de questions, durée et seuil ne sont jamais codés en dur.
+model ExamTemplate {
+  id              Int                 @id @default(autoincrement())
+  pathId          Int                 @map("path_id")
+  path            Path                @relation(fields: [pathId], references: [id])
+  version         Int
+  knowledgeCount  Int                 @map("knowledge_count")
+  situationCount  Int                 @map("situation_count")
+  durationSeconds Int                 @map("duration_seconds")
+  passThreshold   Int                 @map("pass_threshold")
+  regulatoryRef   String?             @map("regulatory_ref")
+  active          Boolean             @default(false)
+  createdAt       DateTime            @default(now()) @map("created_at")
+  attempts        ExamAttempt[]
+  quotas          ExamTemplateQuota[]
+
+  @@unique([pathId, version])
+  @@map("exam_templates")
+}
+
+/// Répartition d'un modèle d'examen par thème, famille et notion (A04).
+/// Sans répartition, l'examen tire simplement knowledgeCount et situationCount questions.
+model ExamTemplateQuota {
+  id         Int          @id @default(autoincrement())
+  templateId Int          @map("template_id")
+  template   ExamTemplate @relation(fields: [templateId], references: [id], onDelete: Cascade)
+  topicId    Int          @map("topic_id")
+  topic      Topic        @relation(fields: [topicId], references: [id])
+  kind       QuestionKind
+  /// Notion visée ; vide = n'importe quelle notion du thème.
+  notion     String?
+  count      Int
+
+  @@index([templateId])
+  @@map("exam_template_quotas")
+}
+
+/// Tentative d'examen blanc, rattachée à un apprenant (visiteur anonyme ou compte).
+model ExamAttempt {
+  id         String                @id @default(uuid()) @db.Uuid
+  templateId Int                   @map("template_id")
+  template   ExamTemplate          @relation(fields: [templateId], references: [id])
+  /// Apprenant : empreinte du cookie visiteur, ou « user:<id> » pour un compte.
+  learnerKey String                @map("visitor_hash")
+  startedAt  DateTime              @default(now()) @map("started_at")
+  expiresAt  DateTime              @map("expires_at")
+  endedAt    DateTime?             @map("ended_at")
+  score      Int?
+  items      ExamAttemptQuestion[]
+
+  @@index([learnerKey, endedAt])
+  @@map("exam_attempts")
+}
+
+/// Une question tirée pour une tentative, avec l'ordre d'affichage des réponses et la réponse choisie.
+model ExamAttemptQuestion {
+  id          Int         @id @default(autoincrement())
+  attemptId   String      @map("attempt_id") @db.Uuid
+  attempt     ExamAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  questionId  Int         @map("question_id")
+  question    Question    @relation(fields: [questionId], references: [id])
+  position    Int
+  answerOrder Int[]       @map("answer_order")
+  answerId    Int?        @map("answer_id")
+  answer      Answer?     @relation(fields: [answerId], references: [id])
+  answeredAt  DateTime?   @map("answered_at")
+  /// Calculé uniquement à la fin de l'examen : aucune correction avant la soumission finale (§5).
+  isCorrect   Boolean?    @map("is_correct")
+
+  @@unique([attemptId, position])
+  @@unique([attemptId, questionId])
+  @@map("exam_attempt_questions")
+}
+
+// ─── Apprentissage ───────────────────────────────────────────────────────────
+
+/// Suivi d'apprentissage d'une question pour un apprenant : répétition espacée en 5 boîtes (Leitner).
+/// Une erreur renvoie la question en boîte 1 (à revoir tout de suite) ; une bonne réponse la fait monter
+/// d'une boîte et espace la révision suivante.
+model VisitorQuestionState {
+  learnerKey     String   @map("visitor_hash")
+  questionId     Int      @map("question_id")
+  question       Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  box            Int      @default(1)
+  attempts       Int      @default(0)
+  correctCount   Int      @default(0) @map("correct_count")
+  lastCorrect    Boolean  @map("last_correct")
+  lastAnsweredAt DateTime @map("last_answered_at")
+  dueAt          DateTime @map("due_at")
+
+  @@id([learnerKey, questionId])
+  @@index([learnerKey, dueAt])
+  @@map("visitor_question_states")
+}
+
+/// Questions mises de côté par un apprenant pour les retravailler (E09, E13).
+model VisitorFavorite {
+  learnerKey String   @map("visitor_hash")
+  questionId Int      @map("question_id")
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  createdAt  DateTime @default(now()) @map("created_at")
+
+  @@id([learnerKey, questionId])
+  @@map("visitor_favorites")
+}
+
+// ─── Comptes (E05, E16) et rôles (A09) ───────────────────────────────────────
+
+/// LEARNER : candidat. Les autres rôles donnent accès au back-office (A09).
+enum Role {
+  LEARNER
+  READONLY
+  SUPPORT
+  EDITOR
+  SUPER_ADMIN
+}
+
+enum UserStatus {
+  ACTIVE
+  DISABLED
+}
+
+model User {
+  id                 String               @id @default(uuid()) @db.Uuid
+  /// Toujours en minuscules.
+  email              String               @unique
+  passwordHash       String               @map("password_hash")
+  role               Role                 @default(LEARNER)
+  status             UserStatus           @default(ACTIVE)
+  emailVerifiedAt    DateTime?            @map("email_verified_at")
+  termsAcceptedAt    DateTime             @map("terms_accepted_at")
+  termsVersion       String               @map("terms_version")
+  /// Consentement marketing séparé et facultatif (E05, §9).
+  marketingConsentAt DateTime?            @map("marketing_consent_at")
+  /// Parcours choisi (E02, E16).
+  pathId             Int?                 @map("path_id")
+  path               Path?                @relation(fields: [pathId], references: [id], onDelete: SetNull)
+  /// Secret TOTP chiffré (double authentification des comptes du back-office, A09).
+  mfaSecret          String?              @map("mfa_secret")
+  mfaEnabledAt       DateTime?            @map("mfa_enabled_at")
+  /// Pas de temps (période de 30 s) du dernier code accepté : un code ne sert qu'une fois, même encore valable.
+  mfaLastStep        Int?                 @map("mfa_last_step")
+  /// Canal d'acquisition déclaré à l'inscription (utm_source), pour les statistiques (A08).
+  acquisitionChannel String?              @map("acquisition_channel")
+  lastLoginAt        DateTime?            @map("last_login_at")
+  /// Email d'avertissement envoyé avant la suppression d'un compte inactif (durées de conservation, §9).
+  inactivityNoticeAt DateTime?            @map("inactivity_notice_at")
+  /// Accord pour recevoir un rappel quand des questions sont à revoir (au plus une fois par semaine). Vide : pas de rappel.
+  reminderOptInAt    DateTime?            @map("reminder_opt_in_at")
+  lastReminderAt     DateTime?            @map("last_reminder_at")
+  /// Date de l'examen officiel, si la personne l'indique : sert à proposer un rythme de révision, jamais à prédire.
+  examDate           DateTime?            @map("exam_date") @db.Date
+  /// Email envoyé après la date d'examen pour demander un avis (une seule fois, avec l'accord pour les emails d'information).
+  examFollowUpAt     DateTime?            @map("exam_follow_up_at")
+  testimonial        Testimonial?
+  ownedOrganizations Organization[]       @relation("OrganizationOwner")
+  memberships        OrganizationMember[]
+  createdAt          DateTime             @default(now()) @map("created_at")
+  updatedAt          DateTime             @updatedAt @map("updated_at")
+  sessions           Session[]
+  emailTokens        EmailToken[]
+  orders             Order[]
+  entitlements       Entitlement[]
+  auditLogs          AuditLog[]
+  editedQuestions    Question[]           @relation("QuestionEditor")
+  reviewedQuestions  Question[]           @relation("QuestionReviewer")
+  questionVersions   QuestionVersion[]
+  contactMessages    ContactMessage[]
+
+  @@index([role])
+  @@map("users")
+}
+
+/// Session de connexion. Seule l'empreinte SHA-256 du jeton est stockée.
+model Session {
+  id          String   @id
+  userId      String   @map("user_id") @db.Uuid
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  mfaVerified Boolean  @default(false) @map("mfa_verified")
+  createdAt   DateTime @default(now()) @map("created_at")
+  lastSeenAt  DateTime @default(now()) @map("last_seen_at")
+  expiresAt   DateTime @map("expires_at")
+
+  @@index([userId])
+  @@map("sessions")
+}
+
+enum TokenPurpose {
+  VERIFY_EMAIL
+  RESET_PASSWORD
+  CHANGE_EMAIL
+}
+
+/// Lien envoyé par email (confirmation, mot de passe oublié, changement d'adresse). Usage unique, durée limitée.
+model EmailToken {
+  id        Int          @id @default(autoincrement())
+  userId    String       @map("user_id") @db.Uuid
+  user      User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  purpose   TokenPurpose
+  tokenHash String       @unique @map("token_hash")
+  newEmail  String?      @map("new_email")
+  expiresAt DateTime     @map("expires_at")
+  usedAt    DateTime?    @map("used_at")
+  createdAt DateTime     @default(now()) @map("created_at")
+
+  @@index([userId, purpose])
+  @@map("email_tokens")
+}
+
+// ─── Premium et paiement (E14, E15, A07) ─────────────────────────────────────
+
+/// Formule Premium : accès de durée déterminée, payé une fois, sans renouvellement automatique.
+model Plan {
+  id             Int          @id @default(autoincrement())
+  code           String       @unique
+  name           String
+  description    String
+  /// Prix TTC en centimes.
+  priceCents     Int          @map("price_cents")
+  currency       String       @default("EUR")
+  /// Durée de l'accès Premium. Pour un pack de structure : durée offerte à chaque personne, à partir de son activation.
+  durationDays   Int          @map("duration_days")
+  active         Boolean      @default(true)
+  position       Int          @default(0)
+  /// Particulier (pass individuel) ou structure (pack de places pour une association).
+  audience       PlanAudience @default(INDIVIDUAL)
+  /// Pack de structure : nombre de places, et délai pour les activer après l'achat.
+  seats          Int?
+  activationDays Int?         @map("activation_days")
+  orders         Order[]
+
+  @@map("plans")
+}
+
+enum PlanAudience {
+  INDIVIDUAL
+  ORGANIZATION
+}
+
+enum OrderStatus {
+  PENDING
+  PAID
+  FAILED
+  EXPIRED
+  REFUNDED
+}
+
+model Order {
+  id                   String               @id @default(uuid()) @db.Uuid
+  userId               String               @map("user_id") @db.Uuid
+  user                 User                 @relation(fields: [userId], references: [id])
+  planId               Int                  @map("plan_id")
+  plan                 Plan                 @relation(fields: [planId], references: [id])
+  amountCents          Int                  @map("amount_cents")
+  currency             String
+  status               OrderStatus          @default(PENDING)
+  /// stripe ou simulation (développement uniquement)
+  provider             String
+  providerSessionId    String?              @unique @map("provider_session_id")
+  providerPaymentId    String?              @map("provider_payment_id")
+  /// Accord pour l'accès immédiat et renonciation au droit de rétractation (E15), recueilli avant paiement.
+  /// Vide pour une commande de structure (personne morale) : le droit de rétractation des consommateurs ne s'y applique pas.
+  waiverAcceptedAt     DateTime?            @map("waiver_accepted_at")
+  /// Commande d'un pack de places pour une structure.
+  organizationId       String?              @map("organization_id") @db.Uuid
+  organization         Organization?        @relation(fields: [organizationId], references: [id])
+  /// Version des CGV acceptée au moment de la commande (E15), avec sa date.
+  salesTermsVersion    String?              @map("sales_terms_version")
+  salesTermsAcceptedAt DateTime?            @map("sales_terms_accepted_at")
+  paidAt               DateTime?            @map("paid_at")
+  refundedAt           DateTime?            @map("refunded_at")
+  createdAt            DateTime             @default(now()) @map("created_at")
+  updatedAt            DateTime             @updatedAt @map("updated_at")
+  entitlement          Entitlement?
+  license              OrganizationLicense?
+
+  @@index([userId])
+  @@index([status, createdAt])
+  @@map("orders")
+}
+
+/// Droit Premium : actif entre startsAt et expiresAt, sauf révocation (remboursement).
+model Entitlement {
+  id             Int                 @id @default(autoincrement())
+  userId         String              @map("user_id") @db.Uuid
+  user           User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  orderId        String?             @unique @map("order_id") @db.Uuid
+  order          Order?              @relation(fields: [orderId], references: [id])
+  startsAt       DateTime            @map("starts_at")
+  expiresAt      DateTime            @map("expires_at")
+  revokedAt      DateTime?           @map("revoked_at")
+  /// Email envoyé quelques jours avant la fin de l'accès (pas de renouvellement automatique).
+  expiryNoticeAt DateTime?           @map("expiry_notice_at")
+  /// Prolongation gratuite demandée par la personne (examen repoussé), une seule fois par accès.
+  extendedAt     DateTime?           @map("extended_at")
+  membership     OrganizationMember?
+  createdAt      DateTime            @default(now()) @map("created_at")
+
+  @@index([userId, expiresAt])
+  @@map("entitlements")
+}
+
+/// Notifications du prestataire déjà traitées : empêche les doubles activations (§9).
+model PaymentEvent {
+  id         String   @id
+  type       String
+  receivedAt DateTime @default(now()) @map("received_at")
+
+  @@map("payment_events")
+}
+
+// ─── Associations et structures : packs de places ────────────────────────────
+
+enum OrganizationStatus {
+  /// Créée au moment de la commande, en attente du paiement.
+  PENDING
+  ACTIVE
+  SUSPENDED
+}
+
+/// Association, centre social ou organisme qui achète des places pour les personnes qu'il accompagne.
+model Organization {
+  id           String                @id @default(uuid()) @db.Uuid
+  name         String
+  /// association, centre-social, formation, collectivite, autre
+  kind         String
+  city         String?
+  /// Numéro RNA ou SIRET, facultatif (facture).
+  registration String?
+  contactName  String                @map("contact_name")
+  /// Compte du coordinateur ou de la coordinatrice : gère les places et voit le suivi.
+  ownerId      String                @map("owner_id") @db.Uuid
+  owner        User                  @relation("OrganizationOwner", fields: [ownerId], references: [id])
+  status       OrganizationStatus    @default(PENDING)
+  /// Code d'invitation partagé avec les apprenants ; peut être régénéré si le lien circule trop.
+  inviteCode   String                @unique @map("invite_code")
+  createdAt    DateTime              @default(now()) @map("created_at")
+  updatedAt    DateTime              @updatedAt @map("updated_at")
+  licenses     OrganizationLicense[]
+  members      OrganizationMember[]
+  orders       Order[]
+
+  @@index([ownerId])
+  @@map("organizations")
+}
+
+/// Pack de places : chaque place ouvre un accès Premium à la personne qui l'active.
+model OrganizationLicense {
+  id             Int                  @id @default(autoincrement())
+  organizationId String               @map("organization_id") @db.Uuid
+  organization   Organization         @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  /// Achat en ligne ; vide pour un pack réglé par virement ou un pilote.
+  orderId        String?              @unique @map("order_id") @db.Uuid
+  order          Order?               @relation(fields: [orderId], references: [id])
+  seats          Int
+  /// Durée de l'accès offert à chaque personne, à partir de son activation.
+  seatDays       Int                  @map("seat_days")
+  /// Date limite pour activer les places.
+  validUntil     DateTime             @map("valid_until")
+  /// Montant TTC payé, en centimes (0 pour un pilote).
+  priceCents     Int                  @map("price_cents")
+  /// commande, virement ou pilote
+  source         String
+  note           String?
+  revokedAt      DateTime?            @map("revoked_at")
+  createdAt      DateTime             @default(now()) @map("created_at")
+  members        OrganizationMember[]
+
+  @@index([organizationId])
+  @@map("organization_licenses")
+}
+
+/// Personne qui a activé une place. La structure voit son email masqué ; le détail seulement avec son accord.
+model OrganizationMember {
+  id              Int                 @id @default(autoincrement())
+  organizationId  String              @map("organization_id") @db.Uuid
+  organization    Organization        @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  licenseId       Int                 @map("license_id")
+  license         OrganizationLicense @relation(fields: [licenseId], references: [id], onDelete: Cascade)
+  userId          String              @map("user_id") @db.Uuid
+  user            User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  entitlementId   Int                 @unique @map("entitlement_id")
+  entitlement     Entitlement         @relation(fields: [entitlementId], references: [id], onDelete: Cascade)
+  /// Accord pour partager l'email complet et la progression avec la structure. Vide : rien n'est partagé.
+  shareProgressAt DateTime?           @map("share_progress_at")
+  joinedAt        DateTime            @default(now()) @map("joined_at")
+  /// Retiré par la structure ou parti de lui-même : la place est libérée, l'accès est clos.
+  removedAt       DateTime?           @map("removed_at")
+
+  @@unique([organizationId, userId])
+  @@index([licenseId])
+  @@map("organization_members")
+}
+
+enum OrganizationRequestStatus {
+  NEW
+  CONTACTED
+  CONVERTED
+  CLOSED
+}
+
+/// Demande de devis, de paiement par virement ou de pilote, envoyée depuis la page Associations.
+model OrganizationRequest {
+  id               Int                       @id @default(autoincrement())
+  organizationName String                    @map("organization_name")
+  kind             String
+  city             String?
+  contactName      String                    @map("contact_name")
+  email            String
+  phone            String?
+  seats            Int
+  /// devis, virement ou pilote
+  wish             String
+  message          String?
+  status           OrganizationRequestStatus @default(NEW)
+  createdAt        DateTime                  @default(now()) @map("created_at")
+  updatedAt        DateTime                  @updatedAt @map("updated_at")
+
+  @@index([status])
+  @@map("organization_requests")
+}
+
+// ─── Support, audit, statistiques ────────────────────────────────────────────
+
+enum MessageStatus {
+  NEW
+  ANSWERED
+  CLOSED
+}
+
+/// Message envoyé par le formulaire de contact (E17), avec une collecte minimale.
+model ContactMessage {
+  id        Int           @id @default(autoincrement())
+  email     String
+  subject   String
+  message   String
+  status    MessageStatus @default(NEW)
+  userId    String?       @map("user_id") @db.Uuid
+  user      User?         @relation(fields: [userId], references: [id], onDelete: SetNull)
+  createdAt DateTime      @default(now()) @map("created_at")
+
+  @@index([status, createdAt])
+  @@map("contact_messages")
+}
+
+/// Journal des actions sensibles du back-office (A09) : publication, droits, remboursements…
+model AuditLog {
+  id        Int      @id @default(autoincrement())
+  actorId   String?  @map("actor_id") @db.Uuid
+  actor     User?    @relation(fields: [actorId], references: [id], onDelete: SetNull)
+  action    String
+  entity    String
+  entityId  String   @map("entity_id")
+  details   Json?
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([createdAt])
+  @@index([entity, entityId])
+  @@map("audit_logs")
+}
+
+/// Événements agrégés pour les statistiques (A08), sans traceur : visite, réponse, examen, inscription, achat.
+model AnalyticsEvent {
+  id         BigInt   @id @default(autoincrement())
+  type       String
+  day        DateTime @db.Date
+  /// Empreinte de l'apprenant, pour compter les visiteurs distincts.
+  learnerKey String?  @map("learner_key")
+  pathCode   String?  @map("path_code")
+  channel    String?
+  /// Pour les événements de l'offre Premium : l'endroit du site où l'offre a été vue ou cliquée.
+  place      String?
+  createdAt  DateTime @default(now()) @map("created_at")
+
+  @@index([type, day])
+  @@map("analytics_events")
+}
+
+/// Audio généré par la synthèse vocale (voix Rémy), gardé en cache par empreinte du texte.
+model SpeechClip {
+  hash      String   @id
+  voice     String
+  audio     Bytes
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@map("speech_clips")
+}
+
+enum TestimonialStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+/// Témoignage d'un candidat (E01) : uniquement authentique, publié avec l'accord de son auteur et après modération.
+model Testimonial {
+  id          Int               @id @default(autoincrement())
+  userId      String            @unique @map("user_id") @db.Uuid
+  user        User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  /// Nom affiché, choisi par l'auteur (par exemple un prénom et une initiale).
+  displayName String            @map("display_name")
+  pathCode    String?           @map("path_code")
+  text        String
+  status      TestimonialStatus @default(PENDING)
+  consentAt   DateTime          @map("consent_at")
+  reviewedAt  DateTime?         @map("reviewed_at")
+  createdAt   DateTime          @default(now()) @map("created_at")
+  updatedAt   DateTime          @updatedAt @map("updated_at")
+
+  @@index([status])
+  @@map("testimonials")
+}

@@ -1,0 +1,53 @@
+url: http://localhost:3001
+name: Découvrir l'offre associations et demander des places d'essai
+---
+- launchApp:
+    clearState: true
+# L'offre de groupe se voit dès l'accueil, sans faire défiler
+- assertVisible: "Association, centre social, organisme de formation ?"
+- tapOn: "Association, centre social, organisme de formation ?"
+- assertVisible: "Préparez tout votre groupe à l’examen civique"
+- openLink: http://localhost:3001/associations#packs
+- scrollUntilVisible:
+    element: "100 places"
+    direction: DOWN
+# Prix par personne (en gras, avec une espace insécable fine avant « € » : le point l'accepte)
+- assertVisible: "8.€"
+- assertVisible: "6.€"
+- assertVisible: "Sur devis"
+# Commander en ligne demande le compte de la personne qui coordonne la structure
+- tapOn:
+    text: "Choisir ce pack"
+    index: 1
+- assertVisible: "Commander des places"
+- assertVisible: "Créer le compte de ma structure"
+# Demande de places d'essai, sans compte
+- openLink: http://localhost:3001/associations#demande
+- scrollUntilVisible:
+    element: "Des places d’essai"
+    direction: DOWN
+- tapOn: "Des places d’essai"
+- tapOn: "Nom de la structure"
+- inputText: "Association Maestro"
+- tapOn: "Ville"
+- inputText: "Lyon"
+- tapOn: "Votre nom"
+- inputText: "Camille Essai"
+- tapOn: "Email professionnel"
+- inputText: "maestro-structure@exemple.test"
+- scrollUntilVisible:
+    element: "Envoyer ma demande"
+    direction: DOWN
+- tapOn: "Envoyer ma demande"
+- assertVisible: "Merci, votre demande est envoyée."
+# Sur la page Tarifs, l'offre de groupe est au même niveau que le Premium
+- openLink: http://localhost:3001/tarifs
+- scrollUntilVisible:
+    element: "Associations et structures"
+    direction: DOWN
+- assertVisible: "Pour votre groupe"
+- scrollUntilVisible:
+    element: "Voir l’offre associations"
+    direction: DOWN
+- tapOn: "Voir l’offre associations"
+- assertVisible: "Préparez tout votre groupe à l’examen civique"

@@ -1,0 +1,39 @@
+{
+  "business": "Repère (nom de travail) : site de préparation à l'examen civique obligatoire (carte de séjour pluriannuelle, carte de résident, naturalisation)",
+  "target": "Personnes étrangères vivant en France, 18 à 60 ans, qui doivent passer l'examen civique en 2026 pour un titre de séjour ou la nationalité, avec un français de niveau A2 à B1",
+  "where": "France, surtout grandes villes et banlieues (Île-de-France, Lyon, Marseille, Lille)",
+  "age": [18, 60],
+  "segments": [
+    {"name": "Première carte de séjour pluriannuelle (CSP)", "share": 0.50, "income": [9000, 26000]},
+    {"name": "Demande de carte de résident (CR)", "share": 0.25, "income": [14000, 34000]},
+    {"name": "Demande de naturalisation (NAT)", "share": 0.25, "income": [18000, 48000]}
+  ],
+  "behaviours": [
+    {"name": "Gratuit seulement", "share": 0.22, "how": "Révise avec la liste officielle du ministère, YouTube et les sites gratuits, ne paie jamais pour un service en ligne."},
+    {"name": "Conseillé par sa communauté", "share": 0.16, "how": "Suit ce que recommandent les groupes WhatsApp ou Facebook de sa communauté et les amis qui ont déjà passé l'examen."},
+    {"name": "Anxieux qui veut être sûr", "share": 0.16, "how": "A peur de rater, son titre de séjour en dépend : prêt à payer si cela le rassure vraiment."},
+    {"name": "Lit les avis avant tout", "share": 0.12, "how": "Vérifie les avis Google, Trustpilot ou les commentaires avant de payer quoi que ce soit en ligne."},
+    {"name": "Compare les concurrents", "share": 0.12, "how": "Ouvre plusieurs sites et applis de préparation et choisit le moins cher ou celui qui semble le plus complet."},
+    {"name": "Accompagné par une association", "share": 0.12, "how": "Suit la formation civique de l'OFII ou des cours dans une association, et révise surtout avec eux."},
+    {"name": "Tout sur le téléphone, peu de temps", "share": 0.10, "how": "Travaille en horaires décalés, révise dans les transports sur un téléphone avec peu de données."}
+  ],
+  "objections": [
+    "Les questions officielles sont déjà publiées gratuitement par le ministère",
+    "Ce n'est pas un site officiel, est-ce que c'est fiable et à jour ?",
+    "19 €, c'est beaucoup pour mon budget",
+    "Mon français n'est pas assez bon pour comprendre les explications",
+    "J'ai peur des arnaques et de payer par carte sur un site inconnu",
+    "La version gratuite suffit peut-être pour réussir",
+    "Je préfère une application ou des cours en vrai avec une association",
+    "Est-ce que 3 mois suffisent si mon rendez-vous est repoussé ?"
+  ],
+  "habits": [
+    "tu révises dans le RER ou le bus le matin",
+    "ton rendez-vous en préfecture est dans quelques mois",
+    "un ami a déjà passé l'examen et t'en a parlé",
+    "tu fais partie d'un groupe WhatsApp de ta communauté",
+    "tu travailles le soir et le week-end",
+    "tu suis des cours de français dans une association",
+    "tu as déjà payé une formation en ligne qui t'a déçu"
+  ]
+}

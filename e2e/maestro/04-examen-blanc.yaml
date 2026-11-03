@@ -1,0 +1,52 @@
+url: http://localhost:3001/examen-blanc
+name: Examen blanc complet, de la préparation au résultat
+---
+# Nouveau visiteur : aucun examen en cours à reprendre.
+- launchApp:
+    clearState: true
+- assertVisible: "Passez l’examen dans les conditions réelles"
+- assertVisible: "Consignes"
+- scrollUntilVisible:
+    element: "Commencer l’examen blanc"
+    direction: DOWN
+- tapOn: "Commencer l’examen blanc"
+- assertVisible: "Terminer l’examen"
+- scrollUntilVisible:
+    element:
+      id: "proposition-1"
+    direction: DOWN
+- tapOn:
+    id: "proposition-1"
+- scrollUntilVisible:
+    element: "Suivante"
+    direction: DOWN
+- tapOn: "Suivante"
+- scrollUntilVisible:
+    element:
+      id: "proposition-3"
+    direction: DOWN
+- tapOn:
+    id: "proposition-3"
+- scrollUntilVisible:
+    element: "Suivante"
+    direction: DOWN
+- tapOn: "Suivante"
+- scrollUntilVisible:
+    element: "Précédente"
+    direction: DOWN
+- tapOn: "Précédente"
+# Le bouton du bandeau reste visible en haut de l'écran.
+- tapOn: "Terminer l’examen"
+- assertVisible: "Terminer l’examen blanc ?"
+- tapOn: "Terminer maintenant"
+- assertVisible: "Seuil pas encore atteint"
+- assertVisible: "C’est un entraînement. Seul l’examen officiel donne l’attestation de réussite."
+- scrollUntilVisible:
+    element: "Revoir mes erreurs"
+    direction: DOWN
+- tapOn: "Revoir mes erreurs"
+- assertVisible: "Mes révisions"
+# Révisions : des questions à revoir, ou aucune si les deux réponses étaient justes
+- scrollUntilVisible:
+    element: "(Valider ma réponse|Aucune question à revoir pour le moment)"
+    direction: DOWN

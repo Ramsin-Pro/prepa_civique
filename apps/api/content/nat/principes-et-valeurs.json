@@ -1,0 +1,600 @@
+{
+  "topic": "principes-et-valeurs",
+  "questions": [
+    {
+      "reference": "NAT-PV-001",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Complétez les paroles de la Marseillaise \"Allons enfants de la patrie...\"",
+      "answers": [
+        "Le jour de gloire est arrivé",
+        "Le jour de paix est arrivé",
+        "L’heure de la victoire a sonné",
+        "Le temps de la liberté est venu"
+      ],
+      "explanation": "La Marseillaise commence ainsi : « Allons enfants de la Patrie, le jour de gloire est arrivé ! » C’est l’hymne national de la France (Constitution, article 2). On la joue aujourd’hui lors de la plupart des cérémonies officielles.",
+      "answerSource": {
+        "label": "Élysée, « La Marseillaise de Rouget de Lisle »",
+        "url": "https://www.elysee.fr/la-presidence/la-marseillaise-de-rouget-de-lisle"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Reprend les propositions, l’explication et la source de CR-PV-007 (énoncé CR « Complétez les paroles de la Marseillaise : \"Allons enfants de la patrie […]\" », brouillon du 31/10/2026) : garder les deux questions alignées."
+    },
+    {
+      "reference": "NAT-PV-002",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Dans le cadre d'un entretien d'embauche, que peut-on demander au candidat ?",
+      "answers": [
+        "Ses diplômes et son expérience professionnelle",
+        "Sa religion et sa pratique religieuse",
+        "Son projet d’avoir ou non des enfants",
+        "Son appartenance à un syndicat"
+      ],
+      "explanation": "Pendant un entretien d’embauche, l’employeur peut seulement poser des questions utiles pour savoir si le candidat peut occuper le poste : diplômes, expérience, compétences. Il ne doit pas l’interroger sur sa vie privée, par exemple sa situation familiale, sa santé ou son appartenance à un syndicat. Refuser un emploi à une personne à cause de sa religion ou d’une grossesse est une discrimination interdite par la loi.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F1684 sur les méthodes de recrutement ; Code du travail, articles L1221-6 à L1221-9",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1684"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Notion : l’énoncé porte sur la non-discrimination à l’embauche (égalité) ; rattaché à « devise-et-symboles », la notion la plus proche. Fiche F1684 consultée le 31/10/2026 (vérifiée par service-public le 20/02/2026)."
+    },
+    {
+      "reference": "NAT-PV-003",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Déclarer ses revenus aux services fiscaux est :",
+      "answers": [
+        "obligatoire chaque année, même avec peu de revenus",
+        "facultatif pour les personnes qui gagnent peu",
+        "réservé aux personnes qui ont un salaire",
+        "obligatoire seulement tous les cinq ans"
+      ],
+      "explanation": "Toute personne qui habite en France doit déclarer ses revenus chaque année, même si elle a gagné peu d’argent ou rien du tout. Cette déclaration permet de calculer l’impôt ou d’obtenir un avis de non-imposition, utile pour certaines aides. Pour certains foyers, la déclaration est automatique : il faut quand même vérifier les informations et les corriger si besoin.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F358 sur la déclaration de revenus annuelle",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F358"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Notion : l’énoncé porte sur le devoir fiscal, placé dans « Principes et valeurs » par la liste officielle ; rattaché à « devise-et-symboles », la notion la plus proche. Fiche F358 consultée le 31/10/2026 (vérifiée par service-public le 05/06/2026). Énoncé proche de NAT-DD-018 : propositions volontairement différentes."
+    },
+    {
+      "reference": "NAT-PV-004",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "En France, les impôts permettent de financer les dépenses publiques. Quelle proposition est correcte ?",
+      "answers": [
+        "Chacun participe selon ses moyens.",
+        "Seules les personnes françaises paient des impôts.",
+        "Chacun peut refuser de payer s’il n’est pas d’accord.",
+        "Tout le monde paie exactement la même somme."
+      ],
+      "explanation": "Les impôts paient les services publics utiles à tous : écoles, hôpitaux, routes, sécurité, justice. La Déclaration des droits de l’homme et du citoyen de 1789 (article 13) dit que cette contribution est répartie entre tous les citoyens « en raison de leurs facultés », c’est-à-dire selon leurs moyens. Payer ses impôts est une obligation pour les personnes qui vivent en France, quelle que soit leur nationalité.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, article 13",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Propositions reprises de CR-PV-013 (énoncé CR sans « En France, »), explication réécrite : l’article 13 dit « en raison de leurs facultés » (CR-PV-013 cite « de ses facultés », à corriger). Utilité des impôts : impots.gouv.fr, « Impôts, kesako ? » (https://www.impots.gouv.fr/portail/kesako/), consulté le 31/10/2026. Notion : l’énoncé porte sur l’impôt ; rattaché à « devise-et-symboles », la notion la plus proche."
+    },
+    {
+      "reference": "NAT-PV-005",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "La liberté d'association est :",
+      "answers": [
+        "le droit de créer une association ou d’y adhérer librement",
+        "réservée aux personnes de nationalité française",
+        "soumise à l’autorisation du maire de la commune",
+        "limitée aux associations sportives et culturelles"
+      ],
+      "explanation": "La liberté d’association permet à chacun de créer une association ou d’en devenir membre. Aucune autorisation n’est nécessaire : une association se crée librement, puis elle peut être déclarée à la préfecture. Les personnes étrangères peuvent aussi créer une association en France. Depuis 1971, le Conseil constitutionnel protège cette liberté comme un principe fondamental.",
+      "answerSource": {
+        "label": "Conseil constitutionnel, décision n° 71-44 DC du 16 juillet 1971",
+        "url": "https://www.conseil-constitutionnel.fr/decision/1971/7144DC.htm"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Création par des personnes étrangères : associations.gouv.fr, « L’association étrangère » (https://www.associations.gouv.fr/association-etrangere.html) ; création sans autorisation : loi du 1er juillet 1901, article 2 (cité par associations.gouv.fr). Pages consultées le 31/10/2026. Bonne réponse alignée sur CR-PV-017 (« Qu'est-ce que la liberté d'association ? »). Notion : liberté publique ; rattaché à « devise-et-symboles », la notion la plus proche."
+    },
+    {
+      "reference": "NAT-PV-006",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "La liberté d'expression sur les réseaux sociaux en France est :",
+      "answers": [
+        "protégée, avec les mêmes limites fixées par la loi",
+        "totale, car Internet n’a pas de règles",
+        "interdite pour les sujets politiques",
+        "réservée aux journalistes et aux élus"
+      ],
+      "explanation": "Sur les réseaux sociaux, chacun peut donner son avis, même pour critiquer le gouvernement. Mais la loi s’applique comme ailleurs : les insultes, les menaces, les appels à la haine et le harcèlement sont interdits. Par exemple, une vidéo insultante publiée sur un compte ouvert à tous est une injure publique, punie d’une amende.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F32077 sur l’injure",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32077"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Cyberharcèlement : service-public.gouv.fr, fiche F32239. Fiches consultées le 31/10/2026 (F32077 vérifiée par service-public le 10/03/2026). Notion : liberté d’expression ; rattaché à « devise-et-symboles », la notion la plus proche."
+    },
+    {
+      "reference": "NAT-PV-007",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Lequel de ces prénoms évoque un symbole de la République ?",
+      "answers": [
+        "Marianne",
+        "Juliette",
+        "Sophie",
+        "Nathalie"
+      ],
+      "explanation": "Marianne est une figure de femme qui représente la République française. Au XVIIIe siècle, Marianne était un des prénoms les plus répandus : on l’a utilisé pour représenter le peuple, puis la République. On voit son buste dans les mairies et son visage sur les timbres.",
+      "answerSource": {
+        "label": "Élysée, « Marianne »",
+        "url": "https://www.elysee.fr/la-presidence/marianne"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-PV-008",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Lequel de ces symboles représente la République française ?",
+      "answers": [
+        "Le drapeau bleu, blanc, rouge",
+        "La fleur de lys des rois de France",
+        "La couronne des rois de France",
+        "L’aigle de l’empereur Napoléon"
+      ],
+      "explanation": "Le drapeau bleu, blanc, rouge est l’emblème national de la République (Constitution, article 2). Marianne, La Marseillaise et la devise « Liberté, Égalité, Fraternité » sont aussi des symboles de la République. La fleur de lys et la couronne étaient des symboles des rois de France, et l’aigle celui de l’empereur Napoléon.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 2",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Distracteurs proches de ceux de CSP-PV-002 (dont la bonne réponse est Marianne) : vérifier que deux questions trop semblables ne tombent pas dans le même examen blanc."
+    },
+    {
+      "reference": "NAT-PV-009",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Lesquels sont des symboles officiels de la République française ?",
+      "answers": [
+        "Le drapeau tricolore, La Marseillaise et la devise",
+        "La tour Eiffel, le Louvre et l’Arc de triomphe",
+        "Le Sénat, l’Assemblée nationale et l’Élysée",
+        "Le 1er mai, le 8 mai et le 11 novembre"
+      ],
+      "explanation": "La Constitution (article 2) cite le drapeau bleu, blanc, rouge, l’hymne national La Marseillaise et la devise « Liberté, Égalité, Fraternité ». Marianne et la fête nationale du 14 juillet sont aussi des symboles de la République. La tour Eiffel est un monument célèbre, mais ce n’est pas un symbole officiel.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 2",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Reprend CSP-PV-010 (énoncé CSP « Quels sont des symboles officiels… ») : garder les deux questions alignées."
+    },
+    {
+      "reference": "NAT-PV-010",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Quand la sécurité sociale a-t-elle été établie en France ?",
+      "answers": [
+        "En 1945",
+        "En 1905",
+        "En 1936",
+        "En 1968"
+      ],
+      "explanation": "La Sécurité sociale a été créée par les ordonnances des 4 et 19 octobre 1945, juste après la Seconde Guerre mondiale. Elle protège les personnes et leurs familles contre les risques de la vie, comme la maladie, la maternité ou la vieillesse. Avant 1945, il existait seulement des assurances sociales pour une partie des salariés.",
+      "answerSource": {
+        "label": "Sécurité sociale (securite-sociale.fr), « Les grandes dates »",
+        "url": "https://www.securite-sociale.fr/la-secu-cest-quoi/histoire/les-grandes-dates"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Les assurances sociales de 1928-1930 et les allocations familiales de 1932 ne sont pas la Sécurité sociale : ces dates sont volontairement absentes des propositions. Page consultée le 31/10/2026. Notion : protection sociale (solidarité) ; rattaché à « devise-et-symboles », la notion la plus proche."
+    },
+    {
+      "reference": "NAT-PV-011",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Que commémore la fête nationale ?",
+      "answers": [
+        "La prise de la Bastille, en 1789",
+        "L’armistice de la Grande Guerre, en 1918",
+        "La victoire sur l’Allemagne nazie, en 1945",
+        "La naissance de la Ve République, en 1958"
+      ],
+      "explanation": "La fête nationale a lieu le 14 juillet. Elle rappelle la prise de la Bastille, une prison de Paris, le 14 juillet 1789, au début de la Révolution. Elle rappelle aussi la fête de la Fédération du 14 juillet 1790, qui célébrait l’unité de la Nation. L’armistice de 1918 est fêté le 11 novembre et la victoire de 1945 le 8 mai.",
+      "answerSource": {
+        "label": "Élysée, « La fête nationale du 14 juillet »",
+        "url": "https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "La loi du 6 juillet 1880 ne dit pas quel événement est commémoré : l’Élysée cite le 14 juillet 1789 et le 14 juillet 1790. La bonne réponse cite la prise de la Bastille, l’explication ajoute la fête de la Fédération."
+    },
+    {
+      "reference": "NAT-PV-012",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Que porte Marianne sur la tête ?",
+      "answers": [
+        "Un bonnet phrygien",
+        "Un tricorne",
+        "Un béret basque",
+        "Un chapeau haut de forme"
+      ],
+      "explanation": "Marianne porte un bonnet phrygien. Dans l’Antiquité, en Grèce et à Rome, ce bonnet était porté par les esclaves libérés ; les révolutionnaires l’ont repris comme symbole de la liberté. On voit Marianne avec ce bonnet sur les timbres et sur de nombreux bustes dans les mairies.",
+      "answerSource": {
+        "label": "Élysée, « Marianne »",
+        "url": "https://www.elysee.fr/la-presidence/marianne"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Certaines représentations de Marianne portent une couronne (de lauriers, d’épis…) : aucune couronne n’est donc proposée parmi les mauvaises réponses."
+    },
+    {
+      "reference": "NAT-PV-013",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Que signifie le mot “fraternité” dans la devise française ?",
+      "answers": [
+        "La solidarité et l’entraide entre les personnes",
+        "L’aide réservée aux membres de sa famille",
+        "L’entraide entre personnes de même religion",
+        "L’obéissance de tous au chef de l’État"
+      ],
+      "explanation": "La fraternité, c’est le lien de solidarité entre toutes les personnes, quelles que soient leur origine ou leur religion. On la voit par exemple quand on aide une personne en difficulté ou quand on donne de son temps dans une association. En 2018, le Conseil constitutionnel a reconnu la fraternité comme un principe protégé par la Constitution.",
+      "answerSource": {
+        "label": "Conseil constitutionnel, décision n° 2018-717/718 QPC du 6 juillet 2018",
+        "url": "https://www.conseil-constitutionnel.fr/decision/2018/2018717_718QPC.htm"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Reprend CSP-PV-013 : seuls les guillemets autour de « fraternité » diffèrent dans l’énoncé (courbes dans la liste NAT)."
+    },
+    {
+      "reference": "NAT-PV-014",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Quel symbole de la République peut-on voir sur les maillots de l'équipe de France de football ?",
+      "answers": [
+        "Le coq",
+        "Marianne",
+        "Le bonnet phrygien",
+        "Le faisceau de licteur"
+      ],
+      "explanation": "Le coq est l’emblème de l’équipe de France de football : on le voit sur le maillot des joueurs. C’est un emblème de la France dans le monde, surtout pendant les compétitions sportives. Il n’est pas cité dans la Constitution, contrairement au drapeau, à l’hymne et à la devise, mais l’Élysée le présente parmi les symboles de la République.",
+      "answerSource": {
+        "label": "Élysée, « Le coq »",
+        "url": "https://www.elysee.fr/la-presidence/le-coq"
+      },
+      "difficulty": 1,
+      "confidence": "medium",
+      "reviewNote": "La page de l’Élysée dit que le coq reste l’emblème de la France « notamment lors des affrontements sportifs », sans parler du maillot. Le coq est l’emblème de la Fédération française de football (fff.fr, pages non consultables par nos outils le 31/10/2026) : vérifier sur le maillot actuel. Liste des symboles, dont le faisceau de licteur : elysee.fr, « Les symboles de la République française »."
+    },
+    {
+      "reference": "NAT-PV-015",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Qu'est-ce qu'une liberté ?",
+      "answers": [
+        "Un droit d’agir ou de choisir, dans les limites de la loi",
+        "Un droit de faire tout ce que l’on veut, sans limite",
+        "Une obligation que l’État impose à chaque citoyen",
+        "Une autorisation que l’on demande à la mairie"
+      ],
+      "explanation": "Une liberté est un droit de choisir et d’agir soi-même : par exemple s’exprimer, croire ou ne pas croire, se déplacer ou créer une association. La Déclaration des droits de l’homme et du citoyen de 1789 (article 4) dit que « la liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui ». Les limites d’une liberté ne peuvent être fixées que par la loi.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, article 4",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Énoncé très général : formulation de la bonne réponse à valider. Notion : liberté (valeur de la devise) ; rattaché à « devise-et-symboles », la notion la plus proche."
+    },
+    {
+      "reference": "NAT-PV-016",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Selon la Constitution, la France est une République…",
+      "answers": [
+        "indivisible, laïque, démocratique et sociale",
+        "fédérale, chrétienne, démocratique et libérale",
+        "unie, laïque, populaire et européenne",
+        "indivisible, catholique, libérale et sociale"
+      ],
+      "explanation": "L’article 1er de la Constitution dit : « La France est une République indivisible, laïque, démocratique et sociale. » Indivisible veut dire que la France forme un seul pays et un seul peuple. Laïque veut dire que l’État n’a pas de religion, démocratique que le pouvoir vient du peuple, et sociale que la République protège les personnes en difficulté.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 1er",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Énoncé terminé par des points de suspension : les propositions le complètent sans majuscule. Notion : l’article 1er touche aux valeurs et à la laïcité ; rattaché à « devise-et-symboles », comme les autres énoncés du premier bloc de la liste officielle."
+    },
+    {
+      "reference": "NAT-PV-017",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "devise-et-symboles",
+      "statement": "Une des valeurs de la devise républicaine est l'Égalité. Qu'est-ce que cela signifie ?",
+      "answers": [
+        "Tout le monde a les mêmes droits et les mêmes devoirs devant la loi",
+        "Tout le monde doit gagner le même salaire",
+        "Les droits changent selon l’origine de chacun",
+        "Les citoyens riches ont plus de droits que les autres"
+      ],
+      "explanation": "L’égalité veut dire que la loi est la même pour tous : chacun a les mêmes droits et les mêmes devoirs. La Déclaration de 1789 dit que les hommes « naissent et demeurent libres et égaux en droits » (article 1er). La Constitution ajoute que la République assure l’égalité de tous les citoyens devant la loi, sans distinction d’origine ou de religion. L’égalité ne veut pas dire que tout le monde gagne le même salaire.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, articles 1er et 6",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Reprend CR-PV-021 (brouillon du 31/10/2026) : seule la majuscule de « l'Égalité » diffère dans l’énoncé ; si la question CR change à la relecture, aligner celle-ci. Notion : égalité (valeur de la devise) ; rattaché à « devise-et-symboles », la notion la plus proche."
+    },
+    {
+      "reference": "NAT-PV-018",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "Une personne peut-elle changer librement de religion en France ?",
+      "answers": [
+        "Oui, chacun est libre de changer de religion",
+        "Non, c’est interdit par la loi française",
+        "Oui, mais il faut le déclarer à la mairie",
+        "Non, on garde la religion de ses parents"
+      ],
+      "explanation": "Oui. La laïcité garantit la liberté de conscience : chacun a le droit d’avoir une religion, de ne pas en avoir, d’en changer ou de ne plus en avoir. C’est un choix personnel : il n’y a aucune démarche à faire à la mairie.",
+      "answerSource": {
+        "label": "Gouvernement (info.gouv.fr), fiche « Qu’est-ce que la laïcité ? »",
+        "url": "https://info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2019_03_fiche_0_-_quest_ce_que_le_laicite.pdf"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Reprend CSP-PV-028 (énoncé CSP sans « en France »). Notion « laicite » comme pour CSP-PV-028, bien que la liste NAT place cet énoncé avant les questions sur la laïcité."
+    },
+    {
+      "reference": "NAT-PV-019",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "En France, il est possible pour l'État de financer :",
+      "answers": [
+        "l’entretien des cathédrales qui lui appartiennent",
+        "une seule religion, choisie par le Gouvernement",
+        "la publicité d’une religion à la télévision",
+        "le voyage des croyants vers un lieu de pèlerinage"
+      ],
+      "explanation": "Selon la loi de 1905, la République ne reconnaît, ne paie et ne subventionne aucun culte. Mais l’État peut payer l’entretien des bâtiments religieux qui lui appartiennent (article 13) : il est propriétaire de 87 cathédrales. La loi permet aussi de payer des aumôneries, des services religieux dans les prisons ou les hôpitaux publics, pour que chacun puisse y pratiquer sa religion (article 2).",
+      "answerSource": {
+        "label": "Loi du 9 décembre 1905 concernant la séparation des Églises et de l’État, articles 2 et 13",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006070169"
+      },
+      "difficulty": 3,
+      "confidence": "medium",
+      "reviewNote": "Cathédrales propriétés de l’État : culture.gouv.fr, « Restauration, entretien, commandes… comment l’État met en valeur les cathédrales en région » (21/08/2019), consulté le 31/10/2026. En Alsace-Moselle, un régime particulier permet de payer certains ministres du culte : les mauvaises réponses évitent donc les salaires des religieux et la construction de lieux de culte. Vérifier que les distracteurs restent clairement faux."
+    },
+    {
+      "reference": "NAT-PV-020",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "Que dit la loi de 1905 ?",
+      "answers": [
+        "L’État et les religions sont séparés",
+        "L’école publique est gratuite et obligatoire",
+        "Les femmes ont le droit de voter",
+        "Les associations peuvent se créer librement"
+      ],
+      "explanation": "La loi du 9 décembre 1905 sépare les Églises et l’État. Elle dit que « la République assure la liberté de conscience » et qu’elle ne reconnaît, ne paie et ne subventionne aucun culte. L’école gratuite et obligatoire vient des lois Jules Ferry (1881-1882), la liberté d’association de la loi de 1901 et le droit de vote des femmes de 1944.",
+      "answerSource": {
+        "label": "Loi du 9 décembre 1905 concernant la séparation des Églises et de l’État, articles 1er et 2",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006070169"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-PV-021",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "Quel jour célèbre-t-on officiellement la laïcité en France ?",
+      "answers": [
+        "Le 9 décembre",
+        "Le 1er novembre",
+        "Le 8 mars",
+        "Le 14 juillet"
+      ],
+      "explanation": "La journée de la laïcité a lieu chaque année le 9 décembre. Cette date rappelle la loi du 9 décembre 1905 de séparation des Églises et de l’État. Ce jour-là, les administrations organisent des actions pour faire connaître la laïcité. Ce n’est pas un jour férié.",
+      "answerSource": {
+        "label": "Portail de la fonction publique, « Laïcité et neutralité de la fonction publique »",
+        "url": "https://www.fonction-publique.gouv.fr/etre-agent-public/mes-droits-et-obligations/laicite-et-neutralite-de-la-fonction-publique"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Aucune loi n’institue encore une « journée nationale de la laïcité » (proposition de loi n° 361 déposée au Sénat le 6 février 2026, https://www.senat.fr/leg/ppl25-361.html). Dans la fonction publique, le référent laïcité organise chaque année une journée de la laïcité le 9 décembre (Code général de la fonction publique, article L124-3, cité par la page source mise à jour le 11/04/2024). Vérifier l’état du droit avant publication."
+    },
+    {
+      "reference": "NAT-PV-022",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "Quel symbole religieux peut être porté dans une école publique dans le respect de la laïcité ?",
+      "answers": [
+        "Un petit pendentif religieux discret",
+        "Un voile islamique",
+        "Une kippa",
+        "Une croix de grande taille"
+      ],
+      "explanation": "Depuis la loi du 15 mars 2004, les élèves des écoles, collèges et lycées publics ne peuvent pas porter de signes religieux bien visibles, comme le voile islamique, la kippa ou une croix de grande taille. Les signes discrets restent autorisés, par exemple un petit pendentif. Les enseignants et les autres personnels, eux, ne peuvent porter aucun signe religieux, même discret.",
+      "answerSource": {
+        "label": "Circulaire du 18 mai 2004 relative à la mise en œuvre de la loi n° 2004-228 du 15 mars 2004 (signes religieux à l’école publique)",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000252465"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "L’énoncé ne dit pas qui porte le signe : la réponse vaut pour les élèves. La circulaire cite comme signes interdits « le voile islamique, quel que soit le nom qu’on lui donne, la kippa ou une croix de dimension manifestement excessive » et rappelle le droit des élèves de porter des signes religieux discrets. Formulation à valider pour rester neutre envers toutes les religions."
+    },
+    {
+      "reference": "NAT-PV-023",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "Quel terme désigne précisément la haine ou les préjugés contre les Juifs ?",
+      "answers": [
+        "L’antisémitisme",
+        "La xénophobie",
+        "L’homophobie",
+        "La misogynie"
+      ],
+      "explanation": "L’antisémitisme désigne les préjugés, l’hostilité ou la haine contre les Juifs. La xénophobie est le rejet des étrangers, l’homophobie le rejet des personnes homosexuelles et la misogynie le mépris des femmes. En France, les insultes et les appels à la haine contre une personne à cause de sa religion ou de son origine sont punis par la loi.",
+      "answerSource": {
+        "label": "Sénat, proposition de résolution n° 701 (2020-2021) « Lutte contre toutes les formes d’antisémitisme », exposé des motifs (définition de l’IHRA)",
+        "url": "https://www.senat.fr/leg/exposes-des-motifs/ppr20-701-expose.html"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Le droit français ne définit pas l’antisémitisme ; la source cite la définition de travail de l’IHRA (« une certaine perception des Juifs qui peut se manifester par une haine à leur égard »). « Le racisme » est volontairement absent des propositions, car l’antisémitisme est souvent rapproché du racisme. Notion : la liste officielle place cet énoncé parmi les questions sur la laïcité ; rattaché à « laicite »."
+    },
+    {
+      "reference": "NAT-PV-024",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "Quel texte est considéré comme le texte fondateur de la laïcité ?",
+      "answers": [
+        "La loi de 1905 de séparation des Églises et de l’État",
+        "La loi de 1901 relative au contrat d’association",
+        "Le Code civil de 1804, appelé Code Napoléon",
+        "Le traité de Rome de 1957 sur l’Europe"
+      ],
+      "explanation": "La loi du 9 décembre 1905 est le texte fondateur de la laïcité en France. Elle garantit la liberté de conscience et le libre exercice des cultes, et elle sépare les Églises et l’État. La Constitution a ensuite repris ce principe : la France est une République « laïque » (article 1er).",
+      "answerSource": {
+        "label": "Loi du 9 décembre 1905 concernant la séparation des Églises et de l’État",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006070169"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "La Constitution (article 1er) et la Déclaration de 1789 (article 10) touchent aussi à la laïcité : elles sont volontairement absentes des propositions."
+    },
+    {
+      "reference": "NAT-PV-025",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "Quelle institution française doit rester neutre en matière de religion ?",
+      "answers": [
+        "L’école publique",
+        "Une association religieuse",
+        "Un parti politique",
+        "Un syndicat de salariés"
+      ],
+      "explanation": "La laïcité impose la neutralité à l’État, aux collectivités territoriales (communes, départements, régions) et aux services publics, comme l’école publique, la mairie ou l’hôpital public. Ils traitent toutes les personnes de la même façon, quelle que soit leur religion. Les associations, les partis politiques et les syndicats, eux, ne sont en principe pas tenus à cette neutralité.",
+      "answerSource": {
+        "label": "Gouvernement (info.gouv.fr), fiche « Qu’est-ce que la laïcité ? »",
+        "url": "https://info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2019_03_fiche_0_-_quest_ce_que_le_laicite.pdf"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-PV-026",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "À l'école, la charte de la laïcité permet de :",
+      "answers": [
+        "faire connaître à tous les règles de la laïcité",
+        "choisir ses cours selon sa religion",
+        "enseigner aux élèves une religion officielle",
+        "porter tous les signes religieux en classe"
+      ],
+      "explanation": "La Charte de la laïcité à l’École explique aux élèves, aux personnels et aux parents ce qu’est la laïcité et les règles qu’elle impose à l’école. Elle rappelle par exemple qu’il n’y a pas de religion d’État, qu’aucun élève ne peut contester un cours pour une raison religieuse et que les signes religieux bien visibles sont interdits aux élèves. Les personnels doivent la faire connaître aux parents d’élèves.",
+      "answerSource": {
+        "label": "Ministère de l’Éducation nationale, Charte de la laïcité à l’École (version 2025), articles 2, 10, 12 et 14",
+        "url": "https://eduscol.education.gouv.fr/sites/default/files/document/2025chartelaicitea5x2pdf-82044.pdf"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Bonne réponse formulée à partir de l’article 10 de la charte (les personnels transmettent « le sens et la valeur de la laïcité » et portent la charte « à la connaissance des parents d’élèves ») : formulation à valider. Version 2025 de la charte (PDF eduscol du 22/10/2025), lue le 31/10/2026."
+    },
+    {
+      "reference": "NAT-PV-027",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "Qui doit respecter et veiller à la neutralité religieuse dans les services publics ?",
+      "answers": [
+        "Les agents publics, comme les fonctionnaires",
+        "Les usagers qui viennent faire une démarche",
+        "Les responsables des différentes religions",
+        "Les journalistes qui parlent des services publics"
+      ],
+      "explanation": "Les agents publics, c’est-à-dire les personnes qui travaillent pour l’État, une mairie ou un hôpital public, doivent être neutres pendant leur travail. Ils ne montrent pas leur religion et traitent toutes les personnes de la même façon (Code général de la fonction publique, article L121-2). Les usagers, eux, ne sont pas tenus à cette neutralité : ils peuvent par exemple porter un signe religieux à la mairie.",
+      "answerSource": {
+        "label": "Code général de la fonction publique, article L121-2",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044427911"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Neutralité des agents et non des usagers, sauf pour les élèves des écoles publiques : note d’orientation de l’Observatoire de la laïcité « La laïcité aujourd’hui » (2014) et portail de la fonction publique, page « Laïcité et neutralité de la fonction publique », consultés le 31/10/2026."
+    },
+    {
+      "reference": "NAT-PV-028",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "laicite",
+      "statement": "Une personne déclare ne croire en aucun dieu. On peut dire :",
+      "answers": [
+        "qu’elle est athée",
+        "qu’elle est croyante",
+        "qu’elle est pratiquante",
+        "qu’elle ne respecte pas la loi"
+      ],
+      "explanation": "Une personne athée ne croit en aucun dieu. En France, c’est un droit : la liberté de conscience permet de croire, de ne pas croire ou de changer de religion. Les personnes athées et les personnes croyantes ont les mêmes droits et doivent respecter les mêmes lois.",
+      "answerSource": {
+        "label": "Observatoire de la laïcité (Premier ministre), note d’orientation « La laïcité aujourd’hui », 2014",
+        "url": "https://www.info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2014_07_note-d-orientation-la-laicite-aujourdhui.pdf"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "« Agnostique » (personne qui pense qu’on ne peut pas savoir si un dieu existe) et « laïque » (mot qui peut désigner toute personne qui n’est pas membre du clergé) sont volontairement absents des propositions, car ils pourraient aussi convenir."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "association",
+      "definition": "Groupe de personnes qui agissent ensemble pour un projet commun, par exemple sportif, culturel ou d’entraide, sans chercher à partager des bénéfices."
+    },
+    {
+      "term": "impôt",
+      "definition": "Somme d’argent que les personnes et les entreprises doivent payer à l’État ou aux collectivités. Elle sert à financer les services publics, comme les écoles ou les hôpitaux."
+    },
+    {
+      "term": "entretien d’embauche",
+      "definition": "Rendez-vous entre un employeur et une personne qui cherche un emploi, pour savoir si elle peut occuper le poste."
+    },
+    {
+      "term": "Sécurité sociale",
+      "definition": "Organisation publique créée en 1945. Elle protège les personnes contre les risques de la vie, comme la maladie, la maternité ou la vieillesse."
+    },
+    {
+      "term": "bonnet phrygien",
+      "definition": "Bonnet souple que porte Marianne. Pendant la Révolution française, il est devenu un symbole de la liberté."
+    },
+    {
+      "term": "commémorer",
+      "definition": "Rappeler le souvenir d’un événement important par une cérémonie ou une fête."
+    },
+    {
+      "term": "aumônerie",
+      "definition": "Service religieux installé dans certains lieux publics, comme une prison ou un hôpital, pour que les personnes qui y vivent puissent pratiquer leur religion."
+    },
+    {
+      "term": "antisémitisme",
+      "definition": "Préjugés, hostilité ou haine contre les Juifs."
+    },
+    {
+      "term": "athée",
+      "definition": "Personne qui ne croit en aucun dieu."
+    }
+  ]
+}

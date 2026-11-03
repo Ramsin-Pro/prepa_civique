@@ -1,0 +1,7 @@
+url: http://localhost:3001/progression
+name: Page de progression
+---
+- launchApp
+- assertVisible: "Où en êtes-vous ?"
+- assertVisible: "Prochaine étape"
+- assertVisible: "questions? acquises?"

@@ -1,0 +1,948 @@
+{
+  "topic": "droits-et-devoirs",
+  "questions": [
+    {
+      "reference": "CSP-DD-001",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Comment s'appelle la Constitution actuelle de la France ?",
+      "answers": [
+        "La Constitution de la Ve République",
+        "La Constitution de la IVe République",
+        "La Constitution de la IIIe République",
+        "La Constitution de la IIe République"
+      ],
+      "explanation": "La France vit aujourd’hui sous la Constitution de la Ve République. Elle date du 4 octobre 1958. La IVe République avait une autre Constitution, adoptée en 1946.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DD-002",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Comment s'appelle le texte qui énonce les droits et devoirs des personnes résidant en France ?",
+      "answers": [
+        "La Déclaration des droits de l’homme et du citoyen",
+        "La Déclaration d’indépendance des États-Unis",
+        "La Charte des Nations unies",
+        "Le traité de Versailles"
+      ],
+      "explanation": "La Déclaration des droits de l’homme et du citoyen de 1789 énonce les droits de chaque personne : liberté, égalité devant la loi, liberté d’opinion… Elle rappelle aussi les devoirs, comme respecter la loi et participer aux dépenses publiques par l’impôt. Elle s’applique toujours aujourd’hui, car la Constitution de 1958 y renvoie.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, préambule et articles 4, 7 et 13",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Énoncé ambigu : la réponse attendue par le ministère pourrait aussi être « la Constitution ». La Constitution est donc volontairement absente des propositions. Le préambule de la Déclaration de 1789 parle bien des « droits » et des « devoirs » de chacun."
+    },
+    {
+      "reference": "CSP-DD-003",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Concernant les droits individuels, quelle proposition est correcte ?",
+      "answers": [
+        "Ils permettent à chacun de choisir librement ses opinions et ses croyances.",
+        "Ils sont réservés aux personnes qui ont la nationalité française.",
+        "Ils sont accordés seulement aux personnes qui ont un travail.",
+        "Ils sont plus ou moins importants selon la religion de chacun."
+      ],
+      "explanation": "Les droits et libertés individuels permettent à chaque personne de faire ses propres choix : ses opinions, sa religion ou l’absence de religion, ses déplacements, son mariage. En France, ils protègent toutes les personnes, françaises ou étrangères. Ils s’exercent dans le respect de la loi et des droits des autres.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, articles 4 et 10",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Question très générale : formulation de la bonne réponse à valider. Elle reprend la définition de l’annexe I de l’arrêté du 10 octobre 2025 (choisir ses déplacements, ses opinions, ses croyances). Protection des personnes étrangères : Conseil constitutionnel, décision n° 93-325 DC du 13 août 1993."
+    },
+    {
+      "reference": "CSP-DD-004",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "De quelle année date la Déclaration des droits de l'homme et du citoyen ?",
+      "answers": [
+        "1789",
+        "1848",
+        "1948",
+        "1958"
+      ],
+      "explanation": "La Déclaration des droits de l’homme et du citoyen a été adoptée le 26 août 1789, au début de la Révolution française. Elle fait toujours partie du droit français, car la Constitution de 1958 y renvoie. Attention : 1948 est l’année de la Déclaration universelle des droits de l’homme, adoptée par l’ONU.",
+      "answerSource": {
+        "label": "Déclaration du 26 août 1789 des droits de l’homme et du citoyen",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000697056"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DD-005",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Lequel de ces droits est un droit fondamental ?",
+      "answers": [
+        "Le droit d’exprimer librement ses opinions",
+        "Le droit de se faire justice soi-même",
+        "Le droit de ne pas payer ses impôts",
+        "Le droit de travailler sans être déclaré"
+      ],
+      "explanation": "La liberté d’exprimer ses opinions est un droit fondamental, protégé par la Déclaration des droits de l’homme et du citoyen de 1789 (articles 10 et 11). Les autres propositions ne sont pas des droits : payer ses impôts est une obligation, le travail non déclaré est interdit, et personne n’a le droit de se faire justice soi-même.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, articles 10 et 11",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DD-006",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Parmi ces textes, lequel garantit les droits et libertés en France ?",
+      "answers": [
+        "La Constitution française",
+        "Le Code général des impôts",
+        "Le traité de Versailles",
+        "Le Code de la route"
+      ],
+      "explanation": "La Constitution de 1958 garantit les droits et libertés en France. Au début de la Constitution, un texte appelé préambule renvoie à la Déclaration des droits de l’homme et du citoyen de 1789 et à la Charte de l’environnement de 2004 : ces textes ont la même force que la Constitution. Le Conseil constitutionnel vérifie que les lois respectent ces droits.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, préambule et article 61-1",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "La Déclaration de 1789 est volontairement absente des propositions, car elle garantit aussi les droits et libertés."
+    },
+    {
+      "reference": "CSP-DD-007",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Qu'est-ce que la liberté d'expression ?",
+      "answers": [
+        "Le droit d’exprimer ses idées, dans les limites fixées par la loi",
+        "Le droit de tout dire, même des insultes ou des menaces",
+        "Le droit de s’exprimer seulement avec l’accord de l’État",
+        "Le droit de parler seulement de sujets non politiques"
+      ],
+      "explanation": "La liberté d’expression permet à chacun de parler, d’écrire et de publier ses idées, même pour critiquer le gouvernement. Elle est protégée par la Déclaration des droits de l’homme et du citoyen (article 11). Mais elle a des limites fixées par la loi : les insultes, les menaces et les appels à la haine sont interdits.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, article 11",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DD-008",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Quel droit permet à une personne de se défendre devant la justice ?",
+      "answers": [
+        "Le droit d’être défendu par un avocat",
+        "Le droit de voter aux élections",
+        "Le droit de faire grève au travail",
+        "Le droit de manifester dans la rue"
+      ],
+      "explanation": "Toute personne poursuivie par la justice a le droit de se défendre et d’être aidée par un avocat : ce sont les droits de la défense. Elle est considérée comme innocente tant que la justice n’a pas prouvé qu’elle est coupable. Si elle a peu d’argent, l’aide juridictionnelle peut payer tout ou une partie des frais d’avocat.",
+      "answerSource": {
+        "label": "Code de procédure pénale, article préliminaire",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044568200"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "L’article préliminaire du Code de procédure pénale sera abrogé le 1er janvier 2029 (ordonnance n° 2025-1091 du 19 novembre 2025, nouvelle numérotation du code) : mettre la référence à jour à cette date. Aide juridictionnelle : service-public.gouv.fr, fiche F18074, vérifiée le 31/10/2026."
+    },
+    {
+      "reference": "CSP-DD-009",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Quel est le texte fondateur établissant en France les droits et les devoirs de chaque citoyen ?",
+      "answers": [
+        "La Déclaration des droits de l’homme et du citoyen",
+        "La Déclaration d’indépendance des États-Unis",
+        "Le traité de Rome",
+        "Le Code de la route"
+      ],
+      "explanation": "La Déclaration des droits de l’homme et du citoyen, adoptée en 1789 pendant la Révolution, est le texte fondateur des droits en France. Elle dit que « les hommes naissent et demeurent libres et égaux en droits ». Son introduction explique qu’elle rappelle à tous « leurs droits et leurs devoirs ». La Déclaration d’indépendance des États-Unis, elle, est un texte américain de 1776.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, préambule et article 1er",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "La Constitution est volontairement absente des propositions, car elle pourrait aussi être défendue comme bonne réponse."
+    },
+    {
+      "reference": "CSP-DD-010",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Quel texte a été adopté pendant la Révolution française ?",
+      "answers": [
+        "La Déclaration des droits de l’homme et du citoyen",
+        "La Déclaration universelle des droits de l’homme",
+        "La Constitution de la Ve République",
+        "La loi de séparation des Églises et de l’État"
+      ],
+      "explanation": "La Déclaration des droits de l’homme et du citoyen a été adoptée le 26 août 1789, au début de la Révolution française. Les autres textes sont plus récents : la loi de séparation des Églises et de l’État date de 1905, la Déclaration universelle des droits de l’homme de 1948 et la Constitution de la Ve République de 1958.",
+      "answerSource": {
+        "label": "Déclaration du 26 août 1789 des droits de l’homme et du citoyen",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000697056"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DD-011",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Quelle liberté permet à une personne de ne pas avoir de religion ?",
+      "answers": [
+        "La liberté de conscience",
+        "La liberté d’association",
+        "La liberté d’entreprendre",
+        "La liberté de circulation"
+      ],
+      "explanation": "La liberté de conscience permet à chacun de croire en une religion, d’en changer ou de ne pas en avoir. La loi du 9 décembre 1905 dit : « La République assure la liberté de conscience. » L’État ne favorise aucune religion et protège aussi les personnes qui n’en ont pas.",
+      "answerSource": {
+        "label": "Loi du 9 décembre 1905 concernant la séparation des Églises et de l’État, article 1er",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006070169"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DD-012",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Une femme peut avorter :",
+      "answers": [
+        "si elle le décide, jusqu’à la fin de la 14e semaine de grossesse",
+        "seulement si son mari donne son accord",
+        "seulement si un médecin dit que sa vie est en danger",
+        "seulement si elle est majeure et mariée"
+      ],
+      "explanation": "En France, l’interruption volontaire de grossesse (IVG) est un droit : c’est la femme qui décide, sans avoir besoin de l’accord de son mari ou de son partenaire. L’IVG est possible jusqu’à la fin de la 14e semaine de grossesse, même si la femme a moins de 18 ans. Depuis 2024, la Constitution garantit cette liberté (article 34).",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F1551 sur l’IVG ; Code de la santé publique, article L2212-1",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1551"
+      },
+      "difficulty": 3,
+      "confidence": "high",
+      "reviewNote": "Délai légal (fin de la 14e semaine de grossesse, loi du 2 mars 2022) et liberté inscrite dans la Constitution (loi constitutionnelle du 8 mars 2024) vérifiés le 31/10/2026 : à revérifier si la loi change. « Seule la femme concernée peut en faire la demande » (ivg.gouv.fr)."
+    },
+    {
+      "reference": "CSP-DD-013",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Est-il toujours possible de divorcer ?",
+      "answers": [
+        "Oui, chaque époux peut demander le divorce, même si l’autre refuse.",
+        "Non, il faut toujours l’accord des deux époux.",
+        "Non, seul le mari peut demander le divorce.",
+        "Non, le divorce est interdit quand le couple a des enfants."
+      ],
+      "explanation": "Oui. En France, la femme comme le mari peut demander le divorce. Si l’autre époux refuse, le divorce reste possible, par exemple quand le couple vit séparé depuis au moins un an. Avoir des enfants n’empêche pas de divorcer : les deux parents restent en principe responsables de leurs enfants.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F10568 sur le divorce pour altération définitive du lien conjugal ; Code civil, articles 237 et 238",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10568"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "« Toujours » : le divorce est un droit pour chaque époux, mais il obéit à des conditions (accord des époux, faute, ou séparation d’au moins un an). Vérifier que la réponse « Oui » convient à la portée de l’énoncé. Délai d’un an vérifié le 31/10/2026."
+    },
+    {
+      "reference": "CSP-DD-014",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "La peine de mort est :",
+      "answers": [
+        "interdite en France par la Constitution",
+        "autorisée en France pour les crimes les plus graves",
+        "autorisée en France seulement en temps de guerre",
+        "décidée en France par le président de la République"
+      ],
+      "explanation": "La peine de mort a été abolie en France par la loi du 9 octobre 1981, défendue par le ministre de la Justice Robert Badinter. Depuis 2007, la Constitution dit : « Nul ne peut être condamné à la peine de mort » (article 66-1). Elle est interdite dans tous les cas, même en temps de guerre.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 66-1",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "« Même en temps de guerre » : la France a aussi ratifié le protocole n° 13 à la Convention européenne des droits de l’homme, qui abolit la peine de mort « en toutes circonstances » (source : conseil-constitutionnel.fr, page « L’interdiction de la peine de mort »)."
+    },
+    {
+      "reference": "CSP-DD-015",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Concernant les limites aux libertés individuelles, quelle proposition est correcte ?",
+      "answers": [
+        "Les limites aux libertés sont fixées par la loi.",
+        "Les libertés individuelles n’ont aucune limite.",
+        "Chacun fixe lui-même les limites de sa liberté.",
+        "Les limites aux libertés dépendent de la religion de chacun."
+      ],
+      "explanation": "La liberté consiste à pouvoir faire tout ce qui ne nuit pas aux autres. Les limites de la liberté sont fixées par la loi, qui est la même pour tous (Déclaration des droits de l’homme et du citoyen, article 4). Une personne ne peut pas décider seule de ces limites, et sa religion ne lui permet pas d’échapper à la loi.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, article 4",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DD-016",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "En France, est-ce légal d'être marié à plusieurs personnes en même temps ?",
+      "answers": [
+        "Non, on ne peut être marié qu’à une seule personne à la fois.",
+        "Oui, si la religion des époux l’autorise.",
+        "Oui, si le premier époux ou la première épouse est d’accord.",
+        "Oui, si la mairie a été prévenue."
+      ],
+      "explanation": "En France, une personne mariée ne peut pas se marier une deuxième fois tant que son premier mariage n’est pas terminé, par exemple par un divorce (Code civil, article 147). Être marié à deux personnes en même temps s’appelle la bigamie : c’est un délit, puni d’un an de prison et de 45 000 € d’amende. La religion ou l’accord des époux ne changent rien à cette règle.",
+      "answerSource": {
+        "label": "Code civil, article 147 ; Code pénal, article 433-20",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006421995"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Peine de la bigamie (Code pénal, article 433-20) vérifiée le 31/10/2026."
+    },
+    {
+      "reference": "CSP-DD-017",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Faut-il réduire ses déchets ?",
+      "answers": [
+        "Oui, chacun doit protéger l’environnement.",
+        "Non, cela concerne seulement les entreprises.",
+        "Non, cela concerne seulement les mairies.",
+        "Non, cela concerne seulement les agriculteurs."
+      ],
+      "explanation": "Oui. La Charte de l’environnement, qui a la même force que la Constitution, dit que « toute personne a le devoir de prendre part à la préservation et à l’amélioration de l’environnement » (article 2). Réduire ses déchets permet de moins polluer et d’économiser les ressources de la planète. Cela concerne tout le monde : les habitants, les entreprises et les communes.",
+      "answerSource": {
+        "label": "Charte de l’environnement de 2004, article 2",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/charte-de-l-environnement-de-2004"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DD-018",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Jeter une bouteille dans la rue est :",
+      "answers": [
+        "interdit et puni d’une amende",
+        "autorisé s’il n’y a pas de poubelle à côté",
+        "autorisé si la bouteille est en plastique",
+        "autorisé, car la commune nettoie les rues"
+      ],
+      "explanation": "Jeter un déchet dans la rue, même une petite bouteille, est interdit et puni d’une amende. S’il n’y a pas de poubelle, il faut garder son déchet et le jeter plus tard. Ensuite, on trie la bouteille selon les règles de sa commune, par exemple dans le bac de tri ou le conteneur à verre.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F31963 sur l’amende pour abandon de déchets dans la rue",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31963"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Les montants des amendes ont changé au 5 juin 2026 (décret n° 2026-433 du 2 juin 2026) : volontairement, aucun montant n’est donné."
+    },
+    {
+      "reference": "CSP-DD-019",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Pourquoi les libertés individuelles peuvent-elles être limitées ?",
+      "answers": [
+        "Pour protéger les droits des autres et l’ordre public",
+        "Pour donner plus de droits à certaines personnes",
+        "Pour permettre à l’État de favoriser une religion",
+        "Pour laisser le gouvernement décider de tout"
+      ],
+      "explanation": "Une liberté s’arrête là où elle nuit aux autres. La loi peut donc la limiter pour protéger les droits des autres et l’ordre public, c’est-à-dire la sécurité, la tranquillité et la santé de tous. Par exemple, une manifestation peut être interdite si elle risque de troubler l’ordre public.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, articles 4 et 10",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DD-020",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Que doit faire une personne en cas d'accident ?",
+      "answers": [
+        "Alerter les secours et aider la victime sans se mettre en danger",
+        "Partir vite pour ne pas avoir de problèmes",
+        "Attendre qu’une autre personne appelle les secours",
+        "Filmer la scène avant de prévenir les secours"
+      ],
+      "explanation": "Chacun doit aider une personne en danger, s’il peut le faire sans risque pour lui ou pour les autres. On peut au moins appeler les secours : le 15 (SAMU), le 17 (police ou gendarmerie), le 18 (pompiers) ou le 112. Ne pas porter secours est un délit, la non-assistance à personne en danger, puni jusqu’à 5 ans de prison.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F34551 sur la non-assistance à personne en danger ; Code pénal, article 223-6",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34551"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Numéros d’urgence et peine vérifiés le 31/10/2026."
+    },
+    {
+      "reference": "CSP-DD-021",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Que permet la citoyenneté française ?",
+      "answers": [
+        "Voter et se présenter aux élections",
+        "Ne plus payer d’impôts en France",
+        "Ne pas être puni en cas d’infraction",
+        "Recevoir un logement gratuit de l’État"
+      ],
+      "explanation": "La citoyenneté française donne le droit de voter aux élections, à partir de 18 ans, et de se présenter comme candidat. Elle crée aussi des devoirs, par exemple être juré dans un procès (participer au jugement) si l’on est tiré au sort. Elle ne dispense jamais de respecter la loi ni de payer ses impôts.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 3 ; Code électoral, articles L2 et L44",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Notion « droits-fondamentaux » choisie car l’annexe I de l’arrêté cite la citoyenneté parmi les notions clés des droits fondamentaux ; le vote figure aussi dans « obligations et devoirs » (participation aux institutions)."
+    },
+    {
+      "reference": "CSP-DD-022",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Que risque une personne qui ne respecte pas la loi ?",
+      "answers": [
+        "Une sanction, comme une amende ou une peine de prison",
+        "Aucune sanction, si elle ne connaissait pas la loi",
+        "Aucune sanction, si c’est la première fois",
+        "Une sanction seulement si elle est de nationalité française"
+      ],
+      "explanation": "Une personne qui ne respecte pas la loi risque une sanction : une amende, une peine de prison ou une autre peine. Dire qu’on ne connaissait pas la loi n’est en général pas une excuse. La loi pénale française s’applique à toutes les infractions commises en France, quelle que soit la nationalité de leur auteur.",
+      "answerSource": {
+        "label": "Ministère de la Justice, Les infractions pénales ; Code pénal, article 113-2",
+        "url": "https://www.justice.gouv.fr/justice-france/justice-penale/infractions-penales"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "« En général » : l’erreur sur le droit n’excuse que très rarement, quand elle était impossible à éviter (Code pénal, article 122-3)."
+    },
+    {
+      "reference": "CSP-DD-023",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Quel est le rôle de la gendarmerie ?",
+      "answers": [
+        "Faire respecter la loi, surtout dans les campagnes",
+        "Juger les personnes qui ne respectent pas la loi",
+        "Défendre les personnes accusées devant le tribunal",
+        "Voter les lois et contrôler le gouvernement"
+      ],
+      "explanation": "La gendarmerie nationale assure la sécurité et l’ordre public, et elle fait respecter la loi. Elle intervient surtout dans les campagnes, autour des villes et sur les routes. Les gendarmes sont des militaires. Ils ne jugent pas : ce sont les juges qui décident des peines.",
+      "answerSource": {
+        "label": "Code de la sécurité intérieure, article L421-1",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037201042"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DD-024",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Quel est le rôle de la police ?",
+      "answers": [
+        "Assurer la sécurité des personnes et faire respecter la loi",
+        "Juger et condamner les auteurs d’infractions",
+        "Voter les lois avec les députés et les sénateurs",
+        "Collecter les impôts et les taxes des habitants"
+      ],
+      "explanation": "La police nationale protège les personnes et les biens, fait respecter la loi et recherche les auteurs d’infractions. Elle intervient surtout dans les grandes villes. Ce sont les juges, et non les policiers, qui décident des peines. En cas d’urgence, on appelle la police ou la gendarmerie au 17.",
+      "answerSource": {
+        "label": "Code de la sécurité intérieure, article R411-2 (missions de la police nationale)",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000025503132/LEGISCTA000028285581/"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DD-025",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Qu'est-ce qu'une infraction ?",
+      "answers": [
+        "Un acte interdit par la loi et puni d’une sanction",
+        "Une décision prise par un juge à la fin d’un procès",
+        "Une règle votée par les députés et les sénateurs",
+        "Une demande écrite envoyée à l’administration"
+      ],
+      "explanation": "Une infraction est un acte ou un comportement interdit par la loi et puni d’une sanction. Il en existe trois sortes, de la moins grave à la plus grave : la contravention, le délit et le crime. Par exemple, un excès de vitesse est le plus souvent une contravention, un vol est un délit et un meurtre est un crime.",
+      "answerSource": {
+        "label": "Ministère de la Justice, Les infractions pénales ; Code pénal, article 111-1",
+        "url": "https://www.justice.gouv.fr/justice-france/justice-penale/infractions-penales"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DD-026",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Comment peut-on réduire ses déchets ?",
+      "answers": [
+        "En évitant les emballages inutiles et en réparant ses objets",
+        "En utilisant des assiettes et des gobelets jetables",
+        "En mettant tous ses déchets dans la même poubelle",
+        "En brûlant ses déchets dans son jardin"
+      ],
+      "explanation": "Pour réduire ses déchets, on peut acheter des produits peu emballés, éviter les objets jetables, réparer, donner ou emprunter des objets. Les assiettes et les gobelets jetables augmentent au contraire les déchets. Brûler ses déchets dans son jardin est en principe interdit, car cela pollue l’air.",
+      "answerSource": {
+        "label": "Ministère de la Transition écologique, Réduire ses déchets : 7 conseils pour consommer autrement",
+        "url": "https://www.ecologie.gouv.fr/reduire-dechets"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Brûlage des déchets : service-public.gouv.fr, fiche F31858 (interdit, sauf dérogations locales)."
+    },
+    {
+      "reference": "CSP-DD-027",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Déposer une machine à laver cassée sur le trottoir est :",
+      "answers": [
+        "interdit, sauf le jour de ramassage des encombrants prévu par la mairie",
+        "autorisé à tout moment, car la mairie ramasse tout",
+        "autorisé si on écrit « gratuit » sur la machine",
+        "autorisé si on la laisse moins d’une semaine"
+      ],
+      "explanation": "Laisser un gros objet sur le trottoir sans respecter les règles de sa commune est un dépôt sauvage : c’est interdit et puni d’une amende. Il faut apporter la machine à la déchetterie ou utiliser le ramassage des encombrants organisé par la mairie (à date fixe ou sur rendez-vous). Si vous achetez une nouvelle machine, le vendeur doit reprendre gratuitement l’ancienne.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F31954 sur les encombrants",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31954"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "La bonne réponse inclut l’exception du ramassage des encombrants sur le trottoir, organisé par certaines communes à date fixe ou sur rendez-vous : formulation à valider. Reprise gratuite de l’ancien appareil par le vendeur : service-public.gouv.fr, fiche F31955."
+    },
+    {
+      "reference": "CSP-DD-028",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "En quoi consiste la traite des êtres humains ?",
+      "answers": [
+        "Recruter, transporter ou loger une personne pour l’exploiter",
+        "Embaucher une personne étrangère avec un contrat de travail",
+        "Vendre des marchandises dans un autre pays",
+        "Héberger gratuitement un ami qui n’a pas de logement"
+      ],
+      "explanation": "La traite des êtres humains, c’est recruter, transporter, loger ou accueillir une personne pour l’exploiter : par exemple la forcer à travailler sans salaire, à se prostituer ou à mendier. C’est une infraction grave, punie de 7 ans de prison et de 150 000 € d’amende, et plus encore dans les cas les plus graves (Code pénal, article 225-4-1).",
+      "answerSource": {
+        "label": "Code pénal, article 225-4-1",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027811040"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Peine vérifiée le 31/10/2026."
+    },
+    {
+      "reference": "CSP-DD-029",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Que doit faire une victime de violences ?",
+      "answers": [
+        "Demander de l’aide et porter plainte",
+        "Garder le silence pour éviter les problèmes",
+        "Se venger elle-même de la personne violente",
+        "Attendre l’accord de sa famille pour porter plainte"
+      ],
+      "explanation": "Une victime de violences peut porter plainte dans le commissariat de police ou la gendarmerie de son choix, qui doit enregistrer sa plainte. En cas de danger, elle appelle le 17 ou le 112, ou elle envoie un SMS au 114. Les femmes victimes de violences peuvent aussi appeler le 3919, gratuit et anonyme. Personne, pas même un membre de sa famille, ne peut l’empêcher de porter plainte.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F1435 sur le dépôt de plainte",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1435"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Numéros (17, 112, 114, 3919) vérifiés le 31/10/2026 sur service-public.gouv.fr (fiche F12544) et arretonslesviolences.gouv.fr."
+    },
+    {
+      "reference": "CSP-DD-030",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Quelle est l'infraction la plus grave ?",
+      "answers": [
+        "Le meurtre",
+        "Le vol d’un vélo",
+        "L’excès de vitesse",
+        "Le stationnement interdit"
+      ],
+      "explanation": "Le meurtre, c’est-à-dire tuer volontairement une personne, est un crime. Les crimes sont les infractions les plus graves : ils sont punis des peines les plus lourdes, qui peuvent aller jusqu’à la prison à vie. Le vol d’un vélo est un délit, et le stationnement interdit est une contravention, la catégorie la moins grave.",
+      "answerSource": {
+        "label": "Ministère de la Justice, Les infractions pénales ; Code pénal, articles 111-1 et 221-1",
+        "url": "https://www.justice.gouv.fr/justice-france/justice-penale/infractions-penales"
+      },
+      "difficulty": 1,
+      "confidence": "medium",
+      "reviewNote": "L’énoncé peut viser les catégories (crime, délit, contravention) plutôt que des exemples : nous proposons des exemples et l’explication donne les catégories. L’excès de vitesse n’est pas classé dans l’explication, car un très grand excès peut être un délit."
+    }
+  ],
+  "situations": [
+    {
+      "reference": "CSP-DDS-001",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Vous habitez et vous travaillez en France. Un ami vous dit que les personnes étrangères n’ont pas besoin de déclarer leurs revenus. Que dit la loi ?",
+      "answers": [
+        "Si vous habitez en France, vous devez déclarer vos revenus, quelle que soit votre nationalité.",
+        "Seules les personnes de nationalité française doivent déclarer leurs revenus.",
+        "Vous devez déclarer vos revenus seulement après cinq ans en France.",
+        "Vous devez déclarer vos revenus seulement dans votre pays d’origine."
+      ],
+      "explanation": "L’obligation de déclarer ses revenus dépend du lieu où l’on habite, pas de la nationalité. Si vous habitez en France, vous devez déclarer vos revenus aux impôts chaque année, même s’ils sont faibles. Cette déclaration permet aussi d’obtenir un avis d’impôt, souvent demandé pour certaines aides, comme l’aide au logement.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F358 sur la déclaration de revenus annuelle",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F358"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DDS-002",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Votre fils a 12 ans. Il ne veut plus aller au collège. Que faites-vous ?",
+      "answers": [
+        "Vous prévenez le collège et vous faites en sorte qu’il retourne en classe.",
+        "Vous le laissez à la maison : c’est à lui de choisir.",
+        "Vous le faites travailler avec vous à la place.",
+        "Vous attendez la fin de l’année pour en parler."
+      ],
+      "explanation": "L’instruction est obligatoire pour tous les enfants de 3 à 16 ans : un enfant de 12 ans ne peut pas décider seul d’arrêter l’école, ni travailler à la place. Les parents sont responsables : ils doivent veiller à ce que leur enfant aille en classe et prévenir l’établissement en cas d’absence. Parler avec l’équipe du collège aide aussi à comprendre le problème et à trouver une solution.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F1898 sur l’instruction obligatoire ; Code de l’éducation, articles L131-1 et L131-8",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1898"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DDS-003",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Votre voisine vous dit que son mari la frappe. Elle a peur de lui. Que faites-vous ?",
+      "answers": [
+        "Vous lui donnez le numéro 3919 et, si elle est en danger, vous appelez le 17.",
+        "Vous ne faites rien : c’est une affaire de couple.",
+        "Vous lui conseillez de rester avec lui pour ne pas briser la famille.",
+        "Vous allez menacer son mari pour qu’il arrête."
+      ],
+      "explanation": "Les violences dans le couple sont interdites et punies par la loi : ce n’est pas une affaire privée. Le 3919 est un numéro d’écoute gratuit et anonyme, ouvert 24 heures sur 24, pour les femmes victimes de violences et leur entourage. Ce n’est pas un numéro d’urgence : en cas de danger immédiat, il faut appeler le 17 ou le 112.",
+      "answerSource": {
+        "label": "Arrêtons les violences (site du gouvernement), Violences au sein du couple",
+        "url": "https://arretonslesviolences.gouv.fr/besoin-d-aide/violences-au-sein-du-couple"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Numéro et horaires du 3919 (24 h sur 24, 7 jours sur 7) vérifiés le 31/10/2026 : à revérifier régulièrement."
+    },
+    {
+      "reference": "CSP-DDS-004",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Vous entendez souvent un enfant crier et pleurer chez vos voisins. Il a parfois des marques de coups. Que faites-vous ?",
+      "answers": [
+        "Vous appelez le 119, le numéro pour les enfants en danger.",
+        "Vous ne faites rien : les parents élèvent leurs enfants comme ils veulent.",
+        "Vous attendez que l’enfant vienne vous demander de l’aide.",
+        "Vous allez chez vos voisins pour les menacer."
+      ],
+      "explanation": "Le 119 (Allô Enfance en danger) est gratuit, confidentiel et ouvert 24 heures sur 24, 7 jours sur 7. Une personne témoin de violences sur un enfant doit les signaler, et elle peut le faire de façon anonyme. La loi interdit aux parents toute violence physique ou psychologique envers leurs enfants. En cas de danger immédiat, on appelle le 17.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F952 « Enfant victime de maltraitance »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F952"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Interdiction des violences des parents : Code civil, article 371-1 (loi du 10 juillet 2019). Numéro 119 vérifié le 31/10/2026."
+    },
+    {
+      "reference": "CSP-DDS-005",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Vous travaillez depuis deux mois dans un restaurant. Votre employeur vous paie, mais il ne vous donne jamais de bulletin de paie. Que dit la loi ?",
+      "answers": [
+        "L’employeur doit vous remettre un bulletin de paie à chaque salaire.",
+        "Le bulletin de paie est obligatoire seulement après un an de travail.",
+        "Le bulletin de paie n’est pas obligatoire dans les petites entreprises.",
+        "Le bulletin de paie est obligatoire seulement si vous le demandez par écrit."
+      ],
+      "explanation": "Tout salarié doit recevoir un bulletin de paie à chaque paiement du salaire, dès le premier mois. Il peut être remis sur papier ou sous forme électronique. Ce document indique notamment le salaire, les sommes retenues pour la protection sociale et la somme versée.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F559 sur le bulletin de paie ; Code du travail, articles L3243-1 à L3243-5",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F559"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DDS-006",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Vous visitez un appartement à louer. L’agence vous dit qu’elle ne loue pas aux personnes de votre origine. Que dit la loi ?",
+      "answers": [
+        "C’est une discrimination interdite par la loi.",
+        "C’est autorisé : le propriétaire choisit qui il veut.",
+        "C’est autorisé si l’agence ne l’écrit pas.",
+        "C’est autorisé pour les logements privés."
+      ],
+      "explanation": "Refuser un logement à cause de l’origine, du nom ou de la religion d’une personne est une discrimination. C’est interdit et puni par la loi, jusqu’à 3 ans de prison et 45 000 € d’amende. Vous pouvez porter plainte ou contacter gratuitement le Défenseur des droits, par exemple au 3928.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F14750 sur la discrimination à la location d’un logement ; loi du 6 juillet 1989, article 1er",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14750"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Numéro du Défenseur des droits (3928) et peines vérifiés le 31/10/2026 : à revérifier régulièrement."
+    },
+    {
+      "reference": "CSP-DDS-007",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Vous êtes candidate à un emploi. Pendant l’entretien, le recruteur vous demande si vous êtes enceinte. Que dit la loi ?",
+      "answers": [
+        "Vous n’êtes pas obligée de répondre : la grossesse ne doit pas compter dans le choix.",
+        "Vous devez répondre, sinon l’employeur peut légalement vous refuser.",
+        "L’employeur peut refuser une femme enceinte si le poste est fatigant.",
+        "L’employeur peut poser cette question seulement dans une petite entreprise."
+      ],
+      "explanation": "Une candidate n’est pas obligée de dire si elle est enceinte (Code du travail, article L1225-2). L’employeur n’a pas le droit de chercher à le savoir, ni de refuser une embauche pour cette raison : ce serait une discrimination. En cas de problème, la candidate peut contacter le Défenseur des droits.",
+      "answerSource": {
+        "label": "Code du travail, article L1225-1",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006900880"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DDS-008",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Vous êtes une femme. Vous découvrez qu’un collègue homme gagne plus que vous. Vous faites le même travail et vous avez la même expérience. Que dit la loi ?",
+      "answers": [
+        "Pour un même travail, l’employeur doit payer le même salaire aux femmes et aux hommes.",
+        "L’égalité de salaire est obligatoire seulement dans les grandes entreprises.",
+        "L’égalité de salaire concerne seulement les personnes qui travaillent pour l’État.",
+        "L’employeur peut fixer librement des salaires différents selon le sexe."
+      ],
+      "explanation": "Tout employeur doit assurer l’égalité de salaire entre les femmes et les hommes pour un même travail ou un travail de valeur égale (Code du travail, article L3221-2). Cette règle s’applique dans toutes les entreprises, quelle que soit leur taille. Une différence de salaire liée au sexe est une discrimination interdite.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F2301 sur le salaire ; Code du travail, article L3221-2",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2301"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DDS-009",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Un samedi, une association organise une manifestation pour le climat. Elle a été déclarée et elle n’est pas interdite. Vous voulez y participer. Que dit la loi ?",
+      "answers": [
+        "Vous pouvez y participer, de façon pacifique et sans arme.",
+        "Vous devez d’abord demander l’accord de votre mairie.",
+        "Vous devez avoir une carte d’électeur pour manifester.",
+        "Vous pouvez y aller avec un couteau pour vous défendre."
+      ],
+      "explanation": "Manifester est une liberté : elle permet d’exprimer ses idées en groupe, dans la rue. C’est l’organisateur qui déclare la manifestation à la mairie ou à la préfecture, pas les participants. Il faut rester pacifique : participer à une manifestation avec une arme, comme un couteau, est un délit.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F21899 sur l’organisation d’une manifestation ; Code pénal, article 431-10",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21899"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DDS-010",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "La police vous place en garde à vue. Que dit la loi ?",
+      "answers": [
+        "Vous pouvez demander l’aide d’un avocat dès le début de la garde à vue.",
+        "Vous pourrez voir un avocat seulement le jour du procès.",
+        "Vous devez répondre à toutes les questions, sinon c’est une infraction.",
+        "L’avocat est réservé aux personnes de nationalité française."
+      ],
+      "explanation": "En garde à vue, vous pouvez demander un avocat dès le début et à tout moment. Vous pouvez choisir votre avocat ou demander un avocat commis d’office, c’est-à-dire désigné pour vous. Vous avez aussi le droit de vous taire, de voir un médecin, de demander à prévenir un proche et d’avoir un interprète.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F14837 sur la garde à vue",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14837"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DDS-011",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Quelqu’un a volé votre vélo. Vous savez qui c’est. Que faites-vous ?",
+      "answers": [
+        "Vous portez plainte à la police ou à la gendarmerie.",
+        "Vous allez chez lui reprendre votre vélo par la force.",
+        "Vous publiez sa photo sur internet en le traitant de voleur.",
+        "Vous demandez à des amis d’aller le menacer."
+      ],
+      "explanation": "En France, personne n’a le droit de se faire justice soi-même. La victime d’un vol peut porter plainte dans le commissariat ou la gendarmerie de son choix, qui doit enregistrer la plainte. Utiliser la force, menacer quelqu’un ou l’accuser publiquement sur internet peut vous faire condamner à votre tour.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F1435 sur le dépôt de plainte",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1435"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DDS-012",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Un collègue publie sur internet une photo de vous, prise chez vous, sans votre accord. Que dit la loi ?",
+      "answers": [
+        "Votre vie privée est protégée : vous pouvez demander le retrait de la photo.",
+        "Il a le droit, car il vous connaît bien.",
+        "Il a le droit, car internet est un espace public.",
+        "Il a le droit, s’il n’écrit pas votre nom sous la photo."
+      ],
+      "explanation": "Chacun a droit au respect de sa vie privée (Code civil, article 9). En principe, on ne peut pas publier sur internet la photo d’une personne reconnaissable, prise dans un lieu privé, sans son accord. Vous pouvez demander à l’auteur, puis au site, de retirer la photo, et vous pouvez aussi porter plainte.",
+      "answerSource": {
+        "label": "Code civil, article 9",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006419288"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Démarches (retrait, plainte) : service-public.gouv.fr, fiche F32103, indiquée « en cours de mise à jour » le 31/10/2026 ; à revérifier."
+    },
+    {
+      "reference": "CSP-DDS-013",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Les parents de votre amie, âgée de 17 ans, veulent la marier contre sa volonté. Que dit la loi ?",
+      "answers": [
+        "Un mariage forcé est interdit : chaque époux doit donner son accord librement.",
+        "Les parents peuvent choisir le mari de leur fille tant qu’elle a moins de 18 ans.",
+        "Le mariage est valable si les deux familles sont d’accord.",
+        "Le mariage est valable si votre amie ne dit pas non."
+      ],
+      "explanation": "En France, un mariage n’est valable que si chaque époux donne librement son accord, en personne, à la mairie (Code civil, article 146). En principe, il faut aussi avoir 18 ans pour se marier. Un mariage forcé peut être annulé, et les violences pour l’imposer sont punies plus sévèrement. Votre amie peut appeler le 119, ou le 17 en cas de danger immédiat.",
+      "answerSource": {
+        "label": "Arrêtons les violences (site du gouvernement), Mariage précoce ou forcé ; Code civil, article 146",
+        "url": "https://arretonslesviolences.gouv.fr/besoin-d-aide/mariage-precoce-ou-force"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CSP-DDS-014",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Un inconnu vous propose d’acheter un téléphone neuf, très peu cher. Il vous dit qu’il l’a volé. Que faites-vous ?",
+      "answers": [
+        "Vous refusez : acheter un objet volé est une infraction.",
+        "Vous l’achetez : c’est lui le voleur, pas vous.",
+        "Vous l’achetez, si vous payez en espèces.",
+        "Vous l’achetez, puis vous le revendez vite."
+      ],
+      "explanation": "Acheter ou garder un objet en sachant qu’il a été volé est une infraction : c’est le recel. Il est puni de peines qui peuvent aller jusqu’à 5 ans de prison et 375 000 € d’amende (Code pénal, article 321-1). Même si vous n’avez pas volé l’objet vous-même, vous pouvez être condamné.",
+      "answerSource": {
+        "label": "Code pénal, article 321-1",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418234"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Peine vérifiée le 31/10/2026."
+    },
+    {
+      "reference": "CSP-DDS-015",
+      "type": "ORIGINAL_SITUATION",
+      "notion": null,
+      "statement": "Dans le bus, un homme insulte une femme à cause de sa couleur de peau. Que dit la loi ?",
+      "answers": [
+        "C’est une infraction punie par la loi : la victime peut porter plainte.",
+        "C’est autorisé, car c’est la liberté d’expression.",
+        "C’est autorisé si l’homme était en colère.",
+        "C’est interdit seulement si la victime est française."
+      ],
+      "explanation": "Insulter une personne en public à cause de sa couleur de peau, de son origine ou de sa religion est un délit : l’auteur risque un an de prison et 45 000 € d’amende. La liberté d’expression ne permet pas d’insulter ni d’appeler à la haine. La victime peut porter plainte, et les témoins peuvent l’aider en racontant ce qu’ils ont vu.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F32077 sur l’injure ; loi du 29 juillet 1881, article 33",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32077"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Peine de l’injure publique raciste vérifiée le 31/10/2026."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Constitution",
+      "definition": "Texte le plus important du droit français. Il organise l’État et protège les droits et libertés de chacun. La Constitution actuelle date de 1958."
+    },
+    {
+      "term": "infraction",
+      "definition": "Acte interdit par la loi et puni d’une sanction, par exemple une amende ou une peine de prison."
+    },
+    {
+      "term": "contravention",
+      "definition": "Faute la moins grave punie par la loi, par exemple un stationnement interdit. Elle est punie d’une amende, jamais de prison."
+    },
+    {
+      "term": "délit",
+      "definition": "Faute plus grave punie par la loi, par exemple un vol. Elle peut être punie d’une amende et d’une peine de prison allant jusqu’à 10 ans."
+    },
+    {
+      "term": "crime",
+      "definition": "Faute la plus grave punie par la loi, par exemple un meurtre. Elle est punie des peines les plus lourdes, jusqu’à la prison à vie."
+    },
+    {
+      "term": "porter plainte",
+      "definition": "Dire officiellement à la police, à la gendarmerie ou à la justice qu’on a été victime d’un acte interdit par la loi."
+    },
+    {
+      "term": "ordre public",
+      "definition": "Ce qui permet à tous de vivre ensemble en sécurité, au calme et en bonne santé."
+    },
+    {
+      "term": "liberté de conscience",
+      "definition": "Liberté de croire en une religion, d’en changer ou de n’avoir aucune religion."
+    },
+    {
+      "term": "discrimination",
+      "definition": "Fait de traiter une personne moins bien qu’une autre à cause de son origine, de son sexe, de sa religion, de son handicap ou d’une autre raison interdite par la loi."
+    },
+    {
+      "term": "Défenseur des droits",
+      "definition": "Organisme public indépendant et gratuit. Il aide les personnes à faire respecter leurs droits, par exemple si elles sont traitées moins bien à cause de leur origine ou de leur sexe."
+    },
+    {
+      "term": "garde à vue",
+      "definition": "Moment où la police ou la gendarmerie retient une personne pendant un temps limité pour l’interroger, parce qu’elle pense que cette personne a peut-être commis une faute punie par la loi."
+    },
+    {
+      "term": "aide juridictionnelle",
+      "definition": "Aide de l’État pour les personnes qui ont peu d’argent : l’État paie tout ou une partie des frais de justice et d’avocat."
+    },
+    {
+      "term": "encombrants",
+      "definition": "Gros objets dont on veut se débarrasser, comme un meuble, un matelas ou un gros appareil ménager. Ils ne vont pas dans la poubelle normale."
+    },
+    {
+      "term": "déchetterie",
+      "definition": "Lieu public où l’on apporte les déchets qui ne vont pas dans la poubelle normale, par exemple les gros objets ou les appareils cassés."
+    },
+    {
+      "term": "bulletin de paie",
+      "definition": "Document que l’employeur donne au salarié à chaque paiement du salaire. Il indique le salaire, les sommes retenues et la somme versée. On dit aussi « fiche de paie »."
+    }
+  ]
+}

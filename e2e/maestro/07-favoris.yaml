@@ -1,0 +1,18 @@
+url: http://localhost:3001/entrainement
+name: Mettre une question en favori puis la retravailler
+---
+- launchApp:
+    clearState: true
+- scrollUntilVisible:
+    element: "Système institutionnel et politique"
+    direction: DOWN
+- tapOn: "Système institutionnel et politique"
+- assertVisible: "Ajouter aux favoris"
+- tapOn: "Ajouter aux favoris"
+- assertVisible: "Dans mes favoris"
+- openLink: http://localhost:3001/entrainement/carte-de-sejour-pluriannuelle/favoris
+- assertVisible: "Les questions que vous avez mises de côté.*"
+- assertVisible: "Dans mes favoris"
+- scrollUntilVisible:
+    element: "Valider ma réponse"
+    direction: DOWN

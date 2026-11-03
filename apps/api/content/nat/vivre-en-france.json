@@ -1,0 +1,511 @@
+{
+  "topic": "vivre-en-france",
+  "questions": [
+    {
+      "reference": "NAT-VS-001",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "installation-et-sejour",
+      "statement": "Quelle action peut réaliser le locataire d'un logement sans l'autorisation du propriétaire ?",
+      "answers": [
+        "Repeindre les murs pour les rafraîchir",
+        "Abattre une cloison entre deux pièces",
+        "Sous-louer le logement à une autre personne",
+        "Transformer une chambre en cuisine"
+      ],
+      "explanation": "Le locataire peut aménager librement son logement : par exemple, changer la moquette ou refaire les peintures. Les gros travaux de transformation, comme abattre une cloison, demandent l'accord écrit du propriétaire. Pour sous-louer le logement, il faut aussi l'accord du propriétaire. Sinon, le propriétaire peut exiger une remise en état, aux frais du locataire.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Utilisation du logement et travaux par le locataire » ; loi n° 89-462 du 6 juillet 1989, article 7",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1874"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fiche F1874 vérifiée par service-public le 28/05/2025. Pour une couleur très vive, la fiche conseille de demander l'autorisation : d'où « pour les rafraîchir ». Héberger un proche ou avoir un animal non dangereux sont aussi possibles sans autorisation ; ils ne sont pas proposés parmi les mauvaises réponses. Article 7 de la loi de 1989 cité sans avoir été ouvert."
+    },
+    {
+      "reference": "NAT-VS-002",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "installation-et-sejour",
+      "statement": "Quel mariage est reconnu légalement ?",
+      "answers": [
+        "Le mariage civil, célébré à la mairie",
+        "Le mariage religieux seul, sans passage à la mairie",
+        "Le mariage décidé par les familles, sans l'accord des époux",
+        "Le mariage signé chez un notaire, sans cérémonie"
+      ],
+      "explanation": "En France, seul le mariage civil est reconnu par la loi. Il est célébré à la mairie par le maire ou un adjoint, en présence des deux époux, qui doivent donner librement leur accord. Une cérémonie religieuse est possible, mais seulement après le mariage civil : seule, elle n'a pas de valeur pour la loi.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Mariage en France » ; Code pénal, article 433-21",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F930"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Explication et source reprises de CR-VS-001 (énoncé CR « Quel mariage est reconnu par l'État ? ») ; fiche F930 vérifiée par service-public le 28/10/2026. La mauvaise réponse « Le mariage célébré en famille, selon les traditions » de CR-VS-001 a été remplacée : en Nouvelle-Calédonie, le mariage coutumier des personnes de statut civil coutumier a une valeur juridique (Constitution, article 75). Ce cas particulier n'est pas cité dans l'explication."
+    },
+    {
+      "reference": "NAT-VS-003",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "installation-et-sejour",
+      "statement": "Le stationnement sur une place réservée aux personnes handicapées :",
+      "answers": [
+        "est interdit sans la carte qui donne ce droit",
+        "est autorisé pendant moins de 5 minutes",
+        "est autorisé la nuit et le dimanche",
+        "est autorisé si les feux de détresse sont allumés"
+      ],
+      "explanation": "Ces places sont réservées aux véhicules qui transportent une personne titulaire de la carte mobilité inclusion avec la mention « stationnement ». Sans cette carte, même un arrêt de quelques minutes est interdit : c'est un stationnement « très gênant » (Code de la route, article R417-11). L'amende forfaitaire est de 135 euros, et la voiture peut être mise en fourrière.",
+      "answerSource": {
+        "label": "Code de la route, article R417-11 ; service-public.gouv.fr, fiche F34212 sur les amendes de stationnement",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047794500"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Article R417-11 vérifié sur Légifrance le 31/10/2026 (contravention de 4e classe). Montant de 135 € vérifié sur la fiche F34212 (vérifiée par service-public le 20/05/2025), qui donne de façon contradictoire 375 € ou 575 € en cas de retard : montant majoré non cité. À revérifier si les amendes changent."
+    },
+    {
+      "reference": "NAT-VS-004",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "installation-et-sejour",
+      "statement": "Si une machine à laver est cassée, il est possible de :",
+      "answers": [
+        "la faire réparer par le vendeur si elle est sous garantie",
+        "la jeter avec les ordures ménagères",
+        "l'abandonner dans la rue, devant son immeuble",
+        "exiger que la mairie la remplace gratuitement"
+      ],
+      "explanation": "Pendant 2 ans après la livraison d'un appareil neuf, la garantie légale de conformité oblige le vendeur à le réparer ou à le remplacer sans frais en cas de défaut. Si la machine ne peut plus servir, il est interdit de la jeter avec les ordures ménagères ou de l'abandonner dans la rue. On peut la déposer dans un point de collecte, comme une déchetterie, ou la laisser au vendeur quand on achète une machine neuve.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F11094 sur la garantie légale de conformité",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11094"
+      },
+      "difficulty": 1,
+      "confidence": "medium",
+      "reviewNote": "Énoncé ouvert : la réponse attendue à l'examen n'est pas connue (garantie, réparation, déchetterie…). Fiche F11094 vérifiée par service-public le 17/08/2026 : le vendeur peut refuser s'il prouve que le défaut est apparu après l'achat (non détaillé). Interdictions et reprise par le vendeur : fiche F31955 sur les déchets d'équipements électriques et électroniques (vérifiée le 24/10/2025)."
+    },
+    {
+      "reference": "NAT-VS-005",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "installation-et-sejour",
+      "statement": "Dans quel cas faut-il déclarer son enfant au service d'état civil ?",
+      "answers": [
+        "Pour toute naissance en France, dans tous les cas",
+        "Seulement si les parents de l'enfant sont mariés",
+        "Seulement si les parents ont la nationalité française",
+        "Seulement si l'enfant est né dans un hôpital"
+      ],
+      "explanation": "La déclaration de naissance est obligatoire pour tout enfant né en France, que ses parents soient mariés ou non, français ou étrangers. Elle se fait à la mairie du lieu de naissance, dans les 5 jours qui suivent l'accouchement. C'est elle qui permet d'établir l'acte de naissance de l'enfant.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Déclaration de naissance » ; Code civil, article 55",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F961"
+      },
+      "difficulty": 1,
+      "confidence": "medium",
+      "reviewNote": "Énoncé peu clair : « dans quel cas » a été compris comme « pour quels enfants ». Fiche F961 vérifiée par service-public le 18/06/2026 (« La déclaration de naissance est obligatoire pour tout enfant né en France ») : elle ne parle pas de la situation des parents, mais ne prévoit aucune exception. Délai de 8 jours dans certaines communes de Guyane."
+    },
+    {
+      "reference": "NAT-VS-006",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "installation-et-sejour",
+      "statement": "Quand faut-il déclarer son enfant au service d'état civil ?",
+      "answers": [
+        "Dans les 5 jours qui suivent la naissance",
+        "Dans les 15 jours qui suivent la naissance",
+        "Dans les 30 jours qui suivent la naissance",
+        "Dans les 3 mois qui suivent la naissance"
+      ],
+      "explanation": "La naissance doit être déclarée à la mairie du lieu de naissance, dans les 5 jours qui suivent l'accouchement. Le jour de la naissance ne compte pas dans ce délai. Après ce délai, la mairie ne peut plus faire seule l'acte de naissance : il faut passer par le tribunal.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Déclaration de naissance » ; Code civil, article 55",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F961"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Reprise de CSP-VS-005 (énoncé CSP « … au service d'état civil de la mairie ? »). Délai vérifié le 31/10/2026 (fiche F961 vérifiée le 18/06/2026). Le délai est de 8 jours dans certaines communes de Guyane : « 8 jours » n'est donc pas proposé."
+    },
+    {
+      "reference": "NAT-VS-007",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Auprès de quelle institution les parents peuvent inscrire leurs enfants à l'école publique ?",
+      "answers": [
+        "À la mairie de leur commune",
+        "À la préfecture de leur département",
+        "À la caisse d'allocations familiales",
+        "Au commissariat de police du quartier"
+      ],
+      "explanation": "Pour l'école maternelle ou élémentaire publique, les parents inscrivent d'abord leur enfant à la mairie. La mairie leur donne un certificat d'inscription qui indique l'école. Ensuite, ils vont à l'école pour finir l'inscription, avec la preuve que l'enfant a reçu les vaccins obligatoires.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Inscription à l'école maternelle »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1864"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Reprise de CR-VS-002 (énoncé CR « … les parents peuvent-ils inscrire leur enfant … »). Fiche F1864 vérifiée par service-public le 06/11/2025. Pour le collège et le lycée, l'inscription se fait auprès de l'établissement : l'énoncé vise l'école."
+    },
+    {
+      "reference": "NAT-VS-008",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "installation-et-sejour",
+      "statement": "Qui peut demander le divorce de personnes mariées ?",
+      "answers": [
+        "Chacun des époux, ou les deux ensemble",
+        "Seulement le mari, avec l'accord du juge",
+        "Seulement les parents des deux époux",
+        "Seulement le maire qui a célébré le mariage"
+      ],
+      "explanation": "Le divorce peut être demandé par l'un des époux, la femme comme le mari, ou par les deux ensemble. S'ils sont d'accord, ils peuvent divorcer par consentement mutuel, sans juge, avec un avocat chacun. Sinon, un époux peut demander le divorce au juge, même si l'autre ne le veut pas.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F35800 sur l'avocat dans une procédure de divorce ; Code civil, article 229",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35800"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F35800 vérifiée par service-public le 01/10/2025. Le divorce sans l'accord de l'autre époux suppose une faute ou une séparation d'au moins 1 an (fiche F10568) : non détaillé. Le divorce sans juge n'est pas possible si un enfant demande à être entendu ou si un époux est sous tutelle ou curatelle. Article 229 du Code civil cité sans avoir été ouvert."
+    },
+    {
+      "reference": "NAT-VS-009",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "acces-aux-soins",
+      "statement": "La contraception :",
+      "answers": [
+        "est un libre choix, même pour une personne mineure",
+        "demande toujours l'accord du conjoint",
+        "est réservée aux couples qui sont mariés",
+        "est interdite aux personnes de moins de 18 ans"
+      ],
+      "explanation": "En France, chacun choisit librement d'utiliser ou non une contraception, c'est-à-dire un moyen d'éviter une grossesse, comme la pilule ou le préservatif. L'accord du conjoint n'est pas demandé, et une personne mineure n'a pas besoin de l'accord de ses parents. Pour les moins de 26 ans, de nombreux contraceptifs sont remboursés à 100 %.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Contraception » ; Code de la santé publique, article L5134-1",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F707"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F707 vérifiée par service-public le 28/09/2026 (« Le consentement des parents ou du représentant légal n'est pas exigé » pour les mineures). Aucun texte n'exige l'accord du conjoint, même si la fiche ne le dit pas. Liste des contraceptifs remboursés à 100 % avant 26 ans susceptible de changer."
+    },
+    {
+      "reference": "NAT-VS-010",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "acces-aux-soins",
+      "statement": "Qu'est-ce que le tiers payant ?",
+      "answers": [
+        "Un système où le patient n'avance pas la part remboursée",
+        "Une aide de la CAF qui paie une partie du loyer",
+        "Une personne qui accompagne un malade chez le médecin",
+        "Un document qui remplace la carte Vitale"
+      ],
+      "explanation": "Avec le tiers payant, le patient n'avance pas la part de ses soins remboursée par l'Assurance maladie : celle-ci paie directement le médecin, le pharmacien ou un autre professionnel de santé. C'est un droit, par exemple, pour les soins liés à une affection de longue durée (ALD) ou pour les soins de maternité à partir du 6e mois de grossesse. D'autres personnes peuvent aussi en bénéficier, par exemple avec la Complémentaire santé solidaire.",
+      "answerSource": {
+        "label": "Ameli.fr, « Le tiers payant »",
+        "url": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/tiers-payant"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Page ameli mise à jour le 03/02/2026. La participation forfaitaire et les franchises médicales restent parfois à payer ensuite : non détaillé. Le tiers payant de la mutuelle (part complémentaire) n'est pas abordé."
+    },
+    {
+      "reference": "NAT-VS-011",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "acces-aux-soins",
+      "statement": "L'avortement est-il possible en France ?",
+      "answers": [
+        "Oui, c'est un droit garanti par la loi",
+        "Non, il est interdit dans tous les cas",
+        "Oui, mais seulement avec l'accord du conjoint",
+        "Oui, mais seulement pour les femmes mariées"
+      ],
+      "explanation": "Oui. Une femme enceinte, même mineure, peut demander une interruption volontaire de grossesse (IVG) jusqu'à la fin de la 14e semaine de grossesse, sans l'accord de son conjoint. Une mineure peut garder le secret vis-à-vis de ses parents si elle est accompagnée par un adulte de son choix. L'IVG est prise en charge à 100 % par l'Assurance maladie, et depuis 2024 la Constitution garantit cette liberté (article 34).",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F1551 sur l'interruption volontaire de grossesse (IVG) ; Constitution du 4 octobre 1958, article 34",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1551"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F1551 vérifiée par service-public le 07/10/2025 : délai de 14 semaines de grossesse (16 semaines après le début des dernières règles) pour l'IVG instrumentale, plus court pour l'IVG médicamenteuse ; à revérifier si la loi change. Inscription dans la Constitution : loi constitutionnelle n° 2024-200 du 8 mars 2024. Aucun texte n'exige l'accord du conjoint, même si la fiche ne le dit pas."
+    },
+    {
+      "reference": "NAT-VS-012",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Une personne étrangère, en situation régulière, peut créer son entreprise :",
+      "answers": [
+        "si son titre de séjour l'autorise",
+        "après avoir obtenu la nationalité française",
+        "après 10 ans de séjour régulier en France",
+        "avec un associé de nationalité française"
+      ],
+      "explanation": "Une personne étrangère peut créer son entreprise en France. Si elle n'est pas européenne, son titre de séjour doit autoriser cette activité, comme la carte de séjour « entrepreneur/profession libérale ». Les citoyens de l'Union européenne, par exemple, n'ont pas besoin de titre de séjour pour cela.",
+      "answerSource": {
+        "label": "Entreprendre.service-public.gouv.fr, « Un étranger peut-il créer une entreprise en France ? »",
+        "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F22494"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Reprise de CSP-VS-012 (énoncé CSP sans virgules) ; fiche F22494 vérifiée par service-public le 01/06/2026. La bonne réponse vise surtout les personnes non européennes, car les Européens (UE, EEE, Suisse) n'ont pas besoin de titre de séjour : formulation à valider. La liste des titres qui autorisent une activité non salariée peut changer."
+    },
+    {
+      "reference": "NAT-VS-013",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Quels sont les textes qui définissent les règles au travail ?",
+      "answers": [
+        "Le Code du travail et les conventions collectives",
+        "Le Code de la route et le Code des impôts",
+        "Les arrêtés du maire et le règlement de la mairie",
+        "Les textes religieux et les traditions familiales"
+      ],
+      "explanation": "Le Code du travail fixe le cadre général : contrat, salaire, durée du travail, congés… Les conventions collectives, signées par les syndicats de salariés et les organisations d'employeurs d'un même secteur, adaptent ces règles, par exemple avec un salaire minimum plus élevé. Dans une entreprise, un accord d'entreprise et le contrat de travail fixent aussi des règles.",
+      "answerSource": {
+        "label": "Code du travail numérique (ministère du Travail), « Code du travail, convention collective, accord d'entreprise : comprendre le rôle de ces textes »",
+        "url": "https://code.travail.gouv.fr/quelles-regles-s-appliquent-dans-votre-entreprise"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Page sans date de mise à jour, consultée le 31/10/2026. Le règlement intérieur et les usages sont d'autres sources de règles au travail, non citées."
+    },
+    {
+      "reference": "NAT-VS-014",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Qui a le droit de se syndiquer ?",
+      "answers": [
+        "Tout salarié, quelle que soit sa nationalité",
+        "Seulement les salariés de nationalité française",
+        "Seulement les salariés en contrat à durée indéterminée",
+        "Seulement les salariés des grandes entreprises"
+      ],
+      "explanation": "Selon le Préambule de la Constitution de 1946, « tout homme » peut défendre ses droits par l'action syndicale et adhérer au syndicat de son choix. Le Code du travail ajoute que tout salarié peut librement adhérer au syndicat de son choix, sans discrimination (article L2141-1). Un syndicat défend les droits et les intérêts des salariés.",
+      "answerSource": {
+        "label": "Code du travail, article L2141-1 ; Préambule de la Constitution du 27 octobre 1946, alinéa 6",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018881593"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Article L2141-1 vérifié sur Légifrance le 31/10/2026 ; alinéa 6 du Préambule de 1946 vérifié sur conseil-constitutionnel.fr. La bonne réponse parle des salariés : les fonctionnaires peuvent aussi se syndiquer, mais les militaires en activité ne peuvent pas adhérer à un syndicat (à vérifier, non cité)."
+    },
+    {
+      "reference": "NAT-VS-015",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Est-il possible de licencier une femme enceinte ou en congé maternité, en raison de sa grossesse ?",
+      "answers": [
+        "Non, c'est interdit : c'est une discrimination",
+        "Oui, si l'entreprise a moins de 10 salariés",
+        "Oui, si elle a un contrat à durée déterminée",
+        "Oui, si l'inspection du travail est d'accord"
+      ],
+      "explanation": "Non. Licencier une salariée à cause de sa grossesse est une discrimination, interdite par le Code du travail. Pendant le congé de maternité, aucun licenciement n'est possible, quel que soit le motif. Pendant la grossesse et les 10 semaines après le congé, un licenciement n'est possible que pour une faute grave ou une raison sans lien avec la grossesse, comme la fermeture de l'entreprise.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F2873 sur le licenciement d'une salariée enceinte ou en congé de maternité ; Code du travail, articles L1132-1 et L1225-4",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2873"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F2873 vérifiée par service-public le 18/09/2026. Articles L1132-1 et L1225-4 du Code du travail cités sans avoir été ouverts : à vérifier. La fin normale d'un contrat à durée déterminée n'est pas un licenciement (non détaillé)."
+    },
+    {
+      "reference": "NAT-VS-016",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "L'instruction des enfants est obligatoire de :",
+      "answers": [
+        "3 à 16 ans",
+        "6 à 16 ans",
+        "3 à 14 ans",
+        "6 à 14 ans"
+      ],
+      "explanation": "En France, l'instruction est obligatoire pour chaque enfant de 3 à 16 ans, quelle que soit sa nationalité (Code de l'éducation, article L131-1). Avant la rentrée 2019, elle commençait à 6 ans. En général, les enfants vont à l'école ; l'instruction à la maison n'est possible qu'avec une autorisation.",
+      "answerSource": {
+        "label": "Code de l'éducation, article L131-1",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038901859"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Article L131-1 vérifié sur Légifrance le 31/10/2026 (version en vigueur depuis le 02/09/2019). « 18 ans » n'est pas proposé : de 16 à 18 ans, il existe une obligation de formation (Code de l'éducation, article L114-1). Propositions proches de CSP-VS-029."
+    },
+    {
+      "reference": "NAT-VS-017",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Quelle est la définition de l'autorité parentale ?",
+      "answers": [
+        "Des droits et des devoirs des parents, dans l'intérêt de l'enfant",
+        "Le pouvoir du père de décider seul de tout pour l'enfant",
+        "Le droit des parents de choisir le métier et le conjoint de l'enfant",
+        "L'autorité des enseignants sur les élèves pendant la classe"
+      ],
+      "explanation": "Selon le Code civil, l'autorité parentale est « un ensemble de droits et de devoirs ayant pour finalité l'intérêt de l'enfant » (article 371-1). Elle appartient aux deux parents jusqu'à la majorité de l'enfant : ils doivent le protéger, assurer son éducation et l'associer aux décisions qui le concernent, selon son âge. Elle s'exerce sans violences physiques ou psychologiques.",
+      "answerSource": {
+        "label": "Code civil, article 371-1",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049164413"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Article 371-1 vérifié sur Légifrance le 31/10/2026 (version en vigueur depuis le 21/02/2024)."
+    },
+    {
+      "reference": "NAT-VS-018",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Comment s'appellent les établissements scolaires que les élèves intègrent après l'école élémentaire ?",
+      "answers": [
+        "Les collèges",
+        "Les lycées",
+        "Les écoles maternelles",
+        "Les universités"
+      ],
+      "explanation": "Après l'école élémentaire (du CP au CM2), les élèves entrent au collège, en général vers 11 ans. Le collège compte quatre classes : la 6e, la 5e, la 4e et la 3e. Ensuite, les élèves peuvent aller au lycée.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Passage de l'école au collège (du CM2 à la 6e) »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1870"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Reprise de CSP-VS-028 (énoncé CSP « Dans quels établissements scolaires vont les élèves après l'école élémentaire ? »). Fiche F1870 vérifiée par service-public le 20/10/2025."
+    },
+    {
+      "reference": "NAT-VS-019",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "En tant que parent d'élève, il est possible de :",
+      "answers": [
+        "voter pour élire les représentants des parents",
+        "choisir l'enseignant de son enfant chaque année",
+        "décider des programmes enseignés dans la classe",
+        "assister aux cours de son enfant sans autorisation"
+      ],
+      "explanation": "Chaque année, en général début octobre, les parents d'élèves élisent leurs représentants. Tous les parents peuvent voter, quelle que soit leur nationalité, et un parent peut aussi être candidat. Les représentants élus siègent par exemple au conseil d'administration du collège ou du lycée et participent aux conseils de classe.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F1389 sur l'élection des représentants de parents d'élèves",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1389"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Énoncé ouvert : d'autres réponses justes existent (rencontrer les enseignants, adhérer à une association de parents…) ; elles ne sont pas proposées parmi les mauvaises réponses. Fiche F1389 vérifiée par service-public le 04/07/2024 : un parent à qui l'autorité parentale a été retirée ne peut pas voter. À l'école primaire, les représentants siègent au conseil d'école (non vérifié dans la fiche consultée)."
+    },
+    {
+      "reference": "NAT-VS-020",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Quelle instruction est prévue pour les enfants qui ne parlent pas français ?",
+      "answers": [
+        "Des cours de français adaptés, en plus de la classe ordinaire",
+        "Une école séparée, réservée aux enfants étrangers",
+        "Des cours à la maison, jusqu'à ce qu'ils parlent français",
+        "Des cours seulement dans la langue de leur pays d'origine"
+      ],
+      "explanation": "Les enfants qui ne parlent pas encore français vont à l'école comme les autres. À partir de 6 ans, leur niveau est évalué et, si besoin, ils suivent des cours de français dans une unité pédagogique pour élèves allophones arrivants (UPE2A), en alternance avec des temps en classe ordinaire. Le but est qu'ils suivent tous les cours en classe ordinaire, le plus souvent au bout d'un an.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « École primaire (maternelle ou élémentaire) pour un élève venant de l'étranger »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1866"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fiche F1866 vérifiée par service-public le 19/06/2026 (école primaire) ; au collège et au lycée, un dispositif proche existe (voir CSP-VS-031). Avant 6 ans, l'enfant va directement en classe ordinaire de maternelle."
+    },
+    {
+      "reference": "NAT-VS-021",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "S'agissant de l'accueil des enfants en situation de handicap à l'école, laquelle des propositions est vraie ?",
+      "answers": [
+        "Tout enfant handicapé est inscrit à l'école la plus proche de chez lui",
+        "Un enfant handicapé ne peut pas aller dans une école ordinaire",
+        "L'école maternelle peut refuser un enfant à cause de son handicap",
+        "Un enfant handicapé est dispensé de l'instruction obligatoire"
+      ],
+      "explanation": "Tout enfant en situation de handicap est inscrit dans l'école la plus proche de son domicile : c'est son établissement de référence (Code de l'éducation, article L112-1). Selon ses besoins, il peut être aidé en classe par un accompagnant (AESH) ou suivre une partie des cours dans un dispositif adapté (ULIS). Les familles demandent ces aides à la maison départementale des personnes handicapées (MDPH).",
+      "answerSource": {
+        "label": "Code de l'éducation, article L112-1 ; service-public.gouv.fr, fiche F14984 sur la scolarisation d'un enfant handicapé",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038902196"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Article L112-1 vérifié sur Légifrance le 31/10/2026 ; fiche F14984 vérifiée par service-public le 19/11/2024 (« Chaque école maternelle doit accueillir tous les enfants quel que soit leur handicap »). Une commission de la MDPH peut orienter l'enfant vers une autre école ou un établissement spécialisé ; il reste inscrit dans son école de référence."
+    },
+    {
+      "reference": "NAT-VS-022",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Depuis le 1er juillet 2021, quelle est la durée du congé paternité ?",
+      "answers": [
+        "25 jours, après 3 jours de congé de naissance",
+        "11 jours, après 3 jours de congé de naissance",
+        "14 jours, après 3 jours de congé de naissance",
+        "7 jours, après 3 jours de congé de naissance"
+      ],
+      "explanation": "Depuis le 1er juillet 2021, le congé de paternité et d'accueil de l'enfant dure 25 jours, ou 32 jours pour une naissance multiple. Il suit un congé de naissance de 3 jours : le père, ou l'autre parent, a donc 28 jours en tout. Les 4 premiers jours sont obligatoires, juste après le congé de naissance. Avant cette réforme, le congé de paternité durait 11 jours.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F3156 sur le congé de paternité et d'accueil de l'enfant d'un salarié du secteur privé",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3156"
+      },
+      "difficulty": 3,
+      "confidence": "medium",
+      "reviewNote": "On lit souvent « 28 jours », en comptant les 3 jours de congé de naissance : la bonne réponse donne les deux, et 28 jours, 21 jours (partie facultative) ou 4 jours (partie obligatoire) ne sont pas proposés seuls. Fiche F3156 vérifiée par service-public le 01/06/2026 ; 11 jours avant le 01/07/2021 (Code du travail, article L1225-35, loi de financement de la sécurité sociale pour 2021). Depuis le 01/07/2026, un congé supplémentaire de naissance d'1 ou 2 mois par parent s'ajoute (ameli.fr) : non cité."
+    },
+    {
+      "reference": "NAT-VS-023",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Est-ce possible de punir physiquement ses enfants ?",
+      "answers": [
+        "Non, toute violence physique est interdite",
+        "Oui, si la punition reste légère, comme une fessée",
+        "Oui, si l'enfant a moins de 10 ans",
+        "Oui, si c'est une tradition dans la famille"
+      ],
+      "explanation": "Non. Depuis la loi du 10 juillet 2019, le Code civil dit que « l'autorité parentale s'exerce sans violences physiques ou psychologiques » (article 371-1). Les parents ne doivent donc pas frapper leur enfant, même légèrement, par exemple avec une fessée ou une gifle. Ils peuvent poser des règles et des limites, sans violence ni humiliation.",
+      "answerSource": {
+        "label": "Code civil, article 371-1",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049164413"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Article 371-1 vérifié sur Légifrance le 31/10/2026 ; alinéa ajouté par la loi n° 2019-721 du 10 juillet 2019 relative à l'interdiction des violences éducatives ordinaires (Légifrance)."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "locataire",
+      "definition": "Personne qui loue un logement : elle paie un loyer au propriétaire pour y habiter."
+    },
+    {
+      "term": "sous-louer",
+      "definition": "Louer à une autre personne tout ou une partie du logement que l'on loue soi-même. Le locataire doit avoir l'accord du propriétaire."
+    },
+    {
+      "term": "carte mobilité inclusion",
+      "definition": "Carte donnée à certaines personnes handicapées. Avec la mention « stationnement », elle permet d'utiliser les places réservées aux personnes handicapées."
+    },
+    {
+      "term": "garantie légale de conformité",
+      "definition": "Garantie obligatoire de 2 ans pour un produit neuf acheté à un professionnel. En cas de défaut, le vendeur doit le réparer ou le remplacer sans frais."
+    },
+    {
+      "term": "tiers payant",
+      "definition": "Système qui évite au patient d'avancer la part de ses soins remboursée par l'Assurance maladie : elle paie directement le professionnel de santé."
+    },
+    {
+      "term": "Code du travail",
+      "definition": "Ensemble des lois et des règles sur le travail : contrat, salaire, durée du travail, congés, licenciement…"
+    },
+    {
+      "term": "licenciement",
+      "definition": "Décision de l'employeur de mettre fin au contrat de travail d'un salarié. La loi l'encadre et interdit les licenciements discriminatoires."
+    },
+    {
+      "term": "congé de paternité",
+      "definition": "Congé du père, ou de l'autre parent, après la naissance d'un enfant. Il dure 25 jours et suit un congé de naissance de 3 jours."
+    },
+    {
+      "term": "UPE2A",
+      "definition": "Unité pédagogique pour élèves allophones arrivants : à l'école, des cours de français pour les élèves qui arrivent de l'étranger et ne parlent pas encore bien le français."
+    },
+    {
+      "term": "ULIS",
+      "definition": "Unité localisée pour l'inclusion scolaire : dispositif d'une école, d'un collège ou d'un lycée où des élèves handicapés suivent une partie des cours avec un enseignement adapté."
+    },
+    {
+      "term": "représentant des parents d'élèves",
+      "definition": "Parent élu par les autres parents pour les représenter auprès de l'école, du collège ou du lycée."
+    }
+  ]
+}

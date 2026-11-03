@@ -1,0 +1,30 @@
+url: http://localhost:3001/entrainement
+name: Entraînement par thème avec correction
+---
+- launchApp
+- assertVisible: "Entraînez-vous à votre rythme"
+# Les thèmes viennent après les modes de révision : ils peuvent être sous la ligne de flottaison
+- scrollUntilVisible:
+    element: "Principes et valeurs de la République"
+    direction: DOWN
+- tapOn: "Principes et valeurs de la République"
+# Repère toujours visible en haut de la question, quelle que soit sa longueur
+- assertVisible: "Ajouter aux favoris"
+- scrollUntilVisible:
+    element:
+      id: "proposition-1"
+    direction: DOWN
+- tapOn:
+    id: "proposition-1"
+- scrollUntilVisible:
+    element: "Valider ma réponse"
+    direction: DOWN
+- tapOn: "Valider ma réponse"
+- scrollUntilVisible:
+    element: "(Bonne réponse|Ce n’est pas la bonne réponse)"
+    direction: DOWN
+- scrollUntilVisible:
+    element: "Question suivante"
+    direction: DOWN
+- tapOn: "Question suivante"
+- assertVisible: "Ajouter aux favoris"

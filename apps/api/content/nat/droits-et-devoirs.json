@@ -1,0 +1,667 @@
+{
+  "topic": "droits-et-devoirs",
+  "questions": [
+    {
+      "reference": "NAT-DD-001",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "À quoi sert le droit de grève ?",
+      "answers": [
+        "À arrêter le travail ensemble pour défendre des revendications",
+        "À ne pas travailler tout en recevant son salaire normal",
+        "À empêcher les collègues qui le veulent de travailler",
+        "À partir en vacances sans l’accord de l’employeur"
+      ],
+      "explanation": "La grève est un arrêt collectif du travail, décidé ensemble, pour appuyer des revendications professionnelles, c’est-à-dire des demandes liées au travail (salaire, horaires, conditions de travail…). Un salarié ne peut pas être sanctionné ou licencié pour avoir fait grève. Mais son salaire est diminué pour le temps de la grève.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F117 sur le droit de grève d’un salarié du secteur privé",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F117"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F117 consultée le 31/10/2026 (vérifiée par service-public le 10/08/2026). Le droit de grève est aussi reconnu par le préambule de la Constitution de 1946 (alinéa 7)."
+    },
+    {
+      "reference": "NAT-DD-002",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Laquelle de ces citations est inscrite dans la Déclaration des Droits de l'Homme et du Citoyen de 1789 ?",
+      "answers": [
+        "« Les hommes naissent et demeurent libres et égaux en droits. »",
+        "« La langue de la République est le français. »",
+        "« La République ne reconnaît, ne salarie ni ne subventionne aucun culte. »",
+        "« La France est une République indivisible, laïque, démocratique et sociale. »"
+      ],
+      "explanation": "Cette phrase est le début de l’article 1er de la Déclaration des droits de l’homme et du citoyen, adoptée en 1789. Les autres phrases viennent d’autres textes : la Constitution de 1958 (articles 1er et 2) et la loi de 1905 sur la séparation des Églises et de l’État (article 2).",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, article 1er",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Reprend CR-DD-004 (brouillon du 31/10/2026) : seule la majuscule de « Homme » diffère dans l’énoncé ; si la question CR change à la relecture, aligner celle-ci."
+    },
+    {
+      "reference": "NAT-DD-003",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "L'article 4 de la Déclaration des droits de l'homme et du citoyen affirme que \"la liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui\". Qu'est-ce que cela signifie ?",
+      "answers": [
+        "On est libre tant qu’on ne fait pas de tort aux autres",
+        "On peut faire tout ce que l’on veut, sans aucune limite",
+        "On doit demander l’accord de ses voisins avant d’agir",
+        "On peut nuire aux autres si on a une bonne raison"
+      ],
+      "explanation": "« Autrui » veut dire « les autres personnes ». Chacun est donc libre, mais sa liberté s’arrête là où elle fait du tort aux autres. L’article 4 ajoute que ces limites « ne peuvent être déterminées que par la loi » : aucune autre personne ne peut les fixer à sa place.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, article 4",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-DD-004",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Que permet la liberté de circulation ?",
+      "answers": [
+        "D’aller et venir librement sur le territoire",
+        "D’entrer dans tous les pays du monde sans visa",
+        "De conduire une voiture sans permis de conduire",
+        "D’entrer chez une autre personne sans son accord"
+      ],
+      "explanation": "La liberté de circulation, ou liberté d’aller et venir, permet à chacun de se déplacer librement, sans demander d’autorisation. Le Conseil constitutionnel la protège comme une partie de la liberté personnelle (Déclaration de 1789, articles 2 et 4). Elle a des limites : elle ne permet pas d’entrer chez quelqu’un sans son accord, et chaque pays fixe ses règles d’entrée, par exemple l’obligation d’avoir un visa.",
+      "answerSource": {
+        "label": "Conseil constitutionnel, décision n° 2019-805 QPC du 27 septembre 2019, paragraphe 9",
+        "url": "https://www.conseil-constitutionnel.fr/decision/2019/2019805QPC.htm"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "La décision rappelle que cette liberté peut être limitée pour protéger l’ordre public. Bonne réponse proche de celle de CR-PV-004 (« La liberté de circulation permet à toute personne de : »)."
+    },
+    {
+      "reference": "NAT-DD-005",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Que signifie être citoyen d'un État ?",
+      "answers": [
+        "Avoir la nationalité de cet État, avec des droits et des devoirs",
+        "Avoir un titre de séjour pour vivre dans cet État",
+        "Habiter dans une ville de cet État depuis un an",
+        "Travailler pour une entreprise de cet État"
+      ],
+      "explanation": "Être citoyen, c’est avoir la nationalité d’un État et faire partie de son peuple. En France, la citoyenneté donne des droits, comme voter à partir de 18 ans, et des devoirs, comme respecter la loi ou être juré d’assises si l’on est tiré au sort. Une personne étrangère qui vit en France a de nombreux droits, mais elle n’est pas citoyenne française.",
+      "answerSource": {
+        "label": "Charte des droits et devoirs du citoyen français (décret n° 2012-127 du 30 janvier 2012, annexe)",
+        "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000025263486"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Définition générale : formulation de la bonne réponse à valider. La Charte dit qu’à la qualité de citoyen français « s’attachent » des droits et devoirs particuliers (voter, défense nationale, jurys d’assises). Les citoyens de l’Union européenne qui vivent en France votent aux élections municipales et européennes : la bonne réponse parle bien de la nationalité."
+    },
+    {
+      "reference": "NAT-DD-006",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Que sont les droits fondamentaux ?",
+      "answers": [
+        "Les droits essentiels de chaque personne, protégés par la Constitution",
+        "Les droits réservés aux personnes qui ont un travail",
+        "Les règles fixées par chaque mairie pour ses habitants",
+        "Les avantages donnés aux personnes qui paient des impôts"
+      ],
+      "explanation": "Les droits fondamentaux sont les droits et libertés les plus importants de chaque personne : liberté, égalité, liberté d’expression, liberté de conscience, droit de se défendre en justice… En France, la Constitution les garantit : son préambule renvoie à la Déclaration des droits de l’homme et du citoyen de 1789. Le Conseil constitutionnel peut supprimer une loi qui ne respecte pas ces droits.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, préambule et article 61-1",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Définition générale : formulation de la bonne réponse à valider. Ces droits protègent aussi les personnes étrangères (voir CSP-DD-003)."
+    },
+    {
+      "reference": "NAT-DD-007",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Quel droit protège une personne contre une arrestation arbitraire ?",
+      "answers": [
+        "Le droit à la sûreté",
+        "Le droit de propriété",
+        "Le droit de grève",
+        "Le droit de vote"
+      ],
+      "explanation": "La sûreté est un des droits cités par la Déclaration des droits de l’homme et du citoyen de 1789 (article 2). Elle protège contre les arrestations arbitraires : « Nul homme ne peut être accusé, arrêté ni détenu que dans les cas déterminés par la loi » (article 7). La Constitution dit aussi : « Nul ne peut être arbitrairement détenu » (article 66).",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, articles 2 et 7 ; Constitution du 4 octobre 1958, article 66",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 3,
+      "confidence": "high",
+      "reviewNote": "Le mot attendu peut aussi être « la liberté individuelle » (Constitution, article 66) : aucune proposition ne lui fait concurrence. « Sûreté » est expliqué dans le glossaire."
+    },
+    {
+      "reference": "NAT-DD-008",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Quel est le texte fondateur établissant les droits et les devoirs de chaque citoyen ?",
+      "answers": [
+        "La Déclaration des droits de l’homme et du citoyen",
+        "La Déclaration d’indépendance des États-Unis",
+        "Le traité de Rome",
+        "Le Code de la route"
+      ],
+      "explanation": "La Déclaration des droits de l’homme et du citoyen, adoptée en 1789 pendant la Révolution, est le texte fondateur des droits en France. Elle dit que « les hommes naissent et demeurent libres et égaux en droits ». Son introduction explique qu’elle rappelle à tous « leurs droits et leurs devoirs ». La Déclaration d’indépendance des États-Unis, elle, est un texte américain de 1776.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, préambule et article 1er",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Reprend CSP-DD-009 (énoncé CSP avec « en France »). La Constitution est volontairement absente des propositions, car elle pourrait aussi être défendue comme bonne réponse."
+    },
+    {
+      "reference": "NAT-DD-009",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Quel texte affirme que tous les hommes naissent libres et égaux en droits ?",
+      "answers": [
+        "La Déclaration des droits de l’homme et du citoyen de 1789",
+        "Le Code civil de 1804",
+        "La loi de séparation des Églises et de l’État de 1905",
+        "Le traité de Rome de 1957"
+      ],
+      "explanation": "L’article 1er de la Déclaration des droits de l’homme et du citoyen dit : « Les hommes naissent et demeurent libres et égaux en droits. » Ce texte, adopté en 1789 pendant la Révolution française, fait toujours partie du droit français, car la Constitution de 1958 y renvoie. Les autres textes ne contiennent pas cette phrase.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, article 1er",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "La Déclaration universelle des droits de l’homme (ONU, 1948, article 1er) contient une phrase proche (« Tous les êtres humains naissent libres et égaux en dignité et en droits ») : elle est volontairement absente des propositions."
+    },
+    {
+      "reference": "NAT-DD-010",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Quelle situation est une atteinte à la dignité humaine ?",
+      "answers": [
+        "Faire travailler une personne fragile jour et nuit, sans repos",
+        "Demander à un salarié de porter une tenue de travail",
+        "Recevoir une amende pour un stationnement interdit",
+        "Demander à un voisin de faire moins de bruit le soir"
+      ],
+      "explanation": "La dignité humaine est le respect dû à chaque personne, parce qu’elle est un être humain. Le Code pénal punit le fait d’imposer à une personne fragile des conditions de travail ou de logement contraires à la dignité humaine : jusqu’à 7 ans de prison et 200 000 € d’amende (article 225-14). Porter une tenue de travail, payer une amende ou recevoir une demande polie d’un voisin ne porte pas atteinte à la dignité.",
+      "answerSource": {
+        "label": "Code pénal, article 225-14",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417895/"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Peine vérifiée le 31/10/2026 (version en vigueur depuis le 11/04/2024). Le même chapitre du Code pénal (« Des atteintes à la dignité de la personne ») punit aussi les discriminations et la traite des êtres humains. Formulation de la bonne réponse à valider."
+    },
+    {
+      "reference": "NAT-DD-011",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Suite à une interpellation par la police, il est possible de :",
+      "answers": [
+        "demander l’aide d’un avocat",
+        "refuser de suivre les policiers",
+        "être jugé directement par les policiers",
+        "choisir le juge qui jugera l’affaire"
+      ],
+      "explanation": "Après une interpellation, une personne peut être placée en garde à vue. Elle a alors des droits : être aidée par un avocat dès le début, voir un médecin, faire prévenir un proche, avoir un interprète et garder le silence. Elle ne peut pas refuser de suivre les policiers, et ce ne sont pas eux qui jugent : c’est la justice.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F14837 sur la garde à vue",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14837"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "L’énoncé ne dit pas ce qui suit l’interpellation : la bonne réponse vise la garde à vue, cas le plus fréquent. Fiche F14837 consultée le 31/10/2026 (vérifiée par service-public le 10/07/2025)."
+    },
+    {
+      "reference": "NAT-DD-012",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Tous les citoyens français ont-ils une religion ?",
+      "answers": [
+        "Non, chacun est libre d’avoir une religion ou non",
+        "Oui, chaque Français doit avoir une religion",
+        "Oui, la religion est écrite sur la carte d’identité",
+        "Oui, chacun garde la religion de ses parents"
+      ],
+      "explanation": "Non. En France, la laïcité garantit la liberté de conscience : chacun peut avoir une religion, ne pas en avoir ou en changer. L’État n’a pas de religion officielle, et la religion n’est pas indiquée sur la carte d’identité.",
+      "answerSource": {
+        "label": "Gouvernement (info.gouv.fr), fiche « Qu’est-ce que la laïcité ? »",
+        "url": "https://info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2019_03_fiche_0_-_quest_ce_que_le_laicite.pdf"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-DD-013",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "À quel âge est la majorité numérique en France ?",
+      "answers": [
+        "15 ans",
+        "13 ans",
+        "16 ans",
+        "18 ans"
+      ],
+      "explanation": "La loi du 7 juillet 2023 a créé une « majorité numérique » à 15 ans. Elle prévoit qu’avant cet âge, un réseau social doit refuser l’inscription d’un jeune sans l’accord d’un de ses parents. La majorité civile, elle, reste fixée à 18 ans.",
+      "answerSource": {
+        "label": "Loi n° 2023-566 du 7 juillet 2023 visant à instaurer une majorité numérique et à lutter contre la haine en ligne, article 4",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047799533"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "La loi n° 2023-566 entre en vigueur à une date fixée par décret, après la réponse de la Commission européenne (article 7) : vérifier si ce décret est paru. Une loi de 2026 interdisait les réseaux sociaux aux moins de 15 ans, mais cet article a été censuré (Conseil constitutionnel, décision n° 2026-911 DC du 14 août 2026). La réponse « 15 ans » reste celle de la loi de 2023 : revérifier l’état du droit avant publication."
+    },
+    {
+      "reference": "NAT-DD-014",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Dans lequel de ces endroits est-on autorisé à fumer ?",
+      "answers": [
+        "Dans son propre logement",
+        "Dans un restaurant",
+        "Dans un train",
+        "Dans une aire de jeux pour enfants"
+      ],
+      "explanation": "La loi interdit de fumer dans les lieux publics fermés, comme les restaurants et les cafés, dans les transports publics, dans les écoles et sur les lieux de travail. C’est aussi interdit dans les aires de jeux pour enfants, dans les parcs et jardins publics et sur les plages pendant la saison. Chez soi, la loi ne l’interdit pas, mais il est interdit de fumer dans une voiture en présence d’un mineur.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F160 sur l’interdiction de fumer",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F160"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "La fiche F160 (vérifiée par service-public le 01/04/2026, consultée le 31/10/2026) liste les lieux interdits et ne parle pas du logement : la réponse s’appuie sur l’absence d’interdiction chez soi. Liste élargie en 2025 (plages, parcs, abribus) : à revérifier si elle change encore."
+    },
+    {
+      "reference": "NAT-DD-015",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "En France, la conduite sans permis d'une moto est :",
+      "answers": [
+        "un délit puni par la loi",
+        "autorisée si l’on porte un casque",
+        "autorisée sur les petites routes de campagne",
+        "une simple erreur, sans aucune sanction"
+      ],
+      "explanation": "Conduire une moto sans le permis qui correspond est un délit, c’est-à-dire une infraction grave. La peine peut aller jusqu’à un an de prison et 15 000 € d’amende (Code de la route, article L221-2). Porter un casque ne remplace jamais le permis.",
+      "answerSource": {
+        "label": "Code de la route, article L221-2",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039099784"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Peine et amende forfaitaire possible (800 €) vérifiées le 31/10/2026 sur Légifrance (version en vigueur depuis le 30/09/2021) : montants à revérifier s’ils changent."
+    },
+    {
+      "reference": "NAT-DD-016",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "En quoi consiste le devoir de solidarité ?",
+      "answers": [
+        "À s’entraider et à contribuer selon ses moyens",
+        "À aider seulement les membres de sa famille",
+        "À aider seulement les personnes de sa religion",
+        "À travailler gratuitement pour l’État"
+      ],
+      "explanation": "La solidarité, c’est s’entraider, surtout quand une personne est en difficulté. La Charte des droits et devoirs du citoyen français dit que « chacun a le devoir de contribuer, selon ses capacités financières, aux dépenses de la Nation », par les impôts et les cotisations sociales. Cet argent sert par exemple à protéger la santé de tous et à aider les personnes qui ne peuvent pas travailler.",
+      "answerSource": {
+        "label": "Charte des droits et devoirs du citoyen français (décret n° 2012-127 du 30 janvier 2012, annexe), partie « Fraternité »",
+        "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000025263486"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Énoncé général : formulation de la bonne réponse à valider. La Charte rattache ce devoir à la fraternité."
+    },
+    {
+      "reference": "NAT-DD-017",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Est-ce légal d'être marié à plusieurs personnes en même temps ?",
+      "answers": [
+        "Non, on ne peut être marié qu’à une seule personne à la fois.",
+        "Oui, si la religion des époux l’autorise.",
+        "Oui, si le premier époux ou la première épouse est d’accord.",
+        "Oui, si la mairie a été prévenue."
+      ],
+      "explanation": "En France, une personne mariée ne peut pas se marier une deuxième fois tant que son premier mariage n’est pas terminé, par exemple par un divorce (Code civil, article 147). Être marié à deux personnes en même temps s’appelle la bigamie : c’est un délit, puni d’un an de prison et de 45 000 € d’amende. La religion ou l’accord des époux ne changent rien à cette règle.",
+      "answerSource": {
+        "label": "Code civil, article 147 ; Code pénal, article 433-20",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006421995"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Reprend CSP-DD-016 (énoncé CSP avec « En France, »). Peine de la bigamie reprise de CSP-DD-016 (Code pénal, article 433-20)."
+    },
+    {
+      "reference": "NAT-DD-018",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Est-ce obligatoire de déclarer ses impôts chaque année en France ?",
+      "answers": [
+        "Oui, même si l’on n’a pas d’impôt à payer",
+        "Non, seulement si l’on gagne plus que le SMIC",
+        "Non, seulement pour les personnes de nationalité française",
+        "Non, seulement l’année de son arrivée en France"
+      ],
+      "explanation": "Oui. Toute personne qui habite en France doit déclarer ses revenus chaque année, même si elle a gagné peu d’argent ou rien du tout. Cette déclaration permet de calculer l’impôt ou d’obtenir un avis de non-imposition, utile par exemple pour l’aide au logement. Pour certains foyers, la déclaration est automatique, mais il faut quand même vérifier les informations.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F358 sur la déclaration de revenus annuelle",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F358"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "« Déclarer ses impôts » veut dire ici « déclarer ses revenus ». Fiche F358 consultée le 31/10/2026 (vérifiée par service-public le 05/06/2026). Énoncé proche de NAT-PV-003 : propositions volontairement différentes."
+    },
+    {
+      "reference": "NAT-DD-019",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Est-il obligatoire de porter secours à une personne en danger ?",
+      "answers": [
+        "Oui, si on peut le faire sans danger pour soi ou pour les autres",
+        "Non, c’est seulement un conseil, pas une obligation",
+        "Oui, même si on risque sa propre vie pour la sauver",
+        "Non, seuls les médecins et les pompiers doivent le faire"
+      ],
+      "explanation": "Oui. La loi oblige chacun à aider une personne en danger grave, s’il peut le faire sans se mettre en danger, lui ou d’autres personnes. On peut agir soi-même ou appeler les secours : le 15 (SAMU), le 17 (police), le 18 (pompiers) ou le 112. Ne pas porter secours est un délit, puni jusqu’à 5 ans de prison et 75 000 € d’amende.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F34551 sur la non-assistance à personne en danger ; Code pénal, article 223-6",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34551"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Peine vérifiée le 31/10/2026 (fiche vérifiée par service-public le 05/06/2026). Numéros d’urgence repris de CSP-DD-020."
+    },
+    {
+      "reference": "NAT-DD-020",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Être juré d'assises est :",
+      "answers": [
+        "un devoir civique pour les citoyens tirés au sort",
+        "un métier réservé aux juges et aux avocats",
+        "une activité bénévole que l’on peut refuser librement",
+        "une fonction réservée aux élus de la commune"
+      ],
+      "explanation": "Un juré d’assises est un citoyen tiré au sort sur les listes électorales. Il participe au jugement de certains crimes, aux côtés de juges professionnels. C’est un devoir civique : la Charte des droits et devoirs du citoyen français parle du devoir « de participer aux jurys d’assises ». Un juré qui ne vient pas sans motif valable peut être condamné à une amende de 3 750 €.",
+      "answerSource": {
+        "label": "Charte des droits et devoirs du citoyen français (décret n° 2012-127 du 30 janvier 2012, annexe) ; Code de procédure pénale, article 288",
+        "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000025263486"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Amende de 3 750 € : article 288 du Code de procédure pénale, vérifié le 31/10/2026 ; cet article sera abrogé le 1er janvier 2029 (ordonnance n° 2025-1091 du 19 novembre 2025) : mettre la référence à jour à cette date. Les jurés ne reçoivent pas de salaire, mais peuvent recevoir des indemnités (service-public.gouv.fr, fiche F1540)."
+    },
+    {
+      "reference": "NAT-DD-021",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "La vente d'alcool en France est interdite aux personnes de moins de :",
+      "answers": [
+        "18 ans",
+        "16 ans",
+        "21 ans",
+        "15 ans"
+      ],
+      "explanation": "La loi interdit de vendre de l’alcool aux mineurs, c’est-à-dire aux personnes de moins de 18 ans. Il est aussi interdit d’en offrir gratuitement à un mineur dans un bar, un commerce ou un lieu public. Le vendeur doit demander au client de prouver qu’il est majeur.",
+      "answerSource": {
+        "label": "Code de la santé publique, article L3342-1",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031927682"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-DD-022",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Le non-respect du code de la route est :",
+      "answers": [
+        "une infraction punie par la loi",
+        "autorisé la nuit quand les routes sont vides",
+        "puni seulement en cas d’accident",
+        "puni seulement pour les conducteurs étrangers"
+      ],
+      "explanation": "Ne pas respecter le Code de la route, par exemple rouler trop vite ou ne pas mettre sa ceinture, est une infraction. Selon sa gravité, on risque une amende, un retrait de points sur le permis de conduire et, pour les fautes les plus graves (les délits), une peine de prison. Ces règles s’appliquent à tous les conducteurs, de jour comme de nuit, même sans accident.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F31551 « Permis de conduire : barème des points retirés par infraction »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31551"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F31551 consultée le 31/10/2026 (vérifiée par service-public le 27/02/2026)."
+    },
+    {
+      "reference": "NAT-DD-023",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Lequel de ces crimes ou délits peut entrainer la privation des droits civils et politiques par un juge ?",
+      "answers": [
+        "La fraude lors d’une élection",
+        "Le stationnement sur une place interdite",
+        "Le bruit excessif la nuit chez soi",
+        "L’oubli de la ceinture de sécurité"
+      ],
+      "explanation": "Un juge peut interdire à une personne condamnée pour un crime ou un délit d’exercer certains droits, comme voter ou se présenter à une élection, quand la loi le prévoit (Code pénal, article 131-26). C’est le cas, par exemple, pour la fraude électorale (Code électoral, article L117). Les trois autres propositions sont des contraventions, les fautes les moins graves, punies d’une amende.",
+      "answerSource": {
+        "label": "Code électoral, article L117 ; Code pénal, article 131-26",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028059972"
+      },
+      "difficulty": 3,
+      "confidence": "medium",
+      "reviewNote": "L’énoncé dit « crimes ou délits », mais beaucoup de crimes et de délits peuvent entraîner cette peine (par exemple le vol : Code pénal, article 311-14). Pour qu’une seule réponse soit juste, les mauvaises réponses sont des contraventions : vérifier que ce choix convient. Le terme juridique est « interdiction des droits civiques, civils et de famille »."
+    },
+    {
+      "reference": "NAT-DD-024",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Pour obtenir une carte d'identité, il faut :",
+      "answers": [
+        "être de nationalité française",
+        "avoir un emploi en France",
+        "avoir au moins 18 ans",
+        "habiter en France depuis cinq ans"
+      ],
+      "explanation": "La carte nationale d’identité est délivrée, sans condition d’âge, à toute personne de nationalité française qui la demande : un enfant peut donc en avoir une. Les Français qui vivent à l’étranger peuvent aussi l’obtenir. Une personne étrangère ne peut pas avoir de carte d’identité française : elle prouve son identité avec son passeport ou son titre de séjour.",
+      "answerSource": {
+        "label": "Décret n° 55-1397 du 22 octobre 1955 instituant la carte nationale d’identité, article 2",
+        "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000035977535"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "La carte est gratuite (service-public.gouv.fr, fiche F1341, vérifiée par service-public le 08/04/2026)."
+    },
+    {
+      "reference": "NAT-DD-025",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Que doit faire un citoyen s'il est appelé à être juré dans un procès d'assises ?",
+      "answers": [
+        "Se rendre à la cour d’assises et participer au procès",
+        "Envoyer un proche à sa place à l’audience",
+        "Choisir lui-même l’affaire qu’il veut juger",
+        "Payer une taxe pour pouvoir participer au procès"
+      ],
+      "explanation": "Être juré est un devoir civique : la personne convoquée doit se rendre à la cour d’assises et participer au procès, aux côtés des juges professionnels. Si elle ne vient pas sans motif valable, elle peut être condamnée à une amende de 3 750 €. En cas de motif grave, par exemple une maladie, elle peut demander à être dispensée.",
+      "answerSource": {
+        "label": "Code de procédure pénale, article 288",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044569150"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "L’article 288 sera abrogé le 1er janvier 2029 (ordonnance n° 2025-1091 du 19 novembre 2025) : mettre la référence à jour à cette date. Dispense pour motif grave : justice.gouv.fr, page « Le juré d’assises », consultée le 31/10/2026."
+    },
+    {
+      "reference": "NAT-DD-026",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Quel est l'âge de la majorité civile en France ?",
+      "answers": [
+        "18 ans",
+        "15 ans",
+        "16 ans",
+        "21 ans"
+      ],
+      "explanation": "En France, la majorité est fixée à 18 ans (Code civil, article 414). À cet âge, une personne peut faire seule les actes de la vie civile, par exemple signer un contrat. La majorité était fixée à 21 ans jusqu’en 1974.",
+      "answerSource": {
+        "label": "Code civil, article 414",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006427400/"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "NAT-DD-027",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Quel est l'un des devoirs principaux d'un citoyen français ?",
+      "answers": [
+        "Respecter les lois de la République",
+        "Adhérer à un parti politique",
+        "Être membre d’une association",
+        "Pratiquer une religion"
+      ],
+      "explanation": "Respecter la loi est un devoir de chaque citoyen : la Charte des droits et devoirs du citoyen français dit que « tout citoyen doit la respecter ». Les autres devoirs sont par exemple payer ses impôts, participer à la défense du pays et être juré d’assises si l’on est tiré au sort. Adhérer à un parti, entrer dans une association ou pratiquer une religion sont des libertés : chacun choisit.",
+      "answerSource": {
+        "label": "Charte des droits et devoirs du citoyen français (décret n° 2012-127 du 30 janvier 2012, annexe)",
+        "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000025263486"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "« Voter » n’est pas proposé comme mauvaise réponse : la Charte dit que voter « est un droit, c’est aussi un devoir civique »."
+    },
+    {
+      "reference": "NAT-DD-028",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Qu'est-ce que la citoyenneté numérique ?",
+      "answers": [
+        "Utiliser Internet de façon responsable et respectueuse",
+        "Faire toutes ses démarches administratives en ligne",
+        "Avoir un compte sur plusieurs réseaux sociaux",
+        "Gagner de l’argent en publiant des vidéos en ligne"
+      ],
+      "explanation": "La citoyenneté numérique, c’est se comporter en citoyen responsable sur Internet : respecter la loi et les autres, protéger sa vie privée et réfléchir avant de partager une information. Le ministère chargé de la jeunesse parle d’un usage du numérique « responsable, éthique, et appuyé par une pensée critique ». Les règles de la vie en société s’appliquent aussi en ligne.",
+      "answerSource": {
+        "label": "Ministère chargé de la jeunesse (jeunes.gouv.fr), « 2025, année européenne de l’éducation à la citoyenneté numérique du Conseil de l’Europe »",
+        "url": "https://www.jeunes.gouv.fr/2025-annee-europeenne-de-l-education-la-citoyennete-numerique-du-conseil-de-l-europe-2619"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Aucune loi ne définit la citoyenneté numérique : formulation de la bonne réponse à valider. La page source (10/03/2025) porte sur l’éducation à la citoyenneté numérique ; la page eduscol sur ce sujet n’était pas consultable par nos outils le 31/10/2026."
+    },
+    {
+      "reference": "NAT-DD-029",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Qu'est-ce que le devoir de mémoire ?",
+      "answers": [
+        "Se souvenir des drames du passé et honorer les victimes",
+        "Apprendre par cœur les paroles de La Marseillaise",
+        "Garder tous ses papiers administratifs pendant dix ans",
+        "Connaître le nom de tous les présidents de la République"
+      ],
+      "explanation": "Le devoir de mémoire, c’est se souvenir des événements tragiques de l’histoire, comme les guerres ou la Shoah, et rendre hommage aux victimes. L’État organise pour cela des commémorations, par exemple le 8 mai et le 11 novembre devant les monuments aux morts. Ce souvenir aide à transmettre les valeurs de la République aux jeunes générations.",
+      "answerSource": {
+        "label": "Ministère des Armées et des Anciens combattants, « Mémoire, culture et archives »",
+        "url": "https://www.defense.gouv.fr/sga/memoire-culture-archives"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "La page source présente la politique de mémoire des guerres que la France a connues depuis 1870 ; l’expression « devoir de mémoire » n’a pas de définition dans la loi."
+    },
+    {
+      "reference": "NAT-DD-030",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Qui peut être appelé à faire partie d'un jury d'assises en France ?",
+      "answers": [
+        "Un citoyen français tiré au sort sur les listes électorales",
+        "Seulement un avocat ou un ancien juge",
+        "Toute personne qui habite en France, même étrangère",
+        "Seulement un élu, comme un maire ou un député"
+      ],
+      "explanation": "Les jurés d’assises sont tirés au sort sur les listes électorales. Pour être juré, il faut être de nationalité française, avoir plus de 23 ans, savoir lire et écrire en français et avoir tous ses droits politiques, civils et de famille. Une personne étrangère ne peut donc pas être jurée, même si elle habite en France.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F1540 sur les jurés d’assises",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1540"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Conditions vérifiées le 31/10/2026 (fiche vérifiée par service-public le 27/03/2026)."
+    },
+    {
+      "reference": "NAT-DD-031",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Une personne est privée de ses droits civils et politiques pendant 5 ans suite à une condamnation. Parmi ces propositions laquelle est correcte ? Pendant 5 ans,...",
+      "answers": [
+        "elle ne peut pas voter aux élections",
+        "elle ne peut pas se marier",
+        "elle ne peut pas avoir de travail",
+        "elle ne peut pas sortir de sa commune"
+      ],
+      "explanation": "Le juge peut retirer à une personne condamnée certains droits, pendant 5 ans au plus pour un délit et 10 ans au plus pour un crime (Code pénal, article 131-26). Elle perd alors par exemple le droit de voter et le droit d’être élue. Elle peut toujours se marier et se déplacer, et elle peut travailler, sauf dans la fonction publique.",
+      "answerSource": {
+        "label": "Code pénal, article 131-26",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417290"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Énoncé terminé par « Pendant 5 ans,... » : les propositions complètent la phrase sans majuscule. Le juge peut aussi ne retirer qu’une partie de ces droits (article 131-26)."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "grève",
+      "definition": "Arrêt du travail décidé ensemble par des salariés pour défendre des demandes liées à leur travail, par exemple sur le salaire."
+    },
+    {
+      "term": "citoyenneté",
+      "definition": "Fait d’être citoyen d’un pays : avoir sa nationalité, avec des droits, comme voter, et des devoirs, comme respecter la loi."
+    },
+    {
+      "term": "sûreté",
+      "definition": "Droit de ne pas être arrêté ou enfermé sans une raison prévue par la loi."
+    },
+    {
+      "term": "arbitraire",
+      "definition": "Décidé sans règle, selon la seule volonté de quelqu’un. Une arrestation arbitraire est une arrestation sans raison prévue par la loi."
+    },
+    {
+      "term": "dignité",
+      "definition": "Respect dû à toute personne, simplement parce qu’elle est un être humain."
+    },
+    {
+      "term": "interpellation",
+      "definition": "Moment où la police ou la gendarmerie arrête une personne pour l’emmener au commissariat ou à la gendarmerie."
+    },
+    {
+      "term": "majorité numérique",
+      "definition": "Âge fixé à 15 ans par une loi de 2023 : avant cet âge, l’accord d’un parent est nécessaire pour s’inscrire sur un réseau social."
+    },
+    {
+      "term": "cotisations sociales",
+      "definition": "Sommes payées sur les salaires par les salariés et les employeurs. Elles financent la protection sociale : santé, retraite, chômage…"
+    },
+    {
+      "term": "bigamie",
+      "definition": "Fait d’être marié à deux personnes en même temps. C’est interdit en France."
+    },
+    {
+      "term": "juré d’assises",
+      "definition": "Citoyen tiré au sort qui participe, avec des juges professionnels, au jugement de certains crimes devant la cour d’assises."
+    },
+    {
+      "term": "droits civiques",
+      "definition": "Droits liés à la citoyenneté, comme le droit de voter, de se présenter à une élection ou d’être juré."
+    }
+  ]
+}

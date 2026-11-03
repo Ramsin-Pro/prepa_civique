@@ -1,0 +1,702 @@
+{
+  "topic": "droits-et-devoirs",
+  "questions": [
+    {
+      "reference": "CR-DD-001",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "À quelle liberté la PMA fait-elle référence ?",
+      "answers": [
+        "La liberté de choisir d’avoir un enfant",
+        "La liberté de la presse",
+        "La liberté de circulation",
+        "La liberté d’association"
+      ],
+      "explanation": "La PMA, ou procréation médicalement assistée, utilise des techniques médicales pour aider à avoir un enfant. En France, elle est ouverte aux couples formés d’un homme et d’une femme, aux couples de deux femmes et aux femmes non mariées, sans discrimination. Elle touche à la liberté de chacun de décider d’avoir un enfant.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F31462 « Procréation médicalement assistée (PMA) »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31462"
+      },
+      "difficulty": 3,
+      "confidence": "low",
+      "reviewNote": "Énoncé flou : aucune source officielle consultée ne rattache la PMA à une liberté nommée. La réponse retenue recouvre les formulations possibles (liberté de procréer, de fonder une famille, de disposer de son corps) : à valider. Conditions d’accès relevées sur la fiche F31462 (vérifiée par service-public le 05/02/2025) ; ouverture à toutes les femmes par la loi de bioéthique du 2 août 2021 (non consultée ici)."
+    },
+    {
+      "reference": "CR-DD-002",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Au nom de quoi l'État justifie-t-il la restriction des droits ?",
+      "answers": [
+        "Au nom de l’ordre public et des droits des autres",
+        "Au nom de la religion de la majorité",
+        "Au nom des intérêts du parti au pouvoir",
+        "Au nom de la richesse de chaque personne"
+      ],
+      "explanation": "Les libertés ont des limites : elles s’arrêtent d’abord là où commencent les droits des autres (Déclaration de 1789, article 4). La loi peut aussi les limiter pour protéger l’ordre public, c’est-à-dire la sécurité, la tranquillité, la santé de tous et le respect de la dignité humaine. Ces limites ne peuvent être fixées que par la loi, qui est la même pour tous.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, articles 4 et 10",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Composantes de l’ordre public (sécurité, tranquillité, salubrité, dignité) : annexe I de l’arrêté du 10 octobre 2025 (https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052381620)."
+    },
+    {
+      "reference": "CR-DD-003",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Concernant le droit de se marier, quelle proposition est correcte ?",
+      "answers": [
+        "Chaque futur époux doit donner librement son accord.",
+        "Les parents choisissent l’époux de leur enfant majeur.",
+        "On peut se marier dès l’âge de 15 ans.",
+        "Un homme peut avoir plusieurs épouses en même temps."
+      ],
+      "explanation": "En France, il n’y a pas de mariage sans le consentement, c’est-à-dire l’accord libre, de chacun des deux époux (Code civil, article 146). Il faut avoir au moins 18 ans (article 144) et ne pas être déjà marié (article 147). Le mariage peut unir deux personnes de sexe différent ou de même sexe (article 143).",
+      "answerSource": {
+        "label": "Code civil, articles 143 à 147",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006136117/"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-DD-004",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Laquelle de ces citations est inscrite dans la Déclaration des Droits de l'homme et du Citoyen de 1789 ?",
+      "answers": [
+        "« Les hommes naissent et demeurent libres et égaux en droits. »",
+        "« La langue de la République est le français. »",
+        "« La République ne reconnaît, ne salarie ni ne subventionne aucun culte. »",
+        "« La France est une République indivisible, laïque, démocratique et sociale. »"
+      ],
+      "explanation": "Cette phrase est le début de l’article 1er de la Déclaration des droits de l’homme et du citoyen, adoptée en 1789. Les autres phrases viennent d’autres textes : la Constitution de 1958 (articles 1er et 2) et la loi de 1905 sur la séparation des Églises et de l’État (article 2).",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, article 1er",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-DD-005",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Le recours à l'avortement est-il autorisé ?",
+      "answers": [
+        "Oui, la loi l’autorise, dans un délai fixé",
+        "Non, il est interdit en France",
+        "Oui, mais seulement si le mari est d’accord",
+        "Oui, mais seulement si la vie de la femme est en danger"
+      ],
+      "explanation": "Oui. En France, l’interruption volontaire de grossesse (IVG) est une liberté garantie à la femme par la Constitution (article 34). Elle est possible jusqu’à la fin de la 14e semaine de grossesse. C’est la femme enceinte elle-même qui la demande, même si elle est mineure.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F1551 sur l’interruption volontaire de grossesse (IVG)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1551"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Délai (fin de la 14e semaine de grossesse) relevé sur la fiche F1551 (vérifiée par service-public le 07/10/2025) : à revérifier si la loi change. Constitution, article 34 : « liberté garantie à la femme » d’avoir recours à une IVG (Légifrance, consulté le 31/10/2026)."
+    },
+    {
+      "reference": "CR-DD-006",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Que contient la Constitution ?",
+      "answers": [
+        "L’organisation de l’État et les principes de la République",
+        "La liste de toutes les infractions et de leurs peines",
+        "Les règles de circulation sur les routes",
+        "Le montant des impôts de chaque année"
+      ],
+      "explanation": "La Constitution du 4 octobre 1958 fixe les grands principes de la République (article 1er), ses symboles (article 2) et l’organisation des pouvoirs : président de la République, gouvernement, Parlement, justice… Son préambule renvoie à la Déclaration des droits de l’homme et du citoyen de 1789 et à la Charte de l’environnement de 2004, qui protègent les droits et libertés. Les infractions sont dans le Code pénal, et les règles de circulation dans le Code de la route.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-DD-007",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Que garantit la liberté de la presse ?",
+      "answers": [
+        "Les journaux peuvent publier sans autorisation de l’État",
+        "Les journaux doivent faire valider leurs articles par le gouvernement",
+        "Les journalistes peuvent insulter qui ils veulent",
+        "Seuls les journaux de l’État peuvent donner des informations"
+      ],
+      "explanation": "La loi du 29 juillet 1881 dit que l’imprimerie et la librairie sont libres (article 1er). Un journal peut être publié sans autorisation de l’État (article 5). Mais les journalistes doivent respecter la loi : les insultes et les appels à la haine sont punis.",
+      "answerSource": {
+        "label": "Loi du 29 juillet 1881 sur la liberté de la presse, articles 1er et 5",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006070722"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Article 5 : « Tout journal ou écrit périodique peut être publié sans déclaration ni autorisation préalable, ni dépôt de cautionnement. » Appels à la haine : article 24 de la même loi."
+    },
+    {
+      "reference": "CR-DD-008",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Que prévoit la Charte de l'environnement ?",
+      "answers": [
+        "Le droit à un environnement sain et le devoir de le protéger",
+        "L’interdiction de toutes les voitures en ville",
+        "Le droit de polluer si l’on paie une taxe",
+        "La protection de la nature seulement à la campagne"
+      ],
+      "explanation": "La Charte de l’environnement de 2004 a la même valeur que la Constitution. Elle dit que chacun a le droit de vivre dans un environnement équilibré et respectueux de la santé (article 1er). Toute personne a aussi le devoir de participer à la protection de l’environnement (article 2) et doit réparer les dommages qu’elle cause (article 4).",
+      "answerSource": {
+        "label": "Charte de l’environnement de 2004, articles 1er, 2 et 4",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/charte-de-l-environnement-de-2004"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-DD-009",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Que signifie la dignité humaine ?",
+      "answers": [
+        "Chaque personne mérite le respect, quelle que soit sa situation",
+        "Le respect dépend de la richesse de chacun",
+        "Le respect dépend de la nationalité de chacun",
+        "Le respect dépend du métier que l’on exerce"
+      ],
+      "explanation": "La dignité humaine veut dire que toute personne doit être respectée, simplement parce qu’elle est un être humain. Personne ne peut être humilié ou traité comme un objet, quels que soient sa richesse, son métier ou sa nationalité. Le Code civil (article 16) interdit toute atteinte à la dignité de la personne.",
+      "answerSource": {
+        "label": "Code civil, article 16",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006136059/"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "La dignité humaine est citée parmi les notions clés des droits fondamentaux par l’annexe I de l’arrêté du 10 octobre 2025."
+    },
+    {
+      "reference": "CR-DD-010",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Que signifie le droit de manifester ?",
+      "answers": [
+        "Pouvoir exprimer ses idées en groupe dans la rue",
+        "Pouvoir bloquer une route aussi longtemps qu’on veut",
+        "Pouvoir casser du matériel pour se faire entendre",
+        "Pouvoir manifester seulement avec l’accord du président"
+      ],
+      "explanation": "Manifester, c’est se réunir sur la voie publique pour exprimer ensemble ses idées ou ses demandes. L’organisateur doit déclarer la manifestation à l’avance au maire ou au préfet, qui peut l’interdire si elle risque de troubler l’ordre public. Les violences et les dégradations restent interdites et punies.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F21899 sur l’organisation de manifestations sur la voie publique",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21899"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F21899 vérifiée par service-public le 03/09/2024 : date ancienne, à revérifier."
+    },
+    {
+      "reference": "CR-DD-011",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Que signifie PMA ?",
+      "answers": [
+        "Procréation médicalement assistée",
+        "Protection maternelle et allaitement",
+        "Programme médical d’adoption",
+        "Prévention des maladies de l’adolescent"
+      ],
+      "explanation": "PMA veut dire « procréation médicalement assistée ». On dit aussi AMP, pour « assistance médicale à la procréation ». Ce sont des techniques médicales qui aident un couple ou une femme non mariée à avoir un enfant.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F31462 « Procréation médicalement assistée (PMA) »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31462"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fiche F31462 vérifiée par service-public le 05/02/2025."
+    },
+    {
+      "reference": "CR-DD-012",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Quel texte est le plus difficile à modifier ?",
+      "answers": [
+        "La Constitution",
+        "Une loi votée par le Parlement",
+        "Un décret du Premier ministre",
+        "Un arrêté du maire"
+      ],
+      "explanation": "La Constitution est le texte le plus important de la France, et le plus difficile à modifier. L’Assemblée nationale et le Sénat doivent d’abord voter le même texte. Ensuite, il faut l’accord des Français par référendum, ou un vote du Parlement réuni en Congrès à la majorité des trois cinquièmes (Constitution, article 89).",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958, article 89",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-DD-013",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Quelle liberté permet à une personne de croire en la religion de son choix ?",
+      "answers": [
+        "La liberté de conscience",
+        "La liberté de la presse",
+        "La liberté d’entreprendre",
+        "La liberté de circulation"
+      ],
+      "explanation": "La liberté de conscience permet à chacun de croire en la religion de son choix, d’en changer ou de ne pas en avoir. La loi du 9 décembre 1905 commence par ces mots : « La République assure la liberté de conscience. » Elle garantit aussi le libre exercice des cultes, dans le respect de l’ordre public.",
+      "answerSource": {
+        "label": "Loi du 9 décembre 1905 concernant la séparation des Églises et de l’État, article 1er",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006070169"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "« Liberté religieuse » ou « liberté de culte » pourraient aussi être attendues : aucune n’est parmi les distracteurs."
+    },
+    {
+      "reference": "CR-DD-014",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Qu'est-ce que le droit de grève ?",
+      "answers": [
+        "Le droit d’arrêter le travail ensemble pour défendre ses demandes",
+        "Le droit de prendre des vacances quand on le souhaite",
+        "Le droit de ne pas venir travailler sans aucune raison",
+        "Le droit de l’employeur de fermer l’entreprise à tout moment"
+      ],
+      "explanation": "La grève est un arrêt total et collectif du travail, pour défendre des demandes professionnelles connues de l’employeur, par exemple sur les salaires. Ce droit est garanti par la Constitution (Préambule de 1946) et s’exerce selon les règles fixées par la loi. Un salarié ne peut pas être sanctionné pour avoir fait grève, mais il n’est pas payé pour le temps de grève.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F117 « Droit de grève d’un salarié du secteur privé »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F117"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F117 (secteur privé) vérifiée par service-public le 10/08/2026 ; règles particulières dans les services publics (préavis), non traitées ici. Préambule de 1946, alinéa 7 : « Le droit de grève s’exerce dans le cadre des lois qui le réglementent. »"
+    },
+    {
+      "reference": "CR-DD-015",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Qu'est-ce que la Constitution ?",
+      "answers": [
+        "Le texte le plus important du droit français",
+        "Un traité signé entre les pays européens",
+        "Le recueil des lois sur le travail",
+        "Le programme du président élu"
+      ],
+      "explanation": "La Constitution est le texte le plus important de la France : toutes les lois doivent la respecter. La Constitution actuelle date du 4 octobre 1958 : c’est celle de la Ve République. Elle organise les pouvoirs publics et protège les droits et libertés de chacun.",
+      "answerSource": {
+        "label": "Constitution du 4 octobre 1958",
+        "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-DD-016",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Qui peut demander à avorter ?",
+      "answers": [
+        "La femme enceinte elle-même, majeure ou mineure",
+        "Le mari ou le compagnon de la femme",
+        "Les parents de la femme enceinte",
+        "Le médecin de famille"
+      ],
+      "explanation": "Seule la femme enceinte peut demander une IVG (interruption volontaire de grossesse). Il n’y a pas de condition d’âge : une mineure peut aussi la demander. Si elle veut garder le secret, elle doit être accompagnée par une personne majeure de son choix.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F1551 sur l’interruption volontaire de grossesse (IVG)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1551"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fiche F1551 vérifiée par service-public le 07/10/2025 : à revérifier."
+    },
+    {
+      "reference": "CR-DD-017",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "droits-fondamentaux",
+      "statement": "Une femme majeure de nationalité française a-t-elle le droit de voter aux élections ?",
+      "answers": [
+        "Oui, dans les mêmes conditions que les hommes",
+        "Non, le droit de vote est réservé aux hommes",
+        "Oui, mais seulement aux élections municipales",
+        "Oui, mais seulement avec l’accord de son mari"
+      ],
+      "explanation": "Oui. Depuis l’ordonnance du 21 avril 1944, les femmes peuvent voter et être élues dans les mêmes conditions que les hommes. Elles ont voté pour la première fois aux élections municipales du 29 avril 1945. Aujourd’hui, la Constitution (article 3) dit que sont électeurs tous les Français majeurs des deux sexes qui ont leurs droits civils et politiques.",
+      "answerSource": {
+        "label": "Assemblée nationale, « Vers la reconnaissance de la citoyenneté des femmes »",
+        "url": "https://www2.assemblee-nationale.fr/14/evenements/2015/33-premieres-deputees/vers-la-reconnaissance-de-la-citoyennete-des-femmes"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Pour voter, il faut aussi être inscrit sur les listes électorales (non dit dans l’explication)."
+    },
+    {
+      "reference": "CR-DD-018",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Concernant l'utilisation des réseaux sociaux, quelle proposition est correcte ?",
+      "answers": [
+        "La loi s’applique aussi sur les réseaux sociaux.",
+        "On peut tout publier, car internet n’a pas de règles.",
+        "Les insultes sont permises si le compte est anonyme.",
+        "Le harcèlement en ligne n’est pas puni par la loi."
+      ],
+      "explanation": "Les réseaux sociaux ne sont pas des zones sans loi. Insulter, menacer ou harceler une personne en ligne est puni, comme dans la vie réelle : le cyberharcèlement est une infraction. La victime peut demander la suppression des contenus, signaler les faits à la police ou à la gendarmerie et porter plainte.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F32239 « Cyberharcèlement (harcèlement sur internet) »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32239"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F32239 vérifiée par service-public le 07/08/2026. Injure publique : loi du 29 juillet 1881, article 33 (voir CSP-PV-005)."
+    },
+    {
+      "reference": "CR-DD-019",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Jeter un mégot par terre est :",
+      "answers": [
+        "interdit et puni d’une amende",
+        "autorisé s’il est bien éteint",
+        "autorisé s’il n’y a pas de cendrier",
+        "autorisé, car c’est un tout petit déchet"
+      ],
+      "explanation": "Un mégot de cigarette est un déchet. Jeter un déchet sur la voie publique, même très petit, est interdit et puni d’une amende. S’il n’y a pas de cendrier, il faut garder son mégot et le jeter plus tard dans une poubelle.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F31963 sur l’amende pour abandon de déchets dans la rue",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31963"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "La fiche F31963 (vérifiée par service-public le 05/06/2026) vise « tout type de déchets », sans citer les mégots. Montants des amendes modifiés au 5 juin 2026 (voir CSP-DD-018) : volontairement, aucun montant n’est donné."
+    },
+    {
+      "reference": "CR-DD-020",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "L'État peut-il limiter les droits et libertés ?",
+      "answers": [
+        "Oui, par la loi, pour protéger les autres et l’ordre public",
+        "Non, les libertés n’ont jamais aucune limite",
+        "Oui, selon la religion de chaque personne",
+        "Oui, chaque fonctionnaire fixe seul les limites"
+      ],
+      "explanation": "Oui. Une liberté s’arrête là où elle nuit aux autres. Selon la Déclaration de 1789, ses limites ne peuvent être fixées que par la loi (article 4), par exemple pour protéger l’ordre public (article 10). Ces limites sont les mêmes pour tous, quelle que soit sa religion.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, articles 4 et 10",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-DD-021",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Parmi ces actions, laquelle permet d'adopter une attitude respectueuse de l'environnement ?",
+      "answers": [
+        "Trier ses déchets selon les consignes de sa commune",
+        "Laisser les lumières allumées en quittant une pièce",
+        "Laisser couler l’eau en se brossant les dents",
+        "Jeter ses déchets dans la nature"
+      ],
+      "explanation": "Trier ses déchets permet de les recycler et d’économiser les ressources de la planète. C’est aussi une obligation : il faut respecter les règles de tri et de collecte fixées par sa commune. Laisser couler l’eau ou laisser la lumière allumée gaspille les ressources, et jeter ses déchets dans la nature est interdit.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F35213 « Ordures ménagères »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35213"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F35213 vérifiée par service-public le 13/08/2026. Devoir de chacun de préserver l’environnement : Charte de l’environnement, article 2."
+    },
+    {
+      "reference": "CR-DD-022",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Quelle proposition constitue une obligation ?",
+      "answers": [
+        "Payer ses impôts",
+        "Adhérer à un syndicat",
+        "Pratiquer une religion",
+        "Faire partie d’une association"
+      ],
+      "explanation": "Payer ses impôts est une obligation : la Déclaration de 1789 (article 13) dit que chacun contribue aux dépenses communes selon ses moyens. Les personnes qui vivent en France doivent payer leurs impôts, quelle que soit leur nationalité. Adhérer à un syndicat ou à une association et pratiquer une religion sont des libertés : chacun choisit.",
+      "answerSource": {
+        "label": "Déclaration des droits de l’homme et du citoyen de 1789, article 13",
+        "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Annexe I de l’arrêté du 10 octobre 2025 : les personnes résidant en France doivent respecter les lois, payer impôts et cotisations. Le vote, devoir civique mais pas obligatoire, est volontairement absent des propositions."
+    },
+    {
+      "reference": "CR-DD-023",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Pour quel motif peut-on limiter la liberté d'expression ?",
+      "answers": [
+        "Pour interdire les insultes et les appels à la haine",
+        "Pour interdire toute critique du gouvernement",
+        "Pour interdire la critique des religions",
+        "Pour interdire de parler une langue étrangère"
+      ],
+      "explanation": "Chacun peut parler et écrire librement, mais il doit répondre des abus de cette liberté dans les cas prévus par la loi (Déclaration de 1789, article 11). La loi punit par exemple les insultes et les appels à la haine ou à la violence contre des personnes à cause de leur origine, de leur religion ou de leur sexe. En revanche, on a le droit de critiquer le gouvernement ou une religion.",
+      "answerSource": {
+        "label": "Loi du 29 juillet 1881 sur la liberté de la presse, article 24",
+        "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000043982456"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Sujet sensible : relire le ton. Droit de critiquer une religion : l’annexe I de l’arrêté du 10 octobre 2025 inclut le droit au blasphème dans la liberté de conscience."
+    },
+    {
+      "reference": "CR-DD-024",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Pourquoi doit-on trier ses déchets ?",
+      "answers": [
+        "Pour permettre le recyclage et protéger la nature",
+        "Pour que tous les déchets soient enterrés au même endroit",
+        "Pour payer moins d’impôt sur le revenu",
+        "Pour pouvoir brûler ses déchets plus facilement"
+      ],
+      "explanation": "Trier ses déchets permet de les recycler : on fabrique du neuf avec des matières déjà utilisées, sans puiser sans cesse dans les ressources naturelles. Cela évite aussi que des déchets et des produits toxiques finissent dans la nature. Chaque commune fixe ses consignes de tri, et ne pas les respecter peut être puni d’une amende.",
+      "answerSource": {
+        "label": "Office français de la biodiversité, « Respecter les consignes de tri »",
+        "url": "https://ofb.gouv.fr/actions-citoyennes/respecter-les-consignes-de-tri"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Amende en cas de non-respect des consignes de tri : service-public.gouv.fr, fiche F35213 (vérifiée le 13/08/2026)."
+    },
+    {
+      "reference": "CR-DD-025",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Que doit-on faire face aux ordres des policiers ou gendarmes ?",
+      "answers": [
+        "Les respecter, sans violence ni insulte",
+        "Les ignorer si on n’est pas d’accord",
+        "S’y opposer par la force s’ils semblent injustes",
+        "Y obéir seulement en présence d’un avocat"
+      ],
+      "explanation": "Les policiers et les gendarmes font respecter la loi : il faut obéir à leurs ordres. Résister avec violence s’appelle la rébellion : c’est un délit puni de 2 ans de prison et de 30 000 € d’amende (Code pénal, articles 433-6 et 433-7). Si l’on pense qu’un ordre n’était pas juste, on peut le contester ensuite par les voies légales, par exemple en portant plainte.",
+      "answerSource": {
+        "label": "Code pénal, articles 433-6 et 433-7",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070719/LEGISCTA000006165370/"
+      },
+      "difficulty": 1,
+      "confidence": "medium",
+      "reviewNote": "« Il faut obéir » vise les ordres donnés dans le cadre de la loi : formulation simplifiée à valider. Outrage à une personne dépositaire de l’autorité publique : Code pénal, article 433-5. Peine de la rébellion vérifiée le 31/10/2026."
+    },
+    {
+      "reference": "CR-DD-026",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Quel est un exemple d'assistance à personne en danger ?",
+      "answers": [
+        "Appeler les secours pour une personne blessée dans la rue",
+        "Filmer la scène et la publier sur internet",
+        "Partir vite pour ne pas avoir de problèmes",
+        "Attendre qu’une autre personne s’en occupe"
+      ],
+      "explanation": "Chacun doit aider une personne en danger, s’il peut le faire sans se mettre lui-même en danger, ou au moins alerter les secours. En cas d’urgence, on appelle le 15 (SAMU), le 17 (police secours), le 18 (pompiers) ou le 112. Ne pas porter secours est un délit, la non-assistance à personne en danger, puni jusqu’à 5 ans de prison et 75 000 € d’amende.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F34551 « Qu’est-ce que la non-assistance à personne en danger ? »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34551"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Peines (fiche F34551, vérifiée le 05/06/2026) et numéros d’urgence (fiche F33954, vérifiée le 25/08/2026) : à revérifier régulièrement."
+    },
+    {
+      "reference": "CR-DD-027",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Quel exemple illustre une limitation de liberté pour protéger l'intérêt général ?",
+      "answers": [
+        "L’interdiction de fumer dans les lieux publics fermés",
+        "L’interdiction de pratiquer une religion",
+        "L’obligation de voter pour le gouvernement",
+        "L’interdiction de critiquer les élus"
+      ],
+      "explanation": "Fumer est un choix personnel, mais la loi l’interdit dans les lieux publics fermés, les transports et les écoles, pour protéger la santé de tous : c’est l’intérêt général. Une personne qui fume dans un lieu interdit risque une amende. Les autres propositions n’existent pas en France : elles seraient contraires aux libertés de conscience, de vote et d’expression.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F160 « Interdiction de fumer - Tabagisme »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F160"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fiche F160 vérifiée par service-public le 01/04/2026."
+    },
+    {
+      "reference": "CR-DD-028",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Quelle est l'attitude à avoir lorsque qu'on est témoin de violences ?",
+      "answers": [
+        "Alerter la police ou la gendarmerie",
+        "Ne rien faire, car ce n’est pas son affaire",
+        "Frapper l’auteur pour le punir soi-même",
+        "Filmer la scène et la publier sur internet"
+      ],
+      "explanation": "Un témoin de violences doit agir : il appelle le 17 (police secours) ou le 112, et il aide la victime s’il peut le faire sans se mettre en danger. Ne rien faire peut être puni : c’est la non-assistance à personne en danger. On ne se fait pas justice soi-même, et publier la vidéo d’une victime peut lui nuire.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F34551 « Qu’est-ce que la non-assistance à personne en danger ? »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34551"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Numéros 17 et 112 : fiche F33954 (vérifiée le 25/08/2026). Énoncé officiel avec « lorsque qu’on » : recopié tel quel."
+    },
+    {
+      "reference": "CR-DD-029",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Quelle obligation concerne toutes les personnes résidant en France quelle que soit leur nationalité ?",
+      "answers": [
+        "Respecter les lois françaises",
+        "Voter à toutes les élections",
+        "Adhérer à un parti politique",
+        "Pratiquer une religion"
+      ],
+      "explanation": "Toutes les personnes qui vivent en France doivent respecter les lois françaises, quelle que soit leur nationalité. Le Code civil (article 3) le dit : « Les lois de police et de sûreté obligent tous ceux qui habitent le territoire. » Voter, adhérer à un parti politique ou pratiquer une religion ne sont pas des obligations.",
+      "answerSource": {
+        "label": "Code civil, article 3",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006089696/"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Voir aussi l’annexe I de l’arrêté du 10 octobre 2025 (les personnes résidant en France doivent respecter les lois, payer impôts et cotisations)."
+    },
+    {
+      "reference": "CR-DD-030",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Quelle proposition représente un exemple de crime ?",
+      "answers": [
+        "Le meurtre",
+        "Le vol",
+        "La fraude fiscale",
+        "Le tapage nocturne"
+      ],
+      "explanation": "Les infractions sont classées en trois catégories, de la moins grave à la plus grave : les contraventions, les délits et les crimes. Le meurtre est un crime : les crimes sont jugés par la cour d’assises ou la cour criminelle. Le vol et la fraude fiscale sont des délits, et le tapage nocturne est une contravention.",
+      "answerSource": {
+        "label": "Ministère de la Justice, « Les infractions pénales »",
+        "url": "https://www.justice.gouv.fr/justice-france/justice-penale/infractions-penales"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-DD-031",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Quelle proposition représente un exemple de délit ?",
+      "answers": [
+        "Le vol",
+        "Le meurtre",
+        "L’assassinat",
+        "Le tapage nocturne"
+      ],
+      "explanation": "Un délit est une infraction plus grave qu’une contravention, mais moins grave qu’un crime. Le vol est un délit : il est jugé par le tribunal correctionnel. Le meurtre et l’assassinat sont des crimes, et le tapage nocturne est une contravention.",
+      "answerSource": {
+        "label": "Ministère de la Justice, « Les infractions pénales »",
+        "url": "https://www.justice.gouv.fr/justice-france/justice-penale/infractions-penales"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-DD-032",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "Qui veille au maintien de l'ordre public ?",
+      "answers": [
+        "La police et la gendarmerie nationales",
+        "Les juges des tribunaux",
+        "Les députés et les sénateurs",
+        "Les syndicats de salariés"
+      ],
+      "explanation": "La police nationale et la gendarmerie nationale ont pour mission de maintenir l’ordre public et de protéger les personnes et les biens. La gendarmerie agit surtout dans les campagnes, autour des villes et sur les routes, et la police surtout dans les villes. Les juges, eux, jugent les personnes poursuivies, et les députés et les sénateurs votent les lois.",
+      "answerSource": {
+        "label": "Code de la sécurité intérieure, article R411-2 (missions de la police nationale)",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000025503132/LEGISCTA000028285581/"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Gendarmerie : Code de la sécurité intérieure, article L421-1 (https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037201042). Le maire et le préfet ont aussi des pouvoirs de police administrative : volontairement absents des propositions."
+    },
+    {
+      "reference": "CR-DD-033",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "obligations-et-devoirs",
+      "statement": "S'agissant des déchets, quelle proposition est correcte ?",
+      "answers": [
+        "Il faut respecter les consignes de tri de sa commune.",
+        "On peut sortir ses poubelles n’importe quel jour.",
+        "Tous les déchets vont dans la même poubelle.",
+        "On peut jeter ses petits déchets dans la nature."
+      ],
+      "explanation": "Chaque commune fixe les règles de tri et de collecte des déchets : bacs à utiliser, jours et horaires de ramassage. Il faut les respecter, sinon on risque une amende. Certains déchets, comme les emballages, le verre ou les biodéchets (les restes de repas), doivent être triés pour être recyclés ou transformés en compost.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, fiche F35213 « Ordures ménagères »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35213"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche F35213 vérifiée par service-public le 13/08/2026 (tri à la source des biodéchets obligatoire pour les particuliers depuis le 1er janvier 2024)."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "consentement",
+      "definition": "L’accord libre d’une personne. En France, il n’y a pas de mariage sans le consentement des deux époux."
+    },
+    {
+      "term": "dignité humaine",
+      "definition": "Le respect que l’on doit à toute personne, simplement parce qu’elle est un être humain."
+    },
+    {
+      "term": "grève",
+      "definition": "Un arrêt de travail décidé ensemble par des salariés pour défendre leurs demandes, par exemple sur les salaires."
+    },
+    {
+      "term": "intérêt général",
+      "definition": "Ce qui est utile à toute la société, et pas seulement à une personne ou à un groupe."
+    },
+    {
+      "term": "IVG",
+      "definition": "Interruption volontaire de grossesse : un avortement demandé par la femme enceinte, dans un délai fixé par la loi."
+    },
+    {
+      "term": "manifestation",
+      "definition": "Un rassemblement de personnes sur la voie publique pour exprimer ensemble leurs idées ou leurs demandes."
+    },
+    {
+      "term": "non-assistance à personne en danger",
+      "definition": "Le fait de ne pas aider une personne en danger, ni d’appeler les secours, alors qu’on pouvait le faire sans risque. C’est un délit."
+    },
+    {
+      "term": "PMA",
+      "definition": "Procréation médicalement assistée : des techniques médicales qui aident un couple ou une femme à avoir un enfant."
+    },
+    {
+      "term": "préambule",
+      "definition": "Le texte placé au début de la Constitution. Il annonce les grands principes et renvoie à d’autres textes, comme la Déclaration de 1789."
+    },
+    {
+      "term": "rébellion",
+      "definition": "Le fait de résister avec violence à un policier ou à un gendarme qui fait son travail. C’est un délit."
+    },
+    {
+      "term": "recyclage",
+      "definition": "La transformation d’un déchet pour fabriquer un nouvel objet ou une nouvelle matière."
+    }
+  ]
+}

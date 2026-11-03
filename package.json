@@ -1,0 +1,30 @@
+{
+  "name": "prepa-civique",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Plateforme de préparation à l'examen civique (CSP, carte de résident, naturalisation)",
+  "workspaces": [
+    "apps/api",
+    "apps/web"
+  ],
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev": "concurrently --names api,web --prefix-colors green,blue \"npm run dev -w api\" \"npm run dev -w web\"",
+    "build": "npm run build -w api && npm run build -w web",
+    "typecheck": "npm run typecheck -w api && npm run typecheck -w web",
+    "test": "npm run test -w api",
+    "test:int": "npm run test:int -w api",
+    "test:e2e": "maestro test e2e/maestro",
+    "db:up": "docker compose up -d db",
+    "db:migrate": "npm run db:migrate -w api",
+    "db:seed": "npm run db:seed -w api",
+    "db:backup": "node scripts/db-backup.mjs",
+    "db:restore": "node scripts/db-restore.mjs",
+    "db:restore-test": "node scripts/db-restore.mjs --test"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}

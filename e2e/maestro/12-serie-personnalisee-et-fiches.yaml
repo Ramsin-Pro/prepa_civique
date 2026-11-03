@@ -1,0 +1,30 @@
+url: http://localhost:3001/entrainement/carte-de-sejour-pluriannuelle/melange?theme=institutions&nombre=20
+name: Série personnalisée, retour à une question corrigée et recherche dans les fiches
+---
+- launchApp:
+    clearState: true
+- assertVisible: "Série personnalisée"
+- scrollUntilVisible:
+    element:
+      id: "proposition-1"
+    direction: DOWN
+- tapOn:
+    id: "proposition-1"
+- scrollUntilVisible:
+    element: "Valider ma réponse"
+    direction: DOWN
+- tapOn: "Valider ma réponse"
+- scrollUntilVisible:
+    element: "Question suivante"
+    direction: DOWN
+- tapOn: "Question suivante"
+- scrollUntilVisible:
+    element: "← Question précédente"
+    direction: DOWN
+- tapOn: "← Question précédente"
+- assertVisible: ".*déjà corrigée"
+- openLink: http://localhost:3001/fiches
+- tapOn: "Chercher une fiche"
+- inputText: "laïcité"
+- assertVisible: "1 fiche"
+- assertVisible: "La laïcité"

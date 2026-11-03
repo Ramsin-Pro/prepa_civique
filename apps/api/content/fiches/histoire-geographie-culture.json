@@ -1,0 +1,191 @@
+{
+  "topic": "histoire-geographie-culture",
+  "sheets": [
+    {
+      "slug": "histoire-de-france",
+      "notion": "periodes-et-personnages-historiques",
+      "title": "Les grandes périodes de l’histoire de France",
+      "summary": "Jusqu’en 1789, la France est une monarchie : un roi la gouverne. Depuis la Révolution, elle a connu plusieurs régimes, dont cinq républiques ; depuis 1958, c’est la Ve République.",
+      "keyPoints": [
+        "La Révolution française commence en 1789, sous le roi Louis XVI, et la Ire République est proclamée en 1792. En 1804, le général Napoléon Bonaparte devient empereur des Français (Napoléon Ier) et fait adopter le Code civil, qui fixe les règles de la vie privée.",
+        "Au XIXe siècle, la France construit un empire colonial en Afrique et en Asie, par exemple en Algérie à partir de 1830. L’esclavage, aboli en 1794 puis rétabli en 1802, est aboli définitivement en 1848, grâce notamment à Victor Schœlcher.",
+        "À partir de 1880, la IIIe République installe l’école publique : avec les lois de Jules Ferry, l’école primaire devient gratuite (1881), puis obligatoire et laïque (1882).",
+        "La Première Guerre mondiale a lieu de 1914 à 1918, la Seconde de 1939 à 1945. Le 18 juin 1940, depuis Londres, le général de Gaulle appelle à continuer le combat contre l’Allemagne nazie : c’est un symbole de la Résistance.",
+        "La Shoah est le génocide des Juifs d’Europe : l’Allemagne nazie et ses complices ont assassiné près de 6 millions de Juifs. En France, environ 76 000 Juifs, dont plus de 11 000 enfants, ont été déportés, avec la collaboration du gouvernement de Vichy.",
+        "Les femmes obtiennent le droit de vote en 1944, l’ONU est créée en 1945 et la CEE en 1957. En 1958, Charles de Gaulle fonde la Ve République et devient son premier président ; depuis 1965, le président est élu au suffrage universel direct.",
+        "Entre 1950 et 1962, la plupart des colonies françaises d’Asie et d’Afrique deviennent indépendantes, dont l’Algérie en 1962. Autres repères : abolition de la peine de mort en 1981 (président François Mitterrand), Union européenne en 1992 (traité de Maastricht) et euro en 2002."
+      ],
+      "examples": [
+        "Le 14 juillet, fête nationale, rappelle la prise de la Bastille (1789) : défilé militaire à Paris et feux d’artifice.",
+        "Le 8 mai (victoire de 1945) et le 11 novembre (armistice de 1918) sont fériés : des cérémonies ont lieu devant les monuments aux morts.",
+        "Depuis le 1er janvier 2002, on paie avec des pièces et des billets en euros."
+      ],
+      "vocabulary": [
+        {
+          "term": "monarchie",
+          "definition": "Régime politique où un roi ou une reine gouverne."
+        },
+        {
+          "term": "colonie",
+          "definition": "Territoire dirigé par un pays étranger, qui contrôle aussi sa population."
+        },
+        {
+          "term": "génocide",
+          "definition": "Crime très grave : tuer des personnes parce qu’elles appartiennent à un peuple ou à un groupe, pour faire disparaître ce groupe."
+        },
+        {
+          "term": "déporter",
+          "definition": "Envoyer de force une personne loin de chez elle, par exemple dans un camp."
+        },
+        {
+          "term": "suffrage universel direct",
+          "definition": "Élection où tous les électeurs choisissent eux-mêmes la personne élue, sans intermédiaire."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Élysée, « Charles de Gaulle » (appel du 18 juin 1940, Ve République, référendum de 1962)",
+          "url": "https://www.elysee.fr/charles-de-gaulle"
+        },
+        {
+          "label": "Assemblée nationale, « Abolition de l’esclavage (1794 et 1848) »",
+          "url": "https://www2.assemblee-nationale.fr/14/evenements/2016/abolition-de-l-esclavage-1794-et-1848"
+        },
+        {
+          "label": "Ville de Paris, « Le Mur des noms : une mémoire vivante des victimes de la Shoah »",
+          "url": "https://www.paris.fr/pages/le-mur-des-noms-une-memoire-vivante-des-victimes-de-la-shoah-7442"
+        },
+        {
+          "label": "Conseil constitutionnel, « Les Constitutions de la France »",
+          "url": "https://www.conseil-constitutionnel.fr/rubrique-principale/les-constitutions-dans-l-histoire"
+        }
+      ],
+      "confidence": "high",
+      "reviewNote": "Faits stables, vérifiés le 31/10/2026 : Élysée (appel du 18 juin 1940 depuis Londres, élection de De Gaulle le 21/12/1958, référendum du 28/10/1962 sur l’élection du président au suffrage universel direct, réélection directe en 1965 ; « depuis 1965 » reprend la formule de la question CSP-HG-012) ; Assemblée nationale (abolition du 4 février 1794, révoquée en 1802, abolition définitive par le décret du 27 avril 1848) ; paris.fr (76 000 Juifs déportés de France, dont 11 400 enfants, avec la collaboration du gouvernement de Vichy) ; ministère de la Culture (ordonnance du 21 avril 1944, article 17, droit de vote des femmes) ; loi du 9 octobre 1981 (abolition de la peine de mort). Victor Schœlcher, Algérie colonisée à partir de 1830 et lois Ferry de 1881-1882 : repris des questions CSP-HG-013, CSP-HG-006, CSP-HG-007 et CSP-HG-014 et de leurs sources. À valider : « Ire République proclamée en 1792 » (le Conseil constitutionnel date sa Constitution de 1793) ; CEE datée de 1957, année de la signature du traité de Rome (entrée en vigueur en 1958), comme dans la question CSP-HG-010."
+    },
+    {
+      "slug": "geographie-de-la-france",
+      "notion": "territoires-et-geographie",
+      "title": "La géographie de la France",
+      "summary": "La France métropolitaine se trouve à l’ouest de l’Europe, entre mers et montagnes. La France a aussi des territoires d’outre-mer. Elle compte environ 69 millions d’habitants, et Paris est sa capitale.",
+      "keyPoints": [
+        "La France métropolitaine (« l’Hexagone ») a une frontière avec 8 pays : Belgique, Luxembourg, Allemagne, Suisse, Italie, Monaco, Andorre et Espagne. Elle est bordée par la Manche et la mer du Nord au nord, l’océan Atlantique à l’ouest et la mer Méditerranée au sud.",
+        "Grands fleuves : la Loire (le plus long, plus de 1 000 km), la Seine (Paris), la Garonne (Bordeaux) et le Rhône (Lyon). Montagnes : les Alpes (mont Blanc, frontière avec l’Italie), les Pyrénées (frontière avec l’Espagne), le Jura (frontière avec la Suisse), les Vosges et le Massif central.",
+        "Les dix plus grandes villes, au cœur des principales métropoles, sont Paris, Marseille, Lyon, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux et Lille. Les grands ports maritimes sont notamment Marseille, Le Havre, Dunkerque et Nantes-Saint-Nazaire.",
+        "Depuis 2016, la France métropolitaine compte 13 régions, dont la Corse, une île de la Méditerranée. Les six régions les plus peuplées sont l’Île-de-France (région de Paris), Auvergne-Rhône-Alpes, Nouvelle-Aquitaine, Occitanie, Hauts-de-France et Grand Est.",
+        "Il y a 5 départements et régions d’outre-mer : la Guadeloupe et la Martinique (mer des Caraïbes), la Guyane (Amérique du Sud), La Réunion et Mayotte (océan Indien). D’autres territoires sont aussi français, comme la Polynésie française (Tahiti), dans l’océan Pacifique.",
+        "Environ 9 habitants sur 10 vivent dans une ville ou autour d’une ville. Les entreprises et les emplois se trouvent surtout près des grandes villes et des grands axes de transport (autoroutes, voies ferrées).",
+        "La France est le pays le plus visité au monde : 102 millions de touristes étrangers en 2025. Ils viennent pour Paris, les côtes (Côte d’Azur, Bretagne, Normandie, côte atlantique) et les montagnes (Alpes, Pyrénées)."
+      ],
+      "examples": [
+        "Les deux premiers chiffres du code postal indiquent en général le département : 75 pour Paris, 13 pour Marseille, 69 pour Lyon.",
+        "Le TGV relie Paris à de grandes villes comme Lyon, Marseille, Bordeaux ou Lille en quelques heures.",
+        "En été, beaucoup de familles partent au bord de la mer ; en hiver, certaines vont skier dans les Alpes ou les Pyrénées."
+      ],
+      "vocabulary": [
+        {
+          "term": "France métropolitaine",
+          "definition": "La partie de la France située en Europe, avec des îles proches comme la Corse. On l’appelle aussi « l’Hexagone »."
+        },
+        {
+          "term": "outre-mer",
+          "definition": "Territoires français situés loin de l’Europe, comme La Réunion, la Guadeloupe ou la Polynésie française."
+        },
+        {
+          "term": "fleuve",
+          "definition": "Grand cours d’eau qui se jette dans la mer ou dans l’océan."
+        },
+        {
+          "term": "région",
+          "definition": "Grande partie du territoire qui regroupe plusieurs départements. Elle s’occupe par exemple des lycées et des trains régionaux."
+        },
+        {
+          "term": "métropole",
+          "definition": "Très grande ville, avec les communes autour d’elle, où se trouvent beaucoup d’habitants, d’entreprises et d’emplois."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Insee, « Bilan démographique 2025 » (Insee Première n° 2087, janvier 2026)",
+          "url": "https://www.insee.fr/fr/statistiques/8719824"
+        },
+        {
+          "label": "Insee, « Populations des régions en 2023 » (populations de référence en vigueur au 1er janvier 2026)",
+          "url": "https://www.insee.fr/fr/statistiques/8680653?sommaire=8681011"
+        },
+        {
+          "label": "Insee Focus n° 374, « Les populations de référence des communes au 1er janvier 2023 »",
+          "url": "https://www.insee.fr/fr/statistiques/8682718"
+        },
+        {
+          "label": "Direction générale des entreprises, « Bilan touristique 2025 : la France confirme sa place de première destination touristique mondiale »",
+          "url": "https://www.entreprises.gouv.fr/la-dge/actualites/bilan-touristique-2025-la-france-confirme-sa-place-de-premiere-destination"
+        }
+      ],
+      "confidence": "medium",
+      "reviewNote": "Chiffres datés, vérifiés le 31/10/2026 : 69,1 millions d’habitants au 1er janvier 2026 (Insee, bilan démographique 2025 publié le 13/01/2026 ; le programme officiel indique « environ 68 millions en 2025 ») ; régions les plus peuplées selon les populations de référence 2023 en vigueur au 1er janvier 2026 (Nouvelle-Aquitaine et Occitanie sont très proches, Provence-Alpes-Côte d’Azur est 7e) ; 10 communes les plus peuplées au 1er janvier 2023 (Insee Focus n° 374), chacune au centre d’une métropole au sens administratif : le programme parle des « 10 principales métropoles », dont la liste n’est pas fixée officiellement, et le classement peut varier si l’on compte les intercommunalités ; « 9 habitants sur 10 » : Insee Focus n° 211 (93 % de la population vit dans l’aire d’attraction d’une ville, recensement 2017) ; 102 millions de touristes étrangers en 2025 (DGE, 19/02/2026). Loire : « plus de 1 000 km », comme dans la question CSP-HG-021. La fiche officielle « Les frontières de la France » (formation-civique.interieur.gouv.fr) n’a pas pu être ouverte le 31/10/2026 (erreur 503) : à recouper à la main."
+    },
+    {
+      "slug": "patrimoine-francais",
+      "notion": "patrimoine-francais",
+      "title": "Le patrimoine et la culture de la France",
+      "summary": "Le patrimoine français, ce sont des monuments, des artistes et des écrivains, une gastronomie, des fêtes et une langue. Le français est la langue de la République ; il est aussi parlé dans de nombreux pays.",
+      "keyPoints": [
+        "À Paris : la tour Eiffel (construite pour l’Exposition universelle de 1889), le musée du Louvre (avec La Joconde), la cathédrale Notre-Dame, l’Arc de triomphe et le Panthéon. Ailleurs : le château de Versailles, le Mont-Saint-Michel, les châteaux de la Loire…",
+        "Écrivains : Molière (théâtre) et Jean de La Fontaine (Fables) au XVIIe siècle ; Victor Hugo (Les Misérables), George Sand (romans) et Charles Baudelaire (Les Fleurs du mal) au XIXe siècle. Au XXe siècle : Albert Camus (L’Étranger, prix Nobel en 1957) et Simone de Beauvoir (Le Deuxième Sexe).",
+        "Peintres : Paul Cézanne (XIXe siècle, paysages de Provence) et Marc Chagall (XXe siècle, né dans l’Empire russe, devenu français). Chanson et spectacle : Édith Piaf (La Vie en rose) et Joséphine Baker, chanteuse, danseuse et résistante, entrée au Panthéon en 2021.",
+        "Le « repas gastronomique des Français » est inscrit au patrimoine culturel immatériel de l’UNESCO depuis 2010, et le savoir-faire de la baguette de pain depuis 2022. Chaque région a ses spécialités : bouillabaisse (Marseille), choucroute (Alsace), crêpes (Bretagne), cassoulet (Sud-Ouest)… sans oublier les fromages.",
+        "Jours fériés : 1er janvier, lundi de Pâques, 1er mai (fête du Travail), 8 mai, Ascension, lundi de Pentecôte, 14 juillet (fête nationale), 15 août, 1er novembre (Toussaint), 11 novembre et 25 décembre (Noël).",
+        "Selon le rapport 2026 de l’Organisation internationale de la Francophonie (OIF), environ 396 millions de personnes parlent français : c’est la 4e langue la plus parlée au monde. Le programme de l’examen, écrit en 2025, donne encore l’ancien chiffre : 321 millions (5e langue)."
+      ],
+      "examples": [
+        "En janvier, on partage la galette des rois ; à la Chandeleur, le 2 février, on mange des crêpes.",
+        "Le 21 juin, pour la fête de la Musique (créée en 1982), des concerts gratuits ont lieu dans les rues.",
+        "En septembre, pendant les Journées européennes du patrimoine, beaucoup de monuments ouvrent leurs portes au public, souvent gratuitement.",
+        "Le 1er mai, on offre souvent un brin de muguet à ses proches."
+      ],
+      "vocabulary": [
+        {
+          "term": "patrimoine",
+          "definition": "Ce qu’un pays a reçu de son histoire et veut protéger : monuments, œuvres d’art, traditions, langue."
+        },
+        {
+          "term": "patrimoine culturel immatériel",
+          "definition": "Traditions et savoir-faire vivants, comme une fête ou un repas, que l’on ne peut pas toucher."
+        },
+        {
+          "term": "Francophonie",
+          "definition": "Ensemble des pays et des personnes qui parlent français. Une personne qui parle français est « francophone »."
+        },
+        {
+          "term": "Panthéon",
+          "definition": "Monument de Paris où la France honore de grandes personnalités de son histoire."
+        },
+        {
+          "term": "jour férié",
+          "definition": "Jour de fête officiel, comme le 14 juillet ou le 25 décembre. Beaucoup de personnes ne travaillent pas ce jour-là."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ministère de l’Europe et des Affaires étrangères, actualité du 19 mars 2026 sur la Journée internationale de la Francophonie (rapport 2026 de l’OIF)",
+          "url": "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/journee-internationale-de-la-francophonie-2026-le-francais-devient-la-4eme-langue-la-plus-parlee-au"
+        },
+        {
+          "label": "Ministère de la Culture, « La baguette de pain inscrite au patrimoine immatériel de l’Unesco »",
+          "url": "https://www.culture.gouv.fr/actualites/La-baguette-de-pain-inscrite-au-patrimoine-immateriel-de-l-Unesco"
+        },
+        {
+          "label": "Service-public.gouv.fr, « Jours fériés et ponts dans le secteur privé » ; Code du travail, article L3133-1",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2405"
+        },
+        {
+          "label": "Ministère de la Culture, « Fête de la musique »",
+          "url": "https://www.culture.gouv.fr/evenements-nationaux/fete-de-la-musique"
+        }
+      ],
+      "confidence": "medium",
+      "reviewNote": "Francophonie : l’annexe I de l’arrêté du 10 octobre 2025 cite « 321 millions de francophones » et la « 5e langue mondiale » (rapport OIF 2022) ; le rapport OIF 2026 (présenté le 16/03/2026) donne environ 396 millions et la 4e place, avec une nouvelle méthode de calcul. La fiche donne les deux chiffres : choix à valider. Jours fériés : fiche F2405 vérifiée le 01/01/2026 (11 jours fériés en général ; jours en plus en Alsace-Moselle et en outre-mer, non cités). UNESCO : repas gastronomique inscrit le 16/11/2010 (date recoupée dans plusieurs sources ; la page de 2010 du ministère de la Culture renvoie une erreur 404), baguette le 30/11/2022. Dates, œuvres et siècles des artistes : repris des sources des questions CSP-HG-034 à CSP-HG-046. Vérifications du 31/10/2026."
+    }
+  ]
+}

@@ -1,0 +1,688 @@
+{
+  "topic": "vivre-en-france",
+  "questions": [
+    {
+      "reference": "CSP-VS-001",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "acces-aux-soins",
+      "statement": "Quel numéro d'urgence permet d'appeler le SAMU ?",
+      "answers": [
+        "Le 15",
+        "Le 17",
+        "Le 18",
+        "Le 119"
+      ],
+      "explanation": "Le 15 est le numéro du SAMU, le service d'aide médicale urgente : on l'appelle pour un problème de santé grave, par exemple un malaise. Le 17 sert à appeler la police ou la gendarmerie, le 18 les pompiers, et le 119 sert à signaler un enfant en danger. Le 112, numéro d'urgence européen, permet aussi de joindre tous les secours.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Quels sont les numéros en cas d'urgence (Samu, pompiers...) et les numéros d'écoute ? »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Numéros vérifiés le 31/10/2026 (fiche service-public F33954 vérifiée le 25/08/2026) : à revérifier si les numéros d'urgence sont réformés. Le 112 et le 114 sont exclus des distracteurs, car ils permettent aussi de joindre le SAMU. Notion : l'annexe I de l'arrêté du 10 octobre 2025 (NOR INTV2527907A) range « les numéros d'urgence » dans « L'accès aux soins »."
+    },
+    {
+      "reference": "CSP-VS-002",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "acces-aux-soins",
+      "statement": "Quel numéro d'urgence permet d'appeler les pompiers ?",
+      "answers": [
+        "Le 18",
+        "Le 15",
+        "Le 17",
+        "Le 119"
+      ],
+      "explanation": "Le 18 est le numéro des pompiers : on l'appelle par exemple pour un incendie, un accident ou une fuite de gaz. Le 15 sert à appeler le SAMU, le 17 la police ou la gendarmerie, et le 119 sert à signaler un enfant en danger. Le 112, numéro d'urgence européen, permet aussi de joindre tous les secours.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Quels sont les numéros en cas d'urgence (Samu, pompiers...) et les numéros d'écoute ? »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Numéros vérifiés le 31/10/2026 (fiche F33954 vérifiée le 25/08/2026) : à revérifier si les numéros d'urgence sont réformés. Le 112 et le 114 sont exclus des distracteurs, car ils permettent aussi de joindre les pompiers. Notion « acces-aux-soins » retenue parce que l'annexe I de l'arrêté du 10 octobre 2025 y range « les numéros d'urgence », même si les pompiers ne s'occupent pas seulement de santé."
+    },
+    {
+      "reference": "CSP-VS-003",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "installation-et-sejour",
+      "statement": "Après avoir obtenu le permis de conduire, que faut-il faire pour pouvoir conduire sa voiture ?",
+      "answers": [
+        "Prendre une assurance pour sa voiture",
+        "Faire signer son permis par le maire",
+        "Repasser le code de la route chaque année",
+        "Déclarer son permis au commissariat"
+      ],
+      "explanation": "En France, toute voiture qui peut rouler doit être assurée, au minimum « au tiers ». Cette assurance paie les dommages causés aux autres personnes en cas d'accident. Conduire sans assurance est interdit et sévèrement puni.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Assurance auto obligatoire ou \"au tiers\" » ; Code des assurances, article L211-1",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2628"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche service-public vérifiée le 10/04/2026. D'autres obligations existent (certificat d'immatriculation, disque « A » des jeunes conducteurs) : elles ne sont pas proposées comme distracteurs, pour qu'aucune autre réponse ne soit défendable. Montant de l'amende non cité volontairement."
+    },
+    {
+      "reference": "CSP-VS-004",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "installation-et-sejour",
+      "statement": "À quelles conditions un mariage est-il reconnu juridiquement ?",
+      "answers": [
+        "Il est célébré à la mairie, avec l'accord libre des deux époux",
+        "Il est célébré par un responsable religieux, avec l'accord des familles",
+        "Il est signé chez un notaire, après deux ans de vie commune",
+        "Il est célébré à la maison, devant toute la famille réunie"
+      ],
+      "explanation": "En France, seul le mariage civil est reconnu par la loi. Il est célébré à la mairie par le maire ou un adjoint au maire, en présence des deux époux et de leurs témoins, et chaque époux doit donner son accord libre. En principe, il faut avoir au moins 18 ans. Un mariage religieux seul n'est pas reconnu par la loi, et il est interdit de le célébrer avant le mariage civil.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Mariage en France » ; Code civil, articles 144, 146 et 165",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F930"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fiche service-public vérifiée le 28/10/2026. L'âge de 18 ans est dans l'explication et non dans la bonne réponse, car le procureur peut accorder une dispense d'âge à titre exceptionnel. Le maire peut aussi célébrer le mariage dans un autre bâtiment de la commune (cas rare, non mentionné)."
+    },
+    {
+      "reference": "CSP-VS-005",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "installation-et-sejour",
+      "statement": "Quand faut-il déclarer son enfant au service d'état civil de la mairie ?",
+      "answers": [
+        "Dans les 5 jours qui suivent la naissance",
+        "Dans les 15 jours qui suivent la naissance",
+        "Dans les 30 jours qui suivent la naissance",
+        "Dans les 3 mois qui suivent la naissance"
+      ],
+      "explanation": "La naissance doit être déclarée à la mairie du lieu de naissance, dans les 5 jours qui suivent l'accouchement. Le jour de la naissance ne compte pas dans ce délai. Après ce délai, la mairie ne peut plus faire seule l'acte de naissance : il faut passer par le tribunal.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Déclaration de naissance » ; Code civil, article 55",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F961"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Délai vérifié le 31/10/2026 (fiche service-public F961 vérifiée le 18/06/2026) ; délai fixé par la loi, à revérifier s'il change. Le délai est de 8 jours dans certaines communes de Guyane : « 8 jours » n'est donc pas proposé. Si le 5e jour tombe un samedi, un dimanche ou un jour férié, le délai va jusqu'au premier jour ouvrable suivant (non dit dans l'explication pour rester simple)."
+    },
+    {
+      "reference": "CSP-VS-006",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Le travail non déclaré est :",
+      "answers": [
+        "interdit et puni par la loi",
+        "autorisé si le salarié est d'accord",
+        "autorisé pour un travail de moins de 3 mois",
+        "autorisé dans les petites entreprises"
+      ],
+      "explanation": "Le travail non déclaré, qu'on appelle aussi « travail au noir », est interdit par la loi. L'employeur doit déclarer chaque salarié avant de l'embaucher et lui donner une fiche de paie. Un salarié non déclaré est mal protégé : par exemple, ce travail ne compte pas pour sa retraite. L'employeur risque la prison et une amende.",
+      "answerSource": {
+        "label": "Code du travail, article L8221-1",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006904815"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Article L8221-1 vérifié sur Légifrance le 31/10/2026. Sanctions prévues à l'article L8224-1 du Code du travail : montants non cités volontairement, car ils peuvent changer."
+    },
+    {
+      "reference": "CSP-VS-007",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Que doit faire un employeur pour fixer un salaire ?",
+      "answers": [
+        "Respecter le salaire minimum prévu par la loi",
+        "Obtenir l'accord de l'inspection du travail",
+        "Obtenir l'accord de France Travail",
+        "Accepter le salaire demandé par le salarié"
+      ],
+      "explanation": "L'employeur et le salarié se mettent d'accord sur le salaire, mais la loi fixe un minimum : en général, c'est le SMIC. Si la convention collective prévoit un minimum plus élevé, l'employeur doit le respecter. Une femme et un homme qui font le même travail doivent recevoir le même salaire.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Smic (salaire minimum interprofessionnel de croissance) » ; Code du travail, articles L3231-2 et L3221-2",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Énoncé ouvert : la réponse attendue à l'examen n'est pas connue (SMIC, convention collective ou égalité femmes-hommes). Ces deux dernières obligations ne sont donc pas proposées comme distracteurs. Les apprentis et certains salariés de moins de 18 ans ont un minimum calculé en pourcentage du SMIC, d'où la formulation « salaire minimum prévu par la loi ». Fiche service-public vérifiée le 01/06/2026."
+    },
+    {
+      "reference": "CSP-VS-008",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Qu'est-ce que le SMIC ?",
+      "answers": [
+        "Le salaire minimum légal pour une heure de travail",
+        "Le salaire moyen des personnes qui travaillent en France",
+        "Une aide de l'État pour les personnes sans emploi",
+        "Une prime payée chaque année par l'employeur"
+      ],
+      "explanation": "SMIC veut dire « salaire minimum interprofessionnel de croissance ». C'est le salaire le plus bas qu'un employeur peut payer pour une heure de travail à un salarié majeur. Il existe des règles particulières, par exemple pour les apprentis (des jeunes qui apprennent un métier en entreprise). Son montant est revu chaque année au 1er janvier, et parfois aussi pendant l'année.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Smic (salaire minimum interprofessionnel de croissance) »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Aucun montant cité, car il change (dernière hausse le 1er juin 2026, arrêté du 22 mai 2026). Fiche service-public vérifiée le 01/06/2026. Le SMIC de Mayotte est différent."
+    },
+    {
+      "reference": "CSP-VS-009",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Quelle est la première démarche à réaliser pour chercher un emploi ?",
+      "answers": [
+        "S'inscrire à France Travail",
+        "S'inscrire à la mairie de sa commune",
+        "S'inscrire à la préfecture de son département",
+        "S'inscrire au consulat de son pays"
+      ],
+      "explanation": "La première démarche conseillée est de s'inscrire à France Travail (l'ancien Pôle emploi), en général sur son site internet. L'inscription n'est pas obligatoire, mais France Travail aide à trouver un emploi ou une formation. Il paie aussi les allocations chômage : c'est de l'argent pour certaines personnes qui ont perdu leur emploi. Une personne étrangère non européenne doit avoir un titre de séjour qui lui permet de travailler.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Chômage : inscription à France Travail (anciennement Pôle emploi) »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1636"
+      },
+      "difficulty": 1,
+      "confidence": "medium",
+      "reviewNote": "Aucun texte ne fixe une « première démarche », et l'inscription à France Travail n'est pas obligatoire (fiche F1636 vérifiée le 10/10/2025) : c'est la réponse attendue la plus probable. Les distracteurs évitent les démarches défendables (CV, lettre de motivation, mission locale pour les 16-25 ans, CAF, car les demandeurs du RSA sont inscrits automatiquement à France Travail). Nom « France Travail » en vigueur depuis le 1er janvier 2024."
+    },
+    {
+      "reference": "CSP-VS-010",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Quelle est la durée légale du temps de travail par semaine ?",
+      "answers": [
+        "35 heures",
+        "30 heures",
+        "39 heures",
+        "40 heures"
+      ],
+      "explanation": "En France, la durée légale du travail est de 35 heures par semaine pour un salarié à temps plein. Les heures faites en plus sont des heures supplémentaires. La loi fixe aussi des limites : par exemple, pas plus de 48 heures sur une même semaine.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Durée du travail d'un salarié du secteur privé à temps plein âgé d'au moins 18 ans » ; Code du travail, article L3121-27",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1911"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fiche service-public vérifiée le 25/09/2025 ; article L3121-27 en vigueur depuis le 10/08/2016. « 48 heures » (durée maximale) n'est pas proposé, pour ne pas jouer sur la différence entre durée légale et durée maximale."
+    },
+    {
+      "reference": "CSP-VS-011",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Qui est aidé par France Travail ?",
+      "answers": [
+        "Les personnes qui cherchent un emploi",
+        "Les personnes qui cherchent un logement",
+        "Les personnes qui demandent la nationalité française",
+        "Les personnes qui ont besoin de soins médicaux"
+      ],
+      "explanation": "France Travail (l'ancien Pôle emploi) aide les personnes qui cherchent un emploi : offres d'emploi, conseils, formations. Il paie aussi les allocations chômage : c'est de l'argent pour certaines personnes qui ont perdu leur emploi. Il aide également les entreprises qui veulent recruter.",
+      "answerSource": {
+        "label": "Code du travail, article L5312-1 (missions de France Travail)",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053606086"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "France Travail aide aussi les employeurs : aucune proposition ne parle donc des entreprises. Article L5312-1 vérifié sur Légifrance le 31/10/2026 (version en vigueur depuis le 01/01/2025)."
+    },
+    {
+      "reference": "CSP-VS-012",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Une personne étrangère en situation régulière peut créer son entreprise :",
+      "answers": [
+        "si son titre de séjour l'autorise",
+        "après avoir obtenu la nationalité française",
+        "après 10 ans de séjour régulier en France",
+        "avec un associé de nationalité française"
+      ],
+      "explanation": "Une personne étrangère peut créer son entreprise en France. Si elle n'est pas européenne, son titre de séjour doit autoriser cette activité, comme la carte de séjour « entrepreneur/profession libérale ». Les citoyens de l'Union européenne, par exemple, n'ont pas besoin de titre de séjour pour cela.",
+      "answerSource": {
+        "label": "Entreprendre.service-public.gouv.fr, « Un étranger peut-il créer une entreprise en France ? »",
+        "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F22494"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Fiche vérifiée le 01/06/2026. La bonne réponse vise surtout les personnes non européennes, car les Européens (UE, EEE, Suisse) n'ont pas besoin de titre de séjour : formulation à valider. La liste des titres qui autorisent une activité non salariée peut changer."
+    },
+    {
+      "reference": "CSP-VS-013",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "Une femme peut-elle créer son entreprise ?",
+      "answers": [
+        "Oui, dans les mêmes conditions qu'un homme",
+        "Oui, mais avec l'accord de son mari",
+        "Oui, mais seulement si elle n'est pas mariée",
+        "Non, seul un homme peut créer une entreprise"
+      ],
+      "explanation": "En France, les femmes et les hommes ont les mêmes droits. Une femme peut donc créer son entreprise dans les mêmes conditions qu'un homme. Depuis 1965, une femme mariée n'a plus besoin de l'accord de son mari pour exercer une profession.",
+      "answerSource": {
+        "label": "Code civil, article 223 (chaque époux peut librement exercer une profession)",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006422869"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Date de 1965 : loi n° 65-570 du 13 juillet 1965 portant réforme des régimes matrimoniaux (vérifiée sur archives.senat.fr). Article 223 vérifié sur Légifrance le 31/10/2026."
+    },
+    {
+      "reference": "CSP-VS-014",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "travail-en-france",
+      "statement": "À partir de quel âge un mineur peut-il travailler ?",
+      "answers": [
+        "16 ans",
+        "12 ans",
+        "17 ans",
+        "18 ans"
+      ],
+      "explanation": "En principe, un mineur peut travailler à partir de 16 ans, avec l'accord de ses parents. Avant 16 ans, c'est possible seulement dans des cas précis. Par exemple, dès 14 ans, un jeune peut faire des travaux légers pendant les vacances scolaires, avec l'accord de l'inspection du travail. Certains travaux dangereux restent interdits aux moins de 18 ans.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « À partir de quel âge peut-on travailler ? » ; Code du travail, article L4153-1",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1649"
+      },
+      "difficulty": 3,
+      "confidence": "medium",
+      "reviewNote": "Règle générale de 16 ans vérifiée le 31/10/2026 (fiche F1649 vérifiée le 01/06/2026). Exceptions : 14 ans pendant les vacances scolaires (travaux légers, accord de l'inspection du travail), 15 ans en apprentissage après la 3e, spectacle et mannequinat avant 14 ans avec autorisation. 14 et 15 ans sont donc exclus des distracteurs. Si la réponse attendue à l'examen est 14 ans (cas des vacances), la question est à revoir."
+    },
+    {
+      "reference": "CSP-VS-015",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "acces-aux-soins",
+      "statement": "Auprès de quel organisme faut-il demander le remboursement des frais de santé ?",
+      "answers": [
+        "L'Assurance maladie (la CPAM)",
+        "La caisse d'allocations familiales (la CAF)",
+        "La mairie de sa commune",
+        "Le service des impôts"
+      ],
+      "explanation": "Les frais de santé sont remboursés par l'Assurance maladie, c'est-à-dire par votre caisse primaire d'assurance maladie (CPAM). Avec la carte Vitale, le médecin ou le pharmacien envoie directement la demande de remboursement : vous n'avez rien à envoyer. Sans carte Vitale, il faut envoyer à votre CPAM la feuille de soins papier que le médecin vous donne. Une mutuelle peut ensuite rembourser une partie de ce qui reste à payer.",
+      "answerSource": {
+        "label": "Ameli.fr, « La feuille de soins papier »",
+        "url": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/feuille-soins-papier"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Page ameli mise à jour le 17/09/2026. Les salariés et exploitants agricoles dépendent de la MSA et non de la CPAM. La mutuelle, qui rembourse aussi une partie des frais, n'est pas proposée comme distracteur."
+    },
+    {
+      "reference": "CSP-VS-016",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "acces-aux-soins",
+      "statement": "Qu'est-ce qu'un numéro d'urgence ?",
+      "answers": [
+        "Un numéro gratuit à appeler quand une personne est en danger",
+        "Un numéro payant pour prendre un rendez-vous chez le médecin",
+        "Un numéro pour poser des questions sur ses démarches",
+        "Un numéro pour joindre la mairie quand elle est fermée"
+      ],
+      "explanation": "Un numéro d'urgence sert à demander de l'aide tout de suite dans une situation grave : accident, malaise, incendie, agression… L'appel est gratuit et possible 24 heures sur 24, 7 jours sur 7. Les principaux numéros sont le 15 (SAMU), le 17 (police ou gendarmerie), le 18 (pompiers) et le 112 (numéro d'urgence européen). Les personnes sourdes ou qui entendent mal peuvent contacter le 114 par SMS ou par une application.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Quels sont les numéros en cas d'urgence (Samu, pompiers...) et les numéros d'écoute ? »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Numéros et gratuité vérifiés le 31/10/2026 (fiche F33954 vérifiée le 25/08/2026) : à revérifier si les numéros d'urgence sont réformés. Notion retenue d'après l'annexe I de l'arrêté du 10 octobre 2025, qui range « les numéros d'urgence » dans « L'accès aux soins »."
+    },
+    {
+      "reference": "CSP-VS-017",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "acces-aux-soins",
+      "statement": "Concernant l'accès aux soins, quelle proposition est correcte ?",
+      "answers": [
+        "Toute personne qui vit en France de façon stable et régulière a droit à l'Assurance maladie",
+        "Seules les personnes de nationalité française ont droit à l'Assurance maladie en France",
+        "Il faut avoir un contrat de travail en France pour avoir droit à l'Assurance maladie",
+        "Un médecin peut refuser de soigner une personne à cause de son origine ou de sa religion"
+      ],
+      "explanation": "Avec la protection universelle maladie (PUMa), toute personne qui travaille ou qui vit en France de façon stable et régulière a droit au remboursement de ses frais de santé. Il n'est pas nécessaire d'avoir un travail ni d'être français. « Stable » veut dire, en général, vivre en France depuis au moins 3 mois ; « régulière » veut dire avoir le droit de vivre en France. Un médecin n'a pas le droit de refuser un patient à cause de son origine ou de sa religion.",
+      "answerSource": {
+        "label": "Ameli.fr, « La protection universelle maladie » ; Code de la sécurité sociale, article L160-1",
+        "url": "https://www.ameli.fr/assure/droits-demarches/principes/protection-universelle-maladie"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Page ameli mise à jour le 12/01/2026. Délai de 3 mois (avec des exceptions, par exemple pour les réfugiés) vérifié sur service-public (fiche F34308 vérifiée le 13/05/2026). Interdiction des refus de soins discriminatoires : Code de la santé publique, article L1110-3."
+    },
+    {
+      "reference": "CSP-VS-018",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "acces-aux-soins",
+      "statement": "En cas de problème de santé non urgent, à qui faut-il s'adresser en premier ?",
+      "answers": [
+        "À son médecin traitant",
+        "Aux urgences de l'hôpital",
+        "Aux pompiers, en appelant le 18",
+        "À sa caisse d'Assurance maladie"
+      ],
+      "explanation": "Pour un problème de santé qui n'est pas urgent, il faut d'abord consulter son médecin traitant. Il connaît la santé du patient et l'envoie vers un spécialiste si c'est nécessaire ; le patient est aussi mieux remboursé. Les urgences de l'hôpital et les numéros d'urgence sont réservés aux situations graves.",
+      "answerSource": {
+        "label": "Ameli.fr, « Le rôle du médecin traitant et le parcours de soins coordonnés »",
+        "url": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/medecin-traitant-parcours-soins-coordonnes"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Page ameli mise à jour le 23/04/2026 (« C'est lui que vous consultez en premier »). Le pharmacien, le 116 117 (médecins de garde) et le 15, qui peuvent aussi orienter un patient, ne sont pas proposés comme distracteurs."
+    },
+    {
+      "reference": "CSP-VS-019",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "acces-aux-soins",
+      "statement": "Quel est le rôle du médecin traitant ?",
+      "answers": [
+        "Il suit votre santé et vous oriente vers un spécialiste si besoin",
+        "Il rembourse vos frais de santé à la place de l'Assurance maladie",
+        "Il s'occupe seulement des urgences graves, la nuit et le week-end",
+        "Il vous donne votre carte Vitale et votre numéro de sécurité sociale"
+      ],
+      "explanation": "Le médecin traitant est le médecin que vous choisissez et que vous déclarez à l'Assurance maladie. Vous le consultez en premier : il suit votre santé, garde les informations sur vos soins et vous envoie vers un spécialiste si c'est nécessaire. Si vous passez d'abord par lui, vous êtes mieux remboursé.",
+      "answerSource": {
+        "label": "Ameli.fr, « Le rôle du médecin traitant et le parcours de soins coordonnés »",
+        "url": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/medecin-traitant-parcours-soins-coordonnes"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Page ameli mise à jour le 23/04/2026. Déclarer un médecin traitant n'est pas obligatoire, mais sans déclaration on est moins bien remboursé (à partir de 16 ans). Certains spécialistes (gynécologue, ophtalmologue, dentiste, psychiatre entre 16 et 25 ans) peuvent être consultés directement."
+    },
+    {
+      "reference": "CSP-VS-020",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "acces-aux-soins",
+      "statement": "Dans quelles situations doit-on se rendre aux urgences de l'hôpital ?",
+      "answers": [
+        "En cas de problème de santé grave qui ne peut pas attendre",
+        "En cas de besoin d'une nouvelle ordonnance",
+        "En cas de besoin d'un certificat médical pour le sport",
+        "En cas de rhume ou de petit mal de gorge"
+      ],
+      "explanation": "Les urgences de l'hôpital sont faites pour les problèmes de santé graves qui ne peuvent pas attendre, par exemple un accident, une forte douleur dans la poitrine ou une grande difficulté à respirer. Pour une ordonnance, un certificat ou un rhume, il faut aller chez son médecin traitant. Si la situation est grave ou en cas de doute, il faut appeler le 15 avant de se déplacer : le SAMU dit où aller.",
+      "answerSource": {
+        "label": "Agence régionale de santé Grand Est, « Besoin d'un médecin ? Consultez les différentes solutions »",
+        "url": "https://www.grand-est.ars.sante.fr/besoin-dun-medecin-consultez-les-differentes-solutions-de-consultation"
+      },
+      "difficulty": 1,
+      "confidence": "medium",
+      "reviewNote": "Source régionale (page de l'ARS Grand Est du 23/06/2026, qui cite comme non urgents le certificat sportif et le renouvellement d'ordonnance) : à remplacer si possible par une page nationale (sante.gouv.fr bloquait l'accès automatique). Dans certains départements, l'accès aux urgences passe obligatoirement par un appel au 15 : la bonne réponse reste juste et l'explication conseille d'appeler le 15."
+    },
+    {
+      "reference": "CSP-VS-021",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "acces-aux-soins",
+      "statement": "Quel est l'objectif des vaccinations obligatoires ?",
+      "answers": [
+        "Protéger les personnes et la population contre des maladies graves",
+        "Soigner les personnes qui ont déjà une maladie grave",
+        "Remplacer les consultations chez le médecin traitant",
+        "Vérifier l'état de santé des enfants avant l'entrée à l'école"
+      ],
+      "explanation": "Un vaccin protège contre une maladie grave, souvent contagieuse. Quand beaucoup de personnes sont vaccinées, la maladie circule moins : on protège aussi les autres, par exemple les bébés trop jeunes pour être vaccinés. En France, plusieurs vaccins sont obligatoires pour les jeunes enfants ; ils sont demandés pour entrer à la crèche ou à l'école.",
+      "answerSource": {
+        "label": "Vaccination Info Service (Santé publique France), « Pourquoi les vaccins sont-ils nécessaires pour l'entrée en collectivité ? » ; Code de la santé publique, article L3111-2",
+        "url": "https://www.vaccination-info-service.fr/Questions-frequentes/Questions-generales-sur-la-vaccination/Politique-vaccinale-en-France/Pourquoi-les-vaccins-sont-ils-necessaires-pour-l-entree-en-collectivite"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Page mise à jour le 18/03/2025. Liste des vaccins volontairement non citée : elle dépend de l'année de naissance et a changé en 2025 (méningocoques ACWY et B). Admission à la crèche ou à l'école : fiche service-public F767 vérifiée le 06/01/2026 (admission provisoire possible, 3 mois pour se mettre à jour)."
+    },
+    {
+      "reference": "CSP-VS-022",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "acces-aux-soins",
+      "statement": "À quoi sert la carte Vitale ?",
+      "answers": [
+        "À être remboursé plus facilement de ses frais de santé",
+        "À payer chez le médecin, comme une carte bancaire",
+        "À prouver son identité, comme une carte d'identité",
+        "À prouver que l'on a un titre de séjour en France"
+      ],
+      "explanation": "La carte Vitale montre que vous êtes assuré par l'Assurance maladie. Chez le médecin ou à la pharmacie, le professionnel la lit et envoie la demande de remboursement par internet : vous êtes remboursé plus vite, sans papier à envoyer. Ce n'est ni une carte de paiement ni une pièce d'identité. Elle existe aussi sous forme d'application sur smartphone.",
+      "answerSource": {
+        "label": "Ameli.fr, « Carte Vitale et application : présentation et utilisation au quotidien »",
+        "url": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/carte-vitale/carte-vitale-application/carte-vitale"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Page ameli mise à jour le 09/12/2025 (« Elles ne sont pas une carte de paiement »). L'application carte Vitale est ouverte à tous les assurés depuis le 18/11/2025 : à revérifier si ses usages évoluent."
+    },
+    {
+      "reference": "CSP-VS-023",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "acces-aux-soins",
+      "statement": "À quoi sert une mutuelle santé ?",
+      "answers": [
+        "À compléter les remboursements de l'Assurance maladie",
+        "À remplacer complètement l'Assurance maladie",
+        "À obtenir plus vite un rendez-vous chez le médecin",
+        "À être soigné en priorité aux urgences de l'hôpital"
+      ],
+      "explanation": "Une mutuelle, qu'on appelle aussi « complémentaire santé », rembourse tout ou une partie des frais de santé que l'Assurance maladie ne rembourse pas. Elle ne remplace pas l'Assurance maladie : elle vient en plus. Un salarié peut avoir une mutuelle par son entreprise, et les personnes qui ont peu de ressources peuvent avoir, sous conditions, la Complémentaire santé solidaire.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Couverture maladie complémentaire (mutuelle) »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20314"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fiche service-public vérifiée le 01/10/2026. Pour la plupart des salariés, l'adhésion à la mutuelle d'entreprise est obligatoire, sauf exceptions : non détaillé dans l'explication."
+    },
+    {
+      "reference": "CSP-VS-024",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Jusqu'à quel âge l'école est-elle obligatoire ?",
+      "answers": [
+        "16 ans",
+        "12 ans",
+        "14 ans",
+        "15 ans"
+      ],
+      "explanation": "En France, l'instruction est obligatoire pour tous les enfants de 3 à 16 ans. En général, elle se fait à l'école ; l'instruction à la maison est possible seulement avec une autorisation. Ensuite, de 16 à 18 ans, le jeune doit se former : par exemple, il continue ses études, apprend un métier ou travaille.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Instruction obligatoire » ; Code de l'éducation, article L131-1",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1898"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fiche service-public vérifiée le 06/11/2025 ; article L131-1 en vigueur depuis le 02/09/2019. « 18 ans » n'est pas proposé, car l'obligation de formation des 16-18 ans (Code de l'éducation, article L114-1) pourrait le rendre défendable. L'énoncé dit « école » alors que la loi parle d'« instruction »."
+    },
+    {
+      "reference": "CSP-VS-025",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "L'autorité parentale prévoit l'obligation :",
+      "answers": [
+        "de protéger l'enfant et d'assurer son éducation",
+        "de choisir le futur métier de l'enfant",
+        "de choisir le futur époux ou la future épouse de l'enfant",
+        "de faire travailler l'enfant pour aider la famille"
+      ],
+      "explanation": "L'autorité parentale, ce sont les droits et les devoirs des parents envers leur enfant, jusqu'à sa majorité (18 ans). Les parents doivent protéger sa sécurité, sa santé et sa vie privée, et assurer son éducation. Ils l'associent aux décisions qui le concernent, selon son âge. Toute violence, physique ou psychologique, est interdite.",
+      "answerSource": {
+        "label": "Code civil, article 371-1",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049164413"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Article 371-1 vérifié sur Légifrance le 31/10/2026 (version en vigueur depuis le 21/02/2024, qui ajoute la « vie privée »)."
+    },
+    {
+      "reference": "CSP-VS-026",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Pour qui l'école est-elle obligatoire ?",
+      "answers": [
+        "Pour tous les enfants de 3 à 16 ans qui vivent en France",
+        "Pour les enfants de 3 à 16 ans de nationalité française",
+        "Pour les enfants de 3 à 16 ans dont les parents ont un titre de séjour",
+        "Pour les enfants de 3 à 16 ans qui parlent bien français"
+      ],
+      "explanation": "L'instruction est obligatoire pour tous les enfants de 3 à 16 ans qui vivent en France, filles et garçons, quelle que soit leur nationalité. L'inscription à l'école ne dépend pas des papiers des parents : l'école ne contrôle pas les titres de séjour. Les enfants qui ne parlent pas encore français reçoivent une aide pour l'apprendre.",
+      "answerSource": {
+        "label": "Code de l'éducation, article L131-1 ; circulaire n° 2012-141 du 2 octobre 2012",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038901859"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "L'article L131-1 (vérifié le 31/10/2026) vise « chaque enfant » de 3 à 16 ans. L'égalité entre élèves français et étrangers et l'absence de contrôle du séjour viennent des circulaires n° 2012-141 du 2 octobre 2012 et n° 2002-063 du 20 mars 2002, citées par service-public.gouv.fr : le Bulletin officiel refusait l'accès automatique (erreur 403), passages à relire. Énoncé presque identique à CSP-VS-029 (seul le trait d'union de « est-elle » change) : vérifier sur la liste officielle s'il s'agit d'un doublon."
+    },
+    {
+      "reference": "CSP-VS-027",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Quel diplôme obtient-on à la fin du lycée ?",
+      "answers": [
+        "Le baccalauréat",
+        "Le brevet",
+        "La licence",
+        "Le master"
+      ],
+      "explanation": "À la fin du lycée, les élèves passent le baccalauréat, qu'on appelle aussi le « bac ». Il existe un bac général, un bac technologique et un bac professionnel. Le bac permet d'entrer dans l'enseignement supérieur, par exemple à l'université. Le brevet se passe à la fin du collège.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Baccalauréat »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10004"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche service-public vérifiée le 10/04/2025. Le CAP, préparé en lycée professionnel, n'est pas proposé comme distracteur pour éviter une deuxième réponse défendable."
+    },
+    {
+      "reference": "CSP-VS-028",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Dans quels établissements scolaires vont les élèves après l'école élémentaire ?",
+      "answers": [
+        "Dans les collèges",
+        "Dans les lycées",
+        "Dans les écoles maternelles",
+        "Dans les universités"
+      ],
+      "explanation": "Après l'école élémentaire (du CP au CM2), les élèves entrent au collège, en général vers 11 ans. Le collège compte quatre classes : la 6e, la 5e, la 4e et la 3e. Ensuite, les élèves peuvent aller au lycée.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Passage de l'école au collège (du CM2 à la 6e) »",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1870"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiche service-public vérifiée le 20/10/2025."
+    },
+    {
+      "reference": "CSP-VS-029",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Pour qui l'école est elle obligatoire ?",
+      "answers": [
+        "Pour tous les enfants âgés de 3 à 16 ans",
+        "Pour tous les enfants âgés de 6 à 16 ans",
+        "Pour tous les enfants âgés de 3 à 14 ans",
+        "Pour tous les enfants âgés de 6 à 14 ans"
+      ],
+      "explanation": "Depuis la rentrée 2019, l'instruction est obligatoire pour tous les enfants de 3 à 16 ans, filles et garçons, quelle que soit leur nationalité. Avant 2019, elle commençait à 6 ans. En général, les enfants vont à l'école ; l'instruction à la maison est possible seulement avec une autorisation.",
+      "answerSource": {
+        "label": "Code de l'éducation, article L131-1",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038901859"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Énoncé copié tel quel : identique à CSP-VS-026, sauf le trait d'union manquant dans « est elle ». Vérifier sur la liste officielle s'il s'agit d'un doublon ou d'une erreur de recopie. Propositions centrées sur les âges, pour compléter CSP-VS-026 (centrée sur la nationalité). Article L131-1 en vigueur depuis le 02/09/2019."
+    },
+    {
+      "reference": "CSP-VS-030",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Un enfant inscrit à l'école :",
+      "answers": [
+        "doit assister aux cours prévus dans son emploi du temps",
+        "peut manquer la classe sans donner de raison",
+        "doit apporter un certificat médical pour chaque absence",
+        "peut arrêter d'aller en classe à partir de 12 ans"
+      ],
+      "explanation": "Un élève inscrit doit aller à tous les cours prévus dans son emploi du temps : c'est l'obligation d'assiduité. Les parents doivent prévenir l'école et donner la raison de chaque absence. Un certificat médical est demandé seulement en cas de maladie contagieuse. Si l'enfant manque souvent sans raison valable, l'école rencontre les parents pour chercher une solution.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Assiduité scolaire et absentéisme » ; Code de l'éducation, articles L131-8 et L511-1",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1899"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Fiche service-public vérifiée le 06/11/2025 (« Un enfant inscrit à l'école, au collège ou au lycée doit assister aux cours prévus dans son emploi du temps »). Aucun distracteur ne parle de voyages pendant l'année scolaire, car la loi cite parmi les motifs d'absence le fait de suivre ses parents en déplacement."
+    },
+    {
+      "reference": "CSP-VS-031",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "autorite-parentale-et-education",
+      "statement": "Les enfants qui ne parlent pas français :",
+      "answers": [
+        "vont à l'école et reçoivent une aide pour apprendre le français",
+        "ne peuvent pas être inscrits dans une école publique",
+        "doivent apprendre le français à la maison avant d'aller à l'école",
+        "doivent aller dans une école privée payante pour étrangers"
+      ],
+      "explanation": "L'école est obligatoire de 3 à 16 ans pour tous les enfants, même s'ils ne parlent pas encore français. Ils sont inscrits comme les autres élèves et leur niveau est évalué. Ils peuvent avoir des cours de français adaptés, par exemple dans une classe spéciale appelée UPE2A. Le but est qu'ils suivent vite tous les cours avec les autres élèves.",
+      "answerSource": {
+        "label": "Service-public.gouv.fr, « Scolarité en France d'un enfant arrivant de l'étranger » ; circulaire n° 2012-141 du 2 octobre 2012",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34843"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fiches service-public vérifiées le 19/06/2026 (école primaire) et le 05/08/2026 (collège et lycée). Après 16 ans, l'instruction n'est plus obligatoire, mais le jeune peut être accueilli au lycée."
+    }
+  ],
+  "situations": [],
+  "glossary": [
+    {
+      "term": "état civil",
+      "definition": "Les informations officielles sur une personne : nom, date et lieu de naissance, mariage, décès. À la mairie, le service d'état civil les enregistre dans des actes officiels, comme l'acte de naissance."
+    },
+    {
+      "term": "SAMU",
+      "definition": "Service d'aide médicale urgente. On l'appelle au 15 quand une personne a un problème de santé grave et urgent."
+    },
+    {
+      "term": "travail non déclaré",
+      "definition": "Travail caché à l'administration : par exemple, un employeur ne déclare pas son salarié. On dit aussi « travail au noir » ; c'est interdit."
+    },
+    {
+      "term": "contrat de travail",
+      "definition": "Accord entre un employeur et un salarié : le salarié fait un travail et l'employeur lui verse un salaire. Il précise par exemple le poste, les horaires et le salaire."
+    },
+    {
+      "term": "SMIC",
+      "definition": "Salaire minimum interprofessionnel de croissance. C'est, en général, le plus petit salaire que la loi autorise pour une heure de travail."
+    },
+    {
+      "term": "convention collective",
+      "definition": "Texte qui fixe des règles de travail pour un secteur, par exemple le bâtiment ou la coiffure. Il peut prévoir un salaire minimum plus élevé que le minimum fixé par la loi."
+    },
+    {
+      "term": "France Travail",
+      "definition": "Organisme public qui aide les personnes à trouver un emploi ou une formation. Il s'appelait Pôle emploi avant 2024."
+    },
+    {
+      "term": "inspection du travail",
+      "definition": "Service de l'État qui contrôle que les employeurs respectent les règles du travail. Un salarié peut lui demander des informations ou lui signaler un problème."
+    },
+    {
+      "term": "titre de séjour",
+      "definition": "Document officiel qui permet à une personne étrangère de vivre en France pendant une durée fixée. Certains titres permettent aussi de travailler."
+    },
+    {
+      "term": "Assurance maladie",
+      "definition": "Organisme public qui rembourse une partie des frais de santé : médecin, médicaments, hôpital… Près de chez soi, c'est la caisse primaire d'assurance maladie (CPAM)."
+    },
+    {
+      "term": "carte Vitale",
+      "definition": "Carte avec une puce que l'on présente chez le médecin ou à la pharmacie pour être remboursé plus facilement de ses frais de santé. Elle existe aussi en application sur téléphone."
+    },
+    {
+      "term": "médecin traitant",
+      "definition": "Médecin que l'on choisit pour suivre sa santé. On le consulte en premier, et il nous envoie vers d'autres médecins si besoin."
+    },
+    {
+      "term": "mutuelle",
+      "definition": "Organisme qui rembourse tout ou une partie des frais de santé qui ne sont pas remboursés par la Sécurité sociale. On dit aussi « complémentaire santé »."
+    },
+    {
+      "term": "autorité parentale",
+      "definition": "Les droits et les devoirs des parents envers leur enfant, jusqu'à ses 18 ans. Les parents doivent le protéger, l'éduquer et le respecter, sans aucune violence."
+    },
+    {
+      "term": "instruction",
+      "definition": "Enseignement donné aux enfants : lire, écrire, compter et beaucoup d'autres connaissances. En France, l'instruction est obligatoire pour tous les enfants de 3 à 16 ans, en général à l'école."
+    }
+  ]
+}

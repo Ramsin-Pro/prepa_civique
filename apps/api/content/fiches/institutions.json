@@ -1,0 +1,191 @@
+{
+  "topic": "institutions",
+  "sheets": [
+    {
+      "slug": "democratie-et-droit-de-vote",
+      "notion": "democratie-et-droit-de-vote",
+      "title": "La démocratie et le droit de vote",
+      "summary": "La France est une démocratie : le pouvoir vient du peuple, qui choisit ses représentants par des élections libres. C’est aussi un État de droit, où les pouvoirs sont séparés.",
+      "keyPoints": [
+        "Dans un État de droit, la loi s’applique à tous, Français ou étrangers, y compris aux dirigeants et à l’administration. Elle protège aussi les droits et les libertés de chacun.",
+        "Il existe trois pouvoirs : le pouvoir législatif vote les lois (le Parlement), le pouvoir exécutif les fait appliquer (le président de la République et le Gouvernement) et le pouvoir judiciaire rend la justice (les juges).",
+        "Ces pouvoirs sont séparés, pour que personne n’ait tous les pouvoirs (Déclaration de 1789, article 16). Le Gouvernement rend des comptes au Parlement, et la justice est indépendante.",
+        "Le suffrage est universel, égal et secret : chaque électeur a une voix et fait son choix seul, dans l’isoloir. Voter est un droit et un devoir civique, mais ce n’est pas obligatoire.",
+        "Pour voter, il faut avoir la nationalité française, avoir au moins 18 ans et être inscrit sur les listes électorales. Il ne faut pas avoir perdu ses droits civiques à cause d’une condamnation.",
+        "Les citoyens européens qui habitent en France peuvent voter aux élections municipales et européennes. Les autres personnes étrangères ne votent pas aux élections politiques, mais elles peuvent participer autrement à la vie publique.",
+        "Les partis politiques se créent librement et doivent respecter la démocratie (Constitution, article 4). Le pluralisme, c’est-à-dire l’existence de plusieurs partis, est une condition de la démocratie."
+      ],
+      "examples": [
+        "Le jour du vote, l’électeur passe dans l’isoloir, puis met son enveloppe dans l’urne : personne ne sait pour qui il a voté.",
+        "Si un ministre ne respecte pas la loi, il peut être jugé et condamné, comme tout le monde.",
+        "Vous êtes parent d’élève de nationalité étrangère : vous pouvez voter pour élire les représentants des parents à l’école. Vous pouvez aussi vous engager dans une association ou un syndicat."
+      ],
+      "vocabulary": [
+        {
+          "term": "séparation des pouvoirs",
+          "definition": "Règle qui confie à des personnes différentes le pouvoir de voter les lois, celui de les faire appliquer et celui de juger."
+        },
+        {
+          "term": "suffrage universel",
+          "definition": "Droit de vote de tous les citoyens majeurs, sans distinction de sexe, de richesse ou d’origine. En France, les femmes ont le droit de vote depuis 1944."
+        },
+        {
+          "term": "listes électorales",
+          "definition": "Listes des personnes qui ont le droit de voter dans une commune. Pour voter, il faut y être inscrit."
+        },
+        {
+          "term": "isoloir",
+          "definition": "Petite cabine du bureau de vote où l’électeur prépare son vote seul, sans être vu."
+        },
+        {
+          "term": "pluralisme",
+          "definition": "Le fait que plusieurs partis et plusieurs opinions existent librement."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Constitution du 4 octobre 1958, articles 3, 4 et 88-3",
+          "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+        },
+        {
+          "label": "Déclaration des droits de l’homme et du citoyen de 1789, article 16",
+          "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+        },
+        {
+          "label": "Service-public.gouv.fr, fiche F1367 sur l’inscription sur les listes électorales",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1367"
+        },
+        {
+          "label": "Service-public.gouv.fr, fiche F1389 sur l’élection des représentants de parents d’élèves",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1389"
+        }
+      ],
+      "confidence": "high",
+      "reviewNote": "Vérifié le 31/10/2026 : conditions pour voter (fiche F1367, vérifiée par service-public le 03/03/2026) ; vote des parents d’élèves quelle que soit leur nationalité (fiche F1389, vérifiée par service-public le 04/07/2024). « Pas obligatoire » : sauf pour les grands électeurs aux élections sénatoriales (Code électoral, article L318), exception non citée. Responsabilité du Gouvernement : Constitution, articles 20 et 49 ; indépendance de la justice : article 64. Droit de vote des femmes : ordonnance du 21 avril 1944. Président élu au suffrage universel direct : traité dans la fiche « L’organisation de la République »."
+    },
+    {
+      "slug": "organisation-de-la-republique",
+      "notion": "organisation-de-la-republique",
+      "title": "L’organisation de la République",
+      "summary": "Au niveau national, le président de la République et le Gouvernement dirigent le pays, et le Parlement vote les lois. Sur le territoire, la France est organisée en communes, départements et régions, qui ont leurs propres élus. Dans chaque département, le préfet représente l’État.",
+      "keyPoints": [
+        "Le président de la République est élu pour 5 ans au suffrage universel direct, et pas plus de deux fois de suite. Il nomme le Premier ministre et réside au palais de l’Élysée.",
+        "Le Gouvernement, c’est le Premier ministre et les ministres : il conduit la politique du pays et fait appliquer les lois. Le Premier ministre travaille à l’hôtel de Matignon.",
+        "Le Parlement vote les lois et contrôle le Gouvernement. Il comprend l’Assemblée nationale, avec 577 députés élus pour 5 ans lors des élections législatives, et le Sénat, avec 348 sénateurs élus pour 6 ans, surtout par des élus locaux.",
+        "La justice est rendue par des juges : certains jugent les conflits entre personnes et les infractions, d’autres, dans les tribunaux administratifs, les conflits avec l’administration.",
+        "Le Conseil constitutionnel vérifie que les lois respectent la Constitution, et le Défenseur des droits aide gratuitement les personnes dont les droits ne sont pas respectés. La Banque de France fabrique des billets en euros et aide les personnes surendettées.",
+        "La France compte près de 35 000 communes, 101 départements et 18 régions, en métropole et en outre-mer. Leurs conseils sont élus pour 6 ans, lors des élections municipales, départementales et régionales.",
+        "Le maire dirige la commune : il est élu par le conseil municipal. Le préfet, nommé par le président de la République, représente l’État dans le département et dirige ses services."
+      ],
+      "examples": [
+        "À la mairie, on déclare la naissance d’un enfant, on se marie et on inscrit son enfant à l’école primaire.",
+        "La commune s’occupe des bâtiments de l’école primaire, le département de ceux du collège et la région de ceux du lycée. Les enseignants, eux, sont payés par l’État.",
+        "Les demandes de titre de séjour sont traitées par la préfecture, un service de l’État dirigé par le préfet."
+      ],
+      "vocabulary": [
+        {
+          "term": "mandat",
+          "definition": "Mission confiée à une personne élue, pour une durée fixée. Par exemple, le mandat du président de la République dure 5 ans."
+        },
+        {
+          "term": "suffrage universel direct",
+          "definition": "Les citoyens votent eux-mêmes pour choisir leurs élus, par exemple le président de la République ou les députés."
+        },
+        {
+          "term": "collectivité territoriale",
+          "definition": "Partie du territoire qui a ses propres élus et s’occupe des affaires locales : la commune, le département ou la région."
+        },
+        {
+          "term": "conseil municipal",
+          "definition": "Groupe de personnes élues pour 6 ans par les électeurs d’une commune. Il prend les décisions de la commune et choisit le maire."
+        },
+        {
+          "term": "surendettement",
+          "definition": "Situation d’une personne qui ne peut plus payer ses dettes."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Constitution du 4 octobre 1958, articles 6, 8, 20, 24 et 72",
+          "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+        },
+        {
+          "label": "Insee, définition « France (champ statistique) »",
+          "url": "https://www.insee.fr/fr/metadonnees/definition/c1696"
+        },
+        {
+          "label": "Défenseur des droits, « Découvrir le Défenseur des droits »",
+          "url": "https://www.defenseurdesdroits.fr/decouvrir-le-defenseur-des-droits-197"
+        },
+        {
+          "label": "Banque de France, « Les missions de la Banque de France »",
+          "url": "https://www.banque-france.fr/la-banque-de-france/nous-connaitre/decouvrir-la-banque-de-france/les-missions-de-la-banque-de-france"
+        }
+      ],
+      "confidence": "high",
+      "reviewNote": "Faits datés, vérifiés le 31/10/2026 : 577 députés et 348 sénateurs (Constitution, article 24, nombres maximaux) ; 101 départements et 18 régions (Insee, page mise à jour le 05/12/2023) ; 34 875 communes au 1er janvier 2026 (collectivites-locales.gouv.fr, BIS n° 206, d’où « près de 35 000 »). Durées : sénateurs (Code électoral, article LO275), conseils municipaux (article L227) ; maire élu par le conseil municipal (CGCT, article L2122-4). Écoles, collèges, lycées : Code de l’éducation, articles L212-4, L213-2 et L214-6. La fiche officielle « Le découpage administratif de la France » (formation-civique.interieur.gouv.fr) n’a pas pu être ouverte automatiquement le 31/10/2026 : à comparer à la main."
+    },
+    {
+      "slug": "union-europeenne-et-ses-institutions",
+      "notion": "institutions-europeennes",
+      "title": "L’Union européenne et ses institutions",
+      "summary": "L’Union européenne (UE) réunit 27 pays d’Europe, dont la France, qui travaillent ensemble pour la paix et le développement. Ses principales institutions sont le Parlement européen, le Conseil de l’Union européenne et la Commission européenne.",
+      "keyPoints": [
+        "Le 9 mai 1950, Robert Schuman, ministre français, propose de mettre en commun le charbon et l’acier pour garantir la paix. Six pays fondateurs signent le traité de Paris (1951), puis les traités de Rome (1957) : la Belgique, la France, l’Allemagne, l’Italie, le Luxembourg et les Pays-Bas.",
+        "Le traité de Maastricht, signé en 1992, crée l’Union européenne et la citoyenneté européenne. L’UE compte aujourd’hui 27 États membres : le Royaume-Uni l’a quittée en 2020.",
+        "Le drapeau européen a 12 étoiles d’or en cercle sur fond bleu : ce nombre ne dépend pas du nombre de pays. L’hymne européen est l’Ode à la joie de Beethoven, et le 9 mai est la journée de l’Europe.",
+        "Le Parlement européen représente les citoyens : ses 720 députés, dont 81 élus en France, sont élus tous les 5 ans au suffrage universel direct. Il siège à Strasbourg, à Bruxelles et à Luxembourg.",
+        "Le Conseil de l’Union européenne réunit les ministres des 27 pays : avec le Parlement, il adopte les lois européennes et le budget. La Commission européenne, à Bruxelles, propose les lois et veille à leur application.",
+        "Les citoyens européens peuvent circuler librement dans l’Union et, sous certaines conditions, y vivre, travailler ou étudier. Les pays de l’UE forment un grand marché commun, et 21 d’entre eux, dont la France, utilisent l’euro.",
+        "Un citoyen européen qui habite en France peut voter et être candidat aux élections municipales et européennes, s’il est inscrit sur une liste électorale complémentaire. Il ne peut pas devenir maire ni adjoint au maire."
+      ],
+      "examples": [
+        "Une Espagnole qui habite à Lyon, inscrite sur la liste complémentaire, peut voter aux élections municipales de Lyon. Elle ne vote pas à l’élection présidentielle française.",
+        "Depuis 2002, on paie en euros en France, comme en Belgique, en Italie ou en Espagne.",
+        "La Suisse et la Norvège sont en Europe, mais elles ne font pas partie de l’Union européenne."
+      ],
+      "vocabulary": [
+        {
+          "term": "État membre",
+          "definition": "Un pays qui fait partie de l’Union européenne."
+        },
+        {
+          "term": "traité",
+          "definition": "Un accord écrit, signé par plusieurs pays, qui fixe des règles communes."
+        },
+        {
+          "term": "citoyen européen",
+          "definition": "Une personne qui a la nationalité d’un pays de l’Union européenne. Les Français sont aussi des citoyens européens."
+        },
+        {
+          "term": "liste électorale complémentaire",
+          "definition": "Liste où s’inscrivent les citoyens européens qui habitent en France, pour voter aux élections municipales et européennes."
+        },
+        {
+          "term": "Conseil de l’Europe",
+          "definition": "Une organisation différente de l’Union européenne, qui défend les droits de l’homme. Il ne faut pas la confondre avec le Conseil de l’Union européenne."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Union européenne (europa.eu), « Faits et chiffres clés »",
+          "url": "https://european-union.europa.eu/principles-countries-history/facts-and-figures-european-union_fr"
+        },
+        {
+          "label": "Union européenne (europa.eu), « Parlement européen »",
+          "url": "https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies/european-parliament_fr"
+        },
+        {
+          "label": "Parlement européen, fiches thématiques sur l’UE, « Les traités initiaux »",
+          "url": "https://www.europarl.europa.eu/factsheets/fr/sheet/1/les-traites-initiaux"
+        },
+        {
+          "label": "Service-public.gouv.fr, fiche F1937 sur le droit de vote d’un citoyen européen en France",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1937"
+        }
+      ],
+      "confidence": "high",
+      "reviewNote": "Faits datés, vérifiés le 31/10/2026 : 27 États membres et 21 pays de la zone euro (europa.eu, « Faits et chiffres clés » ; liste de la zone euro mise à jour le 12/01/2026, Bulgarie comprise) ; 720 députés européens, dont 81 pour la France, pour 2024-2029 (europa.eu et communiqué du Parlement européen sur les 15 sièges supplémentaires) ; dernières élections du 6 au 9 juin 2024. Maire et adjoint interdits aux citoyens européens : Constitution, article 88-3. Droits du citoyen européen : fiche du Parlement européen « Les citoyens de l’Union et leurs droits » (traité de Maastricht, 1992). Drapeau, hymne, devise et 9 mai : pages « Symboles » d’europa.eu. Fiche F1937 indiquée « vérifiée le 25 juin 2024 » par service-public : à revérifier."
+    }
+  ]
+}

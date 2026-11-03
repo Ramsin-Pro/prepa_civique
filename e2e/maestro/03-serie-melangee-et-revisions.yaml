@@ -1,0 +1,21 @@
+url: http://localhost:3001/entrainement
+name: Série mélangée puis révisions
+---
+- launchApp
+- tapOn: "Série mélangée"
+- assertVisible: "Ajouter aux favoris"
+- scrollUntilVisible:
+    element:
+      id: "proposition-2"
+    direction: DOWN
+- tapOn:
+    id: "proposition-2"
+- scrollUntilVisible:
+    element: "Valider ma réponse"
+    direction: DOWN
+- tapOn: "Valider ma réponse"
+- scrollUntilVisible:
+    element: "(Vous la reverrez.*|Cette question reviendra dans vos révisions.*)"
+    direction: DOWN
+- openLink: http://localhost:3001/entrainement/carte-de-sejour-pluriannuelle/revisions
+- assertVisible: "Les questions que vous avez manquées.*"

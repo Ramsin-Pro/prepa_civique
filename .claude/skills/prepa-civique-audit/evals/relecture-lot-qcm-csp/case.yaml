@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: relecture-lot-qcm-csp
+expected_outcome: |
+  Un verdict par question avec les problèmes repérés (erreur factuelle, plusieurs bonnes réponses, fausse étiquette officielle, champs manquants, français trop complexe, distracteurs faibles, double négation) et une version corrigée des questions à reprendre.
+context:
+  scaffold_script: place-files.sh

@@ -1,0 +1,1041 @@
+{
+  "topic": "histoire-geographie-culture",
+  "questions": [
+    {
+      "reference": "CR-HG-001",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quel était le surnom de Louis XIV ?",
+      "answers": [
+        "Le Roi-Soleil",
+        "Le Roi-Chevalier",
+        "Le Bien-Aimé",
+        "Le Vert-Galant"
+      ],
+      "explanation": "Louis XIV (1638-1715) est surnommé le « Roi-Soleil ». Il a choisi le soleil comme emblème, car il rappelle Apollon, dieu de la paix et des arts, et l’astre qui donne la vie. Il règne 72 ans et, à partir de 1682, il gouverne la France depuis le château de Versailles. Le « Bien-Aimé » est le surnom de Louis XV, le « Vert-Galant » celui d’Henri IV et le « Roi-Chevalier » celui de François Ier.",
+      "answerSource": {
+        "label": "Château de Versailles, « Louis XIV »",
+        "url": "https://www.chateauversailles.fr/decouvrir/histoire/grands-personnages/louis-xiv"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Les surnoms des autres rois (Louis XV, Henri IV, François Ier) sont des connaissances courantes : ils ne viennent pas de la source citée."
+    },
+    {
+      "reference": "CR-HG-002",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quel roi de France a été exécuté pendant la Révolution française ?",
+      "answers": [
+        "Louis XVI",
+        "Louis XIV",
+        "Louis XV",
+        "Charles X"
+      ],
+      "explanation": "Louis XVI est roi de France depuis 1774 quand la Révolution commence, en 1789. En 1792, la monarchie tombe et la République est proclamée. Louis XVI est jugé, puis guillotiné le 21 janvier 1793. Louis XIV et Louis XV ont régné avant la Révolution, et Charles X après.",
+      "answerSource": {
+        "label": "Château de Versailles, « Louis XVI »",
+        "url": "https://www.chateauversailles.fr/decouvrir/histoire/grands-personnages/louis-xvi"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-HG-003",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "En quelle année Napoléon Ier est-il devenu empereur ?",
+      "answers": [
+        "1804",
+        "1789",
+        "1799",
+        "1815"
+      ],
+      "explanation": "En 1799, Napoléon Bonaparte prend le pouvoir et dirige la France avec le titre de Premier consul. Le 18 mai 1804, une nouvelle Constitution le proclame « Empereur des Français » : il devient Napoléon Ier. Son empire prend fin en 1815, après sa défaite à Waterloo.",
+      "answerSource": {
+        "label": "Conseil constitutionnel, « Constitution de l’An XII - Empire - 28 floréal An XII » (18 mai 1804), articles 1 et 2",
+        "url": "https://www.conseil-constitutionnel.fr/les-constitutions-dans-l-histoire/constitution-de-l-an-xii-empire-28-floreal-an-xii"
+      },
+      "difficulty": 2,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-HG-004",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Lequel de ces personnages a un lien avec la République française ?",
+      "answers": [
+        "Marianne",
+        "Louis XIV",
+        "Charlemagne",
+        "Clovis"
+      ],
+      "explanation": "Marianne est une figure de femme qui représente la République française. On la voit sur les timbres, sur des pièces de monnaie et, en buste, dans les mairies, souvent avec un bonnet phrygien, symbole de la liberté. Louis XIV, Charlemagne et Clovis sont des rois (Charlemagne est aussi devenu empereur) : ils ont gouverné bien avant la première République, née en 1792.",
+      "answerSource": {
+        "label": "Sénat junior, « Les symboles de la République »",
+        "url": "https://junior.senat.fr/13-ans-et/la-republique/les-symboles-de-la-republique.html"
+      },
+      "difficulty": 1,
+      "confidence": "medium",
+      "reviewNote": "Énoncé ambigu : « personnage » peut désigner une figure symbolique (Marianne) ou une personne réelle (par exemple un président de la République comme Charles de Gaulle). Les distracteurs sont des monarques antérieurs à 1792, pour que la réponse reste juste dans les deux lectures ; aucun président n’est proposé. Confirmer l’interprétation retenue."
+    },
+    {
+      "reference": "CR-HG-005",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "De quand date l'appel à la résistance du général de Gaulle ?",
+      "answers": [
+        "Du 18 juin 1940",
+        "Du 3 septembre 1939",
+        "Du 6 juin 1944",
+        "Du 8 mai 1945"
+      ],
+      "explanation": "Le 18 juin 1940, le général de Gaulle parle depuis Londres à la radio britannique, la BBC. Alors que l’armée française vient d’être battue par l’Allemagne nazie, il demande aux militaires français qui se trouvent au Royaume-Uni de le rejoindre pour continuer le combat. Cet « appel du 18 juin » est l’acte fondateur des Forces françaises libres et un symbole de la Résistance.",
+      "answerSource": {
+        "label": "Élysée, « Charles de Gaulle »",
+        "url": "https://www.elysee.fr/charles-de-gaulle"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-HG-006",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Pourquoi la Shoah est-elle étudiée à l'école ?",
+      "answers": [
+        "Pour transmettre la mémoire et lutter contre le racisme et l’antisémitisme",
+        "Pour expliquer une catastrophe naturelle et apprendre à s’en protéger",
+        "Pour célébrer une victoire de la France pendant la Seconde Guerre mondiale",
+        "Pour connaître l’histoire d’une révolution qui a changé l’Europe"
+      ],
+      "explanation": "La Shoah est le génocide des Juifs d’Europe commis par l’Allemagne nazie et ses complices pendant la Seconde Guerre mondiale. Elle est étudiée à l’école primaire, au collège et au lycée. Le but est de construire une mémoire commune, de se souvenir des victimes et d’aider les élèves à refuser le racisme et l’antisémitisme (la haine des Juifs). En hébreu, « Shoah » veut dire « catastrophe », mais ce n’est pas une catastrophe naturelle : c’est un crime.",
+      "answerSource": {
+        "label": "Assemblée nationale, question écrite n° 71165 (14e législature) et réponse du ministère de l’Éducation nationale publiée au Journal officiel le 3 mars 2015",
+        "url": "https://questions.assemblee-nationale.fr/q14/14-71165QE.htm"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Source : réponse ministérielle de 2015 (« C’est à l’école que peut se construire une mémoire partagée » ; refus « du racisme, de l’antisémitisme et de toutes les formes de xénophobies »). Les programmes ont pu évoluer depuis : les pages eduscol et le Bulletin officiel ont refusé l’accès automatique le 31/10/2026, à vérifier à la main."
+    },
+    {
+      "reference": "CR-HG-007",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quel pays a été colonisé par la France ?",
+      "answers": [
+        "Le Sénégal",
+        "Le Kenya",
+        "Le Nigeria",
+        "L’Angola"
+      ],
+      "explanation": "Le Sénégal, en Afrique de l’Ouest, a été une colonie française. Il devient indépendant en 1960, comme beaucoup d’autres anciennes colonies françaises d’Afrique. Le Kenya et le Nigeria ont été colonisés par le Royaume-Uni, et l’Angola par le Portugal.",
+      "answerSource": {
+        "label": "Sénat, « Le Sénat de la Communauté » (dossier d’histoire)",
+        "url": "https://www.senat.fr/connaitre-le-senat/lhistoire-du-senat/dossiers-dhistoire/le-senat-de-la-communaute.html"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Pays différent de la question CSP-HG-006 (Algérie), pour varier. La source cite le Sénégal parmi les douze anciennes colonies françaises membres de la Communauté et évoque « la vague des indépendances de 1960 ». Distracteurs choisis parmi des pays jamais colonisés par la France (Brésil, Inde, Mexique et Égypte écartés à cause d’épisodes coloniaux ou militaires français)."
+    },
+    {
+      "reference": "CR-HG-008",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Depuis quand les Français élisent-ils le président de la République au suffrage universel direct ?",
+      "answers": [
+        "Depuis 1962",
+        "Depuis 1944",
+        "Depuis 1958",
+        "Depuis 1981"
+      ],
+      "explanation": "Le 28 octobre 1962, les Français approuvent par référendum l’élection du président de la République au suffrage universel direct : tous les électeurs votent eux-mêmes pour choisir le président. La première élection de ce type a lieu en 1965 : Charles de Gaulle est réélu face à François Mitterrand. En 1958, de Gaulle avait été élu par un collège d’élus, et non directement par les citoyens.",
+      "answerSource": {
+        "label": "Élysée, « Charles de Gaulle »",
+        "url": "https://www.elysee.fr/charles-de-gaulle"
+      },
+      "difficulty": 3,
+      "confidence": "medium",
+      "reviewNote": "1962 = adoption de la réforme par référendum (28 octobre 1962) ; première élection directe en décembre 1965. 1965 a été volontairement écarté des propositions pour éviter deux réponses défendables. La question CSP-HG-012 et la fiche « Les grandes périodes de l’histoire de France » disent « depuis 1965 » : harmoniser si besoin. Le président avait aussi été élu au suffrage universel (masculin) en 1848 : 1848 est écarté."
+    },
+    {
+      "reference": "CR-HG-009",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quelle est la première étape de la construction européenne en 1951 ?",
+      "answers": [
+        "La création de la Communauté européenne du charbon et de l’acier",
+        "La création de la Communauté économique européenne",
+        "La signature du traité de Maastricht",
+        "La mise en circulation des pièces et billets en euros"
+      ],
+      "explanation": "Le 18 avril 1951, six pays (la France, l’Allemagne de l’Ouest, l’Italie, la Belgique, les Pays-Bas et le Luxembourg) signent à Paris le traité qui crée la Communauté européenne du charbon et de l’acier (CECA). Ils mettent en commun leur charbon et leur acier : ainsi, aucun pays ne peut fabriquer seul des armes pour attaquer les autres, et la paix est mieux protégée. La Communauté économique européenne (CEE) vient plus tard, en 1957, le traité de Maastricht en 1992 et les billets en euros en 2002.",
+      "answerSource": {
+        "label": "Union européenne, « Histoire de l’Union européenne 1945-1959 » ; Parlement européen, « Le traité de Paris »",
+        "url": "https://european-union.europa.eu/principles-countries-history/history-eu/1945-59_fr"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Date de signature (18 avril 1951, à Paris) et liste des six pays également vérifiées sur la page du Parlement européen (https://www.europarl.europa.eu/about-parliament/fr/in-the-past/the-parliament-and-the-treaties/treaty-of-paris). La CEE (1957) est un distracteur volontairement proche : vérifier qu’il ne paraît pas trop piégeant."
+    },
+    {
+      "reference": "CR-HG-010",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Durant le mandat de quel président la peine de mort a-t-elle été abolie ?",
+      "answers": [
+        "François Mitterrand",
+        "Charles de Gaulle",
+        "Georges Pompidou",
+        "Valéry Giscard d’Estaing"
+      ],
+      "explanation": "François Mitterrand est élu président de la République en mai 1981. Quelques mois plus tard, la loi du 9 octobre 1981 abolit (supprime) la peine de mort en France. Cette loi est défendue devant le Parlement par Robert Badinter, ministre de la Justice. Depuis 2007, la Constitution dit aussi : « Nul ne peut être condamné à la peine de mort. »",
+      "answerSource": {
+        "label": "Sénat, « Les circonstances de l’adoption de la loi du 9 octobre 1981 » ; Constitution du 4 octobre 1958, article 66-1",
+        "url": "https://www.senat.fr/evenement/archives/D22/loi1981.html"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Jacques Chirac a été écarté des propositions : c’est sous son mandat que l’interdiction a été inscrite dans la Constitution (article 66-1, 2007), ce qui aurait pu prêter à confusion. Texte de l’article 66-1 vérifié sur le site du Conseil constitutionnel le 31/10/2026."
+    },
+    {
+      "reference": "CR-HG-011",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quel régime politique a été mis en place pendant la Révolution française en 1792 ?",
+      "answers": [
+        "La République",
+        "L’Empire",
+        "La monarchie absolue",
+        "Le Consulat"
+      ],
+      "explanation": "Le 21 septembre 1792, l’assemblée appelée Convention nationale abolit la royauté. Le lendemain, elle décide que les actes officiels seront datés de « l’an I de la République française » : c’est le début de la Ire République. Avant 1789, la France était une monarchie absolue ; le Consulat (1799) et l’Empire (1804) viennent plus tard.",
+      "answerSource": {
+        "label": "Assemblée nationale, « 21 septembre 1792 - La Convention nationale et la fin de la royauté »",
+        "url": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/la-convention-nationale-et-la-fin-de-la-royaute"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Le Consulat (1799) est encore officiellement une République : il reste un distracteur faux, car il n’est mis en place qu’en 1799. À remplacer par « La Restauration » si la relecture le juge ambigu."
+    },
+    {
+      "reference": "CR-HG-012",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Qui était une figure de la Résistance française pendant la Seconde Guerre mondiale ?",
+      "answers": [
+        "Jean Moulin",
+        "Philippe Pétain",
+        "Georges Clemenceau",
+        "Jules Ferry"
+      ],
+      "explanation": "Jean Moulin (1899-1943) est un préfet qui rejoint le général de Gaulle à Londres en 1941. Revenu en France, il unit les mouvements de la Résistance et préside en mai 1943 la première réunion du Conseil national de la Résistance. Arrêté par la police allemande en juin 1943, il meurt quelques semaines plus tard ; ses cendres sont au Panthéon depuis 1964. Philippe Pétain, lui, a dirigé le gouvernement de Vichy, qui a collaboré avec l’Allemagne nazie.",
+      "answerSource": {
+        "label": "Ordre de la Libération, « Jean Moulin » (biographie de compagnon de la Libération)",
+        "url": "https://www.ordredelaliberation.fr/fr/compagnons/jean-moulin"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-HG-013",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "En 1944, qu'est-ce qui a changé pour les femmes ?",
+      "answers": [
+        "Elles ont obtenu le droit de voter et d’être élues",
+        "Elles ont obtenu le droit à l’avortement",
+        "Elles ont obtenu le droit de divorcer",
+        "Elles ont pu ouvrir un compte en banque seules"
+      ],
+      "explanation": "L’ordonnance du 21 avril 1944, signée par le général de Gaulle, dit que les femmes sont « électrices et éligibles dans les mêmes conditions que les hommes » : elles peuvent voter et être élues. Elles votent pour la première fois aux élections municipales du 29 avril 1945. Le droit à l’avortement date de 1975, et le divorce existait déjà avant 1944.",
+      "answerSource": {
+        "label": "Assemblée nationale, « Vers la reconnaissance de la citoyenneté des femmes » ; ordonnance du 21 avril 1944, article 17",
+        "url": "https://www2.assemblee-nationale.fr/14/evenements/2015/33-premieres-deputees/vers-la-reconnaissance-de-la-citoyennete-des-femmes"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Signature par le général de Gaulle : communiqué du ministère de la Culture sur l’exposition de l’ordonnance aux Archives nationales (https://www.culture.gouv.fr/presse/communiques-de-presse/l-ordonnance-de-1944-instituant-le-droit-de-vote-des-femmes-exposee-aux-archives-nationales-dans-le-cadre-du-cycle-les-essentiels). La fiche Légifrance de l’ordonnance n’a pas été retrouvée."
+    },
+    {
+      "reference": "CR-HG-014",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quelle organisation internationale a été créée en 1945 après la Seconde Guerre mondiale ?",
+      "answers": [
+        "L’Organisation des Nations unies (ONU)",
+        "La Société des Nations (SDN)",
+        "L’Union européenne (UE)",
+        "L’Organisation mondiale du commerce (OMC)"
+      ],
+      "explanation": "L’Organisation des Nations unies (ONU) est créée en 1945 pour maintenir la paix dans le monde. Sa Charte est signée le 26 juin 1945 à San Francisco par les représentants de 50 pays, et l’ONU existe officiellement depuis le 24 octobre 1945. La Société des Nations avait été créée après la Première Guerre mondiale ; l’Union européenne date de 1992 et l’OMC de 1995.",
+      "answerSource": {
+        "label": "Nations unies, « L’histoire des Nations Unies »",
+        "url": "https://www.un.org/fr/about-us/history-of-the-un"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Le but de l’ONU (maintenir la paix et la sécurité internationales) vient de l’article 1er de la Charte des Nations unies : il n’est pas écrit sur la page citée. L’UNESCO et le FMI ont aussi été créés en 1945 : ils ne figurent pas dans les propositions."
+    },
+    {
+      "reference": "CR-HG-015",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quelle peine a été supprimée en 1981 ?",
+      "answers": [
+        "La peine de mort",
+        "La prison à perpétuité",
+        "L’amende",
+        "Le travail d’intérêt général"
+      ],
+      "explanation": "La loi du 9 octobre 1981 abolit (supprime) la peine de mort en France. Elle a été défendue par Robert Badinter, ministre de la Justice, au début de la présidence de François Mitterrand. Aujourd’hui, la peine la plus lourde est la réclusion criminelle à perpétuité, c’est-à-dire la prison à vie. L’amende et le travail d’intérêt général existent toujours.",
+      "answerSource": {
+        "label": "Sénat, « Les circonstances de l’adoption de la loi du 9 octobre 1981 »",
+        "url": "https://www.senat.fr/evenement/archives/D22/loi1981.html"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-HG-016",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "En quelle année l'euro est-elle devenue la monnaie utilisée en France ?",
+      "answers": [
+        "2002",
+        "1957",
+        "1992",
+        "2012"
+      ],
+      "explanation": "Depuis le 1er janvier 2002, les Français paient avec des pièces et des billets en euros, qui remplacent le franc (1 euro = 6,55957 francs). L’euro existait déjà depuis le 1er janvier 1999, mais seulement pour les comptes et les opérations bancaires, sans pièces ni billets. Le traité de Maastricht, signé en 1992, avait prévu cette monnaie unique.",
+      "answerSource": {
+        "label": "Banque de France, « L’euro : dans nos poches depuis vingt ans »",
+        "url": "https://publications.banque-france.fr/leuro-dans-nos-poches-depuis-vingt-ans"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "1999 (l’euro monnaie de compte, sans pièces ni billets) a été volontairement écarté des propositions. 2002 correspond au programme officiel (annexe I de l’arrêté du 10 octobre 2025 : naissance de l’euro en 2002). Introduction des billets et pièces le 1er janvier 2002 également vérifiée sur le site de la Banque centrale européenne."
+    },
+    {
+      "reference": "CR-HG-017",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "En quelle année a commencé la Première Guerre mondiale ?",
+      "answers": [
+        "1914",
+        "1870",
+        "1918",
+        "1939"
+      ],
+      "explanation": "La Première Guerre mondiale éclate en août 1914. Elle se termine avec l’armistice du 11 novembre 1918, qui arrête les combats. Elle a fait près de dix millions de victimes. En 1870, la France était en guerre contre la Prusse, et la Seconde Guerre mondiale commence en 1939.",
+      "answerSource": {
+        "label": "Ministère des Armées, Chemins de mémoire, « La Première Guerre mondiale »",
+        "url": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/premiere-guerre-mondiale"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-HG-018",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Où a eu lieu le débarquement en 1944 ?",
+      "answers": [
+        "En Normandie",
+        "En Bretagne",
+        "En Vendée",
+        "Dans le Pas-de-Calais"
+      ],
+      "explanation": "Le 6 juin 1944, les armées alliées (américaine, britannique et canadienne, avec des soldats français) débarquent sur les plages de Normandie : c’est le « Jour J ». Cette opération ouvre la voie à la libération de la France, occupée par l’Allemagne nazie. Un second débarquement a lieu en Provence, le 15 août 1944.",
+      "answerSource": {
+        "label": "Ministère des Armées, Chemins de mémoire, « Le débarquement de Normandie et l’opération Overlord »",
+        "url": "https://www.defense.gouv.fr/chemins-memoire/histoire-memoires/ressources-historiques/seconde-guerre-mondiale/operations-militaires/1944-1945-5"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Le débarquement de Provence (15 août 1944) a été volontairement écarté des propositions, car il aurait aussi été une bonne réponse."
+    },
+    {
+      "reference": "CR-HG-019",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Quel continent a été le plus concerné par la décolonisation française après la Seconde Guerre mondiale ?",
+      "answers": [
+        "L’Afrique",
+        "L’Asie",
+        "L’Amérique",
+        "L’Océanie"
+      ],
+      "explanation": "Après 1945, la plupart des colonies françaises deviennent indépendantes, et la grande majorité d’entre elles se trouvent en Afrique. Le Maroc et la Tunisie deviennent indépendants en 1956, de nombreux pays d’Afrique subsaharienne en 1960 et l’Algérie en 1962. En Asie, la France quitte l’Indochine (Viêt Nam, Laos, Cambodge) en 1954.",
+      "answerSource": {
+        "label": "Assemblée nationale, « 1946 - 1958 - La politique extérieure de la Quatrième République »",
+        "url": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/quatrieme-republique/la-politique-exterieure-de-la-quatrieme-republique"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "« Le plus concerné » s’entend en nombre de pays devenus indépendants : une vingtaine en Afrique (Afrique du Nord, Afrique subsaharienne, Madagascar…) contre quelques-uns en Asie (Indochine, comptoirs de l’Inde). L’indépendance de l’Algérie (1962) vient de la source de la question CSP-HG-006."
+    },
+    {
+      "reference": "CR-HG-020",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "periodes-et-personnages-historiques",
+      "statement": "Que fête-t-on le 8 mai ?",
+      "answers": [
+        "La victoire de 1945 et la fin de la guerre en Europe",
+        "L’armistice de 1918 et la fin de la Première Guerre mondiale",
+        "La prise de la Bastille et le début de la Révolution",
+        "La libération de Paris par les Alliés en 1944"
+      ],
+      "explanation": "Le 8 mai, on fête la victoire des Alliés sur l’Allemagne nazie. Les 7 et 8 mai 1945, à Reims puis à Berlin, l’Allemagne capitule sans condition : la Seconde Guerre mondiale se termine en Europe. Le 8 mai est un jour férié, avec des cérémonies dans toute la France. L’armistice de 1918 se fête le 11 novembre et la prise de la Bastille le 14 juillet.",
+      "answerSource": {
+        "label": "Ministère des Armées, « Journée nationale de commémoration de la victoire du 8 mai 1945 »",
+        "url": "https://www.defense.gouv.fr/sga/actualites/journee-nationale-commemoration-victoire-du-8-mai-1945"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-HG-021",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle mer ou océan borde la France métropolitaine ?",
+      "answers": [
+        "L’océan Atlantique",
+        "L’océan Pacifique",
+        "L’océan Indien",
+        "La mer Baltique"
+      ],
+      "explanation": "La France métropolitaine est bordée par l’océan Atlantique à l’ouest. Elle a aussi des côtes sur la Manche et la mer du Nord, au nord, et sur la mer Méditerranée, au sud. L’océan Pacifique et l’océan Indien bordent seulement des territoires d’outre-mer, comme la Polynésie française ou La Réunion.",
+      "answerSource": {
+        "label": "Ministère de la Transition écologique, « Les quatre façades maritimes de l’hexagone se projettent pour le développement durable des espaces maritimes et littoraux à 2050 » (5 décembre 2025)",
+        "url": "https://www.ecologie.gouv.fr/presse/quatre-facades-maritimes-lhexagone-se-projettent-developpement-durable-espaces-maritimes"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "La Manche, la mer du Nord et la mer Méditerranée, qui bordent aussi la France métropolitaine, ne figurent pas dans les propositions."
+    },
+    {
+      "reference": "CR-HG-022",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quel pays a une frontière terrestre avec la France métropolitaine ?",
+      "answers": [
+        "L’Espagne",
+        "Le Portugal",
+        "L’Autriche",
+        "Le Danemark"
+      ],
+      "explanation": "L’Espagne a une frontière terrestre avec la France métropolitaine, au sud-ouest, le long des Pyrénées. En tout, la France métropolitaine a des frontières terrestres avec 8 pays : la Belgique, le Luxembourg, l’Allemagne, la Suisse, l’Italie, Monaco, Andorre et l’Espagne. Le Portugal, l’Autriche et le Danemark n’ont pas de frontière avec la France.",
+      "answerSource": {
+        "label": "Insee Première n° 1735, « Des moteurs de la croissance démographique différents de part et d’autre des frontières » (janvier 2019)",
+        "url": "https://www.insee.fr/fr/statistiques/3706818"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Le Royaume-Uni (tunnel sous la Manche) et les Pays-Bas (frontière sur l’île de Saint-Martin, outre-mer) ont été écartés des distracteurs."
+    },
+    {
+      "reference": "CR-HG-023",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle ville française est un port maritime ?",
+      "answers": [
+        "Le Havre",
+        "Grenoble",
+        "Dijon",
+        "Limoges"
+      ],
+      "explanation": "Le Havre, en Normandie, est un grand port maritime, sur la Manche, à l’embouchure de la Seine. Avec les ports de Rouen et de Paris, il forme HAROPA PORT, le premier port de France pour les conteneurs. Grenoble, Dijon et Limoges sont loin de la mer.",
+      "answerSource": {
+        "label": "Ministère de la Mer, « Acteurs, réseau et activités portuaires en France »",
+        "url": "https://www.mer.gouv.fr/acteurs-reseau-et-activites-portuaires-en-france"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Rouen, Nantes et Bordeaux, ports maritimes situés sur un fleuve, ont été écartés des distracteurs, ainsi que Lyon et Strasbourg (grands ports fluviaux)."
+    },
+    {
+      "reference": "CR-HG-024",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle mer se situe entre la France et l'Angleterre ?",
+      "answers": [
+        "La Manche",
+        "La mer d’Irlande",
+        "La mer Baltique",
+        "La mer Méditerranée"
+      ],
+      "explanation": "La Manche est la mer qui sépare le nord-ouest de la France et le sud de l’Angleterre. Depuis 1994, un tunnel creusé sous la Manche relie les deux pays : il mesure 50 km, dont 38 km sous la mer. La mer d’Irlande se trouve entre l’Irlande et la Grande-Bretagne.",
+      "answerSource": {
+        "label": "INA, Fresques, « Inauguration du tunnel sous la Manche » (6 mai 1994)",
+        "url": "https://fresques.ina.fr/mitterrand/fiche-media/Mitter00025/inauguration-du-tunnel-sous-la-manche.html"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Tunnel creusé entre Sangatte (France) et Shakespeare Cliff (Angleterre) : Archives nationales du monde du travail, « Focus : la construction du tunnel sous la Manche » (https://archives-nationales-travail.culture.gouv.fr/Decouvrir/Expositions/Expositions-virtuelles/Les-Gens-du-rail/Corps-au-travail/Construire-reparer-et-entretenir/Focus-la-construction-du-tunnel-sous-la-Manche). La mer du Nord a été écartée des propositions : elle touche aussi les côtes française (Dunkerque) et anglaise, ce qui aurait pu prêter à discussion."
+    },
+    {
+      "reference": "CR-HG-025",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Qu'est ce que la France d'outre-mer ?",
+      "answers": [
+        "Les territoires français situés hors d’Europe, comme La Réunion",
+        "Les anciennes colonies françaises devenues des pays indépendants",
+        "Les pays étrangers où beaucoup de personnes parlent français",
+        "Les régions de la France métropolitaine situées au bord de la mer"
+      ],
+      "explanation": "La France d’outre-mer regroupe les territoires français situés hors d’Europe, dans les océans ou sur d’autres continents. Il y a cinq départements et régions d’outre-mer (la Guadeloupe, la Martinique, la Guyane, La Réunion et Mayotte) et d’autres collectivités, comme la Polynésie française, Saint-Pierre-et-Miquelon ou la Nouvelle-Calédonie. Les anciennes colonies devenues indépendantes, comme le Sénégal, ne font plus partie de la France.",
+      "answerSource": {
+        "label": "Insee, définition « Départements, régions et collectivités d’outre-mer »",
+        "url": "https://www.insee.fr/fr/metadonnees/definition/c2316"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-HG-026",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle chaîne de montagnes est située entre la France et l'Espagne ?",
+      "answers": [
+        "Les Pyrénées",
+        "Les Alpes",
+        "Le Jura",
+        "Les Vosges"
+      ],
+      "explanation": "Les Pyrénées forment la frontière entre la France et l’Espagne, de l’océan Atlantique à la mer Méditerranée. Le petit pays d’Andorre se trouve au milieu de ces montagnes. Les Alpes sont à la frontière avec l’Italie et la Suisse, le Jura avec la Suisse, et les Vosges sont entièrement en France.",
+      "answerSource": {
+        "label": "Parc national des Pyrénées, « Le territoire du Parc national »",
+        "url": "https://www.pyrenees-parcnational.fr/fr/le-parc-national-des-pyrenees/le-territoire-du-parc-national"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "La source (parc national qui longe la frontière avec l’Espagne sur 100 km) confirme la bonne réponse ; la description des autres massifs relève des connaissances courantes."
+    },
+    {
+      "reference": "CR-HG-027",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle île française se trouve dans l'océan Indien ?",
+      "answers": [
+        "La Réunion",
+        "La Martinique",
+        "Tahiti",
+        "La Corse"
+      ],
+      "explanation": "La Réunion est une île française du sud-ouest de l’océan Indien, à 700 km de Madagascar et à plus de 9 000 km de la France métropolitaine. C’est à la fois un département et une région d’outre-mer. Mayotte, autre département d’outre-mer, se trouve aussi dans l’océan Indien. La Martinique est dans la mer des Caraïbes, Tahiti dans l’océan Pacifique et la Corse dans la mer Méditerranée.",
+      "answerSource": {
+        "label": "Insee, « Géographie, infrastructures, population, économie » (revue Économie de La Réunion)",
+        "url": "https://www.insee.fr/fr/statistiques/1289705"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Mayotte, l’autre île française habitée de l’océan Indien, ne figure pas dans les propositions."
+    },
+    {
+      "reference": "CR-HG-028",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle est la population approximative de la France en 2025 ?",
+      "answers": [
+        "Environ 69 millions d’habitants",
+        "Environ 45 millions d’habitants",
+        "Environ 90 millions d’habitants",
+        "Environ 120 millions d’habitants"
+      ],
+      "explanation": "Selon l’Insee, la France compte environ 69 millions d’habitants en 2025 : 68,9 millions au 1er janvier 2025 et 69,1 millions au 1er janvier 2026, outre-mer compris. Au 1er janvier 2026, 2,3 millions d’entre eux vivent dans les départements d’outre-mer. Le programme officiel de l’examen, écrit en 2025, parle d’« environ 68 millions » : les deux chiffres sont très proches.",
+      "answerSource": {
+        "label": "Insee Première n° 2087, « Bilan démographique 2025 » (13 janvier 2026)",
+        "url": "https://www.insee.fr/fr/statistiques/8719824"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Chiffre daté, vérifié le 31/10/2026 : 68 852 milliers au 1er janvier 2025 (valeur provisoire) et 69,1 millions au 1er janvier 2026 (Insee, bilan démographique 2025, publié le 13/01/2026). L’annexe I de l’arrêté du 10 octobre 2025 indique « environ 68 millions d’habitants en 2025 ». Les distracteurs (45, 90 et 120 millions) sont assez éloignés pour que 68 ou 69 millions restent la seule réponse possible ; écrire « environ 68 millions » si l’on préfère suivre le programme."
+    },
+    {
+      "reference": "CR-HG-029",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quel fleuve traverse Paris ?",
+      "answers": [
+        "La Seine",
+        "La Loire",
+        "Le Rhône",
+        "La Garonne"
+      ],
+      "explanation": "La Seine traverse Paris sur 13 km, et 37 ponts la franchissent dans la capitale. Ce fleuve de 777 km prend sa source sur le plateau de Langres et se jette dans la Manche, en Normandie. Les rives de la Seine à Paris sont inscrites au patrimoine mondial de l’UNESCO depuis 1991. La Loire, le Rhône et la Garonne ne passent pas à Paris.",
+      "answerSource": {
+        "label": "Ville de Paris, « La Seine aurait plus de 14 000 ans… et autres anecdotes surprenantes sur le fleuve parisien »",
+        "url": "https://www.paris.fr/pages/la-seine-aurait-plus-de-14-000-ans-et-autres-anecdotes-surprenantes-sur-le-fleuve-parisien-19981"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Inscription des rives de la Seine au patrimoine mondial en 1991 : Ville de Paris, « Les rives de Seine, patrimoine mondial de l’UNESCO » (https://www.paris.fr/pages/la-pietonnisation-des-rives-contribue-a-preserver-leur-authenticite-selon-l-unesco-5589) ; la page whc.unesco.org a refusé l’accès automatique le 31/10/2026."
+    },
+    {
+      "reference": "CR-HG-030",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Lequel de ces pays partage des frontières terrestres avec la France ?",
+      "answers": [
+        "La Suisse",
+        "La Pologne",
+        "La Grèce",
+        "L’Irlande"
+      ],
+      "explanation": "La Suisse a une frontière terrestre avec la France, à l’est, le long du Jura et près du lac Léman. En Europe, la France a des frontières terrestres avec 8 pays : la Belgique, le Luxembourg, l’Allemagne, la Suisse, l’Italie, Monaco, Andorre et l’Espagne. Grâce à la Guyane, en Amérique du Sud, elle a aussi une frontière avec le Brésil, la plus longue (plus de 730 km), et avec le Suriname. La Pologne, la Grèce et l’Irlande n’ont pas de frontière avec la France.",
+      "answerSource": {
+        "label": "Insee Première n° 1735 (janvier 2019) ; Sénat, rapport « La France en Amérique du Sud, quelles relations avec ses voisins brésilien, surinamais et guyanien ? »",
+        "url": "https://www.insee.fr/fr/statistiques/3706818"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "L’énoncé ne précise pas « métropolitaine » : le Brésil et le Suriname (Guyane) et les Pays-Bas (île de Saint-Martin) ont une frontière terrestre avec la France d’outre-mer et ont donc été écartés des distracteurs, comme le Royaume-Uni (tunnel sous la Manche). Frontière avec le Brésil : Sénat, rapport n° 846 (2022-2023) (https://www.senat.fr/rap/r22-846/r22-8463.html)."
+    },
+    {
+      "reference": "CR-HG-031",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quel pays a une frontière avec la France métropolitaine au nord-est ?",
+      "answers": [
+        "Le Luxembourg",
+        "L’Espagne",
+        "L’Italie",
+        "Le Portugal"
+      ],
+      "explanation": "Le Luxembourg a une frontière avec la France au nord-est, le long de la Lorraine (région Grand Est). Au nord-est, la France touche aussi la Belgique et l’Allemagne. Le Luxembourg est le premier pays où vont travailler les habitants du Grand Est qui travaillent à l’étranger. L’Espagne est au sud-ouest, l’Italie au sud-est, et le Portugal n’a pas de frontière avec la France.",
+      "answerSource": {
+        "label": "Insee Analyses Grand Est n° 144, « Le travail frontalier dans le Grand Est : en 2018, 182 000 habitants de la région travaillent dans un pays voisin » (mai 2022)",
+        "url": "https://www.insee.fr/fr/statistiques/6444588"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Au nord-est, trois pays touchent la France métropolitaine : la Belgique, le Luxembourg et l’Allemagne. Un seul figure dans les propositions ; la Suisse (à l’est, mais voisine de la région Grand Est) a aussi été écartée. L’orientation n’est pas écrite dans la source : à vérifier sur la fiche officielle « Les frontières de la France » (formation-civique.interieur.gouv.fr), qui renvoyait une erreur 503 le 31/10/2026."
+    },
+    {
+      "reference": "CR-HG-032",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Où se trouvent les principales activités économiques en France ?",
+      "answers": [
+        "Surtout près des grandes villes et des grands axes de transport",
+        "Surtout dans les montagnes, loin des grandes villes",
+        "Surtout dans les petits villages, à la campagne",
+        "Surtout dans les îles et les territoires d’outre-mer"
+      ],
+      "explanation": "En France, les entreprises et les emplois se concentrent dans les grandes villes et autour d’elles, près des grands axes de transport (autoroutes, voies ferrées, ports). Selon l’Insee, les pôles urbains regroupent les deux tiers de l’emploi salarié privé, et les zones d’activité se trouvent surtout autour des grandes agglomérations, en particulier autour de Paris et de Lyon. La campagne et la montagne ont aussi des activités (agriculture, tourisme), mais beaucoup moins d’emplois.",
+      "answerSource": {
+        "label": "Insee Première n° 1960, « Les espaces dédiés à l’activité économique regroupent la moitié de l’emploi salarié privé » (juillet 2023)",
+        "url": "https://www.insee.fr/fr/statistiques/7650197"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Formulation générale reprise du programme officiel (annexe I de l’arrêté du 10 octobre 2025 : les activités économiques se concentrent près des grandes villes et des axes de communication). La part des deux tiers vient de l’étude Insee publiée en 2023 ; la source ne cite qu’un exemple d’axe routier."
+    },
+    {
+      "reference": "CR-HG-033",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Parmi ces pays, lequel attire le plus de visiteurs chaque année ?",
+      "answers": [
+        "La France",
+        "L’Italie",
+        "L’Allemagne",
+        "Le Royaume-Uni"
+      ],
+      "explanation": "La France est le pays le plus visité au monde : en 2025, elle a accueilli 102 millions de visiteurs internationaux. Les touristes viennent pour Paris et les grandes villes, les côtes (Côte d’Azur, Bretagne, Normandie, côte atlantique) et les montagnes (Alpes, Pyrénées). Le tourisme est une activité économique très importante pour le pays.",
+      "answerSource": {
+        "label": "Direction générale des entreprises, « Bilan touristique 2025 : la France confirme sa place de première destination touristique mondiale » (19 février 2026)",
+        "url": "https://www.entreprises.gouv.fr/la-dge/actualites/bilan-touristique-2025-la-france-confirme-sa-place-de-premiere-destination"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Chiffre de 2025 (102 millions de visiteurs internationaux), vérifié le 31/10/2026 ; il change chaque année. L’Espagne, deuxième destination mondiale et proche de la France (elle la dépasse en recettes), a été écartée des propositions. Liste des grandes destinations : annexe I de l’arrêté du 10 octobre 2025."
+    },
+    {
+      "reference": "CR-HG-034",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Où habite la majorité des Français ?",
+      "answers": [
+        "Dans les villes ou autour des villes",
+        "Dans les villages, loin des villes",
+        "Dans les régions de montagne",
+        "Dans les territoires d’outre-mer"
+      ],
+      "explanation": "Selon l’Insee, neuf personnes sur dix vivent dans une ville ou autour d’une ville, dans ce qu’on appelle une « aire d’attraction des villes ». Environ la moitié de la population habite dans les villes centres (les « pôles ») et plus de 4 personnes sur 10 dans les communes autour (les « couronnes »). Une personne sur cinq vit dans l’aire de Paris.",
+      "answerSource": {
+        "label": "Insee, « Le nouveau zonage en aires d’attraction des villes »",
+        "url": "https://www.insee.fr/fr/information/4808607"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Chiffres de l’Insee : neuf personnes sur dix dans les 699 aires d’attraction des villes (51 % dans les pôles, 43 % dans les couronnes) ; 93,5 % et 19,5 % pour l’aire de Paris au recensement de 2023 (tableau « Population selon la taille des aires d’attraction des villes », publié le 03/09/2026, https://www.insee.fr/fr/statistiques/5417078). Le programme officiel dit « 9 Français sur 10 vivent dans une aire urbaine »."
+    },
+    {
+      "reference": "CR-HG-035",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle région est la plus peuplée ?",
+      "answers": [
+        "L’Île-de-France",
+        "La Bretagne",
+        "La Normandie",
+        "La Corse"
+      ],
+      "explanation": "L’Île-de-France, la région de Paris, est la plus peuplée de France : environ 12,5 millions d’habitants, soit près d’un habitant sur cinq. Viennent ensuite Auvergne-Rhône-Alpes (8,2 millions), puis la Nouvelle-Aquitaine et l’Occitanie (environ 6,1 millions chacune). La Bretagne compte environ 3,4 millions d’habitants, la Normandie 3,3 millions et la Corse environ 355 000.",
+      "answerSource": {
+        "label": "Insee, « Populations des régions en 2023 » (populations de référence en vigueur au 1er janvier 2026)",
+        "url": "https://www.insee.fr/fr/statistiques/8680653?sommaire=8681011"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Populations municipales de référence 2023, en vigueur au 1er janvier 2026, vérifiées le 31/10/2026 (Île-de-France : 12 463 067). Elles changent chaque année, mais l’écart entre l’Île-de-France et les autres régions est très grand."
+    },
+    {
+      "reference": "CR-HG-036",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Quelle ville française fait partie des 10 plus grandes métropoles du pays ?",
+      "answers": [
+        "Toulouse",
+        "Limoges",
+        "Poitiers",
+        "Besançon"
+      ],
+      "explanation": "Toulouse, dans le sud-ouest, compte environ 515 000 habitants : c’est l’une des quatre plus grandes villes de France, avec Paris, Marseille et Lyon. Les dix plus grandes villes sont Paris, Marseille, Lyon, Toulouse, Nice, Nantes, Montpellier, Strasbourg, Bordeaux et Lille ; chacune est au cœur d’une grande métropole. Limoges, Poitiers et Besançon sont des villes moyennes, beaucoup moins peuplées.",
+      "answerSource": {
+        "label": "Insee Focus n° 374, « Les populations de référence des communes au 1er janvier 2023 » (décembre 2025)",
+        "url": "https://www.insee.fr/fr/statistiques/8682718"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "La liste des « 10 principales métropoles » du programme officiel n’est pas fixée : elle varie selon que l’on compte les villes, les aires d’attraction ou les intercommunalités (Rennes, Grenoble ou Rouen peuvent y entrer). Toulouse est dans les dix premières selon tous ces critères, les trois distracteurs dans aucun. Classement des communes au 1er janvier 2023 (Toulouse : 514 819 habitants, 4e) vérifié le 31/10/2026."
+    },
+    {
+      "reference": "CR-HG-037",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "territoires-et-geographie",
+      "statement": "Lequel de ces départements de France est le plus touristique ?",
+      "answers": [
+        "Paris",
+        "L’Indre",
+        "La Creuse",
+        "La Haute-Marne"
+      ],
+      "explanation": "Paris est à la fois une ville et un département. C’est le département qui reçoit le plus de touristes : en 2023, ses hôtels ont compté près de 40 millions de nuitées, soit presque une nuitée d’hôtel sur cinq en France, et plus des deux tiers par des clients étrangers. Les autres grandes destinations sont les côtes (Côte d’Azur, côte atlantique, Bretagne, Normandie) et les montagnes (Alpes, Pyrénées). L’Indre, la Creuse et la Haute-Marne sont des départements ruraux beaucoup moins visités.",
+      "answerSource": {
+        "label": "Insee Conjoncture Île-de-France n° 49, « La fréquentation touristique francilienne poursuit sa dynamique en 2023 » (juin 2024)",
+        "url": "https://www.insee.fr/fr/statistiques/7936374"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Il n’existe pas de classement national officiel des départements : la réponse s’appuie sur les nuitées hôtelières (Paris : 39,6 millions en 2023, sur 217,4 millions en France). Les distracteurs sont des départements ruraux peu touristiques ; les départements du littoral et de montagne ont été écartés. Si l’on préfère une réponse « Côte d’Azur », remplacer Paris par les Alpes-Maritimes."
+    },
+    {
+      "reference": "CR-HG-038",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Quand peut-on visiter gratuitement des lieux culturels en France ?",
+      "answers": [
+        "Lors des Journées européennes du patrimoine, en septembre",
+        "Lors de la fête du Travail, le 1er mai",
+        "Lors de la fête de Noël, le 25 décembre",
+        "Lors du jour de l’An, le 1er janvier"
+      ],
+      "explanation": "Chaque année, en général le troisième week-end de septembre, les Journées européennes du patrimoine ouvrent au public des monuments, des musées et des lieux souvent fermés le reste de l’année. L’entrée est en principe gratuite dans les monuments publics, et à prix réduit dans beaucoup de lieux privés. La première édition a eu lieu en 1984. Le 1er janvier, le 1er mai et le 25 décembre sont des jours fériés où de grands musées, comme le Louvre, sont fermés.",
+      "answerSource": {
+        "label": "Ministère de la Culture, « Journées européennes du patrimoine »",
+        "url": "https://www.culture.gouv.fr/evenements-nationaux/journees-europeennes-du-patrimoine"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Fermeture du Louvre les 1er janvier, 1er mai et 25 décembre : centre d’aide du musée du Louvre (https://contact.louvre.fr/hc/fr/articles/12844985493533-Quels-sont-les-jours-d-ouverture-du-mus%C3%A9e). D’autres occasions de gratuité existent (premier dimanche du mois dans certains lieux, Nuit européenne des musées, jeunes de moins de 26 ans sous conditions) : elles ne figurent pas dans les propositions. Le 14 juillet a été écarté, certains musées étant gratuits ce jour-là."
+    },
+    {
+      "reference": "CR-HG-039",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Combien de personnes parlent français dans le monde ?",
+      "answers": [
+        "Entre 300 et 400 millions",
+        "Entre 60 et 80 millions",
+        "Entre 100 et 200 millions",
+        "Entre 1 et 2 milliards"
+      ],
+      "explanation": "Le français est parlé par plusieurs centaines de millions de personnes, sur tous les continents, surtout en Europe et en Afrique. Le programme officiel de l’examen, qui reprend le rapport 2022 de l’Organisation internationale de la Francophonie (OIF), indique environ 321 millions de francophones. Le rapport 2026 de l’OIF en compte 396 millions. Il y a donc beaucoup plus de francophones que d’habitants en France (environ 69 millions).",
+      "answerSource": {
+        "label": "Ministère de l’Europe et des Affaires étrangères, « Journée internationale de la Francophonie 2026 : le français devient la 4ème langue la plus parlée au monde (20 mars 2026) »",
+        "url": "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/journee-internationale-de-la-francophonie-2026-le-francais-devient-la-4eme-langue-la-plus-parlee-au"
+      },
+      "difficulty": 2,
+      "confidence": "medium",
+      "reviewNote": "Deux chiffres officiels : 321 millions (rapport OIF 2022, repris par l’annexe I de l’arrêté du 10 octobre 2025) et 396 millions (rapport OIF 2026, vérifié le 31/10/2026 sur diplomatie.gouv.fr). La bonne réponse est une fourchette qui couvre les deux ; à revoir au prochain rapport de l’OIF."
+    },
+    {
+      "reference": "CR-HG-040",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Qui était Marguerite Yourcenar ?",
+      "answers": [
+        "Une écrivaine du XXe siècle",
+        "Une chanteuse du XXe siècle",
+        "Une reine de France du XVIe siècle",
+        "Une scientifique du XIXe siècle"
+      ],
+      "explanation": "Marguerite Yourcenar (1903-1987) est une écrivaine de langue française, née à Bruxelles. Son roman le plus célèbre, Mémoires d’Hadrien, paraît en 1951. En 1980, elle est la première femme élue à l’Académie française, l’institution qui veille sur la langue française.",
+      "answerSource": {
+        "label": "Académie française, « Marguerite Yourcenar »",
+        "url": "https://www.academie-francaise.fr/les-immortels/marguerite-yourcenar"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "« Première femme élue » (6 mars 1980) : page « Les grandes dates » de l’Académie française (https://www.academie-francaise.fr/linstitution-lhistoire/les-grandes-dates). Sa nationalité n’est pas indiquée sur la page de l’Académie : l’explication dit seulement « de langue française »."
+    },
+    {
+      "reference": "CR-HG-041",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Quel peintre est français ?",
+      "answers": [
+        "Claude Monet",
+        "Pablo Picasso",
+        "Rembrandt",
+        "Frida Kahlo"
+      ],
+      "explanation": "Claude Monet (1840-1926) est un peintre français. Son tableau Impression, soleil levant (1872) a donné son nom à l’impressionnisme, un grand mouvement de peinture. À Giverny, en Normandie, il a peint la célèbre série des Nymphéas. Pablo Picasso est espagnol, même s’il a longtemps vécu en France ; Rembrandt est néerlandais et Frida Kahlo mexicaine.",
+      "answerSource": {
+        "label": "BnF Essentiels, « Claude Monet » ; BnF Passerelles, « Naissance de l’impressionnisme : Impression soleil levant »",
+        "url": "https://essentiels.bnf.fr/fr/mot-cle/2e864bed-4a6e-4380-8cc5-97104f629246-claude-monet"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Picasso, espagnol, a vécu longtemps en France : distracteur volontairement plausible, à garder seulement s’il ne paraît pas trop piégeant (Van Gogh, néerlandais, est dans le même cas)."
+    },
+    {
+      "reference": "CR-HG-042",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Quel musée est situé à Paris ?",
+      "answers": [
+        "Le musée d’Orsay",
+        "Le musée du Prado",
+        "Le British Museum",
+        "Le musée de l’Ermitage"
+      ],
+      "explanation": "Le musée d’Orsay se trouve à Paris, au bord de la Seine, dans une ancienne gare construite en 1900. Ouvert en 1986, il présente l’art de 1848 à 1914, avec de nombreux tableaux impressionnistes (Monet, Renoir…). Le Prado est à Madrid, le British Museum à Londres et l’Ermitage à Saint-Pétersbourg.",
+      "answerSource": {
+        "label": "Ministère de la Culture, plateforme POP, notice Muséofile « musée d’Orsay »",
+        "url": "https://pop.culture.gouv.fr/notice/museo/M5060"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Ouverture en 1986 : la notice indique des travaux de transformation de la gare de 1978 à 1986 ; le site du musée d’Orsay (inauguration le 1er décembre 1986) a refusé l’accès automatique le 31/10/2026."
+    },
+    {
+      "reference": "CR-HG-043",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Qui était Auguste Rodin ?",
+      "answers": [
+        "Un sculpteur du XIXe siècle",
+        "Un écrivain du XVIIe siècle",
+        "Un compositeur du XVIIIe siècle",
+        "Un roi de France du XVe siècle"
+      ],
+      "explanation": "Auguste Rodin (1840-1917) est le plus célèbre des sculpteurs français. Ses œuvres les plus connues sont Le Penseur, Le Baiser et La Porte de l’Enfer. On peut les voir au musée Rodin, à Paris, dans l’hôtel Biron, que l’artiste occupait à la fin de sa vie.",
+      "answerSource": {
+        "label": "Ministère de la Culture, Histoire des arts, « Découvrez 10 œuvres emblématiques d’Auguste Rodin »",
+        "url": "https://histoiredesarts.culture.gouv.fr/Dossiers-thematiques/Decouvrez-10-aeuvres-emblematiques-d-Auguste-Rodin"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "Hôtel Biron, occupé par Rodin à partir de 1908-1911 et devenu musée en 1919 : notice Muséofile « musée Rodin » (https://pop.culture.gouv.fr/notice/museo/M5044). Rodin a aussi fait de nombreux dessins : aucune proposition « peintre » n’est utilisée comme distracteur."
+    },
+    {
+      "reference": "CR-HG-044",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Quel est le classement de la langue française parmi les langues les plus parlées dans le monde ?",
+      "answers": [
+        "Dans les 5 premières places",
+        "Entre la 10e et la 20e place",
+        "Entre la 20e et la 30e place",
+        "Après la 50e place"
+      ],
+      "explanation": "Le français fait partie des cinq langues les plus parlées au monde. Le programme officiel de l’examen le place au 5e rang, d’après le rapport 2022 de l’Organisation internationale de la Francophonie (OIF). Selon le rapport 2026 de l’OIF, il est maintenant 4e, après l’anglais, le chinois mandarin et l’espagnol.",
+      "answerSource": {
+        "label": "Ministère de l’Europe et des Affaires étrangères, « Journée internationale de la Francophonie 2026 : le français devient la 4ème langue la plus parlée au monde (20 mars 2026) »",
+        "url": "https://www.diplomatie.gouv.fr/fr/presse-et-ressources/decouvrir-et-informer/actualites/journee-internationale-de-la-francophonie-2026-le-francais-devient-la-4eme-langue-la-plus-parlee-au"
+      },
+      "difficulty": 3,
+      "confidence": "medium",
+      "reviewNote": "Le rang a changé : 5e langue mondiale selon l’annexe I de l’arrêté du 10 octobre 2025 (rapport OIF 2022), 4e selon le rapport OIF 2026 (diplomatie.gouv.fr, vérifié le 31/10/2026). La bonne réponse « dans les 5 premières places » reste juste dans les deux cas ; aucune proposition ne donne un rang précis entre 1 et 5. Choix de formulation à valider."
+    },
+    {
+      "reference": "CR-HG-045",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Quelle cathédrale célèbre a été en partie détruite par un incendie en 2019 ?",
+      "answers": [
+        "La cathédrale Notre-Dame de Paris",
+        "La cathédrale de Chartres",
+        "La cathédrale de Reims",
+        "La cathédrale de Strasbourg"
+      ],
+      "explanation": "Le 15 avril 2019, un incendie détruit la flèche, la charpente en bois et la toiture de la cathédrale Notre-Dame de Paris. Après de grands travaux de restauration, la cathédrale rouvre ses portes au public en décembre 2024. Notre-Dame est l’un des monuments les plus célèbres de France.",
+      "answerSource": {
+        "label": "Ministère de la Culture, « Spécial Notre-Dame de Paris (1/6) : les grandes étapes d’une renaissance »",
+        "url": "https://www.culture.gouv.fr/actualites/special-notre-dame-de-paris-1-6-les-grandes-etapes-d-une-renaissance"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "La cathédrale de Nantes (incendie de 2020) a été écartée des propositions."
+    },
+    {
+      "reference": "CR-HG-046",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Qui était une écrivaine française célèbre ?",
+      "answers": [
+        "George Sand",
+        "Jane Austen",
+        "Agatha Christie",
+        "Emily Dickinson"
+      ],
+      "explanation": "George Sand (1804-1876) est une écrivaine française du XIXe siècle. Son vrai nom est Aurore Dupin : elle signe ses livres avec un prénom d’homme. Elle a écrit 90 romans, dont La Mare au diable. Jane Austen et Agatha Christie sont anglaises, et Emily Dickinson américaine.",
+      "answerSource": {
+        "label": "BnF Essentiels, « George Sand »",
+        "url": "https://essentiels.bnf.fr/fr/personnalite/415698dd-986f-4181-a4bf-3fbd5b2b784e-george-sand"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    },
+    {
+      "reference": "CR-HG-047",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Qui était un célèbre musicien français ?",
+      "answers": [
+        "Maurice Ravel",
+        "Wolfgang Amadeus Mozart",
+        "Ludwig van Beethoven",
+        "Giuseppe Verdi"
+      ],
+      "explanation": "Maurice Ravel (1875-1937) est l’un des plus grands compositeurs français : il écrit de la musique pour orchestre, pour piano ou pour la danse. Son Boléro (1928) est l’une des œuvres les plus jouées dans le monde. Mozart est autrichien, Beethoven allemand et Verdi italien.",
+      "answerSource": {
+        "label": "Philharmonie de Paris (Édutheque), « Portrait de Maurice Ravel »",
+        "url": "https://edutheque.philharmoniedeparis.fr/0041014-biographie-maurice-ravel.aspx"
+      },
+      "difficulty": 2,
+      "confidence": "high",
+      "reviewNote": "Chopin et les compositeurs nés à l’étranger puis devenus français (Lully, Offenbach) ont été écartés des distracteurs."
+    },
+    {
+      "reference": "CR-HG-048",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Qui était Auguste Renoir ?",
+      "answers": [
+        "Un peintre du XIXe siècle",
+        "Un écrivain du XVIIe siècle",
+        "Un compositeur du XVIIIe siècle",
+        "Un homme politique du XXe siècle"
+      ],
+      "explanation": "Auguste Renoir (1841-1919) est un peintre français, l’un des artistes de l’impressionnisme. Il aime peindre la vie de tous les jours, les fêtes et les visages, comme dans Bal du moulin de la Galette (1876), conservé au musée d’Orsay, à Paris. À la fin de sa vie, il a aussi fait des sculptures.",
+      "answerSource": {
+        "label": "BnF Essentiels, « Auguste Renoir » ; Ministère de la Culture, Histoire des arts, « Bal du Moulin de la Galette »",
+        "url": "https://essentiels.bnf.fr/fr/mot-cle/c5853deb-443a-4029-9381-81f5f9a414eb-auguste-renoir"
+      },
+      "difficulty": 1,
+      "confidence": "high",
+      "reviewNote": "La BnF le présente comme « peintre et sculpteur » et son fils Jean Renoir était cinéaste : aucune de ces deux professions n’est utilisée comme distracteur. Il a peint jusqu’en 1919, mais l’essentiel de son œuvre date du XIXe siècle. Tableau : https://histoiredesarts.culture.gouv.fr/Toutes-les-ressources/Musee-d-Orsay/Bal-du-Moulin-de-la-Galette (date de 1876 déduite de « Il y a 150 ans », texte de 2026)."
+    },
+    {
+      "reference": "CR-HG-049",
+      "type": "OFFICIAL_KNOWLEDGE",
+      "notion": "patrimoine-francais",
+      "statement": "Quelle fête est française ?",
+      "answers": [
+        "Le 14 Juillet",
+        "Thanksgiving",
+        "La Saint-Patrick",
+        "Le Nouvel An chinois"
+      ],
+      "explanation": "Le 14 Juillet est la fête nationale de la France, célébrée chaque année depuis une loi de 1880. Il rappelle la prise de la Bastille, le 14 juillet 1789, et la fête de la Fédération, le 14 juillet 1790, qui célébrait l’unité des Français. Thanksgiving est une fête des États-Unis et du Canada, la Saint-Patrick une fête irlandaise et le Nouvel An chinois une fête de Chine et d’autres pays d’Asie.",
+      "answerSource": {
+        "label": "Élysée, « La fête nationale du 14 juillet »",
+        "url": "https://www.elysee.fr/la-presidence/la-fete-nationale-du-14-juillet"
+      },
+      "difficulty": 1,
+      "confidence": "high"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Académie française",
+      "definition": "Institution fondée au XVIIe siècle. Ses 40 membres, élus, veillent sur la langue française et écrivent son dictionnaire."
+    },
+    {
+      "term": "Alliés",
+      "definition": "Pendant la Seconde Guerre mondiale, pays qui combattent ensemble l’Allemagne nazie, notamment le Royaume-Uni, les États-Unis, l’Union soviétique et la France libre."
+    },
+    {
+      "term": "antisémitisme",
+      "definition": "Hostilité ou haine envers les Juifs. En France, les propos et les actes antisémites sont punis par la loi."
+    },
+    {
+      "term": "capituler",
+      "definition": "Pour une armée ou un pays, reconnaître officiellement sa défaite et arrêter de combattre. On parle de capitulation."
+    },
+    {
+      "term": "débarquement",
+      "definition": "Arrivée de soldats par la mer sur une côte tenue par l’ennemi. Le 6 juin 1944, les Alliés débarquent en Normandie."
+    },
+    {
+      "term": "décolonisation",
+      "definition": "Période où des colonies deviennent des pays indépendants. Pour la France, elle a lieu surtout entre 1945 et 1962, en Asie et en Afrique."
+    },
+    {
+      "term": "empereur",
+      "definition": "Souverain qui dirige un empire. En France, Napoléon Bonaparte devient « Empereur des Français » en 1804, sous le nom de Napoléon Ier."
+    },
+    {
+      "term": "francophone",
+      "definition": "Qui parle français. Les pays francophones sont les pays où une grande partie des habitants parle français."
+    },
+    {
+      "term": "impressionnisme",
+      "definition": "Mouvement de peinture né en France vers 1870. Les peintres impressionnistes, comme Claude Monet ou Auguste Renoir, cherchent à montrer la lumière et l’impression d’un moment."
+    },
+    {
+      "term": "métropole",
+      "definition": "Très grande ville, avec les communes qui l’entourent, où se concentrent beaucoup d’habitants, d’entreprises et d’emplois."
+    },
+    {
+      "term": "nuitée",
+      "definition": "Une nuit passée par une personne dans un hébergement touristique (hôtel, camping…). Deux personnes qui dorment trois nuits à l’hôtel font six nuitées."
+    },
+    {
+      "term": "outre-mer",
+      "definition": "Ensemble des territoires français situés hors d’Europe, comme La Réunion, la Guadeloupe ou la Polynésie française."
+    },
+    {
+      "term": "patrimoine",
+      "definition": "Ensemble des richesses héritées du passé (monuments, œuvres d’art, traditions, paysages) qu’un pays protège pour les transmettre."
+    },
+    {
+      "term": "peine de mort",
+      "definition": "Punition qui consiste à faire mourir une personne condamnée par la justice. Elle est abolie en France depuis 1981."
+    },
+    {
+      "term": "sculpteur",
+      "definition": "Artiste qui crée des sculptures : des œuvres en volume, en pierre, en bronze ou en bois, que l’on peut regarder de tous les côtés."
+    },
+    {
+      "term": "Shoah",
+      "definition": "Mot hébreu qui veut dire « catastrophe ». Il désigne le génocide des Juifs d’Europe par l’Allemagne nazie et ses complices, pendant la Seconde Guerre mondiale."
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "topic": "vivre-en-france",
+  "sheets": [
+    {
+      "slug": "s-installer-en-france",
+      "notion": "installation-et-sejour",
+      "title": "S’installer en France : les démarches",
+      "summary": "S’installer en France demande quelques démarches : titre de séjour, état civil, assurances, impôts, logement. Chaque situation est différente : pour votre cas, consultez service-public.gouv.fr ou votre préfecture.",
+      "keyPoints": [
+        "Pour vivre en France, un adulte étranger non européen doit avoir un titre de séjour valable et le faire renouveler avant sa date de fin, souvent en ligne (ANEF). Depuis 2026, une première carte de séjour pluriannuelle demande notamment de réussir l’examen civique et d’avoir un niveau de français A2, sauf exceptions.",
+        "On devient français par déclaration dans certains cas (par exemple après 4 ans de mariage avec une personne française, sous conditions) ou par naturalisation, décidée par l’État. La naturalisation exige l’assimilation : il faut notamment connaître le français, l’histoire, la culture et la société françaises, et adhérer aux valeurs de la République.",
+        "La mairie enregistre l’état civil : une naissance se déclare dans les 5 jours, un décès dès que possible. En France, seul le mariage civil, célébré à la mairie avec l’accord libre des deux époux, est reconnu par la loi ; pour divorcer, il faut un avocat.",
+        "Toute voiture doit être assurée, au minimum « au tiers », et le locataire doit assurer son logement, au moins contre l’incendie, le dégât des eaux et l’explosion. L’assurance responsabilité civile, qui paie les dommages causés aux autres, est souvent comprise dans l’assurance habitation.",
+        "Chaque année, on déclare ses revenus aux impôts, même s’ils sont faibles ou nuls : l’avis reçu sert aussi pour obtenir des aides. Pour un déménagement, un service en ligne prévient en une fois plusieurs organismes (Assurance maladie, CAF, France Travail…).",
+        "Pour se loger : agences, annonces ou demande de logement social (HLM) ; la CAF peut aider à payer le loyer, sous conditions. Le locataire paie le loyer et entretient le logement ; le propriétaire doit louer un logement décent et ne peut pas refuser un locataire à cause de son origine."
+      ],
+      "examples": [
+        "Vous déménagez : vous signalez votre nouvelle adresse et, si vous avez un titre de séjour, vous faites aussi changer l’adresse de ce titre.",
+        "Votre permis de conduire vient d’un pays hors de l’Union européenne : il est reconnu en France pendant 1 an après votre installation. Pour continuer à conduire, il faut l’échanger à temps (si c’est possible pour votre pays) ou passer le permis français."
+      ],
+      "vocabulary": [
+        {
+          "term": "titre de séjour",
+          "definition": "Document officiel qui permet à une personne étrangère de vivre en France pendant une durée fixée."
+        },
+        {
+          "term": "état civil",
+          "definition": "Les informations officielles sur une personne (naissance, mariage, décès), enregistrées par la mairie."
+        },
+        {
+          "term": "naturalisation",
+          "definition": "Décision de l’État qui donne la nationalité française à une personne étrangère qui la demande."
+        },
+        {
+          "term": "logement décent",
+          "definition": "Logement qui ne met pas en danger la santé ou la sécurité des personnes qui y vivent."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Service-public.gouv.fr, « Carte de séjour pluriannuelle » (fiche F35799)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35799"
+        },
+        {
+          "label": "Service-public.gouv.fr, fiche F2213 sur la naturalisation ; Code civil, article 21-24",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2213"
+        },
+        {
+          "label": "Service-public.gouv.fr, « Déclaration de naissance » (fiche F961) ; Code civil, article 55",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F961"
+        },
+        {
+          "label": "Service-public.gouv.fr, « Je déménage en France » (fiche F14128)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14128"
+        }
+      ],
+      "confidence": "medium",
+      "reviewNote": "Règles datées, vérifiées le 31/10/2026 sur service-public.gouv.fr : examen civique et niveau A2 pour une première carte pluriannuelle, demandes déposées depuis le 01/01/2026, dispense après 65 ans (F35799 vérifiée le 01/05/2026, actualité A18713 du 18/12/2025) ; délai de renouvellement volontairement non chiffré, car il varie selon le titre (2 mois avant la fin, ou entre 4 et 2 mois) ; nationalité par mariage après 4 ans, ou 5 ans dans certains cas (F2726 vérifiée le 01/05/2026) ; assimilation : Code civil, article 21-24, en vigueur depuis le 01/01/2026 (sur Légifrance) ; naissance dans les 5 jours (F961 vérifiée le 18/06/2026, 8 jours dans certaines communes de Guyane) ; décès : 24 heures pour un hôpital, pas de délai fixe à domicile (F909 vérifiée le 09/10/2026) ; avocat obligatoire pour divorcer ; assurance auto (F2628 vérifiée le 10/04/2026) ; assurance du locataire (F31300 vérifiée le 16/04/2025) ; déclaration de revenus même faibles ou nuls (F358 vérifiée le 05/06/2026) ; permis délivré hors UE/EEE reconnu 1 an après l’installation, échange selon la liste de réciprocité, étudiants dispensés d’échange (F1460 vérifiée le 01/06/2026). Simplifications à valider : « adulte » (les mineurs étrangers n’ont pas besoin de titre de séjour) ; « non européen » vise les personnes hors UE, EEE et Suisse. Fiche volontairement générale : aucun conseil sur une situation personnelle."
+    },
+    {
+      "slug": "se-soigner-en-france",
+      "notion": "acces-aux-soins",
+      "title": "Se soigner en France",
+      "summary": "Toute personne qui travaille ou qui vit en France de façon stable et régulière a droit à l’Assurance maladie. Pour un problème courant, on va d’abord chez son médecin traitant ; pour une urgence grave, on appelle le 15 ou le 112.",
+      "keyPoints": [
+        "On choisit un médecin traitant et on le déclare à l’Assurance maladie : on le consulte en premier, et il envoie vers un spécialiste si besoin. À partir de 16 ans, sans passer par lui, on est moins bien remboursé (sauf pour quelques spécialistes, comme le dentiste ou le gynécologue).",
+        "Les hôpitaux publics et les cliniques privées soignent les malades ; les urgences sont réservées aux problèmes graves qui ne peuvent pas attendre. En cas de doute, appelez le 15 : un professionnel vous conseille et vous dit où aller.",
+        "Numéros d’urgence gratuits, 24 heures sur 24 : 15 (SAMU), 17 (police ou gendarmerie), 18 (pompiers) et 112 (numéro d’urgence européen). Le 114, par SMS ou application, est réservé aux personnes sourdes, malentendantes ou qui ont du mal à parler.",
+        "L’Assurance maladie (la CPAM) rembourse une partie des frais de santé ; une personne qui ne travaille pas doit en général vivre en France depuis au moins 3 mois. Avec la carte Vitale, le médecin ou le pharmacien envoie lui-même la demande de remboursement.",
+        "Une mutuelle (complémentaire santé) rembourse tout ou partie de ce qui reste à payer. Si vos revenus sont faibles, la Complémentaire santé solidaire peut être gratuite ou coûter peu.",
+        "Plusieurs vaccins sont obligatoires pour les jeunes enfants : ils protègent l’enfant et les autres, et ils sont demandés pour entrer à la crèche ou à l’école.",
+        "Le patient choisit librement son médecin (à l’hôpital, selon l’organisation du service), et un médecin ne peut pas refuser de le soigner à cause de son origine ou de sa religion. Le médecin doit l’informer sur sa santé et respecter le secret médical."
+      ],
+      "examples": [
+        "Votre enfant a de la fièvre le soir et le cabinet du médecin est fermé : si vous êtes inquiet, vous appelez le 15 pour être conseillé.",
+        "À la pharmacie, vous montrez votre carte Vitale et votre carte de mutuelle : souvent, vous n’avancez pas d’argent pour les médicaments remboursés.",
+        "Une personne fait un malaise dans la rue : vous appelez le 15 ou le 112."
+      ],
+      "vocabulary": [
+        {
+          "term": "médecin traitant",
+          "definition": "Médecin que l’on choisit pour suivre sa santé. On le consulte en premier."
+        },
+        {
+          "term": "mutuelle",
+          "definition": "Assurance santé qui complète les remboursements de l’Assurance maladie. On dit aussi « complémentaire santé »."
+        },
+        {
+          "term": "secret médical",
+          "definition": "Obligation pour les soignants de garder pour eux les informations sur la santé de leurs patients."
+        },
+        {
+          "term": "SAMU",
+          "definition": "Service d’aide médicale urgente, que l’on appelle au 15 pour un problème de santé grave."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ameli.fr, « La protection universelle maladie » ; Code de la sécurité sociale, article L160-1",
+          "url": "https://www.ameli.fr/assure/droits-demarches/principes/protection-universelle-maladie"
+        },
+        {
+          "label": "Ameli.fr, « Le rôle du médecin traitant et le parcours de soins coordonnés »",
+          "url": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/medecin-traitant-parcours-soins-coordonnes"
+        },
+        {
+          "label": "Service-public.gouv.fr, « Quels sont les numéros en cas d’urgence (Samu, pompiers...) et les numéros d’écoute ? »",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954"
+        },
+        {
+          "label": "Service-public.gouv.fr, fiche F34302 sur le secret médical ; Code de la santé publique, articles L1110-3 et L1110-8",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34302"
+        }
+      ],
+      "confidence": "high",
+      "reviewNote": "Faits datés, vérifiés le 31/10/2026 : numéros d’urgence (fiche F33954 vérifiée le 25/08/2026 ; le 15 sert aussi au service d’accès aux soins pour les besoins non urgents) ; 3 mois de résidence pour une personne sans activité professionnelle, avec des exceptions comme les réfugiés ; un salarié est couvert dès le début de son emploi (F34308 vérifiée le 13/05/2026, page ameli mise à jour le 12/01/2026) ; remboursement réduit sans médecin traitant à partir de 16 ans et accès direct à certains spécialistes (gynécologue, ophtalmologiste, dentiste…) (ameli, mise à jour du 23/04/2026) ; Complémentaire santé solidaire gratuite ou avec participation selon les ressources (ameli, mise à jour du 18/09/2026, montants non cités) ; droit à l’information (F17180 vérifiée le 20/04/2026) ; droits à l’hôpital (F748 vérifiée le 09/09/2026). Liste des vaccins obligatoires volontairement non citée : elle dépend de l’année de naissance et a changé en 2025. Libre choix « selon l’organisation du service » à l’hôpital : formule de l’annexe I de l’arrêté du 10 octobre 2025."
+    },
+    {
+      "slug": "travailler-en-france",
+      "notion": "travail-en-france",
+      "title": "Travailler en France : droits et démarches",
+      "summary": "Le Code du travail protège les salariés : contrat, temps de travail, salaire minimum, congés, sécurité. Tout travail doit être déclaré. France Travail aide à chercher un emploi, et chacun, femme ou homme, peut créer son entreprise.",
+      "keyPoints": [
+        "Le salarié signe en général un contrat de travail : CDI (sans date de fin) ou CDD (avec une date de fin). L’employeur doit déclarer le salarié avant l’embauche et lui remettre un bulletin de paie : le travail « au noir » est interdit et puni.",
+        "La durée légale du travail est de 35 heures par semaine ; les heures en plus sont des heures supplémentaires, en principe mieux payées. Chaque salarié a droit à 5 semaines de congés payés par an.",
+        "En général, le salaire ne peut pas être plus bas que le SMIC (salaire minimum), revalorisé au moins une fois par an. Une femme et un homme qui font le même travail doivent recevoir le même salaire.",
+        "L’employeur doit protéger la santé et la sécurité des salariés, qui doivent respecter les consignes et le règlement intérieur (obligatoire à partir de 50 salariés). En principe, on peut travailler dès 16 ans, et certains travaux dangereux sont interdits avant 18 ans.",
+        "Les salariés peuvent adhérer au syndicat de leur choix et faire grève. L’inspection du travail renseigne les salariés et contrôle que les employeurs respectent la loi.",
+        "Chaque salarié peut se former avec son compte personnel de formation (CPF), et un diplôme étranger peut être comparé aux diplômes français (attestation de comparabilité). Les cours de français du contrat d’intégration républicaine peuvent, dans une certaine limite, compter comme du temps de travail payé.",
+        "Pour chercher un emploi : France Travail (offres, conseils, formations) et, pour les 16-25 ans, la mission locale. Une personne étrangère non européenne doit avoir un titre de séjour qui l’autorise à travailler ou à créer son entreprise ; les démarches de création se font en ligne."
+      ],
+      "examples": [
+        "Vous trouvez un emploi : vous signez un contrat, puis vous recevez chaque mois un bulletin de paie. Gardez-le : il prouve vos droits (retraite, chômage…).",
+        "Une femme veut ouvrir une boutique : elle fait les démarches elle-même, sans avoir besoin de l’accord de son mari.",
+        "Une infirmière a un diplôme étranger : ce métier est réglementé, elle doit donc faire reconnaître son diplôme avant de l’exercer en France."
+      ],
+      "vocabulary": [
+        {
+          "term": "congés payés",
+          "definition": "Jours de vacances pendant lesquels le salarié continue de recevoir de l’argent de son employeur."
+        },
+        {
+          "term": "SMIC",
+          "definition": "Salaire minimum interprofessionnel de croissance : en général, le salaire le plus bas autorisé par la loi pour une heure de travail."
+        },
+        {
+          "term": "bulletin de paie",
+          "definition": "Document remis chaque mois au salarié. Il indique le salaire et les heures payées."
+        },
+        {
+          "term": "syndicat",
+          "definition": "Association qui défend les droits et les intérêts des salariés."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Service-public.gouv.fr, « Durée du travail d’un salarié du secteur privé à temps plein âgé d’au moins 18 ans » ; Code du travail, article L3121-27",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1911"
+        },
+        {
+          "label": "Service-public.gouv.fr, « Congés payés du salarié dans le secteur privé » (fiche F2258)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2258"
+        },
+        {
+          "label": "Service-public.gouv.fr, « Chômage : inscription à France Travail (anciennement Pôle emploi) »",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1636"
+        },
+        {
+          "label": "Entreprendre.service-public.gouv.fr, « Un étranger peut-il créer une entreprise en France ? »",
+          "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F22494"
+        }
+      ],
+      "confidence": "medium",
+      "reviewNote": "Règles vérifiées le 31/10/2026 : 35 heures (F1911 vérifiée le 25/09/2025) ; 5 semaines de congés, soit 2,5 jours ouvrables par mois (F2258 vérifiée le 30/04/2026) ; inscription à France Travail non obligatoire, titre de séjour autorisant à travailler (F1636 vérifiée le 10/10/2025) ; création d’entreprise par une personne étrangère (F22494 vérifiée le 01/06/2026) ; travail dès 16 ans, avec exceptions (F1649 vérifiée le 01/06/2026) ; règlement intérieur obligatoire à partir de 50 salariés pendant 12 mois consécutifs (F1905 vérifiée le 28/05/2026) ; CPF (F10705 vérifiée le 27/06/2026) ; attestation de comparabilité délivrée par le centre ENIC-NARIC France (F463 vérifiée le 17/04/2025). À confirmer : formation en français pendant le temps de travail pour les salariés allophones signataires du contrat d’intégration républicaine (Code du travail, article L6321-3, loi du 26 janvier 2024 ; plafond fixé par décret, 80 heures selon des sources secondaires non officielles). Aucun montant du SMIC n’est cité, car il change."
+    },
+    {
+      "slug": "parents-et-ecole",
+      "notion": "autorite-parentale-et-education",
+      "title": "Les parents, les enfants et l’école",
+      "summary": "Les parents ont des droits et des devoirs envers leur enfant jusqu’à ses 18 ans : le protéger et l’éduquer, sans aucune violence. L’instruction est obligatoire de 3 à 16 ans pour tous les enfants qui vivent en France, et l’école publique est gratuite et laïque.",
+      "keyPoints": [
+        "L’autorité parentale est un ensemble de droits et de devoirs des parents, dans l’intérêt de l’enfant mineur. Les parents protègent sa sécurité, sa santé et sa vie privée, assurent son éducation et l’associent aux décisions qui le concernent, selon son âge et sa maturité.",
+        "L’autorité parentale s’exerce sans violences physiques ou psychologiques : les coups, les gifles et les humiliations sont interdits, même pour éduquer. Un enfant en danger, ou toute personne inquiète pour un enfant, peut appeler le 119 (gratuit, 24 heures sur 24).",
+        "L’instruction est obligatoire de 3 à 16 ans pour tous les enfants qui vivent en France, quelle que soit leur nationalité ; l’instruction à la maison demande une autorisation. De 16 à 18 ans, le jeune doit continuer à se former : études, apprentissage, emploi, service civique…",
+        "Les étapes : école maternelle (dès 3 ans), école élémentaire (du CP au CM2), collège (de la 6e à la 3e, avec le brevet), puis lycée général, technologique ou professionnel (avec le baccalauréat). Après le bac vient l’enseignement supérieur : université, écoles…",
+        "Les parents inscrivent leur enfant (pour l’école maternelle ou élémentaire publique, d’abord à la mairie), veillent à ce qu’il aille à tous les cours (assiduité) et justifient chaque absence. Ils signent et respectent le règlement intérieur, et suivent la scolarité : devoirs, cahier de liaison, rencontres avec les enseignants.",
+        "À l’école, on ne peut pas refuser un cours obligatoire (sport, natation, sciences…) pour des raisons religieuses ou politiques. Les enfants qui ne parlent pas encore français vont à l’école comme les autres et reçoivent une aide pour l’apprendre."
+      ],
+      "examples": [
+        "Votre enfant aura 3 ans cette année : vous l’inscrivez d’abord à la mairie, puis à l’école maternelle indiquée, avec la preuve de ses vaccins obligatoires.",
+        "Votre fille est malade : vous prévenez l’école au plus vite et vous donnez le motif de son absence.",
+        "Vous pensez qu’un enfant de votre immeuble est maltraité : vous pouvez appeler le 119, même en cas de doute."
+      ],
+      "vocabulary": [
+        {
+          "term": "autorité parentale",
+          "definition": "Les droits et les devoirs des parents envers leur enfant, jusqu’à ses 18 ans."
+        },
+        {
+          "term": "mineur",
+          "definition": "Personne qui a moins de 18 ans."
+        },
+        {
+          "term": "assiduité",
+          "definition": "Le fait d’aller à tous les cours prévus et de ne pas manquer l’école sans raison valable."
+        },
+        {
+          "term": "règlement intérieur",
+          "definition": "Texte qui fixe les règles de vie dans un établissement : horaires, comportement, sanctions."
+        },
+        {
+          "term": "laïque",
+          "definition": "Qui ne dépend d’aucune religion. À l’école publique, on n’enseigne pas de religion et on respecte les croyances de chacun."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Code civil, article 371-1",
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049164413"
+        },
+        {
+          "label": "Service-public.gouv.fr, « Instruction obligatoire » ; Code de l’éducation, article L131-1",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1898"
+        },
+        {
+          "label": "Service-public.gouv.fr, « Assiduité scolaire et absentéisme » ; Code de l’éducation, article L511-1",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1899"
+        },
+        {
+          "label": "Allô 119, service national d’accueil téléphonique de l’enfance en danger",
+          "url": "https://www.allo119.gouv.fr/"
+        }
+      ],
+      "confidence": "high",
+      "reviewNote": "Vérifié le 31/10/2026 : article 371-1 du Code civil (version en vigueur depuis le 21/02/2024 ; « sans violences physiques ou psychologiques » ajouté par la loi n° 2019-721 du 10 juillet 2019) ; instruction obligatoire de 3 à 16 ans, instruction en famille sur autorisation et obligation de formation de 16 à 18 ans (F1898 vérifiée le 06/11/2025) ; justification de chaque absence et règlement intérieur signé par les parents (F1899 vérifiée le 06/11/2025) ; inscription d’abord à la mairie, avec les vaccins obligatoires (F1864 vérifiée le 06/11/2025) ; 119 gratuit, 24 h/24 (allo119.gouv.fr). Interdiction de refuser un cours pour des raisons religieuses : Charte de la laïcité à l’École (2013), article 12, et obligation d’assiduité ; le site education.gouv.fr bloquait l’accès automatique (erreur 403) : article à relire."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+url: http://localhost:3001/connexion?suite=/admin
+name: Se connecter au back-office et ouvrir la file de relecture
+# Compte de développement créé par npm run db:seed. Le mot de passe n'est jamais écrit ici :
+# maestro test -e DEV_ADMIN_PASSWORD=<valeur du .env> e2e/maestro/11-back-office.yaml
+---
+- launchApp:
+    clearState: true
+- tapOn: "Adresse email"
+- inputText: "admin@repere.test"
+- tapOn: "Mot de passe"
+- inputText: ${DEV_ADMIN_PASSWORD}
+# Entrée valide le formulaire (le titre de la page s'appelle aussi « Se connecter »)
+- pressKey: Enter
+- assertVisible: "Tableau de bord"
+- scrollUntilVisible:
+    element: "Questions à relire"
+    direction: DOWN
+- tapOn: "Questions à relire"
+- assertVisible: "Questions"
+- assertVisible: "Rechercher"
+- tapOn: "Statistiques"
+- scrollUntilVisible:
+    element: "Du premier passage à l’achat"
+    direction: DOWN

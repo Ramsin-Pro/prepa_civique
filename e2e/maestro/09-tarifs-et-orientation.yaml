@@ -1,0 +1,23 @@
+url: http://localhost:3001/tarifs
+name: Comprendre l'offre et savoir si l'examen nous concerne
+---
+- launchApp:
+    clearState: true
+- scrollUntilVisible:
+    element: "Pass 3 mois"
+    direction: DOWN
+- assertVisible: "Paiement unique.*sans renouvellement automatique"
+# Sans clés Stripe (production non configurée), la page annonce que le paiement n'est pas encore ouvert
+- scrollUntilVisible:
+    element: "Créer mon compte pour continuer|Le paiement n’est pas encore ouvert.*"
+    direction: DOWN
+- openLink: http://localhost:3001/orientation
+- assertVisible: "L’examen civique me concerne-t-il ?"
+- tapOn: "Le renouvellement de ma carte"
+- assertVisible: "Le renouvellement n’est pas concerné"
+# La réponse s'affiche sous les choix : l'option suivante peut être sortie de l'écran par le haut
+- scrollUntilVisible:
+    element: "Une carte de résident"
+    direction: UP
+- tapOn: "Une carte de résident"
+- assertVisible: "En général, l’examen civique est demandé pour cette démarche"

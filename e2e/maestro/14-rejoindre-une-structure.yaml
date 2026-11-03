@@ -1,0 +1,32 @@
+url: http://localhost:3001/rejoindre
+name: Rejoindre sa structure avec le code d'invitation
+---
+- launchApp:
+    clearState: true
+- assertVisible: "J’ai un code de ma structure"
+# Un code mal recopié
+- tapOn: "Code d’invitation"
+- inputText: "ABCD2345"
+- tapOn: "Continuer"
+- assertVisible: "Ce lien n’est pas valable.*"
+# Le code de la structure de démonstration (créée par npm run db:seed en développement).
+# Minuscules, espaces et tirets sont acceptés, comme quand le code est dicté.
+- openLink: http://localhost:3001/rejoindre
+- tapOn: "Code d’invitation"
+- inputText: "prepa-234"
+- tapOn: "Continuer"
+- assertVisible: "Rejoindre Association de démonstration"
+- assertVisible: "Association · Lyon.*"
+- tapOn: "Créer mon compte gratuit"
+- assertVisible: "Créer un compte"
+- tapOn: "Adresse email"
+- inputRandomEmail
+- tapOn: "Mot de passe"
+- inputRandomText:
+    length: 16
+- tapOn: "J’accepte les.*"
+- scrollUntilVisible:
+    element: "Créer mon compte"
+    direction: DOWN
+- tapOn: "Créer mon compte"
+- assertVisible: "Vérifiez votre boîte mail."

@@ -1,0 +1,16 @@
+**/node_modules
+**/.next
+**/dist
+**/src/generated
+**/*.tsbuildinfo
+# Rien de secret dans les images ni dans le contexte de build : variables d'environnement (y compris celles
+# d'un dossier apps/*), sauvegardes de la base (données personnelles), scénarios de test de bout en bout.
+**/.env*
+backups
+**/*.dump
+e2e
+.git
+.claude
+docs
+skill-dev
+*.pdf
