@@ -57,6 +57,9 @@ services:
       ADMIN_MFA_REQUIRED: ${ADMIN_MFA_REQUIRED:-true}
       # Emails : Mailpit dans Docker (boîte de réception sur http://localhost:8026), Brevo en production.
       SMTP_HOST: ${DOCKER_SMTP_HOST:-mail}
+      # Emails par API (Resend, ou Brevo) : prioritaires sur le SMTP ci-dessus quand une clé est renseignée.
+      RESEND_API_KEY: ${RESEND_API_KEY:-}
+      BREVO_API_KEY: ${BREVO_API_KEY:-}
       SMTP_PORT: ${DOCKER_SMTP_PORT:-1025}
       SMTP_USER: ${SMTP_USER:-}
       SMTP_PASSWORD: ${SMTP_PASSWORD:-}

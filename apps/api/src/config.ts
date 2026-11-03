@@ -38,7 +38,9 @@ const schema = z.object({
   SMTP_PORT: z.coerce.number().int().positive().default(587),
   SMTP_USER: optional,
   SMTP_PASSWORD: optional,
-  // Brevo par son API HTTP (hébergeurs qui ferment les ports SMTP, comme Railway). Prioritaire sur SMTP_HOST.
+  // Emails par API HTTP (hébergeurs qui ferment les ports SMTP, comme Railway), prioritaires sur SMTP_HOST :
+  // Resend si RESEND_API_KEY est renseignée, sinon Brevo si BREVO_API_KEY l'est.
+  RESEND_API_KEY: optional,
   BREVO_API_KEY: optional,
   MAIL_FROM: z.string().default('Repère <no-reply@repere.test>'),
 
@@ -88,6 +90,7 @@ export function productionProblems(settings: {
   adminMfaRequired: boolean;
   smtpHost: string | undefined;
   brevoApiKey?: string | undefined;
+  resendApiKey?: string | undefined;
 }): string[] {
   const problems: string[] = [];
   if (!isHttps(settings.publicUrl)) problems.push('PUBLIC_URL : doit commencer par https://');
@@ -103,8 +106,8 @@ export function productionProblems(settings: {
     problems.push('DATABASE_URL : contient le mot de passe d’exemple « change-moi » (changez POSTGRES_PASSWORD)');
   }
   const smtpHost = settings.smtpHost?.trim().toLowerCase();
-  if (!settings.brevoApiKey && (!smtpHost || LOCAL_SMTP_HOSTS.includes(smtpHost))) {
-    problems.push('BREVO_API_KEY ou SMTP_HOST : il faut un vrai service d’emails (Brevo), pas Mailpit (dans Docker : DOCKER_SMTP_HOST)');
+  if (!settings.resendApiKey && !settings.brevoApiKey && (!smtpHost || LOCAL_SMTP_HOSTS.includes(smtpHost))) {
+    problems.push('RESEND_API_KEY (ou BREVO_API_KEY, SMTP_HOST) : il faut un vrai service d’emails, pas Mailpit (dans Docker : DOCKER_SMTP_HOST)');
   }
   return problems;
 }
@@ -138,6 +141,7 @@ export function readConfig(source: Record<string, string | undefined>) {
       user: env.SMTP_USER,
       password: env.SMTP_PASSWORD,
       brevoApiKey: env.BREVO_API_KEY,
+      resendApiKey: env.RESEND_API_KEY,
       from: env.MAIL_FROM,
     },
     stripe: {
@@ -173,6 +177,7 @@ export function readConfig(source: Record<string, string | undefined>) {
       adminMfaRequired: settings.adminMfaRequired,
       smtpHost: settings.mail.host,
       brevoApiKey: settings.mail.brevoApiKey,
+      resendApiKey: settings.mail.resendApiKey,
     });
     const list = problems.map((problem) => `\n  - ${problem}`).join('');
     if (problems.length > 0 && !isLocalUrl(publicUrl)) {

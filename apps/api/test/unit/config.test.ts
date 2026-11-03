@@ -57,7 +57,7 @@ describe('productionProblems', () => {
 
   it('refuse un serveur d’emails vide ou local (Mailpit)', () => {
     for (const smtpHost of [undefined, '', 'mail', 'MAIL', 'localhost', '127.0.0.1']) {
-      expect(variables(productionProblems({ ...sound, smtpHost }))).toEqual(['BREVO_API_KEY']);
+      expect(variables(productionProblems({ ...sound, smtpHost }))).toEqual(['RESEND_API_KEY']);
     }
   });
 });

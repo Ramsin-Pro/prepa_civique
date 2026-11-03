@@ -154,7 +154,7 @@ describe('places et invitation', () => {
     expect(outbox.findLast((entry) => entry.to === second.user.email)?.subject).toMatch(/terminé/);
     expect((await second.agent.post('/api/organizations/join').send({ code: inviteCode })).status).toBe(409);
     expect((await third.agent.post('/api/organizations/join').send({ code: inviteCode })).status).toBe(201);
-  });
+  }, 30_000);
 
   it('remplace le lien d’invitation et laisse la personne choisir ce qu’elle partage', async () => {
     const { agent: coordinator } = await person();

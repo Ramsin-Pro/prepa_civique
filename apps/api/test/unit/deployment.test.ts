@@ -19,6 +19,9 @@ describe('service d’emails en production', () => {
     contentPreview: false,
     adminMfaRequired: true,
   };
+  it('accepte une clé Resend sans serveur SMTP', () => {
+    expect(productionProblems({ ...base, smtpHost: undefined, resendApiKey: 're_test' })).toEqual([]);
+  });
   it('accepte une clé Brevo sans serveur SMTP', () => {
     expect(productionProblems({ ...base, smtpHost: undefined, brevoApiKey: 'xkeysib-test' })).toEqual([]);
   });

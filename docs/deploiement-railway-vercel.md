@@ -11,7 +11,7 @@ Navigateur ──► Vercel (site Next.js, www.votre-domaine.fr)
                Railway (API Express) ──► Railway PostgreSQL
                  ▲
 Stripe ──────────┘  webhook envoyé directement à l'API
-Brevo  ◄─────────── l'API envoie les emails par l'API HTTP de Brevo (pas de SMTP)
+Resend ◄─────────── l'API envoie les emails par l'API HTTP de Resend (pas de SMTP)
 ```
 
 Le navigateur n'appelle que le domaine du site : les cookies de connexion restent sur ce domaine, et aucune configuration CORS n'est nécessaire.
@@ -28,9 +28,9 @@ Le navigateur n'appelle que le domaine du site : les cookies de connexion resten
 - **Domaine** (OVH, Gandi…) : par exemple `votre-domaine.fr`. Vous ferez pointer `www` vers Vercel et `api` vers Railway.
 - **Railway** : plan Hobby au minimum (le plan d'essai met l'API en veille). Région : **Europe (Amsterdam)**, pour les données personnelles.
 - **Vercel** : plan Pro pour un usage commercial (le plan Hobby l'interdit). Région des fonctions : Paris (`cdg1`, déjà dans `apps/web/vercel.json`).
-- **Brevo** : compte gratuit au départ (300 emails par jour), puis offre payante selon le volume.
+- **Resend** : compte gratuit au départ (3 000 emails par mois, 100 par jour), puis offre Pro.
 - **Stripe** : compte activé (identité, RIB) pour encaisser réellement.
-- Signez les accords de traitement des données (DPA) de Vercel, Railway, Brevo et Stripe, et citez-les dans la politique de confidentialité.
+- Signez les accords de traitement des données (DPA) de Vercel, Railway, Resend et Stripe, et citez-les dans la politique de confidentialité.
 
 ## 2. Secrets à générer
 
@@ -43,17 +43,28 @@ node -e "console.log(require('crypto').randomBytes(32).toString('base64url'))"
 - **`APP_SECRET`** : il chiffre les secrets de double authentification et sert aux identifiants de réponses. Le changer oblige l'équipe à refaire sa double authentification.
 - **`PROXY_SECRET`** : une valeur différente de `APP_SECRET`, à mettre **à l'identique** sur Railway et sur Vercel.
 
-## 3. Brevo (emails)
+## 3. Resend (emails)
 
-1. Créez une clé dans « SMTP & API » → « Clés API » : c'est `BREVO_API_KEY`.
-2. **Authentifiez votre domaine** dans « Expéditeurs, domaines » : ajoutez chez votre registraire les enregistrements DNS donnés par Brevo (code Brevo, DKIM, DMARC). Sans cela, les emails de confirmation partent dans les courriers indésirables.
-3. Créez l'expéditeur `no-reply@votre-domaine.fr`. Votre `MAIL_FROM` sera : `Repère <no-reply@votre-domaine.fr>`.
+1. Créez un compte sur resend.com, puis **Domains → Add Domain** : `votre-domaine.fr`, région **Ireland (eu-west-1)**.
+2. Ajoutez chez votre registraire les enregistrements DNS affichés (SPF, DKIM, et le MX d'envoi), puis attendez que le domaine passe à « Verified ». Ajoutez aussi un enregistrement DMARC (`_dmarc`, par exemple `v=DMARC1; p=none;`) : Gmail et Yahoo l'exigent.
+3. **API Keys → Create API Key**, avec la permission « Sending access » limitée à votre domaine : c'est `RESEND_API_KEY`.
+4. Votre `MAIL_FROM` sera : `Repère <no-reply@votre-domaine.fr>`. L'adresse doit être sur le domaine vérifié.
 
-L'API envoie les emails par l'API HTTP de Brevo (port 443) dès que `BREVO_API_KEY` est renseignée : aucun port SMTP n'est utilisé.
+L'API envoie les emails par l'API HTTP de Resend (port 443) dès que `RESEND_API_KEY` est renseignée : aucun port SMTP n'est utilisé. Les gabarits HTML du site (`apps/api/src/mail/templates.ts`) sont envoyés tels quels. Brevo reste utilisable à la place, avec `BREVO_API_KEY`.
+
+Offre gratuite de Resend, à vérifier sur resend.com : 3 000 emails par mois et 100 par jour, pour un domaine. Au-delà, l'offre Pro coûte environ 20 $ par mois pour 50 000 emails. Passez-y avant une campagne d'inscriptions : une salle d'association qui s'inscrit d'un coup dépasse vite 100 emails dans la journée.
 
 ## 4. Railway : base de données et API
 
-1. **Nouveau projet** → « Deploy from GitHub repo » → votre dépôt. Railway lit `railway.json` à la racine : il construit `apps/api/Dockerfile` et contrôle `/api/health`.
+1. **Nouveau projet** → « Deploy from GitHub repo » → votre dépôt. Puis, dans le service de l'API :
+   - variable **`RAILWAY_DOCKERFILE_PATH`** = `apps/api/Dockerfile` (le dossier racine du service reste la racine du dépôt : l'image a besoin de `package-lock.json`) ;
+   - **Settings → Deploy → Healthcheck Path** : `/api/health` ;
+   - **Settings → Deploy → Restart Policy** : « On Failure » ;
+   - **Settings → Build → Watch Paths** : `apps/api/**`, `package.json`, `package-lock.json`. Un commit qui ne touche que le site ne redéploie pas l'API.
+
+   Le site (`apps/web`) est dans le même dépôt, mais il n'entre pas dans l'image de l'API : le Dockerfile ne copie que `apps/api` et les fichiers `package.json`.
+
+   L'ancien fichier `railway.json` n'est plus lu pour les nouveaux services. Pour décrire ces réglages dans le dépôt, utilisez le nouveau format de Railway (Infrastructure as Code) : `railway config init` crée `.railway/railway.ts`, puis `railway config plan` et `apply` l'appliquent.
 2. Dans le même projet : **+ New → Database → PostgreSQL**.
 3. Dans le service de l'API, onglet **Variables** :
 
@@ -64,7 +75,7 @@ L'API envoie les emails par l'API HTTP de Brevo (port 443) dès que `BREVO_API_K
 | `APP_SECRET` | le secret généré |
 | `PROXY_SECRET` | le secret partagé |
 | `TRUST_PROXY` | `1` |
-| `BREVO_API_KEY` | la clé Brevo |
+| `RESEND_API_KEY` | la clé Resend |
 | `MAIL_FROM` | `Repère <no-reply@votre-domaine.fr>` |
 | `STRIPE_SECRET_KEY` | d'abord la clé de test `sk_test_…`, puis la clé réelle `sk_live_…` |
 | `STRIPE_WEBHOOK_SECRET` | à l'étape 7 |
@@ -105,7 +116,7 @@ Cette commande charge les parcours, les questions, les fiches, les pages et les 
 node dist/seed/create-admin.js prenom.nom@votre-domaine.fr
 ```
 
-La personne reçoit un email (par Brevo) pour choisir son mot de passe, puis active la double authentification à sa première visite de `/admin`. Créez ensuite les relecteurs depuis le back-office, puis faites relire et publier les contenus (étape 0).
+La personne reçoit un email (par Resend) pour choisir son mot de passe, puis active la double authentification à sa première visite de `/admin`. Créez ensuite les relecteurs depuis le back-office, puis faites relire et publier les contenus (étape 0).
 
 ## 7. Stripe
 
@@ -143,7 +154,7 @@ La configuration de départ (une instance de l'API, la base Railway, Vercel) tie
    - **les limites d'essais** sont gardées en mémoire, par instance. Avec plusieurs répliques, elles deviennent plus permissives. Il faut un magasin partagé : Redis sur Railway, avec `rate-limit-redis` (petit changement de code à prévoir).
 3. **La base** : surveillez les requêtes lentes et ajoutez des index au besoin. Passez à une base plus grosse ou à un pool de connexions (PgBouncer) au-delà de quelques centaines de requêtes par seconde.
 4. **La voix Azure** : le cache est en base, donc chaque extrait n'est synthétisé qu'une fois. Surveillez le quota mensuel Azure.
-5. **Les emails** : passez Brevo sur une offre payante quand vous approchez de 300 emails par jour (inscriptions, rappels).
+5. **Les emails** : passez Resend en offre Pro dès que vous approchez de 100 emails par jour (inscriptions, rappels, confirmations).
 
 ## Coûts de départ (ordre de grandeur, à vérifier)
 
@@ -151,6 +162,6 @@ La configuration de départ (une instance de l'API, la base Railway, Vercel) tie
 |---|---|
 | Vercel Pro | environ 20 $ par mois et par membre |
 | Railway (API et PostgreSQL) | environ 5 à 30 $ par mois selon l'usage |
-| Brevo | gratuit jusqu'à 300 emails par jour, puis à partir d'environ 9 € par mois |
+| Resend | gratuit jusqu'à 3 000 emails par mois, puis environ 20 $ par mois (Pro) |
 | Stripe | commission par paiement |
 | Domaine | environ 10 à 20 € par an |

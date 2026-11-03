@@ -48,15 +48,29 @@ async function sendWithBrevo(mail: Mail, apiKey: string): Promise<void> {
   if (!res.ok) throw new Error(`Brevo a répondu ${res.status} : ${(await res.text()).slice(0, 300)}`);
 }
 
+/** Envoi par l'API HTTP de Resend (port 443). L'expéditeur s'écrit tel quel : « Repère <no-reply@domaine.fr> ». */
+async function sendWithResend(mail: Mail, apiKey: string): Promise<void> {
+  const res = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: { authorization: `Bearer ${apiKey}`, 'content-type': 'application/json' },
+    body: JSON.stringify({ from: config.mail.from, to: [mail.to], subject: mail.subject, html: mail.html, text: mail.text }),
+    signal: AbortSignal.timeout(10_000),
+  });
+  // Le corps d'une erreur Resend décrit la requête, jamais l'email : on peut le journaliser.
+  if (!res.ok) throw new Error(`Resend a répondu ${res.status} : ${(await res.text()).slice(0, 300)}`);
+}
+
 /** Envoie un email transactionnel. Une panne d'envoi est journalisée sans faire échouer la requête. */
 export async function sendMail(mail: Mail): Promise<void> {
   if (config.env === 'test') {
     outbox.push(mail);
     return;
   }
-  if (config.mail.brevoApiKey) {
+  const { resendApiKey, brevoApiKey } = config.mail;
+  if (resendApiKey || brevoApiKey) {
     try {
-      await sendWithBrevo(mail, config.mail.brevoApiKey);
+      if (resendApiKey) await sendWithResend(mail, resendApiKey);
+      else await sendWithBrevo(mail, brevoApiKey!);
     } catch (error) {
       console.error(`Échec de l'envoi de l'email « ${mail.subject} » :`, error);
     }
