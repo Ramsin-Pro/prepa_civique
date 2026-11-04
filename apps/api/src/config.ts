@@ -181,7 +181,7 @@ export function readConfig(source: Record<string, string | undefined>) {
     });
     const list = problems.map((problem) => `\n  - ${problem}`).join('');
     if (problems.length > 0 && !isLocalUrl(publicUrl)) {
-      throw new Error(`Démarrage refusé : réglages de développement en production. Corrigez .env (docs/exploitation.md), puis relancez.${list}`);
+      throw new Error(`Démarrage refusé : réglages de développement en production. Corrigez les variables d’environnement (.env en local, onglet Variables sur Railway ; voir docs/deploiement-railway-vercel.md), puis redéployez.${list}`);
     }
     if (problems.length > 0) console.warn(`Essai local en production (${publicUrl}) : réglages à corriger avant toute mise en ligne.${list}`);
   }

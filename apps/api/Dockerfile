@@ -37,4 +37,5 @@ WORKDIR /repo/apps/api
 USER node
 EXPOSE 4000
 # Applique les migrations en attente, puis démarre l'API.
-CMD ["sh", "-c", "npx prisma migrate deploy && node dist/index.js"]
+COPY apps/api/start.sh /repo/apps/api/start.sh
+CMD ["sh", "start.sh"]

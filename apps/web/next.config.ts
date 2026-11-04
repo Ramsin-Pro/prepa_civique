@@ -7,7 +7,14 @@ const repoRoot = path.join(process.cwd(), '../..');
 const rootEnv = path.join(repoRoot, '.env');
 if (existsSync(rootEnv)) process.loadEnvFile(rootEnv);
 
-const apiUrl = process.env.API_INTERNAL_URL ?? 'http://localhost:4001';
+// Adresse de l'API, figée au build. Une barre ou un « /api » final doublerait le chemin (/api/api/...).
+const apiUrl = (process.env.API_INTERNAL_URL ?? 'http://localhost:4001').trim().replace(/\/+$/, '').replace(/\/api$/, '');
+// Sur Vercel, une adresse manquante enverrait tous les appels vers localhost, donc des 404 : on arrête le build.
+if (process.env.VERCEL && !apiUrl.startsWith('https://')) {
+  throw new Error(
+    "API_INTERNAL_URL manque ou n'est pas en https dans les variables Vercel (Settings > Environment Variables, case Production) : mettez l'adresse Railway de l'API, puis relancez le build.",
+  );
+}
 
 // Politique de sécurité du contenu : seulement des ressources du site lui-même, pas d'affichage dans un cadre,
 // formulaires et balise <base> verrouillés. Les scripts en ligne de Next.js imposent 'unsafe-inline' (sans nonce) ;
